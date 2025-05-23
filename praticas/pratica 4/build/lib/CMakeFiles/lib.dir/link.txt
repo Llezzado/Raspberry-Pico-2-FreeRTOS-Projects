@@ -1,0 +1,2 @@
+/usr/bin/arm-none-eabi-ar qc liblib.a "CMakeFiles/lib.dir/FreeRTOS-Kernel/event_groups.c.o" "CMakeFiles/lib.dir/FreeRTOS-Kernel/list.c.o" "CMakeFiles/lib.dir/FreeRTOS-Kernel/queue.c.o" "CMakeFiles/lib.dir/FreeRTOS-Kernel/stream_buffer.c.o" "CMakeFiles/lib.dir/FreeRTOS-Kernel/tasks.c.o" "CMakeFiles/lib.dir/FreeRTOS-Kernel/timers.c.o" "CMakeFiles/lib.dir/FreeRTOS-Kernel/portable/MemMang/heap_3.c.o" "CMakeFiles/lib.dir/FreeRTOS-Kernel/portable/GCC/ARM_CM0/port.c.o"
+/usr/bin/arm-none-eabi-ranlib liblib.a
