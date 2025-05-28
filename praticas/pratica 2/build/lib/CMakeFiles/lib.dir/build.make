@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = "/mnt/meu_vol/ufc/2025.1/rtos/praticas/pratica 2"
+CMAKE_SOURCE_DIR = "/media/juan/42849DD9849DCFB1/ufc/2025.1/rtos/praticas/pratica 2"
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = "/mnt/meu_vol/ufc/2025.1/rtos/praticas/pratica 2/build"
+CMAKE_BINARY_DIR = "/media/juan/42849DD9849DCFB1/ufc/2025.1/rtos/praticas/pratica 2/build"
 
 # Include any dependencies generated for this target.
 include lib/CMakeFiles/lib.dir/depend.make
@@ -70,116 +70,116 @@ include lib/CMakeFiles/lib.dir/progress.make
 include lib/CMakeFiles/lib.dir/flags.make
 
 lib/CMakeFiles/lib.dir/FreeRTOS-Kernel/event_groups.c.o: lib/CMakeFiles/lib.dir/flags.make
-lib/CMakeFiles/lib.dir/FreeRTOS-Kernel/event_groups.c.o: /mnt/meu_vol/ufc/2025.1/rtos/praticas/pratica\ 2/lib/FreeRTOS-Kernel/event_groups.c
+lib/CMakeFiles/lib.dir/FreeRTOS-Kernel/event_groups.c.o: /media/juan/42849DD9849DCFB1/ufc/2025.1/rtos/praticas/pratica\ 2/lib/FreeRTOS-Kernel/event_groups.c
 lib/CMakeFiles/lib.dir/FreeRTOS-Kernel/event_groups.c.o: lib/CMakeFiles/lib.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/mnt/meu_vol/ufc/2025.1/rtos/praticas/pratica 2/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Building C object lib/CMakeFiles/lib.dir/FreeRTOS-Kernel/event_groups.c.o"
-	cd "/mnt/meu_vol/ufc/2025.1/rtos/praticas/pratica 2/build/lib" && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT lib/CMakeFiles/lib.dir/FreeRTOS-Kernel/event_groups.c.o -MF CMakeFiles/lib.dir/FreeRTOS-Kernel/event_groups.c.o.d -o CMakeFiles/lib.dir/FreeRTOS-Kernel/event_groups.c.o -c "/mnt/meu_vol/ufc/2025.1/rtos/praticas/pratica 2/lib/FreeRTOS-Kernel/event_groups.c"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/media/juan/42849DD9849DCFB1/ufc/2025.1/rtos/praticas/pratica 2/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Building C object lib/CMakeFiles/lib.dir/FreeRTOS-Kernel/event_groups.c.o"
+	cd "/media/juan/42849DD9849DCFB1/ufc/2025.1/rtos/praticas/pratica 2/build/lib" && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT lib/CMakeFiles/lib.dir/FreeRTOS-Kernel/event_groups.c.o -MF CMakeFiles/lib.dir/FreeRTOS-Kernel/event_groups.c.o.d -o CMakeFiles/lib.dir/FreeRTOS-Kernel/event_groups.c.o -c "/media/juan/42849DD9849DCFB1/ufc/2025.1/rtos/praticas/pratica 2/lib/FreeRTOS-Kernel/event_groups.c"
 
 lib/CMakeFiles/lib.dir/FreeRTOS-Kernel/event_groups.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/lib.dir/FreeRTOS-Kernel/event_groups.c.i"
-	cd "/mnt/meu_vol/ufc/2025.1/rtos/praticas/pratica 2/build/lib" && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "/mnt/meu_vol/ufc/2025.1/rtos/praticas/pratica 2/lib/FreeRTOS-Kernel/event_groups.c" > CMakeFiles/lib.dir/FreeRTOS-Kernel/event_groups.c.i
+	cd "/media/juan/42849DD9849DCFB1/ufc/2025.1/rtos/praticas/pratica 2/build/lib" && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "/media/juan/42849DD9849DCFB1/ufc/2025.1/rtos/praticas/pratica 2/lib/FreeRTOS-Kernel/event_groups.c" > CMakeFiles/lib.dir/FreeRTOS-Kernel/event_groups.c.i
 
 lib/CMakeFiles/lib.dir/FreeRTOS-Kernel/event_groups.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/lib.dir/FreeRTOS-Kernel/event_groups.c.s"
-	cd "/mnt/meu_vol/ufc/2025.1/rtos/praticas/pratica 2/build/lib" && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "/mnt/meu_vol/ufc/2025.1/rtos/praticas/pratica 2/lib/FreeRTOS-Kernel/event_groups.c" -o CMakeFiles/lib.dir/FreeRTOS-Kernel/event_groups.c.s
+	cd "/media/juan/42849DD9849DCFB1/ufc/2025.1/rtos/praticas/pratica 2/build/lib" && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "/media/juan/42849DD9849DCFB1/ufc/2025.1/rtos/praticas/pratica 2/lib/FreeRTOS-Kernel/event_groups.c" -o CMakeFiles/lib.dir/FreeRTOS-Kernel/event_groups.c.s
 
 lib/CMakeFiles/lib.dir/FreeRTOS-Kernel/list.c.o: lib/CMakeFiles/lib.dir/flags.make
-lib/CMakeFiles/lib.dir/FreeRTOS-Kernel/list.c.o: /mnt/meu_vol/ufc/2025.1/rtos/praticas/pratica\ 2/lib/FreeRTOS-Kernel/list.c
+lib/CMakeFiles/lib.dir/FreeRTOS-Kernel/list.c.o: /media/juan/42849DD9849DCFB1/ufc/2025.1/rtos/praticas/pratica\ 2/lib/FreeRTOS-Kernel/list.c
 lib/CMakeFiles/lib.dir/FreeRTOS-Kernel/list.c.o: lib/CMakeFiles/lib.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/mnt/meu_vol/ufc/2025.1/rtos/praticas/pratica 2/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Building C object lib/CMakeFiles/lib.dir/FreeRTOS-Kernel/list.c.o"
-	cd "/mnt/meu_vol/ufc/2025.1/rtos/praticas/pratica 2/build/lib" && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT lib/CMakeFiles/lib.dir/FreeRTOS-Kernel/list.c.o -MF CMakeFiles/lib.dir/FreeRTOS-Kernel/list.c.o.d -o CMakeFiles/lib.dir/FreeRTOS-Kernel/list.c.o -c "/mnt/meu_vol/ufc/2025.1/rtos/praticas/pratica 2/lib/FreeRTOS-Kernel/list.c"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/media/juan/42849DD9849DCFB1/ufc/2025.1/rtos/praticas/pratica 2/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Building C object lib/CMakeFiles/lib.dir/FreeRTOS-Kernel/list.c.o"
+	cd "/media/juan/42849DD9849DCFB1/ufc/2025.1/rtos/praticas/pratica 2/build/lib" && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT lib/CMakeFiles/lib.dir/FreeRTOS-Kernel/list.c.o -MF CMakeFiles/lib.dir/FreeRTOS-Kernel/list.c.o.d -o CMakeFiles/lib.dir/FreeRTOS-Kernel/list.c.o -c "/media/juan/42849DD9849DCFB1/ufc/2025.1/rtos/praticas/pratica 2/lib/FreeRTOS-Kernel/list.c"
 
 lib/CMakeFiles/lib.dir/FreeRTOS-Kernel/list.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/lib.dir/FreeRTOS-Kernel/list.c.i"
-	cd "/mnt/meu_vol/ufc/2025.1/rtos/praticas/pratica 2/build/lib" && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "/mnt/meu_vol/ufc/2025.1/rtos/praticas/pratica 2/lib/FreeRTOS-Kernel/list.c" > CMakeFiles/lib.dir/FreeRTOS-Kernel/list.c.i
+	cd "/media/juan/42849DD9849DCFB1/ufc/2025.1/rtos/praticas/pratica 2/build/lib" && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "/media/juan/42849DD9849DCFB1/ufc/2025.1/rtos/praticas/pratica 2/lib/FreeRTOS-Kernel/list.c" > CMakeFiles/lib.dir/FreeRTOS-Kernel/list.c.i
 
 lib/CMakeFiles/lib.dir/FreeRTOS-Kernel/list.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/lib.dir/FreeRTOS-Kernel/list.c.s"
-	cd "/mnt/meu_vol/ufc/2025.1/rtos/praticas/pratica 2/build/lib" && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "/mnt/meu_vol/ufc/2025.1/rtos/praticas/pratica 2/lib/FreeRTOS-Kernel/list.c" -o CMakeFiles/lib.dir/FreeRTOS-Kernel/list.c.s
+	cd "/media/juan/42849DD9849DCFB1/ufc/2025.1/rtos/praticas/pratica 2/build/lib" && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "/media/juan/42849DD9849DCFB1/ufc/2025.1/rtos/praticas/pratica 2/lib/FreeRTOS-Kernel/list.c" -o CMakeFiles/lib.dir/FreeRTOS-Kernel/list.c.s
 
 lib/CMakeFiles/lib.dir/FreeRTOS-Kernel/queue.c.o: lib/CMakeFiles/lib.dir/flags.make
-lib/CMakeFiles/lib.dir/FreeRTOS-Kernel/queue.c.o: /mnt/meu_vol/ufc/2025.1/rtos/praticas/pratica\ 2/lib/FreeRTOS-Kernel/queue.c
+lib/CMakeFiles/lib.dir/FreeRTOS-Kernel/queue.c.o: /media/juan/42849DD9849DCFB1/ufc/2025.1/rtos/praticas/pratica\ 2/lib/FreeRTOS-Kernel/queue.c
 lib/CMakeFiles/lib.dir/FreeRTOS-Kernel/queue.c.o: lib/CMakeFiles/lib.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/mnt/meu_vol/ufc/2025.1/rtos/praticas/pratica 2/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_3) "Building C object lib/CMakeFiles/lib.dir/FreeRTOS-Kernel/queue.c.o"
-	cd "/mnt/meu_vol/ufc/2025.1/rtos/praticas/pratica 2/build/lib" && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT lib/CMakeFiles/lib.dir/FreeRTOS-Kernel/queue.c.o -MF CMakeFiles/lib.dir/FreeRTOS-Kernel/queue.c.o.d -o CMakeFiles/lib.dir/FreeRTOS-Kernel/queue.c.o -c "/mnt/meu_vol/ufc/2025.1/rtos/praticas/pratica 2/lib/FreeRTOS-Kernel/queue.c"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/media/juan/42849DD9849DCFB1/ufc/2025.1/rtos/praticas/pratica 2/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_3) "Building C object lib/CMakeFiles/lib.dir/FreeRTOS-Kernel/queue.c.o"
+	cd "/media/juan/42849DD9849DCFB1/ufc/2025.1/rtos/praticas/pratica 2/build/lib" && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT lib/CMakeFiles/lib.dir/FreeRTOS-Kernel/queue.c.o -MF CMakeFiles/lib.dir/FreeRTOS-Kernel/queue.c.o.d -o CMakeFiles/lib.dir/FreeRTOS-Kernel/queue.c.o -c "/media/juan/42849DD9849DCFB1/ufc/2025.1/rtos/praticas/pratica 2/lib/FreeRTOS-Kernel/queue.c"
 
 lib/CMakeFiles/lib.dir/FreeRTOS-Kernel/queue.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/lib.dir/FreeRTOS-Kernel/queue.c.i"
-	cd "/mnt/meu_vol/ufc/2025.1/rtos/praticas/pratica 2/build/lib" && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "/mnt/meu_vol/ufc/2025.1/rtos/praticas/pratica 2/lib/FreeRTOS-Kernel/queue.c" > CMakeFiles/lib.dir/FreeRTOS-Kernel/queue.c.i
+	cd "/media/juan/42849DD9849DCFB1/ufc/2025.1/rtos/praticas/pratica 2/build/lib" && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "/media/juan/42849DD9849DCFB1/ufc/2025.1/rtos/praticas/pratica 2/lib/FreeRTOS-Kernel/queue.c" > CMakeFiles/lib.dir/FreeRTOS-Kernel/queue.c.i
 
 lib/CMakeFiles/lib.dir/FreeRTOS-Kernel/queue.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/lib.dir/FreeRTOS-Kernel/queue.c.s"
-	cd "/mnt/meu_vol/ufc/2025.1/rtos/praticas/pratica 2/build/lib" && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "/mnt/meu_vol/ufc/2025.1/rtos/praticas/pratica 2/lib/FreeRTOS-Kernel/queue.c" -o CMakeFiles/lib.dir/FreeRTOS-Kernel/queue.c.s
+	cd "/media/juan/42849DD9849DCFB1/ufc/2025.1/rtos/praticas/pratica 2/build/lib" && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "/media/juan/42849DD9849DCFB1/ufc/2025.1/rtos/praticas/pratica 2/lib/FreeRTOS-Kernel/queue.c" -o CMakeFiles/lib.dir/FreeRTOS-Kernel/queue.c.s
 
 lib/CMakeFiles/lib.dir/FreeRTOS-Kernel/stream_buffer.c.o: lib/CMakeFiles/lib.dir/flags.make
-lib/CMakeFiles/lib.dir/FreeRTOS-Kernel/stream_buffer.c.o: /mnt/meu_vol/ufc/2025.1/rtos/praticas/pratica\ 2/lib/FreeRTOS-Kernel/stream_buffer.c
+lib/CMakeFiles/lib.dir/FreeRTOS-Kernel/stream_buffer.c.o: /media/juan/42849DD9849DCFB1/ufc/2025.1/rtos/praticas/pratica\ 2/lib/FreeRTOS-Kernel/stream_buffer.c
 lib/CMakeFiles/lib.dir/FreeRTOS-Kernel/stream_buffer.c.o: lib/CMakeFiles/lib.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/mnt/meu_vol/ufc/2025.1/rtos/praticas/pratica 2/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_4) "Building C object lib/CMakeFiles/lib.dir/FreeRTOS-Kernel/stream_buffer.c.o"
-	cd "/mnt/meu_vol/ufc/2025.1/rtos/praticas/pratica 2/build/lib" && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT lib/CMakeFiles/lib.dir/FreeRTOS-Kernel/stream_buffer.c.o -MF CMakeFiles/lib.dir/FreeRTOS-Kernel/stream_buffer.c.o.d -o CMakeFiles/lib.dir/FreeRTOS-Kernel/stream_buffer.c.o -c "/mnt/meu_vol/ufc/2025.1/rtos/praticas/pratica 2/lib/FreeRTOS-Kernel/stream_buffer.c"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/media/juan/42849DD9849DCFB1/ufc/2025.1/rtos/praticas/pratica 2/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_4) "Building C object lib/CMakeFiles/lib.dir/FreeRTOS-Kernel/stream_buffer.c.o"
+	cd "/media/juan/42849DD9849DCFB1/ufc/2025.1/rtos/praticas/pratica 2/build/lib" && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT lib/CMakeFiles/lib.dir/FreeRTOS-Kernel/stream_buffer.c.o -MF CMakeFiles/lib.dir/FreeRTOS-Kernel/stream_buffer.c.o.d -o CMakeFiles/lib.dir/FreeRTOS-Kernel/stream_buffer.c.o -c "/media/juan/42849DD9849DCFB1/ufc/2025.1/rtos/praticas/pratica 2/lib/FreeRTOS-Kernel/stream_buffer.c"
 
 lib/CMakeFiles/lib.dir/FreeRTOS-Kernel/stream_buffer.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/lib.dir/FreeRTOS-Kernel/stream_buffer.c.i"
-	cd "/mnt/meu_vol/ufc/2025.1/rtos/praticas/pratica 2/build/lib" && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "/mnt/meu_vol/ufc/2025.1/rtos/praticas/pratica 2/lib/FreeRTOS-Kernel/stream_buffer.c" > CMakeFiles/lib.dir/FreeRTOS-Kernel/stream_buffer.c.i
+	cd "/media/juan/42849DD9849DCFB1/ufc/2025.1/rtos/praticas/pratica 2/build/lib" && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "/media/juan/42849DD9849DCFB1/ufc/2025.1/rtos/praticas/pratica 2/lib/FreeRTOS-Kernel/stream_buffer.c" > CMakeFiles/lib.dir/FreeRTOS-Kernel/stream_buffer.c.i
 
 lib/CMakeFiles/lib.dir/FreeRTOS-Kernel/stream_buffer.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/lib.dir/FreeRTOS-Kernel/stream_buffer.c.s"
-	cd "/mnt/meu_vol/ufc/2025.1/rtos/praticas/pratica 2/build/lib" && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "/mnt/meu_vol/ufc/2025.1/rtos/praticas/pratica 2/lib/FreeRTOS-Kernel/stream_buffer.c" -o CMakeFiles/lib.dir/FreeRTOS-Kernel/stream_buffer.c.s
+	cd "/media/juan/42849DD9849DCFB1/ufc/2025.1/rtos/praticas/pratica 2/build/lib" && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "/media/juan/42849DD9849DCFB1/ufc/2025.1/rtos/praticas/pratica 2/lib/FreeRTOS-Kernel/stream_buffer.c" -o CMakeFiles/lib.dir/FreeRTOS-Kernel/stream_buffer.c.s
 
 lib/CMakeFiles/lib.dir/FreeRTOS-Kernel/tasks.c.o: lib/CMakeFiles/lib.dir/flags.make
-lib/CMakeFiles/lib.dir/FreeRTOS-Kernel/tasks.c.o: /mnt/meu_vol/ufc/2025.1/rtos/praticas/pratica\ 2/lib/FreeRTOS-Kernel/tasks.c
+lib/CMakeFiles/lib.dir/FreeRTOS-Kernel/tasks.c.o: /media/juan/42849DD9849DCFB1/ufc/2025.1/rtos/praticas/pratica\ 2/lib/FreeRTOS-Kernel/tasks.c
 lib/CMakeFiles/lib.dir/FreeRTOS-Kernel/tasks.c.o: lib/CMakeFiles/lib.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/mnt/meu_vol/ufc/2025.1/rtos/praticas/pratica 2/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_5) "Building C object lib/CMakeFiles/lib.dir/FreeRTOS-Kernel/tasks.c.o"
-	cd "/mnt/meu_vol/ufc/2025.1/rtos/praticas/pratica 2/build/lib" && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT lib/CMakeFiles/lib.dir/FreeRTOS-Kernel/tasks.c.o -MF CMakeFiles/lib.dir/FreeRTOS-Kernel/tasks.c.o.d -o CMakeFiles/lib.dir/FreeRTOS-Kernel/tasks.c.o -c "/mnt/meu_vol/ufc/2025.1/rtos/praticas/pratica 2/lib/FreeRTOS-Kernel/tasks.c"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/media/juan/42849DD9849DCFB1/ufc/2025.1/rtos/praticas/pratica 2/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_5) "Building C object lib/CMakeFiles/lib.dir/FreeRTOS-Kernel/tasks.c.o"
+	cd "/media/juan/42849DD9849DCFB1/ufc/2025.1/rtos/praticas/pratica 2/build/lib" && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT lib/CMakeFiles/lib.dir/FreeRTOS-Kernel/tasks.c.o -MF CMakeFiles/lib.dir/FreeRTOS-Kernel/tasks.c.o.d -o CMakeFiles/lib.dir/FreeRTOS-Kernel/tasks.c.o -c "/media/juan/42849DD9849DCFB1/ufc/2025.1/rtos/praticas/pratica 2/lib/FreeRTOS-Kernel/tasks.c"
 
 lib/CMakeFiles/lib.dir/FreeRTOS-Kernel/tasks.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/lib.dir/FreeRTOS-Kernel/tasks.c.i"
-	cd "/mnt/meu_vol/ufc/2025.1/rtos/praticas/pratica 2/build/lib" && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "/mnt/meu_vol/ufc/2025.1/rtos/praticas/pratica 2/lib/FreeRTOS-Kernel/tasks.c" > CMakeFiles/lib.dir/FreeRTOS-Kernel/tasks.c.i
+	cd "/media/juan/42849DD9849DCFB1/ufc/2025.1/rtos/praticas/pratica 2/build/lib" && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "/media/juan/42849DD9849DCFB1/ufc/2025.1/rtos/praticas/pratica 2/lib/FreeRTOS-Kernel/tasks.c" > CMakeFiles/lib.dir/FreeRTOS-Kernel/tasks.c.i
 
 lib/CMakeFiles/lib.dir/FreeRTOS-Kernel/tasks.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/lib.dir/FreeRTOS-Kernel/tasks.c.s"
-	cd "/mnt/meu_vol/ufc/2025.1/rtos/praticas/pratica 2/build/lib" && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "/mnt/meu_vol/ufc/2025.1/rtos/praticas/pratica 2/lib/FreeRTOS-Kernel/tasks.c" -o CMakeFiles/lib.dir/FreeRTOS-Kernel/tasks.c.s
+	cd "/media/juan/42849DD9849DCFB1/ufc/2025.1/rtos/praticas/pratica 2/build/lib" && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "/media/juan/42849DD9849DCFB1/ufc/2025.1/rtos/praticas/pratica 2/lib/FreeRTOS-Kernel/tasks.c" -o CMakeFiles/lib.dir/FreeRTOS-Kernel/tasks.c.s
 
 lib/CMakeFiles/lib.dir/FreeRTOS-Kernel/timers.c.o: lib/CMakeFiles/lib.dir/flags.make
-lib/CMakeFiles/lib.dir/FreeRTOS-Kernel/timers.c.o: /mnt/meu_vol/ufc/2025.1/rtos/praticas/pratica\ 2/lib/FreeRTOS-Kernel/timers.c
+lib/CMakeFiles/lib.dir/FreeRTOS-Kernel/timers.c.o: /media/juan/42849DD9849DCFB1/ufc/2025.1/rtos/praticas/pratica\ 2/lib/FreeRTOS-Kernel/timers.c
 lib/CMakeFiles/lib.dir/FreeRTOS-Kernel/timers.c.o: lib/CMakeFiles/lib.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/mnt/meu_vol/ufc/2025.1/rtos/praticas/pratica 2/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_6) "Building C object lib/CMakeFiles/lib.dir/FreeRTOS-Kernel/timers.c.o"
-	cd "/mnt/meu_vol/ufc/2025.1/rtos/praticas/pratica 2/build/lib" && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT lib/CMakeFiles/lib.dir/FreeRTOS-Kernel/timers.c.o -MF CMakeFiles/lib.dir/FreeRTOS-Kernel/timers.c.o.d -o CMakeFiles/lib.dir/FreeRTOS-Kernel/timers.c.o -c "/mnt/meu_vol/ufc/2025.1/rtos/praticas/pratica 2/lib/FreeRTOS-Kernel/timers.c"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/media/juan/42849DD9849DCFB1/ufc/2025.1/rtos/praticas/pratica 2/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_6) "Building C object lib/CMakeFiles/lib.dir/FreeRTOS-Kernel/timers.c.o"
+	cd "/media/juan/42849DD9849DCFB1/ufc/2025.1/rtos/praticas/pratica 2/build/lib" && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT lib/CMakeFiles/lib.dir/FreeRTOS-Kernel/timers.c.o -MF CMakeFiles/lib.dir/FreeRTOS-Kernel/timers.c.o.d -o CMakeFiles/lib.dir/FreeRTOS-Kernel/timers.c.o -c "/media/juan/42849DD9849DCFB1/ufc/2025.1/rtos/praticas/pratica 2/lib/FreeRTOS-Kernel/timers.c"
 
 lib/CMakeFiles/lib.dir/FreeRTOS-Kernel/timers.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/lib.dir/FreeRTOS-Kernel/timers.c.i"
-	cd "/mnt/meu_vol/ufc/2025.1/rtos/praticas/pratica 2/build/lib" && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "/mnt/meu_vol/ufc/2025.1/rtos/praticas/pratica 2/lib/FreeRTOS-Kernel/timers.c" > CMakeFiles/lib.dir/FreeRTOS-Kernel/timers.c.i
+	cd "/media/juan/42849DD9849DCFB1/ufc/2025.1/rtos/praticas/pratica 2/build/lib" && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "/media/juan/42849DD9849DCFB1/ufc/2025.1/rtos/praticas/pratica 2/lib/FreeRTOS-Kernel/timers.c" > CMakeFiles/lib.dir/FreeRTOS-Kernel/timers.c.i
 
 lib/CMakeFiles/lib.dir/FreeRTOS-Kernel/timers.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/lib.dir/FreeRTOS-Kernel/timers.c.s"
-	cd "/mnt/meu_vol/ufc/2025.1/rtos/praticas/pratica 2/build/lib" && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "/mnt/meu_vol/ufc/2025.1/rtos/praticas/pratica 2/lib/FreeRTOS-Kernel/timers.c" -o CMakeFiles/lib.dir/FreeRTOS-Kernel/timers.c.s
+	cd "/media/juan/42849DD9849DCFB1/ufc/2025.1/rtos/praticas/pratica 2/build/lib" && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "/media/juan/42849DD9849DCFB1/ufc/2025.1/rtos/praticas/pratica 2/lib/FreeRTOS-Kernel/timers.c" -o CMakeFiles/lib.dir/FreeRTOS-Kernel/timers.c.s
 
 lib/CMakeFiles/lib.dir/FreeRTOS-Kernel/portable/MemMang/heap_3.c.o: lib/CMakeFiles/lib.dir/flags.make
-lib/CMakeFiles/lib.dir/FreeRTOS-Kernel/portable/MemMang/heap_3.c.o: /mnt/meu_vol/ufc/2025.1/rtos/praticas/pratica\ 2/lib/FreeRTOS-Kernel/portable/MemMang/heap_3.c
+lib/CMakeFiles/lib.dir/FreeRTOS-Kernel/portable/MemMang/heap_3.c.o: /media/juan/42849DD9849DCFB1/ufc/2025.1/rtos/praticas/pratica\ 2/lib/FreeRTOS-Kernel/portable/MemMang/heap_3.c
 lib/CMakeFiles/lib.dir/FreeRTOS-Kernel/portable/MemMang/heap_3.c.o: lib/CMakeFiles/lib.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/mnt/meu_vol/ufc/2025.1/rtos/praticas/pratica 2/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_7) "Building C object lib/CMakeFiles/lib.dir/FreeRTOS-Kernel/portable/MemMang/heap_3.c.o"
-	cd "/mnt/meu_vol/ufc/2025.1/rtos/praticas/pratica 2/build/lib" && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT lib/CMakeFiles/lib.dir/FreeRTOS-Kernel/portable/MemMang/heap_3.c.o -MF CMakeFiles/lib.dir/FreeRTOS-Kernel/portable/MemMang/heap_3.c.o.d -o CMakeFiles/lib.dir/FreeRTOS-Kernel/portable/MemMang/heap_3.c.o -c "/mnt/meu_vol/ufc/2025.1/rtos/praticas/pratica 2/lib/FreeRTOS-Kernel/portable/MemMang/heap_3.c"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/media/juan/42849DD9849DCFB1/ufc/2025.1/rtos/praticas/pratica 2/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_7) "Building C object lib/CMakeFiles/lib.dir/FreeRTOS-Kernel/portable/MemMang/heap_3.c.o"
+	cd "/media/juan/42849DD9849DCFB1/ufc/2025.1/rtos/praticas/pratica 2/build/lib" && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT lib/CMakeFiles/lib.dir/FreeRTOS-Kernel/portable/MemMang/heap_3.c.o -MF CMakeFiles/lib.dir/FreeRTOS-Kernel/portable/MemMang/heap_3.c.o.d -o CMakeFiles/lib.dir/FreeRTOS-Kernel/portable/MemMang/heap_3.c.o -c "/media/juan/42849DD9849DCFB1/ufc/2025.1/rtos/praticas/pratica 2/lib/FreeRTOS-Kernel/portable/MemMang/heap_3.c"
 
 lib/CMakeFiles/lib.dir/FreeRTOS-Kernel/portable/MemMang/heap_3.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/lib.dir/FreeRTOS-Kernel/portable/MemMang/heap_3.c.i"
-	cd "/mnt/meu_vol/ufc/2025.1/rtos/praticas/pratica 2/build/lib" && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "/mnt/meu_vol/ufc/2025.1/rtos/praticas/pratica 2/lib/FreeRTOS-Kernel/portable/MemMang/heap_3.c" > CMakeFiles/lib.dir/FreeRTOS-Kernel/portable/MemMang/heap_3.c.i
+	cd "/media/juan/42849DD9849DCFB1/ufc/2025.1/rtos/praticas/pratica 2/build/lib" && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "/media/juan/42849DD9849DCFB1/ufc/2025.1/rtos/praticas/pratica 2/lib/FreeRTOS-Kernel/portable/MemMang/heap_3.c" > CMakeFiles/lib.dir/FreeRTOS-Kernel/portable/MemMang/heap_3.c.i
 
 lib/CMakeFiles/lib.dir/FreeRTOS-Kernel/portable/MemMang/heap_3.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/lib.dir/FreeRTOS-Kernel/portable/MemMang/heap_3.c.s"
-	cd "/mnt/meu_vol/ufc/2025.1/rtos/praticas/pratica 2/build/lib" && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "/mnt/meu_vol/ufc/2025.1/rtos/praticas/pratica 2/lib/FreeRTOS-Kernel/portable/MemMang/heap_3.c" -o CMakeFiles/lib.dir/FreeRTOS-Kernel/portable/MemMang/heap_3.c.s
+	cd "/media/juan/42849DD9849DCFB1/ufc/2025.1/rtos/praticas/pratica 2/build/lib" && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "/media/juan/42849DD9849DCFB1/ufc/2025.1/rtos/praticas/pratica 2/lib/FreeRTOS-Kernel/portable/MemMang/heap_3.c" -o CMakeFiles/lib.dir/FreeRTOS-Kernel/portable/MemMang/heap_3.c.s
 
 lib/CMakeFiles/lib.dir/FreeRTOS-Kernel/portable/GCC/ARM_CM0/port.c.o: lib/CMakeFiles/lib.dir/flags.make
-lib/CMakeFiles/lib.dir/FreeRTOS-Kernel/portable/GCC/ARM_CM0/port.c.o: /mnt/meu_vol/ufc/2025.1/rtos/praticas/pratica\ 2/lib/FreeRTOS-Kernel/portable/GCC/ARM_CM0/port.c
+lib/CMakeFiles/lib.dir/FreeRTOS-Kernel/portable/GCC/ARM_CM0/port.c.o: /media/juan/42849DD9849DCFB1/ufc/2025.1/rtos/praticas/pratica\ 2/lib/FreeRTOS-Kernel/portable/GCC/ARM_CM0/port.c
 lib/CMakeFiles/lib.dir/FreeRTOS-Kernel/portable/GCC/ARM_CM0/port.c.o: lib/CMakeFiles/lib.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/mnt/meu_vol/ufc/2025.1/rtos/praticas/pratica 2/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_8) "Building C object lib/CMakeFiles/lib.dir/FreeRTOS-Kernel/portable/GCC/ARM_CM0/port.c.o"
-	cd "/mnt/meu_vol/ufc/2025.1/rtos/praticas/pratica 2/build/lib" && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT lib/CMakeFiles/lib.dir/FreeRTOS-Kernel/portable/GCC/ARM_CM0/port.c.o -MF CMakeFiles/lib.dir/FreeRTOS-Kernel/portable/GCC/ARM_CM0/port.c.o.d -o CMakeFiles/lib.dir/FreeRTOS-Kernel/portable/GCC/ARM_CM0/port.c.o -c "/mnt/meu_vol/ufc/2025.1/rtos/praticas/pratica 2/lib/FreeRTOS-Kernel/portable/GCC/ARM_CM0/port.c"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/media/juan/42849DD9849DCFB1/ufc/2025.1/rtos/praticas/pratica 2/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_8) "Building C object lib/CMakeFiles/lib.dir/FreeRTOS-Kernel/portable/GCC/ARM_CM0/port.c.o"
+	cd "/media/juan/42849DD9849DCFB1/ufc/2025.1/rtos/praticas/pratica 2/build/lib" && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT lib/CMakeFiles/lib.dir/FreeRTOS-Kernel/portable/GCC/ARM_CM0/port.c.o -MF CMakeFiles/lib.dir/FreeRTOS-Kernel/portable/GCC/ARM_CM0/port.c.o.d -o CMakeFiles/lib.dir/FreeRTOS-Kernel/portable/GCC/ARM_CM0/port.c.o -c "/media/juan/42849DD9849DCFB1/ufc/2025.1/rtos/praticas/pratica 2/lib/FreeRTOS-Kernel/portable/GCC/ARM_CM0/port.c"
 
 lib/CMakeFiles/lib.dir/FreeRTOS-Kernel/portable/GCC/ARM_CM0/port.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/lib.dir/FreeRTOS-Kernel/portable/GCC/ARM_CM0/port.c.i"
-	cd "/mnt/meu_vol/ufc/2025.1/rtos/praticas/pratica 2/build/lib" && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "/mnt/meu_vol/ufc/2025.1/rtos/praticas/pratica 2/lib/FreeRTOS-Kernel/portable/GCC/ARM_CM0/port.c" > CMakeFiles/lib.dir/FreeRTOS-Kernel/portable/GCC/ARM_CM0/port.c.i
+	cd "/media/juan/42849DD9849DCFB1/ufc/2025.1/rtos/praticas/pratica 2/build/lib" && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "/media/juan/42849DD9849DCFB1/ufc/2025.1/rtos/praticas/pratica 2/lib/FreeRTOS-Kernel/portable/GCC/ARM_CM0/port.c" > CMakeFiles/lib.dir/FreeRTOS-Kernel/portable/GCC/ARM_CM0/port.c.i
 
 lib/CMakeFiles/lib.dir/FreeRTOS-Kernel/portable/GCC/ARM_CM0/port.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/lib.dir/FreeRTOS-Kernel/portable/GCC/ARM_CM0/port.c.s"
-	cd "/mnt/meu_vol/ufc/2025.1/rtos/praticas/pratica 2/build/lib" && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "/mnt/meu_vol/ufc/2025.1/rtos/praticas/pratica 2/lib/FreeRTOS-Kernel/portable/GCC/ARM_CM0/port.c" -o CMakeFiles/lib.dir/FreeRTOS-Kernel/portable/GCC/ARM_CM0/port.c.s
+	cd "/media/juan/42849DD9849DCFB1/ufc/2025.1/rtos/praticas/pratica 2/build/lib" && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "/media/juan/42849DD9849DCFB1/ufc/2025.1/rtos/praticas/pratica 2/lib/FreeRTOS-Kernel/portable/GCC/ARM_CM0/port.c" -o CMakeFiles/lib.dir/FreeRTOS-Kernel/portable/GCC/ARM_CM0/port.c.s
 
 # Object files for target lib
 lib_OBJECTS = \
@@ -205,19 +205,19 @@ lib/liblib.a: lib/CMakeFiles/lib.dir/FreeRTOS-Kernel/portable/MemMang/heap_3.c.o
 lib/liblib.a: lib/CMakeFiles/lib.dir/FreeRTOS-Kernel/portable/GCC/ARM_CM0/port.c.o
 lib/liblib.a: lib/CMakeFiles/lib.dir/build.make
 lib/liblib.a: lib/CMakeFiles/lib.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir="/mnt/meu_vol/ufc/2025.1/rtos/praticas/pratica 2/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_9) "Linking C static library liblib.a"
-	cd "/mnt/meu_vol/ufc/2025.1/rtos/praticas/pratica 2/build/lib" && $(CMAKE_COMMAND) -P CMakeFiles/lib.dir/cmake_clean_target.cmake
-	cd "/mnt/meu_vol/ufc/2025.1/rtos/praticas/pratica 2/build/lib" && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/lib.dir/link.txt --verbose=$(VERBOSE)
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir="/media/juan/42849DD9849DCFB1/ufc/2025.1/rtos/praticas/pratica 2/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_9) "Linking C static library liblib.a"
+	cd "/media/juan/42849DD9849DCFB1/ufc/2025.1/rtos/praticas/pratica 2/build/lib" && $(CMAKE_COMMAND) -P CMakeFiles/lib.dir/cmake_clean_target.cmake
+	cd "/media/juan/42849DD9849DCFB1/ufc/2025.1/rtos/praticas/pratica 2/build/lib" && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/lib.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 lib/CMakeFiles/lib.dir/build: lib/liblib.a
 .PHONY : lib/CMakeFiles/lib.dir/build
 
 lib/CMakeFiles/lib.dir/clean:
-	cd "/mnt/meu_vol/ufc/2025.1/rtos/praticas/pratica 2/build/lib" && $(CMAKE_COMMAND) -P CMakeFiles/lib.dir/cmake_clean.cmake
+	cd "/media/juan/42849DD9849DCFB1/ufc/2025.1/rtos/praticas/pratica 2/build/lib" && $(CMAKE_COMMAND) -P CMakeFiles/lib.dir/cmake_clean.cmake
 .PHONY : lib/CMakeFiles/lib.dir/clean
 
 lib/CMakeFiles/lib.dir/depend:
-	cd "/mnt/meu_vol/ufc/2025.1/rtos/praticas/pratica 2/build" && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" "/mnt/meu_vol/ufc/2025.1/rtos/praticas/pratica 2" "/mnt/meu_vol/ufc/2025.1/rtos/praticas/pratica 2/lib" "/mnt/meu_vol/ufc/2025.1/rtos/praticas/pratica 2/build" "/mnt/meu_vol/ufc/2025.1/rtos/praticas/pratica 2/build/lib" "/mnt/meu_vol/ufc/2025.1/rtos/praticas/pratica 2/build/lib/CMakeFiles/lib.dir/DependInfo.cmake" "--color=$(COLOR)"
+	cd "/media/juan/42849DD9849DCFB1/ufc/2025.1/rtos/praticas/pratica 2/build" && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" "/media/juan/42849DD9849DCFB1/ufc/2025.1/rtos/praticas/pratica 2" "/media/juan/42849DD9849DCFB1/ufc/2025.1/rtos/praticas/pratica 2/lib" "/media/juan/42849DD9849DCFB1/ufc/2025.1/rtos/praticas/pratica 2/build" "/media/juan/42849DD9849DCFB1/ufc/2025.1/rtos/praticas/pratica 2/build/lib" "/media/juan/42849DD9849DCFB1/ufc/2025.1/rtos/praticas/pratica 2/build/lib/CMakeFiles/lib.dir/DependInfo.cmake" "--color=$(COLOR)"
 .PHONY : lib/CMakeFiles/lib.dir/depend
 

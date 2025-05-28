@@ -1,5 +1,5 @@
 lib/CMakeFiles/lib.dir/FreeRTOS-Kernel/stream_buffer.c.o: \
- /mnt/meu_vol/ufc/2025.1/rtos/praticas/pratica\ 2/lib/FreeRTOS-Kernel/stream_buffer.c \
+ /media/juan/42849DD9849DCFB1/ufc/2025.1/rtos/praticas/pratica\ 2/lib/FreeRTOS-Kernel/stream_buffer.c \
  /usr/lib/gcc/arm-none-eabi/13.2.1/include/stdint.h \
  /usr/include/newlib/string.h /usr/include/newlib/_ansi.h \
  /usr/include/newlib/newlib.h /usr/include/newlib/_newlib_version.h \
@@ -12,13 +12,13 @@ lib/CMakeFiles/lib.dir/FreeRTOS-Kernel/stream_buffer.c.o: \
  /usr/include/newlib/sys/_types.h /usr/include/newlib/machine/_types.h \
  /usr/include/newlib/sys/lock.h /usr/include/newlib/sys/_locale.h \
  /usr/include/newlib/strings.h /usr/include/newlib/sys/string.h \
- /mnt/meu_vol/ufc/2025.1/rtos/praticas/pratica\ 2/lib/FreeRTOS-Kernel/include/FreeRTOS.h \
- /mnt/meu_vol/ufc/2025.1/rtos/praticas/pratica\ 2/lib/./FreeRTOSConfig.h \
- /mnt/meu_vol/ufc/2025.1/rtos/praticas/pratica\ 2/lib/FreeRTOS-Kernel/include/projdefs.h \
- /mnt/meu_vol/ufc/2025.1/rtos/praticas/pratica\ 2/lib/FreeRTOS-Kernel/include/portable.h \
- /mnt/meu_vol/ufc/2025.1/rtos/praticas/pratica\ 2/lib/FreeRTOS-Kernel/include/deprecated_definitions.h \
- /mnt/meu_vol/ufc/2025.1/rtos/praticas/pratica\ 2/lib/FreeRTOS-Kernel/portable/GCC/ARM_CM0/portmacro.h \
- /mnt/meu_vol/ufc/2025.1/rtos/praticas/pratica\ 2/lib/FreeRTOS-Kernel/include/mpu_wrappers.h \
- /mnt/meu_vol/ufc/2025.1/rtos/praticas/pratica\ 2/lib/FreeRTOS-Kernel/include/task.h \
- /mnt/meu_vol/ufc/2025.1/rtos/praticas/pratica\ 2/lib/FreeRTOS-Kernel/include/list.h \
- /mnt/meu_vol/ufc/2025.1/rtos/praticas/pratica\ 2/lib/FreeRTOS-Kernel/include/stream_buffer.h
+ /media/juan/42849DD9849DCFB1/ufc/2025.1/rtos/praticas/pratica\ 2/lib/FreeRTOS-Kernel/include/FreeRTOS.h \
+ /media/juan/42849DD9849DCFB1/ufc/2025.1/rtos/praticas/pratica\ 2/lib/./FreeRTOSConfig.h \
+ /media/juan/42849DD9849DCFB1/ufc/2025.1/rtos/praticas/pratica\ 2/lib/FreeRTOS-Kernel/include/projdefs.h \
+ /media/juan/42849DD9849DCFB1/ufc/2025.1/rtos/praticas/pratica\ 2/lib/FreeRTOS-Kernel/include/portable.h \
+ /media/juan/42849DD9849DCFB1/ufc/2025.1/rtos/praticas/pratica\ 2/lib/FreeRTOS-Kernel/include/deprecated_definitions.h \
+ /media/juan/42849DD9849DCFB1/ufc/2025.1/rtos/praticas/pratica\ 2/lib/FreeRTOS-Kernel/portable/GCC/ARM_CM0/portmacro.h \
+ /media/juan/42849DD9849DCFB1/ufc/2025.1/rtos/praticas/pratica\ 2/lib/FreeRTOS-Kernel/include/mpu_wrappers.h \
+ /media/juan/42849DD9849DCFB1/ufc/2025.1/rtos/praticas/pratica\ 2/lib/FreeRTOS-Kernel/include/task.h \
+ /media/juan/42849DD9849DCFB1/ufc/2025.1/rtos/praticas/pratica\ 2/lib/FreeRTOS-Kernel/include/list.h \
+ /media/juan/42849DD9849DCFB1/ufc/2025.1/rtos/praticas/pratica\ 2/lib/FreeRTOS-Kernel/include/stream_buffer.h

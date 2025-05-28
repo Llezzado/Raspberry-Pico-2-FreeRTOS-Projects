@@ -850,6 +850,30 @@ home/juan/pico-sdk/src/rp2350/pico_platform/platform.c.s:
 	cd "/media/juan/42849DD9849DCFB1/ufc/2025.1/rtos/praticas/pratica 4/build" && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/app.dir/build.make src/CMakeFiles/app.dir/home/juan/pico-sdk/src/rp2350/pico_platform/platform.c.s
 .PHONY : home/juan/pico-sdk/src/rp2350/pico_platform/platform.c.s
 
+home/juan/pico-sdk/src/rp2_common/hardware_adc/adc.o: home/juan/pico-sdk/src/rp2_common/hardware_adc/adc.c.o
+.PHONY : home/juan/pico-sdk/src/rp2_common/hardware_adc/adc.o
+
+# target to build an object file
+home/juan/pico-sdk/src/rp2_common/hardware_adc/adc.c.o:
+	cd "/media/juan/42849DD9849DCFB1/ufc/2025.1/rtos/praticas/pratica 4/build" && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/app.dir/build.make src/CMakeFiles/app.dir/home/juan/pico-sdk/src/rp2_common/hardware_adc/adc.c.o
+.PHONY : home/juan/pico-sdk/src/rp2_common/hardware_adc/adc.c.o
+
+home/juan/pico-sdk/src/rp2_common/hardware_adc/adc.i: home/juan/pico-sdk/src/rp2_common/hardware_adc/adc.c.i
+.PHONY : home/juan/pico-sdk/src/rp2_common/hardware_adc/adc.i
+
+# target to preprocess a source file
+home/juan/pico-sdk/src/rp2_common/hardware_adc/adc.c.i:
+	cd "/media/juan/42849DD9849DCFB1/ufc/2025.1/rtos/praticas/pratica 4/build" && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/app.dir/build.make src/CMakeFiles/app.dir/home/juan/pico-sdk/src/rp2_common/hardware_adc/adc.c.i
+.PHONY : home/juan/pico-sdk/src/rp2_common/hardware_adc/adc.c.i
+
+home/juan/pico-sdk/src/rp2_common/hardware_adc/adc.s: home/juan/pico-sdk/src/rp2_common/hardware_adc/adc.c.s
+.PHONY : home/juan/pico-sdk/src/rp2_common/hardware_adc/adc.s
+
+# target to generate assembly for a file
+home/juan/pico-sdk/src/rp2_common/hardware_adc/adc.c.s:
+	cd "/media/juan/42849DD9849DCFB1/ufc/2025.1/rtos/praticas/pratica 4/build" && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/app.dir/build.make src/CMakeFiles/app.dir/home/juan/pico-sdk/src/rp2_common/hardware_adc/adc.c.s
+.PHONY : home/juan/pico-sdk/src/rp2_common/hardware_adc/adc.c.s
+
 home/juan/pico-sdk/src/rp2_common/hardware_boot_lock/boot_lock.o: home/juan/pico-sdk/src/rp2_common/hardware_boot_lock/boot_lock.c.o
 .PHONY : home/juan/pico-sdk/src/rp2_common/hardware_boot_lock/boot_lock.o
 
@@ -2061,6 +2085,9 @@ help:
 	@echo "... home/juan/pico-sdk/src/rp2350/pico_platform/platform.o"
 	@echo "... home/juan/pico-sdk/src/rp2350/pico_platform/platform.i"
 	@echo "... home/juan/pico-sdk/src/rp2350/pico_platform/platform.s"
+	@echo "... home/juan/pico-sdk/src/rp2_common/hardware_adc/adc.o"
+	@echo "... home/juan/pico-sdk/src/rp2_common/hardware_adc/adc.i"
+	@echo "... home/juan/pico-sdk/src/rp2_common/hardware_adc/adc.s"
 	@echo "... home/juan/pico-sdk/src/rp2_common/hardware_boot_lock/boot_lock.o"
 	@echo "... home/juan/pico-sdk/src/rp2_common/hardware_boot_lock/boot_lock.i"
 	@echo "... home/juan/pico-sdk/src/rp2_common/hardware_boot_lock/boot_lock.s"

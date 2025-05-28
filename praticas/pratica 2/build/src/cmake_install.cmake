@@ -1,4 +1,4 @@
-# Install script for directory: /mnt/meu_vol/ufc/2025.1/rtos/praticas/pratica 2/src
+# Install script for directory: /media/juan/42849DD9849DCFB1/ufc/2025.1/rtos/praticas/pratica 2/src
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

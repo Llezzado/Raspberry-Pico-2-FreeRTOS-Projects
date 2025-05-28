@@ -57,10 +57,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = "/mnt/meu_vol/ufc/2025.1/rtos/praticas/pratica 2"
+CMAKE_SOURCE_DIR = "/media/juan/42849DD9849DCFB1/ufc/2025.1/rtos/praticas/pratica 2"
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = "/mnt/meu_vol/ufc/2025.1/rtos/praticas/pratica 2/build"
+CMAKE_BINARY_DIR = "/media/juan/42849DD9849DCFB1/ufc/2025.1/rtos/praticas/pratica 2/build"
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -87,14 +87,14 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	cd "/mnt/meu_vol/ufc/2025.1/rtos/praticas/pratica 2/build" && $(CMAKE_COMMAND) -E cmake_progress_start "/mnt/meu_vol/ufc/2025.1/rtos/praticas/pratica 2/build/CMakeFiles" "/mnt/meu_vol/ufc/2025.1/rtos/praticas/pratica 2/build/lib//CMakeFiles/progress.marks"
-	cd "/mnt/meu_vol/ufc/2025.1/rtos/praticas/pratica 2/build" && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 lib/all
-	$(CMAKE_COMMAND) -E cmake_progress_start "/mnt/meu_vol/ufc/2025.1/rtos/praticas/pratica 2/build/CMakeFiles" 0
+	cd "/media/juan/42849DD9849DCFB1/ufc/2025.1/rtos/praticas/pratica 2/build" && $(CMAKE_COMMAND) -E cmake_progress_start "/media/juan/42849DD9849DCFB1/ufc/2025.1/rtos/praticas/pratica 2/build/CMakeFiles" "/media/juan/42849DD9849DCFB1/ufc/2025.1/rtos/praticas/pratica 2/build/lib//CMakeFiles/progress.marks"
+	cd "/media/juan/42849DD9849DCFB1/ufc/2025.1/rtos/praticas/pratica 2/build" && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 lib/all
+	$(CMAKE_COMMAND) -E cmake_progress_start "/media/juan/42849DD9849DCFB1/ufc/2025.1/rtos/praticas/pratica 2/build/CMakeFiles" 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd "/mnt/meu_vol/ufc/2025.1/rtos/praticas/pratica 2/build" && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 lib/clean
+	cd "/media/juan/42849DD9849DCFB1/ufc/2025.1/rtos/praticas/pratica 2/build" && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 lib/clean
 .PHONY : clean
 
 # The main clean target
@@ -103,22 +103,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd "/mnt/meu_vol/ufc/2025.1/rtos/praticas/pratica 2/build" && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 lib/preinstall
+	cd "/media/juan/42849DD9849DCFB1/ufc/2025.1/rtos/praticas/pratica 2/build" && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 lib/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd "/mnt/meu_vol/ufc/2025.1/rtos/praticas/pratica 2/build" && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 lib/preinstall
+	cd "/media/juan/42849DD9849DCFB1/ufc/2025.1/rtos/praticas/pratica 2/build" && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 lib/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd "/mnt/meu_vol/ufc/2025.1/rtos/praticas/pratica 2/build" && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd "/media/juan/42849DD9849DCFB1/ufc/2025.1/rtos/praticas/pratica 2/build" && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 lib/CMakeFiles/lib.dir/rule:
-	cd "/mnt/meu_vol/ufc/2025.1/rtos/praticas/pratica 2/build" && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 lib/CMakeFiles/lib.dir/rule
+	cd "/media/juan/42849DD9849DCFB1/ufc/2025.1/rtos/praticas/pratica 2/build" && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 lib/CMakeFiles/lib.dir/rule
 .PHONY : lib/CMakeFiles/lib.dir/rule
 
 # Convenience name for target.
@@ -127,7 +127,7 @@ lib: lib/CMakeFiles/lib.dir/rule
 
 # fast build rule for target.
 lib/fast:
-	cd "/mnt/meu_vol/ufc/2025.1/rtos/praticas/pratica 2/build" && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/lib.dir/build.make lib/CMakeFiles/lib.dir/build
+	cd "/media/juan/42849DD9849DCFB1/ufc/2025.1/rtos/praticas/pratica 2/build" && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/lib.dir/build.make lib/CMakeFiles/lib.dir/build
 .PHONY : lib/fast
 
 FreeRTOS-Kernel/event_groups.o: FreeRTOS-Kernel/event_groups.c.o
@@ -135,7 +135,7 @@ FreeRTOS-Kernel/event_groups.o: FreeRTOS-Kernel/event_groups.c.o
 
 # target to build an object file
 FreeRTOS-Kernel/event_groups.c.o:
-	cd "/mnt/meu_vol/ufc/2025.1/rtos/praticas/pratica 2/build" && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/lib.dir/build.make lib/CMakeFiles/lib.dir/FreeRTOS-Kernel/event_groups.c.o
+	cd "/media/juan/42849DD9849DCFB1/ufc/2025.1/rtos/praticas/pratica 2/build" && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/lib.dir/build.make lib/CMakeFiles/lib.dir/FreeRTOS-Kernel/event_groups.c.o
 .PHONY : FreeRTOS-Kernel/event_groups.c.o
 
 FreeRTOS-Kernel/event_groups.i: FreeRTOS-Kernel/event_groups.c.i
@@ -143,7 +143,7 @@ FreeRTOS-Kernel/event_groups.i: FreeRTOS-Kernel/event_groups.c.i
 
 # target to preprocess a source file
 FreeRTOS-Kernel/event_groups.c.i:
-	cd "/mnt/meu_vol/ufc/2025.1/rtos/praticas/pratica 2/build" && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/lib.dir/build.make lib/CMakeFiles/lib.dir/FreeRTOS-Kernel/event_groups.c.i
+	cd "/media/juan/42849DD9849DCFB1/ufc/2025.1/rtos/praticas/pratica 2/build" && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/lib.dir/build.make lib/CMakeFiles/lib.dir/FreeRTOS-Kernel/event_groups.c.i
 .PHONY : FreeRTOS-Kernel/event_groups.c.i
 
 FreeRTOS-Kernel/event_groups.s: FreeRTOS-Kernel/event_groups.c.s
@@ -151,7 +151,7 @@ FreeRTOS-Kernel/event_groups.s: FreeRTOS-Kernel/event_groups.c.s
 
 # target to generate assembly for a file
 FreeRTOS-Kernel/event_groups.c.s:
-	cd "/mnt/meu_vol/ufc/2025.1/rtos/praticas/pratica 2/build" && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/lib.dir/build.make lib/CMakeFiles/lib.dir/FreeRTOS-Kernel/event_groups.c.s
+	cd "/media/juan/42849DD9849DCFB1/ufc/2025.1/rtos/praticas/pratica 2/build" && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/lib.dir/build.make lib/CMakeFiles/lib.dir/FreeRTOS-Kernel/event_groups.c.s
 .PHONY : FreeRTOS-Kernel/event_groups.c.s
 
 FreeRTOS-Kernel/list.o: FreeRTOS-Kernel/list.c.o
@@ -159,7 +159,7 @@ FreeRTOS-Kernel/list.o: FreeRTOS-Kernel/list.c.o
 
 # target to build an object file
 FreeRTOS-Kernel/list.c.o:
-	cd "/mnt/meu_vol/ufc/2025.1/rtos/praticas/pratica 2/build" && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/lib.dir/build.make lib/CMakeFiles/lib.dir/FreeRTOS-Kernel/list.c.o
+	cd "/media/juan/42849DD9849DCFB1/ufc/2025.1/rtos/praticas/pratica 2/build" && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/lib.dir/build.make lib/CMakeFiles/lib.dir/FreeRTOS-Kernel/list.c.o
 .PHONY : FreeRTOS-Kernel/list.c.o
 
 FreeRTOS-Kernel/list.i: FreeRTOS-Kernel/list.c.i
@@ -167,7 +167,7 @@ FreeRTOS-Kernel/list.i: FreeRTOS-Kernel/list.c.i
 
 # target to preprocess a source file
 FreeRTOS-Kernel/list.c.i:
-	cd "/mnt/meu_vol/ufc/2025.1/rtos/praticas/pratica 2/build" && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/lib.dir/build.make lib/CMakeFiles/lib.dir/FreeRTOS-Kernel/list.c.i
+	cd "/media/juan/42849DD9849DCFB1/ufc/2025.1/rtos/praticas/pratica 2/build" && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/lib.dir/build.make lib/CMakeFiles/lib.dir/FreeRTOS-Kernel/list.c.i
 .PHONY : FreeRTOS-Kernel/list.c.i
 
 FreeRTOS-Kernel/list.s: FreeRTOS-Kernel/list.c.s
@@ -175,7 +175,7 @@ FreeRTOS-Kernel/list.s: FreeRTOS-Kernel/list.c.s
 
 # target to generate assembly for a file
 FreeRTOS-Kernel/list.c.s:
-	cd "/mnt/meu_vol/ufc/2025.1/rtos/praticas/pratica 2/build" && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/lib.dir/build.make lib/CMakeFiles/lib.dir/FreeRTOS-Kernel/list.c.s
+	cd "/media/juan/42849DD9849DCFB1/ufc/2025.1/rtos/praticas/pratica 2/build" && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/lib.dir/build.make lib/CMakeFiles/lib.dir/FreeRTOS-Kernel/list.c.s
 .PHONY : FreeRTOS-Kernel/list.c.s
 
 FreeRTOS-Kernel/portable/GCC/ARM_CM0/port.o: FreeRTOS-Kernel/portable/GCC/ARM_CM0/port.c.o
@@ -183,7 +183,7 @@ FreeRTOS-Kernel/portable/GCC/ARM_CM0/port.o: FreeRTOS-Kernel/portable/GCC/ARM_CM
 
 # target to build an object file
 FreeRTOS-Kernel/portable/GCC/ARM_CM0/port.c.o:
-	cd "/mnt/meu_vol/ufc/2025.1/rtos/praticas/pratica 2/build" && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/lib.dir/build.make lib/CMakeFiles/lib.dir/FreeRTOS-Kernel/portable/GCC/ARM_CM0/port.c.o
+	cd "/media/juan/42849DD9849DCFB1/ufc/2025.1/rtos/praticas/pratica 2/build" && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/lib.dir/build.make lib/CMakeFiles/lib.dir/FreeRTOS-Kernel/portable/GCC/ARM_CM0/port.c.o
 .PHONY : FreeRTOS-Kernel/portable/GCC/ARM_CM0/port.c.o
 
 FreeRTOS-Kernel/portable/GCC/ARM_CM0/port.i: FreeRTOS-Kernel/portable/GCC/ARM_CM0/port.c.i
@@ -191,7 +191,7 @@ FreeRTOS-Kernel/portable/GCC/ARM_CM0/port.i: FreeRTOS-Kernel/portable/GCC/ARM_CM
 
 # target to preprocess a source file
 FreeRTOS-Kernel/portable/GCC/ARM_CM0/port.c.i:
-	cd "/mnt/meu_vol/ufc/2025.1/rtos/praticas/pratica 2/build" && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/lib.dir/build.make lib/CMakeFiles/lib.dir/FreeRTOS-Kernel/portable/GCC/ARM_CM0/port.c.i
+	cd "/media/juan/42849DD9849DCFB1/ufc/2025.1/rtos/praticas/pratica 2/build" && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/lib.dir/build.make lib/CMakeFiles/lib.dir/FreeRTOS-Kernel/portable/GCC/ARM_CM0/port.c.i
 .PHONY : FreeRTOS-Kernel/portable/GCC/ARM_CM0/port.c.i
 
 FreeRTOS-Kernel/portable/GCC/ARM_CM0/port.s: FreeRTOS-Kernel/portable/GCC/ARM_CM0/port.c.s
@@ -199,7 +199,7 @@ FreeRTOS-Kernel/portable/GCC/ARM_CM0/port.s: FreeRTOS-Kernel/portable/GCC/ARM_CM
 
 # target to generate assembly for a file
 FreeRTOS-Kernel/portable/GCC/ARM_CM0/port.c.s:
-	cd "/mnt/meu_vol/ufc/2025.1/rtos/praticas/pratica 2/build" && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/lib.dir/build.make lib/CMakeFiles/lib.dir/FreeRTOS-Kernel/portable/GCC/ARM_CM0/port.c.s
+	cd "/media/juan/42849DD9849DCFB1/ufc/2025.1/rtos/praticas/pratica 2/build" && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/lib.dir/build.make lib/CMakeFiles/lib.dir/FreeRTOS-Kernel/portable/GCC/ARM_CM0/port.c.s
 .PHONY : FreeRTOS-Kernel/portable/GCC/ARM_CM0/port.c.s
 
 FreeRTOS-Kernel/portable/MemMang/heap_3.o: FreeRTOS-Kernel/portable/MemMang/heap_3.c.o
@@ -207,7 +207,7 @@ FreeRTOS-Kernel/portable/MemMang/heap_3.o: FreeRTOS-Kernel/portable/MemMang/heap
 
 # target to build an object file
 FreeRTOS-Kernel/portable/MemMang/heap_3.c.o:
-	cd "/mnt/meu_vol/ufc/2025.1/rtos/praticas/pratica 2/build" && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/lib.dir/build.make lib/CMakeFiles/lib.dir/FreeRTOS-Kernel/portable/MemMang/heap_3.c.o
+	cd "/media/juan/42849DD9849DCFB1/ufc/2025.1/rtos/praticas/pratica 2/build" && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/lib.dir/build.make lib/CMakeFiles/lib.dir/FreeRTOS-Kernel/portable/MemMang/heap_3.c.o
 .PHONY : FreeRTOS-Kernel/portable/MemMang/heap_3.c.o
 
 FreeRTOS-Kernel/portable/MemMang/heap_3.i: FreeRTOS-Kernel/portable/MemMang/heap_3.c.i
@@ -215,7 +215,7 @@ FreeRTOS-Kernel/portable/MemMang/heap_3.i: FreeRTOS-Kernel/portable/MemMang/heap
 
 # target to preprocess a source file
 FreeRTOS-Kernel/portable/MemMang/heap_3.c.i:
-	cd "/mnt/meu_vol/ufc/2025.1/rtos/praticas/pratica 2/build" && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/lib.dir/build.make lib/CMakeFiles/lib.dir/FreeRTOS-Kernel/portable/MemMang/heap_3.c.i
+	cd "/media/juan/42849DD9849DCFB1/ufc/2025.1/rtos/praticas/pratica 2/build" && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/lib.dir/build.make lib/CMakeFiles/lib.dir/FreeRTOS-Kernel/portable/MemMang/heap_3.c.i
 .PHONY : FreeRTOS-Kernel/portable/MemMang/heap_3.c.i
 
 FreeRTOS-Kernel/portable/MemMang/heap_3.s: FreeRTOS-Kernel/portable/MemMang/heap_3.c.s
@@ -223,7 +223,7 @@ FreeRTOS-Kernel/portable/MemMang/heap_3.s: FreeRTOS-Kernel/portable/MemMang/heap
 
 # target to generate assembly for a file
 FreeRTOS-Kernel/portable/MemMang/heap_3.c.s:
-	cd "/mnt/meu_vol/ufc/2025.1/rtos/praticas/pratica 2/build" && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/lib.dir/build.make lib/CMakeFiles/lib.dir/FreeRTOS-Kernel/portable/MemMang/heap_3.c.s
+	cd "/media/juan/42849DD9849DCFB1/ufc/2025.1/rtos/praticas/pratica 2/build" && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/lib.dir/build.make lib/CMakeFiles/lib.dir/FreeRTOS-Kernel/portable/MemMang/heap_3.c.s
 .PHONY : FreeRTOS-Kernel/portable/MemMang/heap_3.c.s
 
 FreeRTOS-Kernel/queue.o: FreeRTOS-Kernel/queue.c.o
@@ -231,7 +231,7 @@ FreeRTOS-Kernel/queue.o: FreeRTOS-Kernel/queue.c.o
 
 # target to build an object file
 FreeRTOS-Kernel/queue.c.o:
-	cd "/mnt/meu_vol/ufc/2025.1/rtos/praticas/pratica 2/build" && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/lib.dir/build.make lib/CMakeFiles/lib.dir/FreeRTOS-Kernel/queue.c.o
+	cd "/media/juan/42849DD9849DCFB1/ufc/2025.1/rtos/praticas/pratica 2/build" && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/lib.dir/build.make lib/CMakeFiles/lib.dir/FreeRTOS-Kernel/queue.c.o
 .PHONY : FreeRTOS-Kernel/queue.c.o
 
 FreeRTOS-Kernel/queue.i: FreeRTOS-Kernel/queue.c.i
@@ -239,7 +239,7 @@ FreeRTOS-Kernel/queue.i: FreeRTOS-Kernel/queue.c.i
 
 # target to preprocess a source file
 FreeRTOS-Kernel/queue.c.i:
-	cd "/mnt/meu_vol/ufc/2025.1/rtos/praticas/pratica 2/build" && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/lib.dir/build.make lib/CMakeFiles/lib.dir/FreeRTOS-Kernel/queue.c.i
+	cd "/media/juan/42849DD9849DCFB1/ufc/2025.1/rtos/praticas/pratica 2/build" && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/lib.dir/build.make lib/CMakeFiles/lib.dir/FreeRTOS-Kernel/queue.c.i
 .PHONY : FreeRTOS-Kernel/queue.c.i
 
 FreeRTOS-Kernel/queue.s: FreeRTOS-Kernel/queue.c.s
@@ -247,7 +247,7 @@ FreeRTOS-Kernel/queue.s: FreeRTOS-Kernel/queue.c.s
 
 # target to generate assembly for a file
 FreeRTOS-Kernel/queue.c.s:
-	cd "/mnt/meu_vol/ufc/2025.1/rtos/praticas/pratica 2/build" && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/lib.dir/build.make lib/CMakeFiles/lib.dir/FreeRTOS-Kernel/queue.c.s
+	cd "/media/juan/42849DD9849DCFB1/ufc/2025.1/rtos/praticas/pratica 2/build" && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/lib.dir/build.make lib/CMakeFiles/lib.dir/FreeRTOS-Kernel/queue.c.s
 .PHONY : FreeRTOS-Kernel/queue.c.s
 
 FreeRTOS-Kernel/stream_buffer.o: FreeRTOS-Kernel/stream_buffer.c.o
@@ -255,7 +255,7 @@ FreeRTOS-Kernel/stream_buffer.o: FreeRTOS-Kernel/stream_buffer.c.o
 
 # target to build an object file
 FreeRTOS-Kernel/stream_buffer.c.o:
-	cd "/mnt/meu_vol/ufc/2025.1/rtos/praticas/pratica 2/build" && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/lib.dir/build.make lib/CMakeFiles/lib.dir/FreeRTOS-Kernel/stream_buffer.c.o
+	cd "/media/juan/42849DD9849DCFB1/ufc/2025.1/rtos/praticas/pratica 2/build" && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/lib.dir/build.make lib/CMakeFiles/lib.dir/FreeRTOS-Kernel/stream_buffer.c.o
 .PHONY : FreeRTOS-Kernel/stream_buffer.c.o
 
 FreeRTOS-Kernel/stream_buffer.i: FreeRTOS-Kernel/stream_buffer.c.i
@@ -263,7 +263,7 @@ FreeRTOS-Kernel/stream_buffer.i: FreeRTOS-Kernel/stream_buffer.c.i
 
 # target to preprocess a source file
 FreeRTOS-Kernel/stream_buffer.c.i:
-	cd "/mnt/meu_vol/ufc/2025.1/rtos/praticas/pratica 2/build" && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/lib.dir/build.make lib/CMakeFiles/lib.dir/FreeRTOS-Kernel/stream_buffer.c.i
+	cd "/media/juan/42849DD9849DCFB1/ufc/2025.1/rtos/praticas/pratica 2/build" && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/lib.dir/build.make lib/CMakeFiles/lib.dir/FreeRTOS-Kernel/stream_buffer.c.i
 .PHONY : FreeRTOS-Kernel/stream_buffer.c.i
 
 FreeRTOS-Kernel/stream_buffer.s: FreeRTOS-Kernel/stream_buffer.c.s
@@ -271,7 +271,7 @@ FreeRTOS-Kernel/stream_buffer.s: FreeRTOS-Kernel/stream_buffer.c.s
 
 # target to generate assembly for a file
 FreeRTOS-Kernel/stream_buffer.c.s:
-	cd "/mnt/meu_vol/ufc/2025.1/rtos/praticas/pratica 2/build" && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/lib.dir/build.make lib/CMakeFiles/lib.dir/FreeRTOS-Kernel/stream_buffer.c.s
+	cd "/media/juan/42849DD9849DCFB1/ufc/2025.1/rtos/praticas/pratica 2/build" && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/lib.dir/build.make lib/CMakeFiles/lib.dir/FreeRTOS-Kernel/stream_buffer.c.s
 .PHONY : FreeRTOS-Kernel/stream_buffer.c.s
 
 FreeRTOS-Kernel/tasks.o: FreeRTOS-Kernel/tasks.c.o
@@ -279,7 +279,7 @@ FreeRTOS-Kernel/tasks.o: FreeRTOS-Kernel/tasks.c.o
 
 # target to build an object file
 FreeRTOS-Kernel/tasks.c.o:
-	cd "/mnt/meu_vol/ufc/2025.1/rtos/praticas/pratica 2/build" && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/lib.dir/build.make lib/CMakeFiles/lib.dir/FreeRTOS-Kernel/tasks.c.o
+	cd "/media/juan/42849DD9849DCFB1/ufc/2025.1/rtos/praticas/pratica 2/build" && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/lib.dir/build.make lib/CMakeFiles/lib.dir/FreeRTOS-Kernel/tasks.c.o
 .PHONY : FreeRTOS-Kernel/tasks.c.o
 
 FreeRTOS-Kernel/tasks.i: FreeRTOS-Kernel/tasks.c.i
@@ -287,7 +287,7 @@ FreeRTOS-Kernel/tasks.i: FreeRTOS-Kernel/tasks.c.i
 
 # target to preprocess a source file
 FreeRTOS-Kernel/tasks.c.i:
-	cd "/mnt/meu_vol/ufc/2025.1/rtos/praticas/pratica 2/build" && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/lib.dir/build.make lib/CMakeFiles/lib.dir/FreeRTOS-Kernel/tasks.c.i
+	cd "/media/juan/42849DD9849DCFB1/ufc/2025.1/rtos/praticas/pratica 2/build" && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/lib.dir/build.make lib/CMakeFiles/lib.dir/FreeRTOS-Kernel/tasks.c.i
 .PHONY : FreeRTOS-Kernel/tasks.c.i
 
 FreeRTOS-Kernel/tasks.s: FreeRTOS-Kernel/tasks.c.s
@@ -295,7 +295,7 @@ FreeRTOS-Kernel/tasks.s: FreeRTOS-Kernel/tasks.c.s
 
 # target to generate assembly for a file
 FreeRTOS-Kernel/tasks.c.s:
-	cd "/mnt/meu_vol/ufc/2025.1/rtos/praticas/pratica 2/build" && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/lib.dir/build.make lib/CMakeFiles/lib.dir/FreeRTOS-Kernel/tasks.c.s
+	cd "/media/juan/42849DD9849DCFB1/ufc/2025.1/rtos/praticas/pratica 2/build" && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/lib.dir/build.make lib/CMakeFiles/lib.dir/FreeRTOS-Kernel/tasks.c.s
 .PHONY : FreeRTOS-Kernel/tasks.c.s
 
 FreeRTOS-Kernel/timers.o: FreeRTOS-Kernel/timers.c.o
@@ -303,7 +303,7 @@ FreeRTOS-Kernel/timers.o: FreeRTOS-Kernel/timers.c.o
 
 # target to build an object file
 FreeRTOS-Kernel/timers.c.o:
-	cd "/mnt/meu_vol/ufc/2025.1/rtos/praticas/pratica 2/build" && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/lib.dir/build.make lib/CMakeFiles/lib.dir/FreeRTOS-Kernel/timers.c.o
+	cd "/media/juan/42849DD9849DCFB1/ufc/2025.1/rtos/praticas/pratica 2/build" && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/lib.dir/build.make lib/CMakeFiles/lib.dir/FreeRTOS-Kernel/timers.c.o
 .PHONY : FreeRTOS-Kernel/timers.c.o
 
 FreeRTOS-Kernel/timers.i: FreeRTOS-Kernel/timers.c.i
@@ -311,7 +311,7 @@ FreeRTOS-Kernel/timers.i: FreeRTOS-Kernel/timers.c.i
 
 # target to preprocess a source file
 FreeRTOS-Kernel/timers.c.i:
-	cd "/mnt/meu_vol/ufc/2025.1/rtos/praticas/pratica 2/build" && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/lib.dir/build.make lib/CMakeFiles/lib.dir/FreeRTOS-Kernel/timers.c.i
+	cd "/media/juan/42849DD9849DCFB1/ufc/2025.1/rtos/praticas/pratica 2/build" && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/lib.dir/build.make lib/CMakeFiles/lib.dir/FreeRTOS-Kernel/timers.c.i
 .PHONY : FreeRTOS-Kernel/timers.c.i
 
 FreeRTOS-Kernel/timers.s: FreeRTOS-Kernel/timers.c.s
@@ -319,7 +319,7 @@ FreeRTOS-Kernel/timers.s: FreeRTOS-Kernel/timers.c.s
 
 # target to generate assembly for a file
 FreeRTOS-Kernel/timers.c.s:
-	cd "/mnt/meu_vol/ufc/2025.1/rtos/praticas/pratica 2/build" && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/lib.dir/build.make lib/CMakeFiles/lib.dir/FreeRTOS-Kernel/timers.c.s
+	cd "/media/juan/42849DD9849DCFB1/ufc/2025.1/rtos/praticas/pratica 2/build" && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/lib.dir/build.make lib/CMakeFiles/lib.dir/FreeRTOS-Kernel/timers.c.s
 .PHONY : FreeRTOS-Kernel/timers.c.s
 
 # Help Target
@@ -366,6 +366,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd "/mnt/meu_vol/ufc/2025.1/rtos/praticas/pratica 2/build" && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd "/media/juan/42849DD9849DCFB1/ufc/2025.1/rtos/praticas/pratica 2/build" && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

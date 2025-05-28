@@ -1,4 +1,4 @@
-// Padded and checksummed version of: /mnt/meu_vol/ufc/2025.1/rtos/praticas/pratica 2/build/pico-sdk/src/rp2350/boot_stage2/bs2_default.bin
+// Padded and checksummed version of: /media/juan/42849DD9849DCFB1/ufc/2025.1/rtos/praticas/pratica 2/build/pico-sdk/src/rp2350/boot_stage2/bs2_default.bin
 
 .cpu cortex-m0plus
 .thumb

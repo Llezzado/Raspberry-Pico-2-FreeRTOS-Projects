@@ -4,7 +4,7 @@
 # compile C with /usr/bin/arm-none-eabi-gcc
 C_DEFINES = 
 
-C_INCLUDES = -I"/mnt/meu_vol/ufc/2025.1/rtos/praticas/pratica 2/lib/." -I/home/juan/FreeRTOS-Kernel/portable/ThirdParty/GCC/RP2350_ARM_NTZ -I"/mnt/meu_vol/ufc/2025.1/rtos/praticas/pratica 2/lib/FreeRTOS-Kernel/include" -I"/mnt/meu_vol/ufc/2025.1/rtos/praticas/pratica 2/lib/FreeRTOS-Kernel/portable/GCC/ARM_CM0"
+C_INCLUDES = -I"/media/juan/42849DD9849DCFB1/ufc/2025.1/rtos/praticas/pratica 2/lib/." -I/home/juan/FreeRTOS-Kernel/portable/ThirdParty/GCC/RP2350_ARM_NTZ -I"/media/juan/42849DD9849DCFB1/ufc/2025.1/rtos/praticas/pratica 2/lib/FreeRTOS-Kernel/include" -I"/media/juan/42849DD9849DCFB1/ufc/2025.1/rtos/praticas/pratica 2/lib/FreeRTOS-Kernel/portable/GCC/ARM_CM0"
 
 C_FLAGS = -mcpu=cortex-m33 -mthumb -march=armv8-m.main+fp+dsp -mfloat-abi=softfp -mcmse -g -O3 -DNDEBUG
 

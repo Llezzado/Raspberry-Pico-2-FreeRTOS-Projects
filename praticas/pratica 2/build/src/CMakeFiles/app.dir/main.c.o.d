@@ -1,16 +1,16 @@
 src/CMakeFiles/app.dir/main.c.o: \
- /mnt/meu_vol/ufc/2025.1/rtos/praticas/pratica\ 2/src/main.c \
- /mnt/meu_vol/ufc/2025.1/rtos/praticas/pratica\ 2/lib/FreeRTOS-Kernel/include/FreeRTOS.h \
+ /media/juan/42849DD9849DCFB1/ufc/2025.1/rtos/praticas/pratica\ 2/src/main.c \
+ /media/juan/42849DD9849DCFB1/ufc/2025.1/rtos/praticas/pratica\ 2/lib/FreeRTOS-Kernel/include/FreeRTOS.h \
  /usr/lib/gcc/arm-none-eabi/13.2.1/include/stddef.h \
  /usr/lib/gcc/arm-none-eabi/13.2.1/include/stdint.h \
- /mnt/meu_vol/ufc/2025.1/rtos/praticas/pratica\ 2/lib/./FreeRTOSConfig.h \
- /mnt/meu_vol/ufc/2025.1/rtos/praticas/pratica\ 2/lib/FreeRTOS-Kernel/include/projdefs.h \
- /mnt/meu_vol/ufc/2025.1/rtos/praticas/pratica\ 2/lib/FreeRTOS-Kernel/include/portable.h \
- /mnt/meu_vol/ufc/2025.1/rtos/praticas/pratica\ 2/lib/FreeRTOS-Kernel/include/deprecated_definitions.h \
- /mnt/meu_vol/ufc/2025.1/rtos/praticas/pratica\ 2/lib/FreeRTOS-Kernel/portable/GCC/ARM_CM0/portmacro.h \
- /mnt/meu_vol/ufc/2025.1/rtos/praticas/pratica\ 2/lib/FreeRTOS-Kernel/include/mpu_wrappers.h \
- /mnt/meu_vol/ufc/2025.1/rtos/praticas/pratica\ 2/lib/FreeRTOS-Kernel/include/task.h \
- /mnt/meu_vol/ufc/2025.1/rtos/praticas/pratica\ 2/lib/FreeRTOS-Kernel/include/list.h \
+ /media/juan/42849DD9849DCFB1/ufc/2025.1/rtos/praticas/pratica\ 2/lib/./FreeRTOSConfig.h \
+ /media/juan/42849DD9849DCFB1/ufc/2025.1/rtos/praticas/pratica\ 2/lib/FreeRTOS-Kernel/include/projdefs.h \
+ /media/juan/42849DD9849DCFB1/ufc/2025.1/rtos/praticas/pratica\ 2/lib/FreeRTOS-Kernel/include/portable.h \
+ /media/juan/42849DD9849DCFB1/ufc/2025.1/rtos/praticas/pratica\ 2/lib/FreeRTOS-Kernel/include/deprecated_definitions.h \
+ /media/juan/42849DD9849DCFB1/ufc/2025.1/rtos/praticas/pratica\ 2/lib/FreeRTOS-Kernel/portable/GCC/ARM_CM0/portmacro.h \
+ /media/juan/42849DD9849DCFB1/ufc/2025.1/rtos/praticas/pratica\ 2/lib/FreeRTOS-Kernel/include/mpu_wrappers.h \
+ /media/juan/42849DD9849DCFB1/ufc/2025.1/rtos/praticas/pratica\ 2/lib/FreeRTOS-Kernel/include/task.h \
+ /media/juan/42849DD9849DCFB1/ufc/2025.1/rtos/praticas/pratica\ 2/lib/FreeRTOS-Kernel/include/list.h \
  /usr/include/newlib/stdio.h /usr/include/newlib/_ansi.h \
  /usr/include/newlib/newlib.h /usr/include/newlib/_newlib_version.h \
  /usr/include/newlib/sys/config.h /usr/include/newlib/machine/ieeefp.h \
@@ -26,9 +26,9 @@ src/CMakeFiles/app.dir/main.c.o: \
  /home/juan/pico-sdk/src/common/pico_base_headers/include/pico/assert.h \
  /usr/lib/gcc/arm-none-eabi/13.2.1/include/stdbool.h \
  /usr/include/newlib/assert.h \
- /mnt/meu_vol/ufc/2025.1/rtos/praticas/pratica\ 2/build/generated/pico_base/pico/version.h \
+ /media/juan/42849DD9849DCFB1/ufc/2025.1/rtos/praticas/pratica\ 2/build/generated/pico_base/pico/version.h \
  /home/juan/pico-sdk/src/common/pico_base_headers/include/pico/config.h \
- /mnt/meu_vol/ufc/2025.1/rtos/praticas/pratica\ 2/build/generated/pico_base/pico/config_autogen.h \
+ /media/juan/42849DD9849DCFB1/ufc/2025.1/rtos/praticas/pratica\ 2/build/generated/pico_base/pico/config_autogen.h \
  /home/juan/pico-sdk/src/boards/include/boards/pico2.h \
  /home/juan/pico-sdk/src/rp2_common/cmsis/include/cmsis/rename_exceptions.h \
  /home/juan/pico-sdk/src/rp2350/pico_platform/include/pico/platform.h \

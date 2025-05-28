@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = "/mnt/meu_vol/ufc/2025.1/rtos/praticas/pratica 2"
+CMAKE_SOURCE_DIR = "/media/juan/42849DD9849DCFB1/ufc/2025.1/rtos/praticas/pratica 2"
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = "/mnt/meu_vol/ufc/2025.1/rtos/praticas/pratica 2/build"
+CMAKE_BINARY_DIR = "/media/juan/42849DD9849DCFB1/ufc/2025.1/rtos/praticas/pratica 2/build"
 
 # Utility rule file for cyw43_driver_picow_cyw43_bus_pio_spi_pio_h.
 
@@ -69,8 +69,8 @@ include pico-sdk/src/rp2_common/pico_cyw43_driver/CMakeFiles/cyw43_driver_picow_
 pico-sdk/src/rp2_common/pico_cyw43_driver/CMakeFiles/cyw43_driver_picow_cyw43_bus_pio_spi_pio_h: pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_bus_pio_spi.pio.h
 
 pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_bus_pio_spi.pio.h: /home/juan/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_bus_pio_spi.pio
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir="/mnt/meu_vol/ufc/2025.1/rtos/praticas/pratica 2/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Generating cyw43_bus_pio_spi.pio.h"
-	cd "/mnt/meu_vol/ufc/2025.1/rtos/praticas/pratica 2/build/pico-sdk/src/rp2_common/pico_cyw43_driver" && ../../../../pioasm-install/pioasm/pioasm -o c-sdk -v 1 /home/juan/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_bus_pio_spi.pio "/mnt/meu_vol/ufc/2025.1/rtos/praticas/pratica 2/build/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_bus_pio_spi.pio.h"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir="/media/juan/42849DD9849DCFB1/ufc/2025.1/rtos/praticas/pratica 2/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Generating cyw43_bus_pio_spi.pio.h"
+	cd "/media/juan/42849DD9849DCFB1/ufc/2025.1/rtos/praticas/pratica 2/build/pico-sdk/src/rp2_common/pico_cyw43_driver" && ../../../../pioasm-install/pioasm/pioasm -o c-sdk -v 1 /home/juan/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_bus_pio_spi.pio "/media/juan/42849DD9849DCFB1/ufc/2025.1/rtos/praticas/pratica 2/build/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_bus_pio_spi.pio.h"
 
 cyw43_driver_picow_cyw43_bus_pio_spi_pio_h: pico-sdk/src/rp2_common/pico_cyw43_driver/CMakeFiles/cyw43_driver_picow_cyw43_bus_pio_spi_pio_h
 cyw43_driver_picow_cyw43_bus_pio_spi_pio_h: pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_bus_pio_spi.pio.h
@@ -82,10 +82,10 @@ pico-sdk/src/rp2_common/pico_cyw43_driver/CMakeFiles/cyw43_driver_picow_cyw43_bu
 .PHONY : pico-sdk/src/rp2_common/pico_cyw43_driver/CMakeFiles/cyw43_driver_picow_cyw43_bus_pio_spi_pio_h.dir/build
 
 pico-sdk/src/rp2_common/pico_cyw43_driver/CMakeFiles/cyw43_driver_picow_cyw43_bus_pio_spi_pio_h.dir/clean:
-	cd "/mnt/meu_vol/ufc/2025.1/rtos/praticas/pratica 2/build/pico-sdk/src/rp2_common/pico_cyw43_driver" && $(CMAKE_COMMAND) -P CMakeFiles/cyw43_driver_picow_cyw43_bus_pio_spi_pio_h.dir/cmake_clean.cmake
+	cd "/media/juan/42849DD9849DCFB1/ufc/2025.1/rtos/praticas/pratica 2/build/pico-sdk/src/rp2_common/pico_cyw43_driver" && $(CMAKE_COMMAND) -P CMakeFiles/cyw43_driver_picow_cyw43_bus_pio_spi_pio_h.dir/cmake_clean.cmake
 .PHONY : pico-sdk/src/rp2_common/pico_cyw43_driver/CMakeFiles/cyw43_driver_picow_cyw43_bus_pio_spi_pio_h.dir/clean
 
 pico-sdk/src/rp2_common/pico_cyw43_driver/CMakeFiles/cyw43_driver_picow_cyw43_bus_pio_spi_pio_h.dir/depend:
-	cd "/mnt/meu_vol/ufc/2025.1/rtos/praticas/pratica 2/build" && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" "/mnt/meu_vol/ufc/2025.1/rtos/praticas/pratica 2" /home/juan/pico-sdk/src/rp2_common/pico_cyw43_driver "/mnt/meu_vol/ufc/2025.1/rtos/praticas/pratica 2/build" "/mnt/meu_vol/ufc/2025.1/rtos/praticas/pratica 2/build/pico-sdk/src/rp2_common/pico_cyw43_driver" "/mnt/meu_vol/ufc/2025.1/rtos/praticas/pratica 2/build/pico-sdk/src/rp2_common/pico_cyw43_driver/CMakeFiles/cyw43_driver_picow_cyw43_bus_pio_spi_pio_h.dir/DependInfo.cmake" "--color=$(COLOR)"
+	cd "/media/juan/42849DD9849DCFB1/ufc/2025.1/rtos/praticas/pratica 2/build" && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" "/media/juan/42849DD9849DCFB1/ufc/2025.1/rtos/praticas/pratica 2" /home/juan/pico-sdk/src/rp2_common/pico_cyw43_driver "/media/juan/42849DD9849DCFB1/ufc/2025.1/rtos/praticas/pratica 2/build" "/media/juan/42849DD9849DCFB1/ufc/2025.1/rtos/praticas/pratica 2/build/pico-sdk/src/rp2_common/pico_cyw43_driver" "/media/juan/42849DD9849DCFB1/ufc/2025.1/rtos/praticas/pratica 2/build/pico-sdk/src/rp2_common/pico_cyw43_driver/CMakeFiles/cyw43_driver_picow_cyw43_bus_pio_spi_pio_h.dir/DependInfo.cmake" "--color=$(COLOR)"
 .PHONY : pico-sdk/src/rp2_common/pico_cyw43_driver/CMakeFiles/cyw43_driver_picow_cyw43_bus_pio_spi_pio_h.dir/depend
 

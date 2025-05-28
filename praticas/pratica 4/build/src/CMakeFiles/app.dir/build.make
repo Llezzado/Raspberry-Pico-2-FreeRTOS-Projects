@@ -1221,6 +1221,20 @@ src/CMakeFiles/app.dir/home/juan/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_dev
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/app.dir/home/juan/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.s"
 	cd "/media/juan/42849DD9849DCFB1/ufc/2025.1/rtos/praticas/pratica 4/build/src" && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/juan/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c -o CMakeFiles/app.dir/home/juan/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.s
 
+src/CMakeFiles/app.dir/home/juan/pico-sdk/src/rp2_common/hardware_adc/adc.c.o: src/CMakeFiles/app.dir/flags.make
+src/CMakeFiles/app.dir/home/juan/pico-sdk/src/rp2_common/hardware_adc/adc.c.o: /home/juan/pico-sdk/src/rp2_common/hardware_adc/adc.c
+src/CMakeFiles/app.dir/home/juan/pico-sdk/src/rp2_common/hardware_adc/adc.c.o: src/CMakeFiles/app.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/media/juan/42849DD9849DCFB1/ufc/2025.1/rtos/praticas/pratica 4/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_84) "Building C object src/CMakeFiles/app.dir/home/juan/pico-sdk/src/rp2_common/hardware_adc/adc.c.o"
+	cd "/media/juan/42849DD9849DCFB1/ufc/2025.1/rtos/praticas/pratica 4/build/src" && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT src/CMakeFiles/app.dir/home/juan/pico-sdk/src/rp2_common/hardware_adc/adc.c.o -MF CMakeFiles/app.dir/home/juan/pico-sdk/src/rp2_common/hardware_adc/adc.c.o.d -o CMakeFiles/app.dir/home/juan/pico-sdk/src/rp2_common/hardware_adc/adc.c.o -c /home/juan/pico-sdk/src/rp2_common/hardware_adc/adc.c
+
+src/CMakeFiles/app.dir/home/juan/pico-sdk/src/rp2_common/hardware_adc/adc.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/app.dir/home/juan/pico-sdk/src/rp2_common/hardware_adc/adc.c.i"
+	cd "/media/juan/42849DD9849DCFB1/ufc/2025.1/rtos/praticas/pratica 4/build/src" && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/juan/pico-sdk/src/rp2_common/hardware_adc/adc.c > CMakeFiles/app.dir/home/juan/pico-sdk/src/rp2_common/hardware_adc/adc.c.i
+
+src/CMakeFiles/app.dir/home/juan/pico-sdk/src/rp2_common/hardware_adc/adc.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/app.dir/home/juan/pico-sdk/src/rp2_common/hardware_adc/adc.c.s"
+	cd "/media/juan/42849DD9849DCFB1/ufc/2025.1/rtos/praticas/pratica 4/build/src" && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/juan/pico-sdk/src/rp2_common/hardware_adc/adc.c -o CMakeFiles/app.dir/home/juan/pico-sdk/src/rp2_common/hardware_adc/adc.c.s
+
 # Object files for target app
 app_OBJECTS = \
 "CMakeFiles/app.dir/main.c.o" \
@@ -1305,7 +1319,8 @@ app_OBJECTS = \
 "CMakeFiles/app.dir/home/juan/pico-sdk/lib/tinyusb/src/class/video/video_device.c.o" \
 "CMakeFiles/app.dir/home/juan/pico-sdk/lib/tinyusb/src/tusb.c.o" \
 "CMakeFiles/app.dir/home/juan/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.o" \
-"CMakeFiles/app.dir/home/juan/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.o"
+"CMakeFiles/app.dir/home/juan/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.o" \
+"CMakeFiles/app.dir/home/juan/pico-sdk/src/rp2_common/hardware_adc/adc.c.o"
 
 # External object files for target app
 app_EXTERNAL_OBJECTS =
@@ -1393,12 +1408,13 @@ src/app.elf: src/CMakeFiles/app.dir/home/juan/pico-sdk/lib/tinyusb/src/class/vid
 src/app.elf: src/CMakeFiles/app.dir/home/juan/pico-sdk/lib/tinyusb/src/tusb.c.o
 src/app.elf: src/CMakeFiles/app.dir/home/juan/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.o
 src/app.elf: src/CMakeFiles/app.dir/home/juan/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.o
+src/app.elf: src/CMakeFiles/app.dir/home/juan/pico-sdk/src/rp2_common/hardware_adc/adc.c.o
 src/app.elf: src/CMakeFiles/app.dir/build.make
 src/app.elf: pico-sdk/src/rp2350/boot_stage2/CMakeFiles/bs2_default_library.dir/bs2_default_padded_checksummed.S.o
 src/app.elf: lib/liblib.a
 src/app.elf: /home/juan/pico-sdk/src/rp2_common/pico_crt0/rp2350/memmap_default.ld
 src/app.elf: src/CMakeFiles/app.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir="/media/juan/42849DD9849DCFB1/ufc/2025.1/rtos/praticas/pratica 4/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_84) "Linking CXX executable app.elf"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir="/media/juan/42849DD9849DCFB1/ufc/2025.1/rtos/praticas/pratica 4/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_85) "Linking CXX executable app.elf"
 	cd "/media/juan/42849DD9849DCFB1/ufc/2025.1/rtos/praticas/pratica 4/build/src" && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/app.dir/link.txt --verbose=$(VERBOSE)
 	cd "/media/juan/42849DD9849DCFB1/ufc/2025.1/rtos/praticas/pratica 4/build/src" && /usr/bin/arm-none-eabi-objdump -h "/media/juan/42849DD9849DCFB1/ufc/2025.1/rtos/praticas/pratica 4/build/src/app.elf" > app.dis
 	cd "/media/juan/42849DD9849DCFB1/ufc/2025.1/rtos/praticas/pratica 4/build/src" && /usr/bin/arm-none-eabi-objdump -d "/media/juan/42849DD9849DCFB1/ufc/2025.1/rtos/praticas/pratica 4/build/src/app.elf" >> app.dis

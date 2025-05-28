@@ -1561,6 +1561,60 @@ src/CMakeFiles/app.dir/home/juan/pico-sdk/src/rp2350/pico_platform/platform.c.o:
   /usr/lib/gcc/arm-none-eabi/13.2.1/include/stddef.h \
   /usr/lib/gcc/arm-none-eabi/13.2.1/include/stdint.h
 
+src/CMakeFiles/app.dir/home/juan/pico-sdk/src/rp2_common/hardware_adc/adc.c.o: /home/juan/pico-sdk/src/rp2_common/hardware_adc/adc.c \
+  /home/juan/pico-sdk/src/boards/include/boards/pico2.h \
+  /home/juan/pico-sdk/src/common/pico_base_headers/include/pico.h \
+  /home/juan/pico-sdk/src/common/pico_base_headers/include/pico/assert.h \
+  /home/juan/pico-sdk/src/common/pico_base_headers/include/pico/config.h \
+  /home/juan/pico-sdk/src/common/pico_base_headers/include/pico/error.h \
+  /home/juan/pico-sdk/src/common/pico_base_headers/include/pico/types.h \
+  /home/juan/pico-sdk/src/rp2350/hardware_regs/include/hardware/platform_defs.h \
+  /home/juan/pico-sdk/src/rp2350/hardware_regs/include/hardware/regs/accessctrl.h \
+  /home/juan/pico-sdk/src/rp2350/hardware_regs/include/hardware/regs/adc.h \
+  /home/juan/pico-sdk/src/rp2350/hardware_regs/include/hardware/regs/addressmap.h \
+  /home/juan/pico-sdk/src/rp2350/hardware_regs/include/hardware/regs/intctrl.h \
+  /home/juan/pico-sdk/src/rp2350/hardware_regs/include/hardware/regs/io_bank0.h \
+  /home/juan/pico-sdk/src/rp2350/hardware_regs/include/hardware/regs/m33.h \
+  /home/juan/pico-sdk/src/rp2350/hardware_regs/include/hardware/regs/pads_bank0.h \
+  /home/juan/pico-sdk/src/rp2350/hardware_regs/include/hardware/regs/resets.h \
+  /home/juan/pico-sdk/src/rp2350/hardware_regs/include/hardware/regs/sio.h \
+  /home/juan/pico-sdk/src/rp2350/hardware_structs/include/hardware/structs/accessctrl.h \
+  /home/juan/pico-sdk/src/rp2350/hardware_structs/include/hardware/structs/adc.h \
+  /home/juan/pico-sdk/src/rp2350/hardware_structs/include/hardware/structs/interp.h \
+  /home/juan/pico-sdk/src/rp2350/hardware_structs/include/hardware/structs/io_bank0.h \
+  /home/juan/pico-sdk/src/rp2350/hardware_structs/include/hardware/structs/m33.h \
+  /home/juan/pico-sdk/src/rp2350/hardware_structs/include/hardware/structs/nvic.h \
+  /home/juan/pico-sdk/src/rp2350/hardware_structs/include/hardware/structs/pads_bank0.h \
+  /home/juan/pico-sdk/src/rp2350/hardware_structs/include/hardware/structs/resets.h \
+  /home/juan/pico-sdk/src/rp2350/hardware_structs/include/hardware/structs/scb.h \
+  /home/juan/pico-sdk/src/rp2350/hardware_structs/include/hardware/structs/sio.h \
+  /home/juan/pico-sdk/src/rp2350/pico_platform/include/pico/platform.h \
+  /home/juan/pico-sdk/src/rp2350/pico_platform/include/pico/platform/cpu_regs.h \
+  /home/juan/pico-sdk/src/rp2_common/cmsis/include/cmsis/rename_exceptions.h \
+  /home/juan/pico-sdk/src/rp2_common/hardware_adc/include/hardware/adc.h \
+  /home/juan/pico-sdk/src/rp2_common/hardware_base/include/hardware/address_mapped.h \
+  /home/juan/pico-sdk/src/rp2_common/hardware_gpio/include/hardware/gpio.h \
+  /home/juan/pico-sdk/src/rp2_common/hardware_gpio/include/hardware/gpio_coproc.h \
+  /home/juan/pico-sdk/src/rp2_common/hardware_irq/include/hardware/irq.h \
+  /home/juan/pico-sdk/src/rp2_common/hardware_resets/include/hardware/resets.h \
+  /home/juan/pico-sdk/src/rp2_common/pico_platform_compiler/include/pico/platform/compiler.h \
+  /home/juan/pico-sdk/src/rp2_common/pico_platform_panic/include/pico/platform/panic.h \
+  /home/juan/pico-sdk/src/rp2_common/pico_platform_sections/include/pico/platform/sections.h \
+  generated/pico_base/pico/config_autogen.h \
+  generated/pico_base/pico/version.h \
+  /usr/include/newlib/_ansi.h \
+  /usr/include/newlib/_newlib_version.h \
+  /usr/include/newlib/assert.h \
+  /usr/include/newlib/machine/_default_types.h \
+  /usr/include/newlib/machine/ieeefp.h \
+  /usr/include/newlib/newlib.h \
+  /usr/include/newlib/sys/cdefs.h \
+  /usr/include/newlib/sys/config.h \
+  /usr/include/newlib/sys/features.h \
+  /usr/lib/gcc/arm-none-eabi/13.2.1/include/stdbool.h \
+  /usr/lib/gcc/arm-none-eabi/13.2.1/include/stddef.h \
+  /usr/lib/gcc/arm-none-eabi/13.2.1/include/stdint.h
+
 src/CMakeFiles/app.dir/home/juan/pico-sdk/src/rp2_common/hardware_boot_lock/boot_lock.c.o: /home/juan/pico-sdk/src/rp2_common/hardware_boot_lock/boot_lock.c \
   /home/juan/pico-sdk/src/boards/include/boards/pico2.h \
   /home/juan/pico-sdk/src/common/pico_base_headers/include/pico.h \
@@ -3679,6 +3733,7 @@ src/CMakeFiles/app.dir/main.c.o: /media/juan/42849DD9849DCFB1/ufc/2025.1/rtos/pr
   /home/juan/pico-sdk/src/common/pico_time/include/pico/time.h \
   /home/juan/pico-sdk/src/rp2350/hardware_regs/include/hardware/platform_defs.h \
   /home/juan/pico-sdk/src/rp2350/hardware_regs/include/hardware/regs/accessctrl.h \
+  /home/juan/pico-sdk/src/rp2350/hardware_regs/include/hardware/regs/adc.h \
   /home/juan/pico-sdk/src/rp2350/hardware_regs/include/hardware/regs/addressmap.h \
   /home/juan/pico-sdk/src/rp2350/hardware_regs/include/hardware/regs/dreq.h \
   /home/juan/pico-sdk/src/rp2350/hardware_regs/include/hardware/regs/intctrl.h \
@@ -3690,6 +3745,7 @@ src/CMakeFiles/app.dir/main.c.o: /media/juan/42849DD9849DCFB1/ufc/2025.1/rtos/pr
   /home/juan/pico-sdk/src/rp2350/hardware_regs/include/hardware/regs/timer.h \
   /home/juan/pico-sdk/src/rp2350/hardware_regs/include/hardware/regs/uart.h \
   /home/juan/pico-sdk/src/rp2350/hardware_structs/include/hardware/structs/accessctrl.h \
+  /home/juan/pico-sdk/src/rp2350/hardware_structs/include/hardware/structs/adc.h \
   /home/juan/pico-sdk/src/rp2350/hardware_structs/include/hardware/structs/interp.h \
   /home/juan/pico-sdk/src/rp2350/hardware_structs/include/hardware/structs/io_bank0.h \
   /home/juan/pico-sdk/src/rp2350/hardware_structs/include/hardware/structs/m33.h \
@@ -3703,6 +3759,7 @@ src/CMakeFiles/app.dir/main.c.o: /media/juan/42849DD9849DCFB1/ufc/2025.1/rtos/pr
   /home/juan/pico-sdk/src/rp2350/pico_platform/include/pico/platform.h \
   /home/juan/pico-sdk/src/rp2350/pico_platform/include/pico/platform/cpu_regs.h \
   /home/juan/pico-sdk/src/rp2_common/cmsis/include/cmsis/rename_exceptions.h \
+  /home/juan/pico-sdk/src/rp2_common/hardware_adc/include/hardware/adc.h \
   /home/juan/pico-sdk/src/rp2_common/hardware_base/include/hardware/address_mapped.h \
   /home/juan/pico-sdk/src/rp2_common/hardware_gpio/include/hardware/gpio.h \
   /home/juan/pico-sdk/src/rp2_common/hardware_gpio/include/hardware/gpio_coproc.h \
@@ -3801,6 +3858,8 @@ src/CMakeFiles/app.dir/main.c.o: /media/juan/42849DD9849DCFB1/ufc/2025.1/rtos/pr
 
 /home/juan/pico-sdk/src/rp2_common/pico_float/float_math.c:
 
+/home/juan/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/include/pico/fix/rp2040_usb_device_enumeration.h:
+
 /home/juan/pico-sdk/lib/tinyusb/src/device/usbd_control.c:
 
 /home/juan/pico-sdk/lib/tinyusb/src/common/tusb_common.h:
@@ -3826,8 +3885,6 @@ src/CMakeFiles/app.dir/main.c.o: /media/juan/42849DD9849DCFB1/ufc/2025.1/rtos/pr
 /home/juan/pico-sdk/lib/tinyusb/src/osal/osal_pico.h:
 
 /home/juan/pico-sdk/lib/tinyusb/src/device/usbd_pvt.h:
-
-/home/juan/pico-sdk/src/rp2350/hardware_structs/include/hardware/structs/sio.h:
 
 /home/juan/pico-sdk/src/rp2350/hardware_regs/include/hardware/regs/pll.h:
 
@@ -3868,6 +3925,12 @@ src/CMakeFiles/app.dir/main.c.o: /media/juan/42849DD9849DCFB1/ufc/2025.1/rtos/pr
 /home/juan/pico-sdk/src/rp2350/hardware_structs/include/hardware/structs/usb.h:
 
 /home/juan/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c:
+
+/usr/include/newlib/math.h:
+
+/home/juan/pico-sdk/lib/tinyusb/src/class/video/video_device.c:
+
+/home/juan/pico-sdk/src/rp2_common/hardware_xip_cache/xip_cache.c:
 
 /home/juan/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c:
 
@@ -3985,6 +4048,10 @@ src/CMakeFiles/app.dir/main.c.o: /media/juan/42849DD9849DCFB1/ufc/2025.1/rtos/pr
 
 /home/juan/pico-sdk/src/rp2350/hardware_structs/include/hardware/structs/bootram.h:
 
+/home/juan/pico-sdk/src/rp2_common/pico_flash/flash.c:
+
+/home/juan/pico-sdk/src/rp2350/hardware_regs/include/hardware/regs/intctrl.h:
+
 /usr/include/newlib/sys/_intsup.h:
 
 /home/juan/pico-sdk/src/rp2350/hardware_structs/include/hardware/structs/powman.h:
@@ -4083,14 +4150,6 @@ src/CMakeFiles/app.dir/main.c.o: /media/juan/42849DD9849DCFB1/ufc/2025.1/rtos/pr
 
 /home/juan/pico-sdk/src/common/pico_stdlib_headers/include/pico/stdlib.h:
 
-/usr/include/newlib/machine/time.h:
-
-/home/juan/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c:
-
-/home/juan/pico-sdk/src/rp2350/hardware_regs/include/hardware/platform_defs.h:
-
-/home/juan/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c:
-
 /home/juan/pico-sdk/src/rp2350/hardware_structs/include/hardware/structs/resets.h:
 
 /home/juan/pico-sdk/src/rp2350/hardware_regs/include/hardware/regs/accessctrl.h:
@@ -4127,6 +4186,10 @@ generated/pico_base/pico/config_autogen.h:
 
 /usr/lib/gcc/arm-none-eabi/13.2.1/include/stddef.h:
 
+/home/juan/pico-sdk/src/rp2350/hardware_structs/include/hardware/structs/sio.h:
+
+/home/juan/pico-sdk/src/rp2350/hardware_regs/include/hardware/regs/adc.h:
+
 /media/juan/42849DD9849DCFB1/ufc/2025.1/rtos/praticas/pratica\ 4/lib/FreeRTOS-Kernel/include/list.h:
 
 /home/juan/pico-sdk/src/rp2_common/hardware_gpio/include/hardware/gpio.h:
@@ -4143,12 +4206,6 @@ generated/pico_base/pico/config_autogen.h:
 
 /home/juan/pico-sdk/src/rp2_common/pico_double/include/pico/double.h:
 
-/home/juan/pico-sdk/lib/tinyusb/src/class/video/video_device.c:
-
-/home/juan/pico-sdk/src/rp2_common/hardware_xip_cache/xip_cache.c:
-
-/usr/include/newlib/math.h:
-
 /home/juan/pico-sdk/src/rp2_common/pico_platform_panic/include/pico/platform/panic.h:
 
 /usr/include/newlib/machine/_types.h:
@@ -4159,9 +4216,21 @@ generated/pico_base/pico/config_autogen.h:
 
 /home/juan/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c:
 
+/home/juan/pico-sdk/src/rp2_common/hardware_adc/adc.c:
+
 /usr/include/newlib/machine/stdlib.h:
 
 /usr/include/newlib/sys/_stdint.h:
+
+/home/juan/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c:
+
+/usr/include/newlib/machine/time.h:
+
+/home/juan/pico-sdk/src/rp2350/hardware_regs/include/hardware/platform_defs.h:
+
+/home/juan/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c:
+
+/home/juan/pico-sdk/src/rp2_common/hardware_adc/include/hardware/adc.h:
 
 /usr/include/newlib/stdlib.h:
 
@@ -4219,8 +4288,6 @@ generated/pico_base/pico/config_autogen.h:
 
 /home/juan/pico-sdk/src/rp2_common/pico_clib_interface/newlib_interface.c:
 
-/home/juan/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/include/pico/fix/rp2040_usb_device_enumeration.h:
-
 /usr/include/newlib/sys/types.h:
 
 /usr/include/newlib/c++/13.2.1/arm-none-eabi/thumb/v8-m.main+fp/softfp/bits/c++config.h:
@@ -4238,6 +4305,12 @@ generated/pico_base/pico/config_autogen.h:
 /home/juan/pico-sdk/src/rp2350/hardware_regs/include/hardware/regs/sysinfo.h:
 
 /home/juan/pico-sdk/src/rp2350/hardware_regs/include/hardware/regs/tbman.h:
+
+/home/juan/pico-sdk/src/rp2350/hardware_structs/include/hardware/structs/adc.h:
+
+/home/juan/pico-sdk/src/rp2350/hardware_regs/include/hardware/regs/resets.h:
+
+/home/juan/pico-sdk/src/rp2350/hardware_regs/include/hardware/regs/otp_data.h:
 
 /home/juan/pico-sdk/src/rp2_common/hardware_boot_lock/boot_lock.c:
 
@@ -4262,10 +4335,6 @@ generated/pico_base/pico/config_autogen.h:
 /home/juan/pico-sdk/src/rp2_common/pico_unique_id/include/pico/unique_id.h:
 
 /home/juan/pico-sdk/src/rp2_common/hardware_divider/include/hardware/divider.h:
-
-/home/juan/pico-sdk/src/rp2350/hardware_regs/include/hardware/regs/resets.h:
-
-/home/juan/pico-sdk/src/rp2350/hardware_regs/include/hardware/regs/otp_data.h:
 
 /home/juan/pico-sdk/src/common/pico_binary_info/include/pico/binary_info/structure.h:
 
@@ -4328,7 +4397,3 @@ generated/pico_base/pico/config_autogen.h:
 /usr/include/newlib/c++/13.2.1/cassert:
 
 /home/juan/pico-sdk/src/rp2_common/pico_bootrom/include/pico/bootrom/sf_table.h:
-
-/home/juan/pico-sdk/src/rp2350/hardware_regs/include/hardware/regs/intctrl.h:
-
-/home/juan/pico-sdk/src/rp2_common/pico_flash/flash.c:

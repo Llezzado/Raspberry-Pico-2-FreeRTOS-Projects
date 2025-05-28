@@ -8,16 +8,16 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_ASM
-  "/home/juan/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S" "/mnt/meu_vol/ufc/2025.1/rtos/praticas/pratica 2/build/src/CMakeFiles/app.dir/home/juan/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S.o"
-  "/home/juan/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S" "/mnt/meu_vol/ufc/2025.1/rtos/praticas/pratica 2/build/src/CMakeFiles/app.dir/home/juan/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.o"
-  "/home/juan/pico-sdk/src/rp2_common/pico_crt0/crt0.S" "/mnt/meu_vol/ufc/2025.1/rtos/praticas/pratica 2/build/src/CMakeFiles/app.dir/home/juan/pico-sdk/src/rp2_common/pico_crt0/crt0.S.o"
-  "/home/juan/pico-sdk/src/rp2_common/pico_double/double_aeabi_dcp.S" "/mnt/meu_vol/ufc/2025.1/rtos/praticas/pratica 2/build/src/CMakeFiles/app.dir/home/juan/pico-sdk/src/rp2_common/pico_double/double_aeabi_dcp.S.o"
-  "/home/juan/pico-sdk/src/rp2_common/pico_double/double_conv_m33.S" "/mnt/meu_vol/ufc/2025.1/rtos/praticas/pratica 2/build/src/CMakeFiles/app.dir/home/juan/pico-sdk/src/rp2_common/pico_double/double_conv_m33.S.o"
-  "/home/juan/pico-sdk/src/rp2_common/pico_double/double_fma_dcp.S" "/mnt/meu_vol/ufc/2025.1/rtos/praticas/pratica 2/build/src/CMakeFiles/app.dir/home/juan/pico-sdk/src/rp2_common/pico_double/double_fma_dcp.S.o"
-  "/home/juan/pico-sdk/src/rp2_common/pico_double/double_sci_m33.S" "/mnt/meu_vol/ufc/2025.1/rtos/praticas/pratica 2/build/src/CMakeFiles/app.dir/home/juan/pico-sdk/src/rp2_common/pico_double/double_sci_m33.S.o"
-  "/home/juan/pico-sdk/src/rp2_common/pico_float/float_common_m33.S" "/mnt/meu_vol/ufc/2025.1/rtos/praticas/pratica 2/build/src/CMakeFiles/app.dir/home/juan/pico-sdk/src/rp2_common/pico_float/float_common_m33.S.o"
-  "/home/juan/pico-sdk/src/rp2_common/pico_float/float_conv32_vfp.S" "/mnt/meu_vol/ufc/2025.1/rtos/praticas/pratica 2/build/src/CMakeFiles/app.dir/home/juan/pico-sdk/src/rp2_common/pico_float/float_conv32_vfp.S.o"
-  "/home/juan/pico-sdk/src/rp2_common/pico_float/float_sci_m33_vfp.S" "/mnt/meu_vol/ufc/2025.1/rtos/praticas/pratica 2/build/src/CMakeFiles/app.dir/home/juan/pico-sdk/src/rp2_common/pico_float/float_sci_m33_vfp.S.o"
+  "/home/juan/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S" "/media/juan/42849DD9849DCFB1/ufc/2025.1/rtos/praticas/pratica 2/build/src/CMakeFiles/app.dir/home/juan/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S.o"
+  "/home/juan/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S" "/media/juan/42849DD9849DCFB1/ufc/2025.1/rtos/praticas/pratica 2/build/src/CMakeFiles/app.dir/home/juan/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.o"
+  "/home/juan/pico-sdk/src/rp2_common/pico_crt0/crt0.S" "/media/juan/42849DD9849DCFB1/ufc/2025.1/rtos/praticas/pratica 2/build/src/CMakeFiles/app.dir/home/juan/pico-sdk/src/rp2_common/pico_crt0/crt0.S.o"
+  "/home/juan/pico-sdk/src/rp2_common/pico_double/double_aeabi_dcp.S" "/media/juan/42849DD9849DCFB1/ufc/2025.1/rtos/praticas/pratica 2/build/src/CMakeFiles/app.dir/home/juan/pico-sdk/src/rp2_common/pico_double/double_aeabi_dcp.S.o"
+  "/home/juan/pico-sdk/src/rp2_common/pico_double/double_conv_m33.S" "/media/juan/42849DD9849DCFB1/ufc/2025.1/rtos/praticas/pratica 2/build/src/CMakeFiles/app.dir/home/juan/pico-sdk/src/rp2_common/pico_double/double_conv_m33.S.o"
+  "/home/juan/pico-sdk/src/rp2_common/pico_double/double_fma_dcp.S" "/media/juan/42849DD9849DCFB1/ufc/2025.1/rtos/praticas/pratica 2/build/src/CMakeFiles/app.dir/home/juan/pico-sdk/src/rp2_common/pico_double/double_fma_dcp.S.o"
+  "/home/juan/pico-sdk/src/rp2_common/pico_double/double_sci_m33.S" "/media/juan/42849DD9849DCFB1/ufc/2025.1/rtos/praticas/pratica 2/build/src/CMakeFiles/app.dir/home/juan/pico-sdk/src/rp2_common/pico_double/double_sci_m33.S.o"
+  "/home/juan/pico-sdk/src/rp2_common/pico_float/float_common_m33.S" "/media/juan/42849DD9849DCFB1/ufc/2025.1/rtos/praticas/pratica 2/build/src/CMakeFiles/app.dir/home/juan/pico-sdk/src/rp2_common/pico_float/float_common_m33.S.o"
+  "/home/juan/pico-sdk/src/rp2_common/pico_float/float_conv32_vfp.S" "/media/juan/42849DD9849DCFB1/ufc/2025.1/rtos/praticas/pratica 2/build/src/CMakeFiles/app.dir/home/juan/pico-sdk/src/rp2_common/pico_float/float_conv32_vfp.S.o"
+  "/home/juan/pico-sdk/src/rp2_common/pico_float/float_sci_m33_vfp.S" "/media/juan/42849DD9849DCFB1/ufc/2025.1/rtos/praticas/pratica 2/build/src/CMakeFiles/app.dir/home/juan/pico-sdk/src/rp2_common/pico_float/float_sci_m33_vfp.S.o"
   )
 
 # Preprocessor definitions for this target.
@@ -87,10 +87,10 @@ set(CMAKE_TARGET_DEFINITIONS_ASM
 # The include file search paths:
 set(CMAKE_ASM_TARGET_INCLUDE_PATH
   "/home/juan/pico-sdk/src/rp2_common/pico_atomic/include"
-  "/mnt/meu_vol/ufc/2025.1/rtos/praticas/pratica 2/lib/."
+  "/media/juan/42849DD9849DCFB1/ufc/2025.1/rtos/praticas/pratica 2/lib/."
   "/home/juan/FreeRTOS-Kernel/portable/ThirdParty/GCC/RP2350_ARM_NTZ"
-  "/mnt/meu_vol/ufc/2025.1/rtos/praticas/pratica 2/lib/FreeRTOS-Kernel/include"
-  "/mnt/meu_vol/ufc/2025.1/rtos/praticas/pratica 2/lib/FreeRTOS-Kernel/portable/GCC/ARM_CM0"
+  "/media/juan/42849DD9849DCFB1/ufc/2025.1/rtos/praticas/pratica 2/lib/FreeRTOS-Kernel/include"
+  "/media/juan/42849DD9849DCFB1/ufc/2025.1/rtos/praticas/pratica 2/lib/FreeRTOS-Kernel/portable/GCC/ARM_CM0"
   "/home/juan/pico-sdk/lib/tinyusb/src"
   "/home/juan/pico-sdk/src/common/pico_stdlib_headers/include"
   "/home/juan/pico-sdk/src/rp2_common/hardware_gpio/include"
@@ -222,7 +222,7 @@ set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "/home/juan/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c" "src/CMakeFiles/app.dir/home/juan/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.o" "gcc" "src/CMakeFiles/app.dir/home/juan/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.o.d"
   "/home/juan/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c" "src/CMakeFiles/app.dir/home/juan/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.o" "gcc" "src/CMakeFiles/app.dir/home/juan/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.o.d"
   "/home/juan/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c" "src/CMakeFiles/app.dir/home/juan/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.o" "gcc" "src/CMakeFiles/app.dir/home/juan/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.o.d"
-  "/mnt/meu_vol/ufc/2025.1/rtos/praticas/pratica 2/src/main.c" "src/CMakeFiles/app.dir/main.c.o" "gcc" "src/CMakeFiles/app.dir/main.c.o.d"
+  "/media/juan/42849DD9849DCFB1/ufc/2025.1/rtos/praticas/pratica 2/src/main.c" "src/CMakeFiles/app.dir/main.c.o" "gcc" "src/CMakeFiles/app.dir/main.c.o.d"
   "/home/juan/pico-sdk/src/rp2_common/pico_cxx_options/new_delete.cpp" "src/CMakeFiles/app.dir/home/juan/pico-sdk/src/rp2_common/pico_cxx_options/new_delete.cpp.o" "gcc" "src/CMakeFiles/app.dir/home/juan/pico-sdk/src/rp2_common/pico_cxx_options/new_delete.cpp.o.d"
   )
 

@@ -15,9 +15,9 @@ src/CMakeFiles/app.dir/home/juan/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c
  /usr/include/newlib/sys/features.h \
  /usr/lib/gcc/arm-none-eabi/13.2.1/include/stdint.h \
  /usr/lib/gcc/arm-none-eabi/13.2.1/include/stddef.h \
- /mnt/meu_vol/ufc/2025.1/rtos/praticas/pratica\ 2/build/generated/pico_base/pico/version.h \
+ /media/juan/42849DD9849DCFB1/ufc/2025.1/rtos/praticas/pratica\ 2/build/generated/pico_base/pico/version.h \
  /home/juan/pico-sdk/src/common/pico_base_headers/include/pico/config.h \
- /mnt/meu_vol/ufc/2025.1/rtos/praticas/pratica\ 2/build/generated/pico_base/pico/config_autogen.h \
+ /media/juan/42849DD9849DCFB1/ufc/2025.1/rtos/praticas/pratica\ 2/build/generated/pico_base/pico/config_autogen.h \
  /home/juan/pico-sdk/src/boards/include/boards/pico2.h \
  /home/juan/pico-sdk/src/rp2_common/cmsis/include/cmsis/rename_exceptions.h \
  /home/juan/pico-sdk/src/rp2350/pico_platform/include/pico/platform.h \

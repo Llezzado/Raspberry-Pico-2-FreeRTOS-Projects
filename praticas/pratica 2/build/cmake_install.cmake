@@ -1,4 +1,4 @@
-# Install script for directory: /mnt/meu_vol/ufc/2025.1/rtos/praticas/pratica 2
+# Install script for directory: /media/juan/42849DD9849DCFB1/ufc/2025.1/rtos/praticas/pratica 2
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -39,9 +39,9 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("/mnt/meu_vol/ufc/2025.1/rtos/praticas/pratica 2/build/pico-sdk/cmake_install.cmake")
-  include("/mnt/meu_vol/ufc/2025.1/rtos/praticas/pratica 2/build/lib/cmake_install.cmake")
-  include("/mnt/meu_vol/ufc/2025.1/rtos/praticas/pratica 2/build/src/cmake_install.cmake")
+  include("/media/juan/42849DD9849DCFB1/ufc/2025.1/rtos/praticas/pratica 2/build/pico-sdk/cmake_install.cmake")
+  include("/media/juan/42849DD9849DCFB1/ufc/2025.1/rtos/praticas/pratica 2/build/lib/cmake_install.cmake")
+  include("/media/juan/42849DD9849DCFB1/ufc/2025.1/rtos/praticas/pratica 2/build/src/cmake_install.cmake")
 
 endif()
 
@@ -53,5 +53,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/mnt/meu_vol/ufc/2025.1/rtos/praticas/pratica 2/build/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/media/juan/42849DD9849DCFB1/ufc/2025.1/rtos/praticas/pratica 2/build/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

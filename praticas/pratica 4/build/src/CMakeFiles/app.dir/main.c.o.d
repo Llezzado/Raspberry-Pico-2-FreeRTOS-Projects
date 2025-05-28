@@ -74,6 +74,9 @@ src/CMakeFiles/app.dir/main.c.o: \
  /home/juan/pico-sdk/src/rp2350/hardware_regs/include/hardware/regs/resets.h \
  /home/juan/pico-sdk/src/rp2_common/pico_stdio_uart/include/pico/stdio_uart.h \
  /home/juan/pico-sdk/src/rp2_common/pico_stdio_usb/include/pico/stdio_usb.h \
+ /home/juan/pico-sdk/src/rp2_common/hardware_adc/include/hardware/adc.h \
+ /home/juan/pico-sdk/src/rp2350/hardware_structs/include/hardware/structs/adc.h \
+ /home/juan/pico-sdk/src/rp2350/hardware_regs/include/hardware/regs/adc.h \
  /media/juan/42849DD9849DCFB1/ufc/2025.1/rtos/praticas/pratica\ 4/lib/FreeRTOS-Kernel/include/queue.h \
  /media/juan/42849DD9849DCFB1/ufc/2025.1/rtos/praticas/pratica\ 4/lib/FreeRTOS-Kernel/include/task.h \
  /media/juan/42849DD9849DCFB1/ufc/2025.1/rtos/praticas/pratica\ 4/inc/led.h \

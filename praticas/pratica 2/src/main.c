@@ -67,12 +67,13 @@ int main() {
     stdio_init_all();
 
     BlinkParams_t led1 = {LED_1, 500, "LED 1"};
+    BlinkParams_t led0 = {LED_0, 20, "LED 0"};
     BlinkParams_t led2 = {LED_2, 250, "LED 2"};
     
     xTaskCreate(intro_task, "intro_task", 256, NULL, 3, NULL);
 
     //xTaskCreate(print_task, "print_task", 256, NULL, 1, NULL);
-    //xTaskCreate(led_task, "LED_0", 256, (void*)LED_0, 1, NULL);
+    xTaskCreate(led_task, "LED_0", 256, &led0, 1, NULL);
 
 
     xTaskCreate(led_task, "LED_1", 256, &led1, 1, NULL);

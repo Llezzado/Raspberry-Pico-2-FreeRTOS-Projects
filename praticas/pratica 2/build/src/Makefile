@@ -57,10 +57,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = "/mnt/meu_vol/ufc/2025.1/rtos/praticas/pratica 2"
+CMAKE_SOURCE_DIR = "/media/juan/42849DD9849DCFB1/ufc/2025.1/rtos/praticas/pratica 2"
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = "/mnt/meu_vol/ufc/2025.1/rtos/praticas/pratica 2/build"
+CMAKE_BINARY_DIR = "/media/juan/42849DD9849DCFB1/ufc/2025.1/rtos/praticas/pratica 2/build"
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -87,14 +87,14 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	cd "/mnt/meu_vol/ufc/2025.1/rtos/praticas/pratica 2/build" && $(CMAKE_COMMAND) -E cmake_progress_start "/mnt/meu_vol/ufc/2025.1/rtos/praticas/pratica 2/build/CMakeFiles" "/mnt/meu_vol/ufc/2025.1/rtos/praticas/pratica 2/build/src//CMakeFiles/progress.marks"
-	cd "/mnt/meu_vol/ufc/2025.1/rtos/praticas/pratica 2/build" && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/all
-	$(CMAKE_COMMAND) -E cmake_progress_start "/mnt/meu_vol/ufc/2025.1/rtos/praticas/pratica 2/build/CMakeFiles" 0
+	cd "/media/juan/42849DD9849DCFB1/ufc/2025.1/rtos/praticas/pratica 2/build" && $(CMAKE_COMMAND) -E cmake_progress_start "/media/juan/42849DD9849DCFB1/ufc/2025.1/rtos/praticas/pratica 2/build/CMakeFiles" "/media/juan/42849DD9849DCFB1/ufc/2025.1/rtos/praticas/pratica 2/build/src//CMakeFiles/progress.marks"
+	cd "/media/juan/42849DD9849DCFB1/ufc/2025.1/rtos/praticas/pratica 2/build" && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/all
+	$(CMAKE_COMMAND) -E cmake_progress_start "/media/juan/42849DD9849DCFB1/ufc/2025.1/rtos/praticas/pratica 2/build/CMakeFiles" 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd "/mnt/meu_vol/ufc/2025.1/rtos/praticas/pratica 2/build" && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/clean
+	cd "/media/juan/42849DD9849DCFB1/ufc/2025.1/rtos/praticas/pratica 2/build" && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/clean
 .PHONY : clean
 
 # The main clean target
@@ -103,22 +103,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd "/mnt/meu_vol/ufc/2025.1/rtos/praticas/pratica 2/build" && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/preinstall
+	cd "/media/juan/42849DD9849DCFB1/ufc/2025.1/rtos/praticas/pratica 2/build" && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd "/mnt/meu_vol/ufc/2025.1/rtos/praticas/pratica 2/build" && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/preinstall
+	cd "/media/juan/42849DD9849DCFB1/ufc/2025.1/rtos/praticas/pratica 2/build" && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd "/mnt/meu_vol/ufc/2025.1/rtos/praticas/pratica 2/build" && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd "/media/juan/42849DD9849DCFB1/ufc/2025.1/rtos/praticas/pratica 2/build" && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 src/CMakeFiles/app.dir/rule:
-	cd "/mnt/meu_vol/ufc/2025.1/rtos/praticas/pratica 2/build" && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/CMakeFiles/app.dir/rule
+	cd "/media/juan/42849DD9849DCFB1/ufc/2025.1/rtos/praticas/pratica 2/build" && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/CMakeFiles/app.dir/rule
 .PHONY : src/CMakeFiles/app.dir/rule
 
 # Convenience name for target.
@@ -127,7 +127,7 @@ app: src/CMakeFiles/app.dir/rule
 
 # fast build rule for target.
 app/fast:
-	cd "/mnt/meu_vol/ufc/2025.1/rtos/praticas/pratica 2/build" && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/app.dir/build.make src/CMakeFiles/app.dir/build
+	cd "/media/juan/42849DD9849DCFB1/ufc/2025.1/rtos/praticas/pratica 2/build" && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/app.dir/build.make src/CMakeFiles/app.dir/build
 .PHONY : app/fast
 
 home/juan/pico-sdk/lib/tinyusb/src/class/audio/audio_device.o: home/juan/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.o
@@ -135,7 +135,7 @@ home/juan/pico-sdk/lib/tinyusb/src/class/audio/audio_device.o: home/juan/pico-sd
 
 # target to build an object file
 home/juan/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.o:
-	cd "/mnt/meu_vol/ufc/2025.1/rtos/praticas/pratica 2/build" && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/app.dir/build.make src/CMakeFiles/app.dir/home/juan/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.o
+	cd "/media/juan/42849DD9849DCFB1/ufc/2025.1/rtos/praticas/pratica 2/build" && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/app.dir/build.make src/CMakeFiles/app.dir/home/juan/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.o
 .PHONY : home/juan/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.o
 
 home/juan/pico-sdk/lib/tinyusb/src/class/audio/audio_device.i: home/juan/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.i
@@ -143,7 +143,7 @@ home/juan/pico-sdk/lib/tinyusb/src/class/audio/audio_device.i: home/juan/pico-sd
 
 # target to preprocess a source file
 home/juan/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.i:
-	cd "/mnt/meu_vol/ufc/2025.1/rtos/praticas/pratica 2/build" && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/app.dir/build.make src/CMakeFiles/app.dir/home/juan/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.i
+	cd "/media/juan/42849DD9849DCFB1/ufc/2025.1/rtos/praticas/pratica 2/build" && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/app.dir/build.make src/CMakeFiles/app.dir/home/juan/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.i
 .PHONY : home/juan/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.i
 
 home/juan/pico-sdk/lib/tinyusb/src/class/audio/audio_device.s: home/juan/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.s
@@ -151,7 +151,7 @@ home/juan/pico-sdk/lib/tinyusb/src/class/audio/audio_device.s: home/juan/pico-sd
 
 # target to generate assembly for a file
 home/juan/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.s:
-	cd "/mnt/meu_vol/ufc/2025.1/rtos/praticas/pratica 2/build" && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/app.dir/build.make src/CMakeFiles/app.dir/home/juan/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.s
+	cd "/media/juan/42849DD9849DCFB1/ufc/2025.1/rtos/praticas/pratica 2/build" && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/app.dir/build.make src/CMakeFiles/app.dir/home/juan/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.s
 .PHONY : home/juan/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.s
 
 home/juan/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.o: home/juan/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.o
@@ -159,7 +159,7 @@ home/juan/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.o: home/juan/pico-sdk/li
 
 # target to build an object file
 home/juan/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.o:
-	cd "/mnt/meu_vol/ufc/2025.1/rtos/praticas/pratica 2/build" && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/app.dir/build.make src/CMakeFiles/app.dir/home/juan/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.o
+	cd "/media/juan/42849DD9849DCFB1/ufc/2025.1/rtos/praticas/pratica 2/build" && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/app.dir/build.make src/CMakeFiles/app.dir/home/juan/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.o
 .PHONY : home/juan/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.o
 
 home/juan/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.i: home/juan/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.i
@@ -167,7 +167,7 @@ home/juan/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.i: home/juan/pico-sdk/li
 
 # target to preprocess a source file
 home/juan/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.i:
-	cd "/mnt/meu_vol/ufc/2025.1/rtos/praticas/pratica 2/build" && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/app.dir/build.make src/CMakeFiles/app.dir/home/juan/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.i
+	cd "/media/juan/42849DD9849DCFB1/ufc/2025.1/rtos/praticas/pratica 2/build" && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/app.dir/build.make src/CMakeFiles/app.dir/home/juan/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.i
 .PHONY : home/juan/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.i
 
 home/juan/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.s: home/juan/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.s
@@ -175,7 +175,7 @@ home/juan/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.s: home/juan/pico-sdk/li
 
 # target to generate assembly for a file
 home/juan/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.s:
-	cd "/mnt/meu_vol/ufc/2025.1/rtos/praticas/pratica 2/build" && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/app.dir/build.make src/CMakeFiles/app.dir/home/juan/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.s
+	cd "/media/juan/42849DD9849DCFB1/ufc/2025.1/rtos/praticas/pratica 2/build" && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/app.dir/build.make src/CMakeFiles/app.dir/home/juan/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.s
 .PHONY : home/juan/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.s
 
 home/juan/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.o: home/juan/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c.o
@@ -183,7 +183,7 @@ home/juan/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.o: home/juan/pico-sdk/li
 
 # target to build an object file
 home/juan/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c.o:
-	cd "/mnt/meu_vol/ufc/2025.1/rtos/praticas/pratica 2/build" && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/app.dir/build.make src/CMakeFiles/app.dir/home/juan/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c.o
+	cd "/media/juan/42849DD9849DCFB1/ufc/2025.1/rtos/praticas/pratica 2/build" && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/app.dir/build.make src/CMakeFiles/app.dir/home/juan/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c.o
 .PHONY : home/juan/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c.o
 
 home/juan/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.i: home/juan/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c.i
@@ -191,7 +191,7 @@ home/juan/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.i: home/juan/pico-sdk/li
 
 # target to preprocess a source file
 home/juan/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c.i:
-	cd "/mnt/meu_vol/ufc/2025.1/rtos/praticas/pratica 2/build" && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/app.dir/build.make src/CMakeFiles/app.dir/home/juan/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c.i
+	cd "/media/juan/42849DD9849DCFB1/ufc/2025.1/rtos/praticas/pratica 2/build" && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/app.dir/build.make src/CMakeFiles/app.dir/home/juan/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c.i
 .PHONY : home/juan/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c.i
 
 home/juan/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.s: home/juan/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c.s
@@ -199,7 +199,7 @@ home/juan/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.s: home/juan/pico-sdk/li
 
 # target to generate assembly for a file
 home/juan/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c.s:
-	cd "/mnt/meu_vol/ufc/2025.1/rtos/praticas/pratica 2/build" && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/app.dir/build.make src/CMakeFiles/app.dir/home/juan/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c.s
+	cd "/media/juan/42849DD9849DCFB1/ufc/2025.1/rtos/praticas/pratica 2/build" && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/app.dir/build.make src/CMakeFiles/app.dir/home/juan/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c.s
 .PHONY : home/juan/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c.s
 
 home/juan/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.o: home/juan/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c.o
@@ -207,7 +207,7 @@ home/juan/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.o: home/juan/pico-sdk
 
 # target to build an object file
 home/juan/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c.o:
-	cd "/mnt/meu_vol/ufc/2025.1/rtos/praticas/pratica 2/build" && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/app.dir/build.make src/CMakeFiles/app.dir/home/juan/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c.o
+	cd "/media/juan/42849DD9849DCFB1/ufc/2025.1/rtos/praticas/pratica 2/build" && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/app.dir/build.make src/CMakeFiles/app.dir/home/juan/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c.o
 .PHONY : home/juan/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c.o
 
 home/juan/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.i: home/juan/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c.i
@@ -215,7 +215,7 @@ home/juan/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.i: home/juan/pico-sdk
 
 # target to preprocess a source file
 home/juan/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c.i:
-	cd "/mnt/meu_vol/ufc/2025.1/rtos/praticas/pratica 2/build" && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/app.dir/build.make src/CMakeFiles/app.dir/home/juan/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c.i
+	cd "/media/juan/42849DD9849DCFB1/ufc/2025.1/rtos/praticas/pratica 2/build" && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/app.dir/build.make src/CMakeFiles/app.dir/home/juan/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c.i
 .PHONY : home/juan/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c.i
 
 home/juan/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.s: home/juan/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c.s
@@ -223,7 +223,7 @@ home/juan/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.s: home/juan/pico-sdk
 
 # target to generate assembly for a file
 home/juan/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c.s:
-	cd "/mnt/meu_vol/ufc/2025.1/rtos/praticas/pratica 2/build" && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/app.dir/build.make src/CMakeFiles/app.dir/home/juan/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c.s
+	cd "/media/juan/42849DD9849DCFB1/ufc/2025.1/rtos/praticas/pratica 2/build" && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/app.dir/build.make src/CMakeFiles/app.dir/home/juan/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c.s
 .PHONY : home/juan/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c.s
 
 home/juan/pico-sdk/lib/tinyusb/src/class/hid/hid_device.o: home/juan/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.o
@@ -231,7 +231,7 @@ home/juan/pico-sdk/lib/tinyusb/src/class/hid/hid_device.o: home/juan/pico-sdk/li
 
 # target to build an object file
 home/juan/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.o:
-	cd "/mnt/meu_vol/ufc/2025.1/rtos/praticas/pratica 2/build" && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/app.dir/build.make src/CMakeFiles/app.dir/home/juan/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.o
+	cd "/media/juan/42849DD9849DCFB1/ufc/2025.1/rtos/praticas/pratica 2/build" && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/app.dir/build.make src/CMakeFiles/app.dir/home/juan/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.o
 .PHONY : home/juan/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.o
 
 home/juan/pico-sdk/lib/tinyusb/src/class/hid/hid_device.i: home/juan/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.i
@@ -239,7 +239,7 @@ home/juan/pico-sdk/lib/tinyusb/src/class/hid/hid_device.i: home/juan/pico-sdk/li
 
 # target to preprocess a source file
 home/juan/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.i:
-	cd "/mnt/meu_vol/ufc/2025.1/rtos/praticas/pratica 2/build" && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/app.dir/build.make src/CMakeFiles/app.dir/home/juan/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.i
+	cd "/media/juan/42849DD9849DCFB1/ufc/2025.1/rtos/praticas/pratica 2/build" && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/app.dir/build.make src/CMakeFiles/app.dir/home/juan/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.i
 .PHONY : home/juan/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.i
 
 home/juan/pico-sdk/lib/tinyusb/src/class/hid/hid_device.s: home/juan/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.s
@@ -247,7 +247,7 @@ home/juan/pico-sdk/lib/tinyusb/src/class/hid/hid_device.s: home/juan/pico-sdk/li
 
 # target to generate assembly for a file
 home/juan/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.s:
-	cd "/mnt/meu_vol/ufc/2025.1/rtos/praticas/pratica 2/build" && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/app.dir/build.make src/CMakeFiles/app.dir/home/juan/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.s
+	cd "/media/juan/42849DD9849DCFB1/ufc/2025.1/rtos/praticas/pratica 2/build" && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/app.dir/build.make src/CMakeFiles/app.dir/home/juan/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.s
 .PHONY : home/juan/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.s
 
 home/juan/pico-sdk/lib/tinyusb/src/class/midi/midi_device.o: home/juan/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c.o
@@ -255,7 +255,7 @@ home/juan/pico-sdk/lib/tinyusb/src/class/midi/midi_device.o: home/juan/pico-sdk/
 
 # target to build an object file
 home/juan/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c.o:
-	cd "/mnt/meu_vol/ufc/2025.1/rtos/praticas/pratica 2/build" && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/app.dir/build.make src/CMakeFiles/app.dir/home/juan/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c.o
+	cd "/media/juan/42849DD9849DCFB1/ufc/2025.1/rtos/praticas/pratica 2/build" && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/app.dir/build.make src/CMakeFiles/app.dir/home/juan/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c.o
 .PHONY : home/juan/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c.o
 
 home/juan/pico-sdk/lib/tinyusb/src/class/midi/midi_device.i: home/juan/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c.i
@@ -263,7 +263,7 @@ home/juan/pico-sdk/lib/tinyusb/src/class/midi/midi_device.i: home/juan/pico-sdk/
 
 # target to preprocess a source file
 home/juan/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c.i:
-	cd "/mnt/meu_vol/ufc/2025.1/rtos/praticas/pratica 2/build" && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/app.dir/build.make src/CMakeFiles/app.dir/home/juan/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c.i
+	cd "/media/juan/42849DD9849DCFB1/ufc/2025.1/rtos/praticas/pratica 2/build" && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/app.dir/build.make src/CMakeFiles/app.dir/home/juan/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c.i
 .PHONY : home/juan/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c.i
 
 home/juan/pico-sdk/lib/tinyusb/src/class/midi/midi_device.s: home/juan/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c.s
@@ -271,7 +271,7 @@ home/juan/pico-sdk/lib/tinyusb/src/class/midi/midi_device.s: home/juan/pico-sdk/
 
 # target to generate assembly for a file
 home/juan/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c.s:
-	cd "/mnt/meu_vol/ufc/2025.1/rtos/praticas/pratica 2/build" && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/app.dir/build.make src/CMakeFiles/app.dir/home/juan/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c.s
+	cd "/media/juan/42849DD9849DCFB1/ufc/2025.1/rtos/praticas/pratica 2/build" && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/app.dir/build.make src/CMakeFiles/app.dir/home/juan/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c.s
 .PHONY : home/juan/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c.s
 
 home/juan/pico-sdk/lib/tinyusb/src/class/msc/msc_device.o: home/juan/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c.o
@@ -279,7 +279,7 @@ home/juan/pico-sdk/lib/tinyusb/src/class/msc/msc_device.o: home/juan/pico-sdk/li
 
 # target to build an object file
 home/juan/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c.o:
-	cd "/mnt/meu_vol/ufc/2025.1/rtos/praticas/pratica 2/build" && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/app.dir/build.make src/CMakeFiles/app.dir/home/juan/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c.o
+	cd "/media/juan/42849DD9849DCFB1/ufc/2025.1/rtos/praticas/pratica 2/build" && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/app.dir/build.make src/CMakeFiles/app.dir/home/juan/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c.o
 .PHONY : home/juan/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c.o
 
 home/juan/pico-sdk/lib/tinyusb/src/class/msc/msc_device.i: home/juan/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c.i
@@ -287,7 +287,7 @@ home/juan/pico-sdk/lib/tinyusb/src/class/msc/msc_device.i: home/juan/pico-sdk/li
 
 # target to preprocess a source file
 home/juan/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c.i:
-	cd "/mnt/meu_vol/ufc/2025.1/rtos/praticas/pratica 2/build" && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/app.dir/build.make src/CMakeFiles/app.dir/home/juan/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c.i
+	cd "/media/juan/42849DD9849DCFB1/ufc/2025.1/rtos/praticas/pratica 2/build" && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/app.dir/build.make src/CMakeFiles/app.dir/home/juan/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c.i
 .PHONY : home/juan/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c.i
 
 home/juan/pico-sdk/lib/tinyusb/src/class/msc/msc_device.s: home/juan/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c.s
@@ -295,7 +295,7 @@ home/juan/pico-sdk/lib/tinyusb/src/class/msc/msc_device.s: home/juan/pico-sdk/li
 
 # target to generate assembly for a file
 home/juan/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c.s:
-	cd "/mnt/meu_vol/ufc/2025.1/rtos/praticas/pratica 2/build" && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/app.dir/build.make src/CMakeFiles/app.dir/home/juan/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c.s
+	cd "/media/juan/42849DD9849DCFB1/ufc/2025.1/rtos/praticas/pratica 2/build" && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/app.dir/build.make src/CMakeFiles/app.dir/home/juan/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c.s
 .PHONY : home/juan/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c.s
 
 home/juan/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.o: home/juan/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c.o
@@ -303,7 +303,7 @@ home/juan/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.o: home/juan/pico-
 
 # target to build an object file
 home/juan/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c.o:
-	cd "/mnt/meu_vol/ufc/2025.1/rtos/praticas/pratica 2/build" && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/app.dir/build.make src/CMakeFiles/app.dir/home/juan/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c.o
+	cd "/media/juan/42849DD9849DCFB1/ufc/2025.1/rtos/praticas/pratica 2/build" && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/app.dir/build.make src/CMakeFiles/app.dir/home/juan/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c.o
 .PHONY : home/juan/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c.o
 
 home/juan/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.i: home/juan/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c.i
@@ -311,7 +311,7 @@ home/juan/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.i: home/juan/pico-
 
 # target to preprocess a source file
 home/juan/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c.i:
-	cd "/mnt/meu_vol/ufc/2025.1/rtos/praticas/pratica 2/build" && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/app.dir/build.make src/CMakeFiles/app.dir/home/juan/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c.i
+	cd "/media/juan/42849DD9849DCFB1/ufc/2025.1/rtos/praticas/pratica 2/build" && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/app.dir/build.make src/CMakeFiles/app.dir/home/juan/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c.i
 .PHONY : home/juan/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c.i
 
 home/juan/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.s: home/juan/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c.s
@@ -319,7 +319,7 @@ home/juan/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.s: home/juan/pico-
 
 # target to generate assembly for a file
 home/juan/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c.s:
-	cd "/mnt/meu_vol/ufc/2025.1/rtos/praticas/pratica 2/build" && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/app.dir/build.make src/CMakeFiles/app.dir/home/juan/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c.s
+	cd "/media/juan/42849DD9849DCFB1/ufc/2025.1/rtos/praticas/pratica 2/build" && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/app.dir/build.make src/CMakeFiles/app.dir/home/juan/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c.s
 .PHONY : home/juan/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c.s
 
 home/juan/pico-sdk/lib/tinyusb/src/class/net/ncm_device.o: home/juan/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c.o
@@ -327,7 +327,7 @@ home/juan/pico-sdk/lib/tinyusb/src/class/net/ncm_device.o: home/juan/pico-sdk/li
 
 # target to build an object file
 home/juan/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c.o:
-	cd "/mnt/meu_vol/ufc/2025.1/rtos/praticas/pratica 2/build" && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/app.dir/build.make src/CMakeFiles/app.dir/home/juan/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c.o
+	cd "/media/juan/42849DD9849DCFB1/ufc/2025.1/rtos/praticas/pratica 2/build" && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/app.dir/build.make src/CMakeFiles/app.dir/home/juan/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c.o
 .PHONY : home/juan/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c.o
 
 home/juan/pico-sdk/lib/tinyusb/src/class/net/ncm_device.i: home/juan/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c.i
@@ -335,7 +335,7 @@ home/juan/pico-sdk/lib/tinyusb/src/class/net/ncm_device.i: home/juan/pico-sdk/li
 
 # target to preprocess a source file
 home/juan/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c.i:
-	cd "/mnt/meu_vol/ufc/2025.1/rtos/praticas/pratica 2/build" && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/app.dir/build.make src/CMakeFiles/app.dir/home/juan/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c.i
+	cd "/media/juan/42849DD9849DCFB1/ufc/2025.1/rtos/praticas/pratica 2/build" && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/app.dir/build.make src/CMakeFiles/app.dir/home/juan/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c.i
 .PHONY : home/juan/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c.i
 
 home/juan/pico-sdk/lib/tinyusb/src/class/net/ncm_device.s: home/juan/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c.s
@@ -343,7 +343,7 @@ home/juan/pico-sdk/lib/tinyusb/src/class/net/ncm_device.s: home/juan/pico-sdk/li
 
 # target to generate assembly for a file
 home/juan/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c.s:
-	cd "/mnt/meu_vol/ufc/2025.1/rtos/praticas/pratica 2/build" && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/app.dir/build.make src/CMakeFiles/app.dir/home/juan/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c.s
+	cd "/media/juan/42849DD9849DCFB1/ufc/2025.1/rtos/praticas/pratica 2/build" && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/app.dir/build.make src/CMakeFiles/app.dir/home/juan/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c.s
 .PHONY : home/juan/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c.s
 
 home/juan/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.o: home/juan/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.o
@@ -351,7 +351,7 @@ home/juan/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.o: home/juan/pico-
 
 # target to build an object file
 home/juan/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.o:
-	cd "/mnt/meu_vol/ufc/2025.1/rtos/praticas/pratica 2/build" && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/app.dir/build.make src/CMakeFiles/app.dir/home/juan/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.o
+	cd "/media/juan/42849DD9849DCFB1/ufc/2025.1/rtos/praticas/pratica 2/build" && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/app.dir/build.make src/CMakeFiles/app.dir/home/juan/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.o
 .PHONY : home/juan/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.o
 
 home/juan/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.i: home/juan/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.i
@@ -359,7 +359,7 @@ home/juan/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.i: home/juan/pico-
 
 # target to preprocess a source file
 home/juan/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.i:
-	cd "/mnt/meu_vol/ufc/2025.1/rtos/praticas/pratica 2/build" && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/app.dir/build.make src/CMakeFiles/app.dir/home/juan/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.i
+	cd "/media/juan/42849DD9849DCFB1/ufc/2025.1/rtos/praticas/pratica 2/build" && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/app.dir/build.make src/CMakeFiles/app.dir/home/juan/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.i
 .PHONY : home/juan/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.i
 
 home/juan/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.s: home/juan/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.s
@@ -367,7 +367,7 @@ home/juan/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.s: home/juan/pico-
 
 # target to generate assembly for a file
 home/juan/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.s:
-	cd "/mnt/meu_vol/ufc/2025.1/rtos/praticas/pratica 2/build" && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/app.dir/build.make src/CMakeFiles/app.dir/home/juan/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.s
+	cd "/media/juan/42849DD9849DCFB1/ufc/2025.1/rtos/praticas/pratica 2/build" && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/app.dir/build.make src/CMakeFiles/app.dir/home/juan/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.s
 .PHONY : home/juan/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.s
 
 home/juan/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.o: home/juan/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.o
@@ -375,7 +375,7 @@ home/juan/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.o: home/juan/pico-
 
 # target to build an object file
 home/juan/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.o:
-	cd "/mnt/meu_vol/ufc/2025.1/rtos/praticas/pratica 2/build" && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/app.dir/build.make src/CMakeFiles/app.dir/home/juan/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.o
+	cd "/media/juan/42849DD9849DCFB1/ufc/2025.1/rtos/praticas/pratica 2/build" && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/app.dir/build.make src/CMakeFiles/app.dir/home/juan/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.o
 .PHONY : home/juan/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.o
 
 home/juan/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.i: home/juan/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.i
@@ -383,7 +383,7 @@ home/juan/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.i: home/juan/pico-
 
 # target to preprocess a source file
 home/juan/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.i:
-	cd "/mnt/meu_vol/ufc/2025.1/rtos/praticas/pratica 2/build" && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/app.dir/build.make src/CMakeFiles/app.dir/home/juan/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.i
+	cd "/media/juan/42849DD9849DCFB1/ufc/2025.1/rtos/praticas/pratica 2/build" && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/app.dir/build.make src/CMakeFiles/app.dir/home/juan/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.i
 .PHONY : home/juan/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.i
 
 home/juan/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.s: home/juan/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.s
@@ -391,7 +391,7 @@ home/juan/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.s: home/juan/pico-
 
 # target to generate assembly for a file
 home/juan/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.s:
-	cd "/mnt/meu_vol/ufc/2025.1/rtos/praticas/pratica 2/build" && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/app.dir/build.make src/CMakeFiles/app.dir/home/juan/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.s
+	cd "/media/juan/42849DD9849DCFB1/ufc/2025.1/rtos/praticas/pratica 2/build" && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/app.dir/build.make src/CMakeFiles/app.dir/home/juan/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.s
 .PHONY : home/juan/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.s
 
 home/juan/pico-sdk/lib/tinyusb/src/class/video/video_device.o: home/juan/pico-sdk/lib/tinyusb/src/class/video/video_device.c.o
@@ -399,7 +399,7 @@ home/juan/pico-sdk/lib/tinyusb/src/class/video/video_device.o: home/juan/pico-sd
 
 # target to build an object file
 home/juan/pico-sdk/lib/tinyusb/src/class/video/video_device.c.o:
-	cd "/mnt/meu_vol/ufc/2025.1/rtos/praticas/pratica 2/build" && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/app.dir/build.make src/CMakeFiles/app.dir/home/juan/pico-sdk/lib/tinyusb/src/class/video/video_device.c.o
+	cd "/media/juan/42849DD9849DCFB1/ufc/2025.1/rtos/praticas/pratica 2/build" && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/app.dir/build.make src/CMakeFiles/app.dir/home/juan/pico-sdk/lib/tinyusb/src/class/video/video_device.c.o
 .PHONY : home/juan/pico-sdk/lib/tinyusb/src/class/video/video_device.c.o
 
 home/juan/pico-sdk/lib/tinyusb/src/class/video/video_device.i: home/juan/pico-sdk/lib/tinyusb/src/class/video/video_device.c.i
@@ -407,7 +407,7 @@ home/juan/pico-sdk/lib/tinyusb/src/class/video/video_device.i: home/juan/pico-sd
 
 # target to preprocess a source file
 home/juan/pico-sdk/lib/tinyusb/src/class/video/video_device.c.i:
-	cd "/mnt/meu_vol/ufc/2025.1/rtos/praticas/pratica 2/build" && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/app.dir/build.make src/CMakeFiles/app.dir/home/juan/pico-sdk/lib/tinyusb/src/class/video/video_device.c.i
+	cd "/media/juan/42849DD9849DCFB1/ufc/2025.1/rtos/praticas/pratica 2/build" && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/app.dir/build.make src/CMakeFiles/app.dir/home/juan/pico-sdk/lib/tinyusb/src/class/video/video_device.c.i
 .PHONY : home/juan/pico-sdk/lib/tinyusb/src/class/video/video_device.c.i
 
 home/juan/pico-sdk/lib/tinyusb/src/class/video/video_device.s: home/juan/pico-sdk/lib/tinyusb/src/class/video/video_device.c.s
@@ -415,7 +415,7 @@ home/juan/pico-sdk/lib/tinyusb/src/class/video/video_device.s: home/juan/pico-sd
 
 # target to generate assembly for a file
 home/juan/pico-sdk/lib/tinyusb/src/class/video/video_device.c.s:
-	cd "/mnt/meu_vol/ufc/2025.1/rtos/praticas/pratica 2/build" && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/app.dir/build.make src/CMakeFiles/app.dir/home/juan/pico-sdk/lib/tinyusb/src/class/video/video_device.c.s
+	cd "/media/juan/42849DD9849DCFB1/ufc/2025.1/rtos/praticas/pratica 2/build" && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/app.dir/build.make src/CMakeFiles/app.dir/home/juan/pico-sdk/lib/tinyusb/src/class/video/video_device.c.s
 .PHONY : home/juan/pico-sdk/lib/tinyusb/src/class/video/video_device.c.s
 
 home/juan/pico-sdk/lib/tinyusb/src/common/tusb_fifo.o: home/juan/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.o
@@ -423,7 +423,7 @@ home/juan/pico-sdk/lib/tinyusb/src/common/tusb_fifo.o: home/juan/pico-sdk/lib/ti
 
 # target to build an object file
 home/juan/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.o:
-	cd "/mnt/meu_vol/ufc/2025.1/rtos/praticas/pratica 2/build" && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/app.dir/build.make src/CMakeFiles/app.dir/home/juan/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.o
+	cd "/media/juan/42849DD9849DCFB1/ufc/2025.1/rtos/praticas/pratica 2/build" && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/app.dir/build.make src/CMakeFiles/app.dir/home/juan/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.o
 .PHONY : home/juan/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.o
 
 home/juan/pico-sdk/lib/tinyusb/src/common/tusb_fifo.i: home/juan/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.i
@@ -431,7 +431,7 @@ home/juan/pico-sdk/lib/tinyusb/src/common/tusb_fifo.i: home/juan/pico-sdk/lib/ti
 
 # target to preprocess a source file
 home/juan/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.i:
-	cd "/mnt/meu_vol/ufc/2025.1/rtos/praticas/pratica 2/build" && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/app.dir/build.make src/CMakeFiles/app.dir/home/juan/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.i
+	cd "/media/juan/42849DD9849DCFB1/ufc/2025.1/rtos/praticas/pratica 2/build" && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/app.dir/build.make src/CMakeFiles/app.dir/home/juan/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.i
 .PHONY : home/juan/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.i
 
 home/juan/pico-sdk/lib/tinyusb/src/common/tusb_fifo.s: home/juan/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.s
@@ -439,7 +439,7 @@ home/juan/pico-sdk/lib/tinyusb/src/common/tusb_fifo.s: home/juan/pico-sdk/lib/ti
 
 # target to generate assembly for a file
 home/juan/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.s:
-	cd "/mnt/meu_vol/ufc/2025.1/rtos/praticas/pratica 2/build" && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/app.dir/build.make src/CMakeFiles/app.dir/home/juan/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.s
+	cd "/media/juan/42849DD9849DCFB1/ufc/2025.1/rtos/praticas/pratica 2/build" && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/app.dir/build.make src/CMakeFiles/app.dir/home/juan/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.s
 .PHONY : home/juan/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.s
 
 home/juan/pico-sdk/lib/tinyusb/src/device/usbd.o: home/juan/pico-sdk/lib/tinyusb/src/device/usbd.c.o
@@ -447,7 +447,7 @@ home/juan/pico-sdk/lib/tinyusb/src/device/usbd.o: home/juan/pico-sdk/lib/tinyusb
 
 # target to build an object file
 home/juan/pico-sdk/lib/tinyusb/src/device/usbd.c.o:
-	cd "/mnt/meu_vol/ufc/2025.1/rtos/praticas/pratica 2/build" && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/app.dir/build.make src/CMakeFiles/app.dir/home/juan/pico-sdk/lib/tinyusb/src/device/usbd.c.o
+	cd "/media/juan/42849DD9849DCFB1/ufc/2025.1/rtos/praticas/pratica 2/build" && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/app.dir/build.make src/CMakeFiles/app.dir/home/juan/pico-sdk/lib/tinyusb/src/device/usbd.c.o
 .PHONY : home/juan/pico-sdk/lib/tinyusb/src/device/usbd.c.o
 
 home/juan/pico-sdk/lib/tinyusb/src/device/usbd.i: home/juan/pico-sdk/lib/tinyusb/src/device/usbd.c.i
@@ -455,7 +455,7 @@ home/juan/pico-sdk/lib/tinyusb/src/device/usbd.i: home/juan/pico-sdk/lib/tinyusb
 
 # target to preprocess a source file
 home/juan/pico-sdk/lib/tinyusb/src/device/usbd.c.i:
-	cd "/mnt/meu_vol/ufc/2025.1/rtos/praticas/pratica 2/build" && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/app.dir/build.make src/CMakeFiles/app.dir/home/juan/pico-sdk/lib/tinyusb/src/device/usbd.c.i
+	cd "/media/juan/42849DD9849DCFB1/ufc/2025.1/rtos/praticas/pratica 2/build" && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/app.dir/build.make src/CMakeFiles/app.dir/home/juan/pico-sdk/lib/tinyusb/src/device/usbd.c.i
 .PHONY : home/juan/pico-sdk/lib/tinyusb/src/device/usbd.c.i
 
 home/juan/pico-sdk/lib/tinyusb/src/device/usbd.s: home/juan/pico-sdk/lib/tinyusb/src/device/usbd.c.s
@@ -463,7 +463,7 @@ home/juan/pico-sdk/lib/tinyusb/src/device/usbd.s: home/juan/pico-sdk/lib/tinyusb
 
 # target to generate assembly for a file
 home/juan/pico-sdk/lib/tinyusb/src/device/usbd.c.s:
-	cd "/mnt/meu_vol/ufc/2025.1/rtos/praticas/pratica 2/build" && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/app.dir/build.make src/CMakeFiles/app.dir/home/juan/pico-sdk/lib/tinyusb/src/device/usbd.c.s
+	cd "/media/juan/42849DD9849DCFB1/ufc/2025.1/rtos/praticas/pratica 2/build" && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/app.dir/build.make src/CMakeFiles/app.dir/home/juan/pico-sdk/lib/tinyusb/src/device/usbd.c.s
 .PHONY : home/juan/pico-sdk/lib/tinyusb/src/device/usbd.c.s
 
 home/juan/pico-sdk/lib/tinyusb/src/device/usbd_control.o: home/juan/pico-sdk/lib/tinyusb/src/device/usbd_control.c.o
@@ -471,7 +471,7 @@ home/juan/pico-sdk/lib/tinyusb/src/device/usbd_control.o: home/juan/pico-sdk/lib
 
 # target to build an object file
 home/juan/pico-sdk/lib/tinyusb/src/device/usbd_control.c.o:
-	cd "/mnt/meu_vol/ufc/2025.1/rtos/praticas/pratica 2/build" && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/app.dir/build.make src/CMakeFiles/app.dir/home/juan/pico-sdk/lib/tinyusb/src/device/usbd_control.c.o
+	cd "/media/juan/42849DD9849DCFB1/ufc/2025.1/rtos/praticas/pratica 2/build" && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/app.dir/build.make src/CMakeFiles/app.dir/home/juan/pico-sdk/lib/tinyusb/src/device/usbd_control.c.o
 .PHONY : home/juan/pico-sdk/lib/tinyusb/src/device/usbd_control.c.o
 
 home/juan/pico-sdk/lib/tinyusb/src/device/usbd_control.i: home/juan/pico-sdk/lib/tinyusb/src/device/usbd_control.c.i
@@ -479,7 +479,7 @@ home/juan/pico-sdk/lib/tinyusb/src/device/usbd_control.i: home/juan/pico-sdk/lib
 
 # target to preprocess a source file
 home/juan/pico-sdk/lib/tinyusb/src/device/usbd_control.c.i:
-	cd "/mnt/meu_vol/ufc/2025.1/rtos/praticas/pratica 2/build" && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/app.dir/build.make src/CMakeFiles/app.dir/home/juan/pico-sdk/lib/tinyusb/src/device/usbd_control.c.i
+	cd "/media/juan/42849DD9849DCFB1/ufc/2025.1/rtos/praticas/pratica 2/build" && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/app.dir/build.make src/CMakeFiles/app.dir/home/juan/pico-sdk/lib/tinyusb/src/device/usbd_control.c.i
 .PHONY : home/juan/pico-sdk/lib/tinyusb/src/device/usbd_control.c.i
 
 home/juan/pico-sdk/lib/tinyusb/src/device/usbd_control.s: home/juan/pico-sdk/lib/tinyusb/src/device/usbd_control.c.s
@@ -487,7 +487,7 @@ home/juan/pico-sdk/lib/tinyusb/src/device/usbd_control.s: home/juan/pico-sdk/lib
 
 # target to generate assembly for a file
 home/juan/pico-sdk/lib/tinyusb/src/device/usbd_control.c.s:
-	cd "/mnt/meu_vol/ufc/2025.1/rtos/praticas/pratica 2/build" && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/app.dir/build.make src/CMakeFiles/app.dir/home/juan/pico-sdk/lib/tinyusb/src/device/usbd_control.c.s
+	cd "/media/juan/42849DD9849DCFB1/ufc/2025.1/rtos/praticas/pratica 2/build" && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/app.dir/build.make src/CMakeFiles/app.dir/home/juan/pico-sdk/lib/tinyusb/src/device/usbd_control.c.s
 .PHONY : home/juan/pico-sdk/lib/tinyusb/src/device/usbd_control.c.s
 
 home/juan/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.o: home/juan/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.o
@@ -495,7 +495,7 @@ home/juan/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.o: hom
 
 # target to build an object file
 home/juan/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.o:
-	cd "/mnt/meu_vol/ufc/2025.1/rtos/praticas/pratica 2/build" && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/app.dir/build.make src/CMakeFiles/app.dir/home/juan/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.o
+	cd "/media/juan/42849DD9849DCFB1/ufc/2025.1/rtos/praticas/pratica 2/build" && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/app.dir/build.make src/CMakeFiles/app.dir/home/juan/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.o
 .PHONY : home/juan/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.o
 
 home/juan/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.i: home/juan/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.i
@@ -503,7 +503,7 @@ home/juan/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.i: hom
 
 # target to preprocess a source file
 home/juan/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.i:
-	cd "/mnt/meu_vol/ufc/2025.1/rtos/praticas/pratica 2/build" && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/app.dir/build.make src/CMakeFiles/app.dir/home/juan/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.i
+	cd "/media/juan/42849DD9849DCFB1/ufc/2025.1/rtos/praticas/pratica 2/build" && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/app.dir/build.make src/CMakeFiles/app.dir/home/juan/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.i
 .PHONY : home/juan/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.i
 
 home/juan/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.s: home/juan/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.s
@@ -511,7 +511,7 @@ home/juan/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.s: hom
 
 # target to generate assembly for a file
 home/juan/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.s:
-	cd "/mnt/meu_vol/ufc/2025.1/rtos/praticas/pratica 2/build" && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/app.dir/build.make src/CMakeFiles/app.dir/home/juan/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.s
+	cd "/media/juan/42849DD9849DCFB1/ufc/2025.1/rtos/praticas/pratica 2/build" && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/app.dir/build.make src/CMakeFiles/app.dir/home/juan/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.s
 .PHONY : home/juan/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.s
 
 home/juan/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.o: home/juan/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.o
@@ -519,7 +519,7 @@ home/juan/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.o: hom
 
 # target to build an object file
 home/juan/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.o:
-	cd "/mnt/meu_vol/ufc/2025.1/rtos/praticas/pratica 2/build" && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/app.dir/build.make src/CMakeFiles/app.dir/home/juan/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.o
+	cd "/media/juan/42849DD9849DCFB1/ufc/2025.1/rtos/praticas/pratica 2/build" && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/app.dir/build.make src/CMakeFiles/app.dir/home/juan/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.o
 .PHONY : home/juan/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.o
 
 home/juan/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.i: home/juan/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.i
@@ -527,7 +527,7 @@ home/juan/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.i: hom
 
 # target to preprocess a source file
 home/juan/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.i:
-	cd "/mnt/meu_vol/ufc/2025.1/rtos/praticas/pratica 2/build" && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/app.dir/build.make src/CMakeFiles/app.dir/home/juan/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.i
+	cd "/media/juan/42849DD9849DCFB1/ufc/2025.1/rtos/praticas/pratica 2/build" && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/app.dir/build.make src/CMakeFiles/app.dir/home/juan/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.i
 .PHONY : home/juan/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.i
 
 home/juan/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.s: home/juan/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.s
@@ -535,7 +535,7 @@ home/juan/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.s: hom
 
 # target to generate assembly for a file
 home/juan/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.s:
-	cd "/mnt/meu_vol/ufc/2025.1/rtos/praticas/pratica 2/build" && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/app.dir/build.make src/CMakeFiles/app.dir/home/juan/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.s
+	cd "/media/juan/42849DD9849DCFB1/ufc/2025.1/rtos/praticas/pratica 2/build" && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/app.dir/build.make src/CMakeFiles/app.dir/home/juan/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.s
 .PHONY : home/juan/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.s
 
 home/juan/pico-sdk/lib/tinyusb/src/tusb.o: home/juan/pico-sdk/lib/tinyusb/src/tusb.c.o
@@ -543,7 +543,7 @@ home/juan/pico-sdk/lib/tinyusb/src/tusb.o: home/juan/pico-sdk/lib/tinyusb/src/tu
 
 # target to build an object file
 home/juan/pico-sdk/lib/tinyusb/src/tusb.c.o:
-	cd "/mnt/meu_vol/ufc/2025.1/rtos/praticas/pratica 2/build" && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/app.dir/build.make src/CMakeFiles/app.dir/home/juan/pico-sdk/lib/tinyusb/src/tusb.c.o
+	cd "/media/juan/42849DD9849DCFB1/ufc/2025.1/rtos/praticas/pratica 2/build" && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/app.dir/build.make src/CMakeFiles/app.dir/home/juan/pico-sdk/lib/tinyusb/src/tusb.c.o
 .PHONY : home/juan/pico-sdk/lib/tinyusb/src/tusb.c.o
 
 home/juan/pico-sdk/lib/tinyusb/src/tusb.i: home/juan/pico-sdk/lib/tinyusb/src/tusb.c.i
@@ -551,7 +551,7 @@ home/juan/pico-sdk/lib/tinyusb/src/tusb.i: home/juan/pico-sdk/lib/tinyusb/src/tu
 
 # target to preprocess a source file
 home/juan/pico-sdk/lib/tinyusb/src/tusb.c.i:
-	cd "/mnt/meu_vol/ufc/2025.1/rtos/praticas/pratica 2/build" && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/app.dir/build.make src/CMakeFiles/app.dir/home/juan/pico-sdk/lib/tinyusb/src/tusb.c.i
+	cd "/media/juan/42849DD9849DCFB1/ufc/2025.1/rtos/praticas/pratica 2/build" && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/app.dir/build.make src/CMakeFiles/app.dir/home/juan/pico-sdk/lib/tinyusb/src/tusb.c.i
 .PHONY : home/juan/pico-sdk/lib/tinyusb/src/tusb.c.i
 
 home/juan/pico-sdk/lib/tinyusb/src/tusb.s: home/juan/pico-sdk/lib/tinyusb/src/tusb.c.s
@@ -559,7 +559,7 @@ home/juan/pico-sdk/lib/tinyusb/src/tusb.s: home/juan/pico-sdk/lib/tinyusb/src/tu
 
 # target to generate assembly for a file
 home/juan/pico-sdk/lib/tinyusb/src/tusb.c.s:
-	cd "/mnt/meu_vol/ufc/2025.1/rtos/praticas/pratica 2/build" && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/app.dir/build.make src/CMakeFiles/app.dir/home/juan/pico-sdk/lib/tinyusb/src/tusb.c.s
+	cd "/media/juan/42849DD9849DCFB1/ufc/2025.1/rtos/praticas/pratica 2/build" && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/app.dir/build.make src/CMakeFiles/app.dir/home/juan/pico-sdk/lib/tinyusb/src/tusb.c.s
 .PHONY : home/juan/pico-sdk/lib/tinyusb/src/tusb.c.s
 
 home/juan/pico-sdk/src/common/hardware_claim/claim.o: home/juan/pico-sdk/src/common/hardware_claim/claim.c.o
@@ -567,7 +567,7 @@ home/juan/pico-sdk/src/common/hardware_claim/claim.o: home/juan/pico-sdk/src/com
 
 # target to build an object file
 home/juan/pico-sdk/src/common/hardware_claim/claim.c.o:
-	cd "/mnt/meu_vol/ufc/2025.1/rtos/praticas/pratica 2/build" && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/app.dir/build.make src/CMakeFiles/app.dir/home/juan/pico-sdk/src/common/hardware_claim/claim.c.o
+	cd "/media/juan/42849DD9849DCFB1/ufc/2025.1/rtos/praticas/pratica 2/build" && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/app.dir/build.make src/CMakeFiles/app.dir/home/juan/pico-sdk/src/common/hardware_claim/claim.c.o
 .PHONY : home/juan/pico-sdk/src/common/hardware_claim/claim.c.o
 
 home/juan/pico-sdk/src/common/hardware_claim/claim.i: home/juan/pico-sdk/src/common/hardware_claim/claim.c.i
@@ -575,7 +575,7 @@ home/juan/pico-sdk/src/common/hardware_claim/claim.i: home/juan/pico-sdk/src/com
 
 # target to preprocess a source file
 home/juan/pico-sdk/src/common/hardware_claim/claim.c.i:
-	cd "/mnt/meu_vol/ufc/2025.1/rtos/praticas/pratica 2/build" && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/app.dir/build.make src/CMakeFiles/app.dir/home/juan/pico-sdk/src/common/hardware_claim/claim.c.i
+	cd "/media/juan/42849DD9849DCFB1/ufc/2025.1/rtos/praticas/pratica 2/build" && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/app.dir/build.make src/CMakeFiles/app.dir/home/juan/pico-sdk/src/common/hardware_claim/claim.c.i
 .PHONY : home/juan/pico-sdk/src/common/hardware_claim/claim.c.i
 
 home/juan/pico-sdk/src/common/hardware_claim/claim.s: home/juan/pico-sdk/src/common/hardware_claim/claim.c.s
@@ -583,7 +583,7 @@ home/juan/pico-sdk/src/common/hardware_claim/claim.s: home/juan/pico-sdk/src/com
 
 # target to generate assembly for a file
 home/juan/pico-sdk/src/common/hardware_claim/claim.c.s:
-	cd "/mnt/meu_vol/ufc/2025.1/rtos/praticas/pratica 2/build" && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/app.dir/build.make src/CMakeFiles/app.dir/home/juan/pico-sdk/src/common/hardware_claim/claim.c.s
+	cd "/media/juan/42849DD9849DCFB1/ufc/2025.1/rtos/praticas/pratica 2/build" && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/app.dir/build.make src/CMakeFiles/app.dir/home/juan/pico-sdk/src/common/hardware_claim/claim.c.s
 .PHONY : home/juan/pico-sdk/src/common/hardware_claim/claim.c.s
 
 home/juan/pico-sdk/src/common/pico_sync/critical_section.o: home/juan/pico-sdk/src/common/pico_sync/critical_section.c.o
@@ -591,7 +591,7 @@ home/juan/pico-sdk/src/common/pico_sync/critical_section.o: home/juan/pico-sdk/s
 
 # target to build an object file
 home/juan/pico-sdk/src/common/pico_sync/critical_section.c.o:
-	cd "/mnt/meu_vol/ufc/2025.1/rtos/praticas/pratica 2/build" && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/app.dir/build.make src/CMakeFiles/app.dir/home/juan/pico-sdk/src/common/pico_sync/critical_section.c.o
+	cd "/media/juan/42849DD9849DCFB1/ufc/2025.1/rtos/praticas/pratica 2/build" && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/app.dir/build.make src/CMakeFiles/app.dir/home/juan/pico-sdk/src/common/pico_sync/critical_section.c.o
 .PHONY : home/juan/pico-sdk/src/common/pico_sync/critical_section.c.o
 
 home/juan/pico-sdk/src/common/pico_sync/critical_section.i: home/juan/pico-sdk/src/common/pico_sync/critical_section.c.i
@@ -599,7 +599,7 @@ home/juan/pico-sdk/src/common/pico_sync/critical_section.i: home/juan/pico-sdk/s
 
 # target to preprocess a source file
 home/juan/pico-sdk/src/common/pico_sync/critical_section.c.i:
-	cd "/mnt/meu_vol/ufc/2025.1/rtos/praticas/pratica 2/build" && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/app.dir/build.make src/CMakeFiles/app.dir/home/juan/pico-sdk/src/common/pico_sync/critical_section.c.i
+	cd "/media/juan/42849DD9849DCFB1/ufc/2025.1/rtos/praticas/pratica 2/build" && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/app.dir/build.make src/CMakeFiles/app.dir/home/juan/pico-sdk/src/common/pico_sync/critical_section.c.i
 .PHONY : home/juan/pico-sdk/src/common/pico_sync/critical_section.c.i
 
 home/juan/pico-sdk/src/common/pico_sync/critical_section.s: home/juan/pico-sdk/src/common/pico_sync/critical_section.c.s
@@ -607,7 +607,7 @@ home/juan/pico-sdk/src/common/pico_sync/critical_section.s: home/juan/pico-sdk/s
 
 # target to generate assembly for a file
 home/juan/pico-sdk/src/common/pico_sync/critical_section.c.s:
-	cd "/mnt/meu_vol/ufc/2025.1/rtos/praticas/pratica 2/build" && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/app.dir/build.make src/CMakeFiles/app.dir/home/juan/pico-sdk/src/common/pico_sync/critical_section.c.s
+	cd "/media/juan/42849DD9849DCFB1/ufc/2025.1/rtos/praticas/pratica 2/build" && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/app.dir/build.make src/CMakeFiles/app.dir/home/juan/pico-sdk/src/common/pico_sync/critical_section.c.s
 .PHONY : home/juan/pico-sdk/src/common/pico_sync/critical_section.c.s
 
 home/juan/pico-sdk/src/common/pico_sync/lock_core.o: home/juan/pico-sdk/src/common/pico_sync/lock_core.c.o
@@ -615,7 +615,7 @@ home/juan/pico-sdk/src/common/pico_sync/lock_core.o: home/juan/pico-sdk/src/comm
 
 # target to build an object file
 home/juan/pico-sdk/src/common/pico_sync/lock_core.c.o:
-	cd "/mnt/meu_vol/ufc/2025.1/rtos/praticas/pratica 2/build" && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/app.dir/build.make src/CMakeFiles/app.dir/home/juan/pico-sdk/src/common/pico_sync/lock_core.c.o
+	cd "/media/juan/42849DD9849DCFB1/ufc/2025.1/rtos/praticas/pratica 2/build" && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/app.dir/build.make src/CMakeFiles/app.dir/home/juan/pico-sdk/src/common/pico_sync/lock_core.c.o
 .PHONY : home/juan/pico-sdk/src/common/pico_sync/lock_core.c.o
 
 home/juan/pico-sdk/src/common/pico_sync/lock_core.i: home/juan/pico-sdk/src/common/pico_sync/lock_core.c.i
@@ -623,7 +623,7 @@ home/juan/pico-sdk/src/common/pico_sync/lock_core.i: home/juan/pico-sdk/src/comm
 
 # target to preprocess a source file
 home/juan/pico-sdk/src/common/pico_sync/lock_core.c.i:
-	cd "/mnt/meu_vol/ufc/2025.1/rtos/praticas/pratica 2/build" && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/app.dir/build.make src/CMakeFiles/app.dir/home/juan/pico-sdk/src/common/pico_sync/lock_core.c.i
+	cd "/media/juan/42849DD9849DCFB1/ufc/2025.1/rtos/praticas/pratica 2/build" && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/app.dir/build.make src/CMakeFiles/app.dir/home/juan/pico-sdk/src/common/pico_sync/lock_core.c.i
 .PHONY : home/juan/pico-sdk/src/common/pico_sync/lock_core.c.i
 
 home/juan/pico-sdk/src/common/pico_sync/lock_core.s: home/juan/pico-sdk/src/common/pico_sync/lock_core.c.s
@@ -631,7 +631,7 @@ home/juan/pico-sdk/src/common/pico_sync/lock_core.s: home/juan/pico-sdk/src/comm
 
 # target to generate assembly for a file
 home/juan/pico-sdk/src/common/pico_sync/lock_core.c.s:
-	cd "/mnt/meu_vol/ufc/2025.1/rtos/praticas/pratica 2/build" && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/app.dir/build.make src/CMakeFiles/app.dir/home/juan/pico-sdk/src/common/pico_sync/lock_core.c.s
+	cd "/media/juan/42849DD9849DCFB1/ufc/2025.1/rtos/praticas/pratica 2/build" && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/app.dir/build.make src/CMakeFiles/app.dir/home/juan/pico-sdk/src/common/pico_sync/lock_core.c.s
 .PHONY : home/juan/pico-sdk/src/common/pico_sync/lock_core.c.s
 
 home/juan/pico-sdk/src/common/pico_sync/mutex.o: home/juan/pico-sdk/src/common/pico_sync/mutex.c.o
@@ -639,7 +639,7 @@ home/juan/pico-sdk/src/common/pico_sync/mutex.o: home/juan/pico-sdk/src/common/p
 
 # target to build an object file
 home/juan/pico-sdk/src/common/pico_sync/mutex.c.o:
-	cd "/mnt/meu_vol/ufc/2025.1/rtos/praticas/pratica 2/build" && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/app.dir/build.make src/CMakeFiles/app.dir/home/juan/pico-sdk/src/common/pico_sync/mutex.c.o
+	cd "/media/juan/42849DD9849DCFB1/ufc/2025.1/rtos/praticas/pratica 2/build" && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/app.dir/build.make src/CMakeFiles/app.dir/home/juan/pico-sdk/src/common/pico_sync/mutex.c.o
 .PHONY : home/juan/pico-sdk/src/common/pico_sync/mutex.c.o
 
 home/juan/pico-sdk/src/common/pico_sync/mutex.i: home/juan/pico-sdk/src/common/pico_sync/mutex.c.i
@@ -647,7 +647,7 @@ home/juan/pico-sdk/src/common/pico_sync/mutex.i: home/juan/pico-sdk/src/common/p
 
 # target to preprocess a source file
 home/juan/pico-sdk/src/common/pico_sync/mutex.c.i:
-	cd "/mnt/meu_vol/ufc/2025.1/rtos/praticas/pratica 2/build" && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/app.dir/build.make src/CMakeFiles/app.dir/home/juan/pico-sdk/src/common/pico_sync/mutex.c.i
+	cd "/media/juan/42849DD9849DCFB1/ufc/2025.1/rtos/praticas/pratica 2/build" && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/app.dir/build.make src/CMakeFiles/app.dir/home/juan/pico-sdk/src/common/pico_sync/mutex.c.i
 .PHONY : home/juan/pico-sdk/src/common/pico_sync/mutex.c.i
 
 home/juan/pico-sdk/src/common/pico_sync/mutex.s: home/juan/pico-sdk/src/common/pico_sync/mutex.c.s
@@ -655,7 +655,7 @@ home/juan/pico-sdk/src/common/pico_sync/mutex.s: home/juan/pico-sdk/src/common/p
 
 # target to generate assembly for a file
 home/juan/pico-sdk/src/common/pico_sync/mutex.c.s:
-	cd "/mnt/meu_vol/ufc/2025.1/rtos/praticas/pratica 2/build" && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/app.dir/build.make src/CMakeFiles/app.dir/home/juan/pico-sdk/src/common/pico_sync/mutex.c.s
+	cd "/media/juan/42849DD9849DCFB1/ufc/2025.1/rtos/praticas/pratica 2/build" && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/app.dir/build.make src/CMakeFiles/app.dir/home/juan/pico-sdk/src/common/pico_sync/mutex.c.s
 .PHONY : home/juan/pico-sdk/src/common/pico_sync/mutex.c.s
 
 home/juan/pico-sdk/src/common/pico_sync/sem.o: home/juan/pico-sdk/src/common/pico_sync/sem.c.o
@@ -663,7 +663,7 @@ home/juan/pico-sdk/src/common/pico_sync/sem.o: home/juan/pico-sdk/src/common/pic
 
 # target to build an object file
 home/juan/pico-sdk/src/common/pico_sync/sem.c.o:
-	cd "/mnt/meu_vol/ufc/2025.1/rtos/praticas/pratica 2/build" && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/app.dir/build.make src/CMakeFiles/app.dir/home/juan/pico-sdk/src/common/pico_sync/sem.c.o
+	cd "/media/juan/42849DD9849DCFB1/ufc/2025.1/rtos/praticas/pratica 2/build" && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/app.dir/build.make src/CMakeFiles/app.dir/home/juan/pico-sdk/src/common/pico_sync/sem.c.o
 .PHONY : home/juan/pico-sdk/src/common/pico_sync/sem.c.o
 
 home/juan/pico-sdk/src/common/pico_sync/sem.i: home/juan/pico-sdk/src/common/pico_sync/sem.c.i
@@ -671,7 +671,7 @@ home/juan/pico-sdk/src/common/pico_sync/sem.i: home/juan/pico-sdk/src/common/pic
 
 # target to preprocess a source file
 home/juan/pico-sdk/src/common/pico_sync/sem.c.i:
-	cd "/mnt/meu_vol/ufc/2025.1/rtos/praticas/pratica 2/build" && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/app.dir/build.make src/CMakeFiles/app.dir/home/juan/pico-sdk/src/common/pico_sync/sem.c.i
+	cd "/media/juan/42849DD9849DCFB1/ufc/2025.1/rtos/praticas/pratica 2/build" && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/app.dir/build.make src/CMakeFiles/app.dir/home/juan/pico-sdk/src/common/pico_sync/sem.c.i
 .PHONY : home/juan/pico-sdk/src/common/pico_sync/sem.c.i
 
 home/juan/pico-sdk/src/common/pico_sync/sem.s: home/juan/pico-sdk/src/common/pico_sync/sem.c.s
@@ -679,7 +679,7 @@ home/juan/pico-sdk/src/common/pico_sync/sem.s: home/juan/pico-sdk/src/common/pic
 
 # target to generate assembly for a file
 home/juan/pico-sdk/src/common/pico_sync/sem.c.s:
-	cd "/mnt/meu_vol/ufc/2025.1/rtos/praticas/pratica 2/build" && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/app.dir/build.make src/CMakeFiles/app.dir/home/juan/pico-sdk/src/common/pico_sync/sem.c.s
+	cd "/media/juan/42849DD9849DCFB1/ufc/2025.1/rtos/praticas/pratica 2/build" && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/app.dir/build.make src/CMakeFiles/app.dir/home/juan/pico-sdk/src/common/pico_sync/sem.c.s
 .PHONY : home/juan/pico-sdk/src/common/pico_sync/sem.c.s
 
 home/juan/pico-sdk/src/common/pico_time/time.o: home/juan/pico-sdk/src/common/pico_time/time.c.o
@@ -687,7 +687,7 @@ home/juan/pico-sdk/src/common/pico_time/time.o: home/juan/pico-sdk/src/common/pi
 
 # target to build an object file
 home/juan/pico-sdk/src/common/pico_time/time.c.o:
-	cd "/mnt/meu_vol/ufc/2025.1/rtos/praticas/pratica 2/build" && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/app.dir/build.make src/CMakeFiles/app.dir/home/juan/pico-sdk/src/common/pico_time/time.c.o
+	cd "/media/juan/42849DD9849DCFB1/ufc/2025.1/rtos/praticas/pratica 2/build" && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/app.dir/build.make src/CMakeFiles/app.dir/home/juan/pico-sdk/src/common/pico_time/time.c.o
 .PHONY : home/juan/pico-sdk/src/common/pico_time/time.c.o
 
 home/juan/pico-sdk/src/common/pico_time/time.i: home/juan/pico-sdk/src/common/pico_time/time.c.i
@@ -695,7 +695,7 @@ home/juan/pico-sdk/src/common/pico_time/time.i: home/juan/pico-sdk/src/common/pi
 
 # target to preprocess a source file
 home/juan/pico-sdk/src/common/pico_time/time.c.i:
-	cd "/mnt/meu_vol/ufc/2025.1/rtos/praticas/pratica 2/build" && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/app.dir/build.make src/CMakeFiles/app.dir/home/juan/pico-sdk/src/common/pico_time/time.c.i
+	cd "/media/juan/42849DD9849DCFB1/ufc/2025.1/rtos/praticas/pratica 2/build" && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/app.dir/build.make src/CMakeFiles/app.dir/home/juan/pico-sdk/src/common/pico_time/time.c.i
 .PHONY : home/juan/pico-sdk/src/common/pico_time/time.c.i
 
 home/juan/pico-sdk/src/common/pico_time/time.s: home/juan/pico-sdk/src/common/pico_time/time.c.s
@@ -703,7 +703,7 @@ home/juan/pico-sdk/src/common/pico_time/time.s: home/juan/pico-sdk/src/common/pi
 
 # target to generate assembly for a file
 home/juan/pico-sdk/src/common/pico_time/time.c.s:
-	cd "/mnt/meu_vol/ufc/2025.1/rtos/praticas/pratica 2/build" && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/app.dir/build.make src/CMakeFiles/app.dir/home/juan/pico-sdk/src/common/pico_time/time.c.s
+	cd "/media/juan/42849DD9849DCFB1/ufc/2025.1/rtos/praticas/pratica 2/build" && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/app.dir/build.make src/CMakeFiles/app.dir/home/juan/pico-sdk/src/common/pico_time/time.c.s
 .PHONY : home/juan/pico-sdk/src/common/pico_time/time.c.s
 
 home/juan/pico-sdk/src/common/pico_time/timeout_helper.o: home/juan/pico-sdk/src/common/pico_time/timeout_helper.c.o
@@ -711,7 +711,7 @@ home/juan/pico-sdk/src/common/pico_time/timeout_helper.o: home/juan/pico-sdk/src
 
 # target to build an object file
 home/juan/pico-sdk/src/common/pico_time/timeout_helper.c.o:
-	cd "/mnt/meu_vol/ufc/2025.1/rtos/praticas/pratica 2/build" && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/app.dir/build.make src/CMakeFiles/app.dir/home/juan/pico-sdk/src/common/pico_time/timeout_helper.c.o
+	cd "/media/juan/42849DD9849DCFB1/ufc/2025.1/rtos/praticas/pratica 2/build" && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/app.dir/build.make src/CMakeFiles/app.dir/home/juan/pico-sdk/src/common/pico_time/timeout_helper.c.o
 .PHONY : home/juan/pico-sdk/src/common/pico_time/timeout_helper.c.o
 
 home/juan/pico-sdk/src/common/pico_time/timeout_helper.i: home/juan/pico-sdk/src/common/pico_time/timeout_helper.c.i
@@ -719,7 +719,7 @@ home/juan/pico-sdk/src/common/pico_time/timeout_helper.i: home/juan/pico-sdk/src
 
 # target to preprocess a source file
 home/juan/pico-sdk/src/common/pico_time/timeout_helper.c.i:
-	cd "/mnt/meu_vol/ufc/2025.1/rtos/praticas/pratica 2/build" && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/app.dir/build.make src/CMakeFiles/app.dir/home/juan/pico-sdk/src/common/pico_time/timeout_helper.c.i
+	cd "/media/juan/42849DD9849DCFB1/ufc/2025.1/rtos/praticas/pratica 2/build" && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/app.dir/build.make src/CMakeFiles/app.dir/home/juan/pico-sdk/src/common/pico_time/timeout_helper.c.i
 .PHONY : home/juan/pico-sdk/src/common/pico_time/timeout_helper.c.i
 
 home/juan/pico-sdk/src/common/pico_time/timeout_helper.s: home/juan/pico-sdk/src/common/pico_time/timeout_helper.c.s
@@ -727,7 +727,7 @@ home/juan/pico-sdk/src/common/pico_time/timeout_helper.s: home/juan/pico-sdk/src
 
 # target to generate assembly for a file
 home/juan/pico-sdk/src/common/pico_time/timeout_helper.c.s:
-	cd "/mnt/meu_vol/ufc/2025.1/rtos/praticas/pratica 2/build" && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/app.dir/build.make src/CMakeFiles/app.dir/home/juan/pico-sdk/src/common/pico_time/timeout_helper.c.s
+	cd "/media/juan/42849DD9849DCFB1/ufc/2025.1/rtos/praticas/pratica 2/build" && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/app.dir/build.make src/CMakeFiles/app.dir/home/juan/pico-sdk/src/common/pico_time/timeout_helper.c.s
 .PHONY : home/juan/pico-sdk/src/common/pico_time/timeout_helper.c.s
 
 home/juan/pico-sdk/src/common/pico_util/datetime.o: home/juan/pico-sdk/src/common/pico_util/datetime.c.o
@@ -735,7 +735,7 @@ home/juan/pico-sdk/src/common/pico_util/datetime.o: home/juan/pico-sdk/src/commo
 
 # target to build an object file
 home/juan/pico-sdk/src/common/pico_util/datetime.c.o:
-	cd "/mnt/meu_vol/ufc/2025.1/rtos/praticas/pratica 2/build" && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/app.dir/build.make src/CMakeFiles/app.dir/home/juan/pico-sdk/src/common/pico_util/datetime.c.o
+	cd "/media/juan/42849DD9849DCFB1/ufc/2025.1/rtos/praticas/pratica 2/build" && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/app.dir/build.make src/CMakeFiles/app.dir/home/juan/pico-sdk/src/common/pico_util/datetime.c.o
 .PHONY : home/juan/pico-sdk/src/common/pico_util/datetime.c.o
 
 home/juan/pico-sdk/src/common/pico_util/datetime.i: home/juan/pico-sdk/src/common/pico_util/datetime.c.i
@@ -743,7 +743,7 @@ home/juan/pico-sdk/src/common/pico_util/datetime.i: home/juan/pico-sdk/src/commo
 
 # target to preprocess a source file
 home/juan/pico-sdk/src/common/pico_util/datetime.c.i:
-	cd "/mnt/meu_vol/ufc/2025.1/rtos/praticas/pratica 2/build" && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/app.dir/build.make src/CMakeFiles/app.dir/home/juan/pico-sdk/src/common/pico_util/datetime.c.i
+	cd "/media/juan/42849DD9849DCFB1/ufc/2025.1/rtos/praticas/pratica 2/build" && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/app.dir/build.make src/CMakeFiles/app.dir/home/juan/pico-sdk/src/common/pico_util/datetime.c.i
 .PHONY : home/juan/pico-sdk/src/common/pico_util/datetime.c.i
 
 home/juan/pico-sdk/src/common/pico_util/datetime.s: home/juan/pico-sdk/src/common/pico_util/datetime.c.s
@@ -751,7 +751,7 @@ home/juan/pico-sdk/src/common/pico_util/datetime.s: home/juan/pico-sdk/src/commo
 
 # target to generate assembly for a file
 home/juan/pico-sdk/src/common/pico_util/datetime.c.s:
-	cd "/mnt/meu_vol/ufc/2025.1/rtos/praticas/pratica 2/build" && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/app.dir/build.make src/CMakeFiles/app.dir/home/juan/pico-sdk/src/common/pico_util/datetime.c.s
+	cd "/media/juan/42849DD9849DCFB1/ufc/2025.1/rtos/praticas/pratica 2/build" && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/app.dir/build.make src/CMakeFiles/app.dir/home/juan/pico-sdk/src/common/pico_util/datetime.c.s
 .PHONY : home/juan/pico-sdk/src/common/pico_util/datetime.c.s
 
 home/juan/pico-sdk/src/common/pico_util/pheap.o: home/juan/pico-sdk/src/common/pico_util/pheap.c.o
@@ -759,7 +759,7 @@ home/juan/pico-sdk/src/common/pico_util/pheap.o: home/juan/pico-sdk/src/common/p
 
 # target to build an object file
 home/juan/pico-sdk/src/common/pico_util/pheap.c.o:
-	cd "/mnt/meu_vol/ufc/2025.1/rtos/praticas/pratica 2/build" && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/app.dir/build.make src/CMakeFiles/app.dir/home/juan/pico-sdk/src/common/pico_util/pheap.c.o
+	cd "/media/juan/42849DD9849DCFB1/ufc/2025.1/rtos/praticas/pratica 2/build" && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/app.dir/build.make src/CMakeFiles/app.dir/home/juan/pico-sdk/src/common/pico_util/pheap.c.o
 .PHONY : home/juan/pico-sdk/src/common/pico_util/pheap.c.o
 
 home/juan/pico-sdk/src/common/pico_util/pheap.i: home/juan/pico-sdk/src/common/pico_util/pheap.c.i
@@ -767,7 +767,7 @@ home/juan/pico-sdk/src/common/pico_util/pheap.i: home/juan/pico-sdk/src/common/p
 
 # target to preprocess a source file
 home/juan/pico-sdk/src/common/pico_util/pheap.c.i:
-	cd "/mnt/meu_vol/ufc/2025.1/rtos/praticas/pratica 2/build" && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/app.dir/build.make src/CMakeFiles/app.dir/home/juan/pico-sdk/src/common/pico_util/pheap.c.i
+	cd "/media/juan/42849DD9849DCFB1/ufc/2025.1/rtos/praticas/pratica 2/build" && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/app.dir/build.make src/CMakeFiles/app.dir/home/juan/pico-sdk/src/common/pico_util/pheap.c.i
 .PHONY : home/juan/pico-sdk/src/common/pico_util/pheap.c.i
 
 home/juan/pico-sdk/src/common/pico_util/pheap.s: home/juan/pico-sdk/src/common/pico_util/pheap.c.s
@@ -775,7 +775,7 @@ home/juan/pico-sdk/src/common/pico_util/pheap.s: home/juan/pico-sdk/src/common/p
 
 # target to generate assembly for a file
 home/juan/pico-sdk/src/common/pico_util/pheap.c.s:
-	cd "/mnt/meu_vol/ufc/2025.1/rtos/praticas/pratica 2/build" && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/app.dir/build.make src/CMakeFiles/app.dir/home/juan/pico-sdk/src/common/pico_util/pheap.c.s
+	cd "/media/juan/42849DD9849DCFB1/ufc/2025.1/rtos/praticas/pratica 2/build" && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/app.dir/build.make src/CMakeFiles/app.dir/home/juan/pico-sdk/src/common/pico_util/pheap.c.s
 .PHONY : home/juan/pico-sdk/src/common/pico_util/pheap.c.s
 
 home/juan/pico-sdk/src/common/pico_util/queue.o: home/juan/pico-sdk/src/common/pico_util/queue.c.o
@@ -783,7 +783,7 @@ home/juan/pico-sdk/src/common/pico_util/queue.o: home/juan/pico-sdk/src/common/p
 
 # target to build an object file
 home/juan/pico-sdk/src/common/pico_util/queue.c.o:
-	cd "/mnt/meu_vol/ufc/2025.1/rtos/praticas/pratica 2/build" && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/app.dir/build.make src/CMakeFiles/app.dir/home/juan/pico-sdk/src/common/pico_util/queue.c.o
+	cd "/media/juan/42849DD9849DCFB1/ufc/2025.1/rtos/praticas/pratica 2/build" && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/app.dir/build.make src/CMakeFiles/app.dir/home/juan/pico-sdk/src/common/pico_util/queue.c.o
 .PHONY : home/juan/pico-sdk/src/common/pico_util/queue.c.o
 
 home/juan/pico-sdk/src/common/pico_util/queue.i: home/juan/pico-sdk/src/common/pico_util/queue.c.i
@@ -791,7 +791,7 @@ home/juan/pico-sdk/src/common/pico_util/queue.i: home/juan/pico-sdk/src/common/p
 
 # target to preprocess a source file
 home/juan/pico-sdk/src/common/pico_util/queue.c.i:
-	cd "/mnt/meu_vol/ufc/2025.1/rtos/praticas/pratica 2/build" && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/app.dir/build.make src/CMakeFiles/app.dir/home/juan/pico-sdk/src/common/pico_util/queue.c.i
+	cd "/media/juan/42849DD9849DCFB1/ufc/2025.1/rtos/praticas/pratica 2/build" && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/app.dir/build.make src/CMakeFiles/app.dir/home/juan/pico-sdk/src/common/pico_util/queue.c.i
 .PHONY : home/juan/pico-sdk/src/common/pico_util/queue.c.i
 
 home/juan/pico-sdk/src/common/pico_util/queue.s: home/juan/pico-sdk/src/common/pico_util/queue.c.s
@@ -799,7 +799,7 @@ home/juan/pico-sdk/src/common/pico_util/queue.s: home/juan/pico-sdk/src/common/p
 
 # target to generate assembly for a file
 home/juan/pico-sdk/src/common/pico_util/queue.c.s:
-	cd "/mnt/meu_vol/ufc/2025.1/rtos/praticas/pratica 2/build" && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/app.dir/build.make src/CMakeFiles/app.dir/home/juan/pico-sdk/src/common/pico_util/queue.c.s
+	cd "/media/juan/42849DD9849DCFB1/ufc/2025.1/rtos/praticas/pratica 2/build" && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/app.dir/build.make src/CMakeFiles/app.dir/home/juan/pico-sdk/src/common/pico_util/queue.c.s
 .PHONY : home/juan/pico-sdk/src/common/pico_util/queue.c.s
 
 home/juan/pico-sdk/src/rp2350/pico_platform/platform.o: home/juan/pico-sdk/src/rp2350/pico_platform/platform.c.o
@@ -807,7 +807,7 @@ home/juan/pico-sdk/src/rp2350/pico_platform/platform.o: home/juan/pico-sdk/src/r
 
 # target to build an object file
 home/juan/pico-sdk/src/rp2350/pico_platform/platform.c.o:
-	cd "/mnt/meu_vol/ufc/2025.1/rtos/praticas/pratica 2/build" && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/app.dir/build.make src/CMakeFiles/app.dir/home/juan/pico-sdk/src/rp2350/pico_platform/platform.c.o
+	cd "/media/juan/42849DD9849DCFB1/ufc/2025.1/rtos/praticas/pratica 2/build" && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/app.dir/build.make src/CMakeFiles/app.dir/home/juan/pico-sdk/src/rp2350/pico_platform/platform.c.o
 .PHONY : home/juan/pico-sdk/src/rp2350/pico_platform/platform.c.o
 
 home/juan/pico-sdk/src/rp2350/pico_platform/platform.i: home/juan/pico-sdk/src/rp2350/pico_platform/platform.c.i
@@ -815,7 +815,7 @@ home/juan/pico-sdk/src/rp2350/pico_platform/platform.i: home/juan/pico-sdk/src/r
 
 # target to preprocess a source file
 home/juan/pico-sdk/src/rp2350/pico_platform/platform.c.i:
-	cd "/mnt/meu_vol/ufc/2025.1/rtos/praticas/pratica 2/build" && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/app.dir/build.make src/CMakeFiles/app.dir/home/juan/pico-sdk/src/rp2350/pico_platform/platform.c.i
+	cd "/media/juan/42849DD9849DCFB1/ufc/2025.1/rtos/praticas/pratica 2/build" && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/app.dir/build.make src/CMakeFiles/app.dir/home/juan/pico-sdk/src/rp2350/pico_platform/platform.c.i
 .PHONY : home/juan/pico-sdk/src/rp2350/pico_platform/platform.c.i
 
 home/juan/pico-sdk/src/rp2350/pico_platform/platform.s: home/juan/pico-sdk/src/rp2350/pico_platform/platform.c.s
@@ -823,7 +823,7 @@ home/juan/pico-sdk/src/rp2350/pico_platform/platform.s: home/juan/pico-sdk/src/r
 
 # target to generate assembly for a file
 home/juan/pico-sdk/src/rp2350/pico_platform/platform.c.s:
-	cd "/mnt/meu_vol/ufc/2025.1/rtos/praticas/pratica 2/build" && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/app.dir/build.make src/CMakeFiles/app.dir/home/juan/pico-sdk/src/rp2350/pico_platform/platform.c.s
+	cd "/media/juan/42849DD9849DCFB1/ufc/2025.1/rtos/praticas/pratica 2/build" && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/app.dir/build.make src/CMakeFiles/app.dir/home/juan/pico-sdk/src/rp2350/pico_platform/platform.c.s
 .PHONY : home/juan/pico-sdk/src/rp2350/pico_platform/platform.c.s
 
 home/juan/pico-sdk/src/rp2_common/hardware_boot_lock/boot_lock.o: home/juan/pico-sdk/src/rp2_common/hardware_boot_lock/boot_lock.c.o
@@ -831,7 +831,7 @@ home/juan/pico-sdk/src/rp2_common/hardware_boot_lock/boot_lock.o: home/juan/pico
 
 # target to build an object file
 home/juan/pico-sdk/src/rp2_common/hardware_boot_lock/boot_lock.c.o:
-	cd "/mnt/meu_vol/ufc/2025.1/rtos/praticas/pratica 2/build" && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/app.dir/build.make src/CMakeFiles/app.dir/home/juan/pico-sdk/src/rp2_common/hardware_boot_lock/boot_lock.c.o
+	cd "/media/juan/42849DD9849DCFB1/ufc/2025.1/rtos/praticas/pratica 2/build" && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/app.dir/build.make src/CMakeFiles/app.dir/home/juan/pico-sdk/src/rp2_common/hardware_boot_lock/boot_lock.c.o
 .PHONY : home/juan/pico-sdk/src/rp2_common/hardware_boot_lock/boot_lock.c.o
 
 home/juan/pico-sdk/src/rp2_common/hardware_boot_lock/boot_lock.i: home/juan/pico-sdk/src/rp2_common/hardware_boot_lock/boot_lock.c.i
@@ -839,7 +839,7 @@ home/juan/pico-sdk/src/rp2_common/hardware_boot_lock/boot_lock.i: home/juan/pico
 
 # target to preprocess a source file
 home/juan/pico-sdk/src/rp2_common/hardware_boot_lock/boot_lock.c.i:
-	cd "/mnt/meu_vol/ufc/2025.1/rtos/praticas/pratica 2/build" && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/app.dir/build.make src/CMakeFiles/app.dir/home/juan/pico-sdk/src/rp2_common/hardware_boot_lock/boot_lock.c.i
+	cd "/media/juan/42849DD9849DCFB1/ufc/2025.1/rtos/praticas/pratica 2/build" && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/app.dir/build.make src/CMakeFiles/app.dir/home/juan/pico-sdk/src/rp2_common/hardware_boot_lock/boot_lock.c.i
 .PHONY : home/juan/pico-sdk/src/rp2_common/hardware_boot_lock/boot_lock.c.i
 
 home/juan/pico-sdk/src/rp2_common/hardware_boot_lock/boot_lock.s: home/juan/pico-sdk/src/rp2_common/hardware_boot_lock/boot_lock.c.s
@@ -847,7 +847,7 @@ home/juan/pico-sdk/src/rp2_common/hardware_boot_lock/boot_lock.s: home/juan/pico
 
 # target to generate assembly for a file
 home/juan/pico-sdk/src/rp2_common/hardware_boot_lock/boot_lock.c.s:
-	cd "/mnt/meu_vol/ufc/2025.1/rtos/praticas/pratica 2/build" && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/app.dir/build.make src/CMakeFiles/app.dir/home/juan/pico-sdk/src/rp2_common/hardware_boot_lock/boot_lock.c.s
+	cd "/media/juan/42849DD9849DCFB1/ufc/2025.1/rtos/praticas/pratica 2/build" && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/app.dir/build.make src/CMakeFiles/app.dir/home/juan/pico-sdk/src/rp2_common/hardware_boot_lock/boot_lock.c.s
 .PHONY : home/juan/pico-sdk/src/rp2_common/hardware_boot_lock/boot_lock.c.s
 
 home/juan/pico-sdk/src/rp2_common/hardware_clocks/clocks.o: home/juan/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.o
@@ -855,7 +855,7 @@ home/juan/pico-sdk/src/rp2_common/hardware_clocks/clocks.o: home/juan/pico-sdk/s
 
 # target to build an object file
 home/juan/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.o:
-	cd "/mnt/meu_vol/ufc/2025.1/rtos/praticas/pratica 2/build" && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/app.dir/build.make src/CMakeFiles/app.dir/home/juan/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.o
+	cd "/media/juan/42849DD9849DCFB1/ufc/2025.1/rtos/praticas/pratica 2/build" && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/app.dir/build.make src/CMakeFiles/app.dir/home/juan/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.o
 .PHONY : home/juan/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.o
 
 home/juan/pico-sdk/src/rp2_common/hardware_clocks/clocks.i: home/juan/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.i
@@ -863,7 +863,7 @@ home/juan/pico-sdk/src/rp2_common/hardware_clocks/clocks.i: home/juan/pico-sdk/s
 
 # target to preprocess a source file
 home/juan/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.i:
-	cd "/mnt/meu_vol/ufc/2025.1/rtos/praticas/pratica 2/build" && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/app.dir/build.make src/CMakeFiles/app.dir/home/juan/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.i
+	cd "/media/juan/42849DD9849DCFB1/ufc/2025.1/rtos/praticas/pratica 2/build" && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/app.dir/build.make src/CMakeFiles/app.dir/home/juan/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.i
 .PHONY : home/juan/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.i
 
 home/juan/pico-sdk/src/rp2_common/hardware_clocks/clocks.s: home/juan/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.s
@@ -871,7 +871,7 @@ home/juan/pico-sdk/src/rp2_common/hardware_clocks/clocks.s: home/juan/pico-sdk/s
 
 # target to generate assembly for a file
 home/juan/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.s:
-	cd "/mnt/meu_vol/ufc/2025.1/rtos/praticas/pratica 2/build" && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/app.dir/build.make src/CMakeFiles/app.dir/home/juan/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.s
+	cd "/media/juan/42849DD9849DCFB1/ufc/2025.1/rtos/praticas/pratica 2/build" && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/app.dir/build.make src/CMakeFiles/app.dir/home/juan/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.s
 .PHONY : home/juan/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.s
 
 home/juan/pico-sdk/src/rp2_common/hardware_divider/divider.o: home/juan/pico-sdk/src/rp2_common/hardware_divider/divider.c.o
@@ -879,7 +879,7 @@ home/juan/pico-sdk/src/rp2_common/hardware_divider/divider.o: home/juan/pico-sdk
 
 # target to build an object file
 home/juan/pico-sdk/src/rp2_common/hardware_divider/divider.c.o:
-	cd "/mnt/meu_vol/ufc/2025.1/rtos/praticas/pratica 2/build" && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/app.dir/build.make src/CMakeFiles/app.dir/home/juan/pico-sdk/src/rp2_common/hardware_divider/divider.c.o
+	cd "/media/juan/42849DD9849DCFB1/ufc/2025.1/rtos/praticas/pratica 2/build" && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/app.dir/build.make src/CMakeFiles/app.dir/home/juan/pico-sdk/src/rp2_common/hardware_divider/divider.c.o
 .PHONY : home/juan/pico-sdk/src/rp2_common/hardware_divider/divider.c.o
 
 home/juan/pico-sdk/src/rp2_common/hardware_divider/divider.i: home/juan/pico-sdk/src/rp2_common/hardware_divider/divider.c.i
@@ -887,7 +887,7 @@ home/juan/pico-sdk/src/rp2_common/hardware_divider/divider.i: home/juan/pico-sdk
 
 # target to preprocess a source file
 home/juan/pico-sdk/src/rp2_common/hardware_divider/divider.c.i:
-	cd "/mnt/meu_vol/ufc/2025.1/rtos/praticas/pratica 2/build" && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/app.dir/build.make src/CMakeFiles/app.dir/home/juan/pico-sdk/src/rp2_common/hardware_divider/divider.c.i
+	cd "/media/juan/42849DD9849DCFB1/ufc/2025.1/rtos/praticas/pratica 2/build" && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/app.dir/build.make src/CMakeFiles/app.dir/home/juan/pico-sdk/src/rp2_common/hardware_divider/divider.c.i
 .PHONY : home/juan/pico-sdk/src/rp2_common/hardware_divider/divider.c.i
 
 home/juan/pico-sdk/src/rp2_common/hardware_divider/divider.s: home/juan/pico-sdk/src/rp2_common/hardware_divider/divider.c.s
@@ -895,7 +895,7 @@ home/juan/pico-sdk/src/rp2_common/hardware_divider/divider.s: home/juan/pico-sdk
 
 # target to generate assembly for a file
 home/juan/pico-sdk/src/rp2_common/hardware_divider/divider.c.s:
-	cd "/mnt/meu_vol/ufc/2025.1/rtos/praticas/pratica 2/build" && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/app.dir/build.make src/CMakeFiles/app.dir/home/juan/pico-sdk/src/rp2_common/hardware_divider/divider.c.s
+	cd "/media/juan/42849DD9849DCFB1/ufc/2025.1/rtos/praticas/pratica 2/build" && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/app.dir/build.make src/CMakeFiles/app.dir/home/juan/pico-sdk/src/rp2_common/hardware_divider/divider.c.s
 .PHONY : home/juan/pico-sdk/src/rp2_common/hardware_divider/divider.c.s
 
 home/juan/pico-sdk/src/rp2_common/hardware_flash/flash.o: home/juan/pico-sdk/src/rp2_common/hardware_flash/flash.c.o
@@ -903,7 +903,7 @@ home/juan/pico-sdk/src/rp2_common/hardware_flash/flash.o: home/juan/pico-sdk/src
 
 # target to build an object file
 home/juan/pico-sdk/src/rp2_common/hardware_flash/flash.c.o:
-	cd "/mnt/meu_vol/ufc/2025.1/rtos/praticas/pratica 2/build" && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/app.dir/build.make src/CMakeFiles/app.dir/home/juan/pico-sdk/src/rp2_common/hardware_flash/flash.c.o
+	cd "/media/juan/42849DD9849DCFB1/ufc/2025.1/rtos/praticas/pratica 2/build" && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/app.dir/build.make src/CMakeFiles/app.dir/home/juan/pico-sdk/src/rp2_common/hardware_flash/flash.c.o
 .PHONY : home/juan/pico-sdk/src/rp2_common/hardware_flash/flash.c.o
 
 home/juan/pico-sdk/src/rp2_common/hardware_flash/flash.i: home/juan/pico-sdk/src/rp2_common/hardware_flash/flash.c.i
@@ -911,7 +911,7 @@ home/juan/pico-sdk/src/rp2_common/hardware_flash/flash.i: home/juan/pico-sdk/src
 
 # target to preprocess a source file
 home/juan/pico-sdk/src/rp2_common/hardware_flash/flash.c.i:
-	cd "/mnt/meu_vol/ufc/2025.1/rtos/praticas/pratica 2/build" && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/app.dir/build.make src/CMakeFiles/app.dir/home/juan/pico-sdk/src/rp2_common/hardware_flash/flash.c.i
+	cd "/media/juan/42849DD9849DCFB1/ufc/2025.1/rtos/praticas/pratica 2/build" && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/app.dir/build.make src/CMakeFiles/app.dir/home/juan/pico-sdk/src/rp2_common/hardware_flash/flash.c.i
 .PHONY : home/juan/pico-sdk/src/rp2_common/hardware_flash/flash.c.i
 
 home/juan/pico-sdk/src/rp2_common/hardware_flash/flash.s: home/juan/pico-sdk/src/rp2_common/hardware_flash/flash.c.s
@@ -919,7 +919,7 @@ home/juan/pico-sdk/src/rp2_common/hardware_flash/flash.s: home/juan/pico-sdk/src
 
 # target to generate assembly for a file
 home/juan/pico-sdk/src/rp2_common/hardware_flash/flash.c.s:
-	cd "/mnt/meu_vol/ufc/2025.1/rtos/praticas/pratica 2/build" && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/app.dir/build.make src/CMakeFiles/app.dir/home/juan/pico-sdk/src/rp2_common/hardware_flash/flash.c.s
+	cd "/media/juan/42849DD9849DCFB1/ufc/2025.1/rtos/praticas/pratica 2/build" && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/app.dir/build.make src/CMakeFiles/app.dir/home/juan/pico-sdk/src/rp2_common/hardware_flash/flash.c.s
 .PHONY : home/juan/pico-sdk/src/rp2_common/hardware_flash/flash.c.s
 
 home/juan/pico-sdk/src/rp2_common/hardware_gpio/gpio.o: home/juan/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.o
@@ -927,7 +927,7 @@ home/juan/pico-sdk/src/rp2_common/hardware_gpio/gpio.o: home/juan/pico-sdk/src/r
 
 # target to build an object file
 home/juan/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.o:
-	cd "/mnt/meu_vol/ufc/2025.1/rtos/praticas/pratica 2/build" && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/app.dir/build.make src/CMakeFiles/app.dir/home/juan/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.o
+	cd "/media/juan/42849DD9849DCFB1/ufc/2025.1/rtos/praticas/pratica 2/build" && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/app.dir/build.make src/CMakeFiles/app.dir/home/juan/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.o
 .PHONY : home/juan/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.o
 
 home/juan/pico-sdk/src/rp2_common/hardware_gpio/gpio.i: home/juan/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.i
@@ -935,7 +935,7 @@ home/juan/pico-sdk/src/rp2_common/hardware_gpio/gpio.i: home/juan/pico-sdk/src/r
 
 # target to preprocess a source file
 home/juan/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.i:
-	cd "/mnt/meu_vol/ufc/2025.1/rtos/praticas/pratica 2/build" && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/app.dir/build.make src/CMakeFiles/app.dir/home/juan/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.i
+	cd "/media/juan/42849DD9849DCFB1/ufc/2025.1/rtos/praticas/pratica 2/build" && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/app.dir/build.make src/CMakeFiles/app.dir/home/juan/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.i
 .PHONY : home/juan/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.i
 
 home/juan/pico-sdk/src/rp2_common/hardware_gpio/gpio.s: home/juan/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.s
@@ -943,7 +943,7 @@ home/juan/pico-sdk/src/rp2_common/hardware_gpio/gpio.s: home/juan/pico-sdk/src/r
 
 # target to generate assembly for a file
 home/juan/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.s:
-	cd "/mnt/meu_vol/ufc/2025.1/rtos/praticas/pratica 2/build" && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/app.dir/build.make src/CMakeFiles/app.dir/home/juan/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.s
+	cd "/media/juan/42849DD9849DCFB1/ufc/2025.1/rtos/praticas/pratica 2/build" && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/app.dir/build.make src/CMakeFiles/app.dir/home/juan/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.s
 .PHONY : home/juan/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.s
 
 home/juan/pico-sdk/src/rp2_common/hardware_irq/irq.o: home/juan/pico-sdk/src/rp2_common/hardware_irq/irq.c.o
@@ -951,7 +951,7 @@ home/juan/pico-sdk/src/rp2_common/hardware_irq/irq.o: home/juan/pico-sdk/src/rp2
 
 # target to build an object file
 home/juan/pico-sdk/src/rp2_common/hardware_irq/irq.c.o:
-	cd "/mnt/meu_vol/ufc/2025.1/rtos/praticas/pratica 2/build" && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/app.dir/build.make src/CMakeFiles/app.dir/home/juan/pico-sdk/src/rp2_common/hardware_irq/irq.c.o
+	cd "/media/juan/42849DD9849DCFB1/ufc/2025.1/rtos/praticas/pratica 2/build" && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/app.dir/build.make src/CMakeFiles/app.dir/home/juan/pico-sdk/src/rp2_common/hardware_irq/irq.c.o
 .PHONY : home/juan/pico-sdk/src/rp2_common/hardware_irq/irq.c.o
 
 home/juan/pico-sdk/src/rp2_common/hardware_irq/irq.i: home/juan/pico-sdk/src/rp2_common/hardware_irq/irq.c.i
@@ -959,7 +959,7 @@ home/juan/pico-sdk/src/rp2_common/hardware_irq/irq.i: home/juan/pico-sdk/src/rp2
 
 # target to preprocess a source file
 home/juan/pico-sdk/src/rp2_common/hardware_irq/irq.c.i:
-	cd "/mnt/meu_vol/ufc/2025.1/rtos/praticas/pratica 2/build" && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/app.dir/build.make src/CMakeFiles/app.dir/home/juan/pico-sdk/src/rp2_common/hardware_irq/irq.c.i
+	cd "/media/juan/42849DD9849DCFB1/ufc/2025.1/rtos/praticas/pratica 2/build" && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/app.dir/build.make src/CMakeFiles/app.dir/home/juan/pico-sdk/src/rp2_common/hardware_irq/irq.c.i
 .PHONY : home/juan/pico-sdk/src/rp2_common/hardware_irq/irq.c.i
 
 home/juan/pico-sdk/src/rp2_common/hardware_irq/irq.s: home/juan/pico-sdk/src/rp2_common/hardware_irq/irq.c.s
@@ -967,7 +967,7 @@ home/juan/pico-sdk/src/rp2_common/hardware_irq/irq.s: home/juan/pico-sdk/src/rp2
 
 # target to generate assembly for a file
 home/juan/pico-sdk/src/rp2_common/hardware_irq/irq.c.s:
-	cd "/mnt/meu_vol/ufc/2025.1/rtos/praticas/pratica 2/build" && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/app.dir/build.make src/CMakeFiles/app.dir/home/juan/pico-sdk/src/rp2_common/hardware_irq/irq.c.s
+	cd "/media/juan/42849DD9849DCFB1/ufc/2025.1/rtos/praticas/pratica 2/build" && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/app.dir/build.make src/CMakeFiles/app.dir/home/juan/pico-sdk/src/rp2_common/hardware_irq/irq.c.s
 .PHONY : home/juan/pico-sdk/src/rp2_common/hardware_irq/irq.c.s
 
 home/juan/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.o: home/juan/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S.o
@@ -975,7 +975,7 @@ home/juan/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.o: home/juan/pi
 
 # target to build an object file
 home/juan/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S.o:
-	cd "/mnt/meu_vol/ufc/2025.1/rtos/praticas/pratica 2/build" && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/app.dir/build.make src/CMakeFiles/app.dir/home/juan/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S.o
+	cd "/media/juan/42849DD9849DCFB1/ufc/2025.1/rtos/praticas/pratica 2/build" && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/app.dir/build.make src/CMakeFiles/app.dir/home/juan/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S.o
 .PHONY : home/juan/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S.o
 
 home/juan/pico-sdk/src/rp2_common/hardware_pll/pll.o: home/juan/pico-sdk/src/rp2_common/hardware_pll/pll.c.o
@@ -983,7 +983,7 @@ home/juan/pico-sdk/src/rp2_common/hardware_pll/pll.o: home/juan/pico-sdk/src/rp2
 
 # target to build an object file
 home/juan/pico-sdk/src/rp2_common/hardware_pll/pll.c.o:
-	cd "/mnt/meu_vol/ufc/2025.1/rtos/praticas/pratica 2/build" && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/app.dir/build.make src/CMakeFiles/app.dir/home/juan/pico-sdk/src/rp2_common/hardware_pll/pll.c.o
+	cd "/media/juan/42849DD9849DCFB1/ufc/2025.1/rtos/praticas/pratica 2/build" && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/app.dir/build.make src/CMakeFiles/app.dir/home/juan/pico-sdk/src/rp2_common/hardware_pll/pll.c.o
 .PHONY : home/juan/pico-sdk/src/rp2_common/hardware_pll/pll.c.o
 
 home/juan/pico-sdk/src/rp2_common/hardware_pll/pll.i: home/juan/pico-sdk/src/rp2_common/hardware_pll/pll.c.i
@@ -991,7 +991,7 @@ home/juan/pico-sdk/src/rp2_common/hardware_pll/pll.i: home/juan/pico-sdk/src/rp2
 
 # target to preprocess a source file
 home/juan/pico-sdk/src/rp2_common/hardware_pll/pll.c.i:
-	cd "/mnt/meu_vol/ufc/2025.1/rtos/praticas/pratica 2/build" && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/app.dir/build.make src/CMakeFiles/app.dir/home/juan/pico-sdk/src/rp2_common/hardware_pll/pll.c.i
+	cd "/media/juan/42849DD9849DCFB1/ufc/2025.1/rtos/praticas/pratica 2/build" && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/app.dir/build.make src/CMakeFiles/app.dir/home/juan/pico-sdk/src/rp2_common/hardware_pll/pll.c.i
 .PHONY : home/juan/pico-sdk/src/rp2_common/hardware_pll/pll.c.i
 
 home/juan/pico-sdk/src/rp2_common/hardware_pll/pll.s: home/juan/pico-sdk/src/rp2_common/hardware_pll/pll.c.s
@@ -999,7 +999,7 @@ home/juan/pico-sdk/src/rp2_common/hardware_pll/pll.s: home/juan/pico-sdk/src/rp2
 
 # target to generate assembly for a file
 home/juan/pico-sdk/src/rp2_common/hardware_pll/pll.c.s:
-	cd "/mnt/meu_vol/ufc/2025.1/rtos/praticas/pratica 2/build" && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/app.dir/build.make src/CMakeFiles/app.dir/home/juan/pico-sdk/src/rp2_common/hardware_pll/pll.c.s
+	cd "/media/juan/42849DD9849DCFB1/ufc/2025.1/rtos/praticas/pratica 2/build" && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/app.dir/build.make src/CMakeFiles/app.dir/home/juan/pico-sdk/src/rp2_common/hardware_pll/pll.c.s
 .PHONY : home/juan/pico-sdk/src/rp2_common/hardware_pll/pll.c.s
 
 home/juan/pico-sdk/src/rp2_common/hardware_sync/sync.o: home/juan/pico-sdk/src/rp2_common/hardware_sync/sync.c.o
@@ -1007,7 +1007,7 @@ home/juan/pico-sdk/src/rp2_common/hardware_sync/sync.o: home/juan/pico-sdk/src/r
 
 # target to build an object file
 home/juan/pico-sdk/src/rp2_common/hardware_sync/sync.c.o:
-	cd "/mnt/meu_vol/ufc/2025.1/rtos/praticas/pratica 2/build" && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/app.dir/build.make src/CMakeFiles/app.dir/home/juan/pico-sdk/src/rp2_common/hardware_sync/sync.c.o
+	cd "/media/juan/42849DD9849DCFB1/ufc/2025.1/rtos/praticas/pratica 2/build" && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/app.dir/build.make src/CMakeFiles/app.dir/home/juan/pico-sdk/src/rp2_common/hardware_sync/sync.c.o
 .PHONY : home/juan/pico-sdk/src/rp2_common/hardware_sync/sync.c.o
 
 home/juan/pico-sdk/src/rp2_common/hardware_sync/sync.i: home/juan/pico-sdk/src/rp2_common/hardware_sync/sync.c.i
@@ -1015,7 +1015,7 @@ home/juan/pico-sdk/src/rp2_common/hardware_sync/sync.i: home/juan/pico-sdk/src/r
 
 # target to preprocess a source file
 home/juan/pico-sdk/src/rp2_common/hardware_sync/sync.c.i:
-	cd "/mnt/meu_vol/ufc/2025.1/rtos/praticas/pratica 2/build" && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/app.dir/build.make src/CMakeFiles/app.dir/home/juan/pico-sdk/src/rp2_common/hardware_sync/sync.c.i
+	cd "/media/juan/42849DD9849DCFB1/ufc/2025.1/rtos/praticas/pratica 2/build" && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/app.dir/build.make src/CMakeFiles/app.dir/home/juan/pico-sdk/src/rp2_common/hardware_sync/sync.c.i
 .PHONY : home/juan/pico-sdk/src/rp2_common/hardware_sync/sync.c.i
 
 home/juan/pico-sdk/src/rp2_common/hardware_sync/sync.s: home/juan/pico-sdk/src/rp2_common/hardware_sync/sync.c.s
@@ -1023,7 +1023,7 @@ home/juan/pico-sdk/src/rp2_common/hardware_sync/sync.s: home/juan/pico-sdk/src/r
 
 # target to generate assembly for a file
 home/juan/pico-sdk/src/rp2_common/hardware_sync/sync.c.s:
-	cd "/mnt/meu_vol/ufc/2025.1/rtos/praticas/pratica 2/build" && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/app.dir/build.make src/CMakeFiles/app.dir/home/juan/pico-sdk/src/rp2_common/hardware_sync/sync.c.s
+	cd "/media/juan/42849DD9849DCFB1/ufc/2025.1/rtos/praticas/pratica 2/build" && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/app.dir/build.make src/CMakeFiles/app.dir/home/juan/pico-sdk/src/rp2_common/hardware_sync/sync.c.s
 .PHONY : home/juan/pico-sdk/src/rp2_common/hardware_sync/sync.c.s
 
 home/juan/pico-sdk/src/rp2_common/hardware_sync_spin_lock/sync_spin_lock.o: home/juan/pico-sdk/src/rp2_common/hardware_sync_spin_lock/sync_spin_lock.c.o
@@ -1031,7 +1031,7 @@ home/juan/pico-sdk/src/rp2_common/hardware_sync_spin_lock/sync_spin_lock.o: home
 
 # target to build an object file
 home/juan/pico-sdk/src/rp2_common/hardware_sync_spin_lock/sync_spin_lock.c.o:
-	cd "/mnt/meu_vol/ufc/2025.1/rtos/praticas/pratica 2/build" && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/app.dir/build.make src/CMakeFiles/app.dir/home/juan/pico-sdk/src/rp2_common/hardware_sync_spin_lock/sync_spin_lock.c.o
+	cd "/media/juan/42849DD9849DCFB1/ufc/2025.1/rtos/praticas/pratica 2/build" && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/app.dir/build.make src/CMakeFiles/app.dir/home/juan/pico-sdk/src/rp2_common/hardware_sync_spin_lock/sync_spin_lock.c.o
 .PHONY : home/juan/pico-sdk/src/rp2_common/hardware_sync_spin_lock/sync_spin_lock.c.o
 
 home/juan/pico-sdk/src/rp2_common/hardware_sync_spin_lock/sync_spin_lock.i: home/juan/pico-sdk/src/rp2_common/hardware_sync_spin_lock/sync_spin_lock.c.i
@@ -1039,7 +1039,7 @@ home/juan/pico-sdk/src/rp2_common/hardware_sync_spin_lock/sync_spin_lock.i: home
 
 # target to preprocess a source file
 home/juan/pico-sdk/src/rp2_common/hardware_sync_spin_lock/sync_spin_lock.c.i:
-	cd "/mnt/meu_vol/ufc/2025.1/rtos/praticas/pratica 2/build" && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/app.dir/build.make src/CMakeFiles/app.dir/home/juan/pico-sdk/src/rp2_common/hardware_sync_spin_lock/sync_spin_lock.c.i
+	cd "/media/juan/42849DD9849DCFB1/ufc/2025.1/rtos/praticas/pratica 2/build" && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/app.dir/build.make src/CMakeFiles/app.dir/home/juan/pico-sdk/src/rp2_common/hardware_sync_spin_lock/sync_spin_lock.c.i
 .PHONY : home/juan/pico-sdk/src/rp2_common/hardware_sync_spin_lock/sync_spin_lock.c.i
 
 home/juan/pico-sdk/src/rp2_common/hardware_sync_spin_lock/sync_spin_lock.s: home/juan/pico-sdk/src/rp2_common/hardware_sync_spin_lock/sync_spin_lock.c.s
@@ -1047,7 +1047,7 @@ home/juan/pico-sdk/src/rp2_common/hardware_sync_spin_lock/sync_spin_lock.s: home
 
 # target to generate assembly for a file
 home/juan/pico-sdk/src/rp2_common/hardware_sync_spin_lock/sync_spin_lock.c.s:
-	cd "/mnt/meu_vol/ufc/2025.1/rtos/praticas/pratica 2/build" && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/app.dir/build.make src/CMakeFiles/app.dir/home/juan/pico-sdk/src/rp2_common/hardware_sync_spin_lock/sync_spin_lock.c.s
+	cd "/media/juan/42849DD9849DCFB1/ufc/2025.1/rtos/praticas/pratica 2/build" && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/app.dir/build.make src/CMakeFiles/app.dir/home/juan/pico-sdk/src/rp2_common/hardware_sync_spin_lock/sync_spin_lock.c.s
 .PHONY : home/juan/pico-sdk/src/rp2_common/hardware_sync_spin_lock/sync_spin_lock.c.s
 
 home/juan/pico-sdk/src/rp2_common/hardware_ticks/ticks.o: home/juan/pico-sdk/src/rp2_common/hardware_ticks/ticks.c.o
@@ -1055,7 +1055,7 @@ home/juan/pico-sdk/src/rp2_common/hardware_ticks/ticks.o: home/juan/pico-sdk/src
 
 # target to build an object file
 home/juan/pico-sdk/src/rp2_common/hardware_ticks/ticks.c.o:
-	cd "/mnt/meu_vol/ufc/2025.1/rtos/praticas/pratica 2/build" && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/app.dir/build.make src/CMakeFiles/app.dir/home/juan/pico-sdk/src/rp2_common/hardware_ticks/ticks.c.o
+	cd "/media/juan/42849DD9849DCFB1/ufc/2025.1/rtos/praticas/pratica 2/build" && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/app.dir/build.make src/CMakeFiles/app.dir/home/juan/pico-sdk/src/rp2_common/hardware_ticks/ticks.c.o
 .PHONY : home/juan/pico-sdk/src/rp2_common/hardware_ticks/ticks.c.o
 
 home/juan/pico-sdk/src/rp2_common/hardware_ticks/ticks.i: home/juan/pico-sdk/src/rp2_common/hardware_ticks/ticks.c.i
@@ -1063,7 +1063,7 @@ home/juan/pico-sdk/src/rp2_common/hardware_ticks/ticks.i: home/juan/pico-sdk/src
 
 # target to preprocess a source file
 home/juan/pico-sdk/src/rp2_common/hardware_ticks/ticks.c.i:
-	cd "/mnt/meu_vol/ufc/2025.1/rtos/praticas/pratica 2/build" && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/app.dir/build.make src/CMakeFiles/app.dir/home/juan/pico-sdk/src/rp2_common/hardware_ticks/ticks.c.i
+	cd "/media/juan/42849DD9849DCFB1/ufc/2025.1/rtos/praticas/pratica 2/build" && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/app.dir/build.make src/CMakeFiles/app.dir/home/juan/pico-sdk/src/rp2_common/hardware_ticks/ticks.c.i
 .PHONY : home/juan/pico-sdk/src/rp2_common/hardware_ticks/ticks.c.i
 
 home/juan/pico-sdk/src/rp2_common/hardware_ticks/ticks.s: home/juan/pico-sdk/src/rp2_common/hardware_ticks/ticks.c.s
@@ -1071,7 +1071,7 @@ home/juan/pico-sdk/src/rp2_common/hardware_ticks/ticks.s: home/juan/pico-sdk/src
 
 # target to generate assembly for a file
 home/juan/pico-sdk/src/rp2_common/hardware_ticks/ticks.c.s:
-	cd "/mnt/meu_vol/ufc/2025.1/rtos/praticas/pratica 2/build" && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/app.dir/build.make src/CMakeFiles/app.dir/home/juan/pico-sdk/src/rp2_common/hardware_ticks/ticks.c.s
+	cd "/media/juan/42849DD9849DCFB1/ufc/2025.1/rtos/praticas/pratica 2/build" && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/app.dir/build.make src/CMakeFiles/app.dir/home/juan/pico-sdk/src/rp2_common/hardware_ticks/ticks.c.s
 .PHONY : home/juan/pico-sdk/src/rp2_common/hardware_ticks/ticks.c.s
 
 home/juan/pico-sdk/src/rp2_common/hardware_timer/timer.o: home/juan/pico-sdk/src/rp2_common/hardware_timer/timer.c.o
@@ -1079,7 +1079,7 @@ home/juan/pico-sdk/src/rp2_common/hardware_timer/timer.o: home/juan/pico-sdk/src
 
 # target to build an object file
 home/juan/pico-sdk/src/rp2_common/hardware_timer/timer.c.o:
-	cd "/mnt/meu_vol/ufc/2025.1/rtos/praticas/pratica 2/build" && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/app.dir/build.make src/CMakeFiles/app.dir/home/juan/pico-sdk/src/rp2_common/hardware_timer/timer.c.o
+	cd "/media/juan/42849DD9849DCFB1/ufc/2025.1/rtos/praticas/pratica 2/build" && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/app.dir/build.make src/CMakeFiles/app.dir/home/juan/pico-sdk/src/rp2_common/hardware_timer/timer.c.o
 .PHONY : home/juan/pico-sdk/src/rp2_common/hardware_timer/timer.c.o
 
 home/juan/pico-sdk/src/rp2_common/hardware_timer/timer.i: home/juan/pico-sdk/src/rp2_common/hardware_timer/timer.c.i
@@ -1087,7 +1087,7 @@ home/juan/pico-sdk/src/rp2_common/hardware_timer/timer.i: home/juan/pico-sdk/src
 
 # target to preprocess a source file
 home/juan/pico-sdk/src/rp2_common/hardware_timer/timer.c.i:
-	cd "/mnt/meu_vol/ufc/2025.1/rtos/praticas/pratica 2/build" && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/app.dir/build.make src/CMakeFiles/app.dir/home/juan/pico-sdk/src/rp2_common/hardware_timer/timer.c.i
+	cd "/media/juan/42849DD9849DCFB1/ufc/2025.1/rtos/praticas/pratica 2/build" && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/app.dir/build.make src/CMakeFiles/app.dir/home/juan/pico-sdk/src/rp2_common/hardware_timer/timer.c.i
 .PHONY : home/juan/pico-sdk/src/rp2_common/hardware_timer/timer.c.i
 
 home/juan/pico-sdk/src/rp2_common/hardware_timer/timer.s: home/juan/pico-sdk/src/rp2_common/hardware_timer/timer.c.s
@@ -1095,7 +1095,7 @@ home/juan/pico-sdk/src/rp2_common/hardware_timer/timer.s: home/juan/pico-sdk/src
 
 # target to generate assembly for a file
 home/juan/pico-sdk/src/rp2_common/hardware_timer/timer.c.s:
-	cd "/mnt/meu_vol/ufc/2025.1/rtos/praticas/pratica 2/build" && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/app.dir/build.make src/CMakeFiles/app.dir/home/juan/pico-sdk/src/rp2_common/hardware_timer/timer.c.s
+	cd "/media/juan/42849DD9849DCFB1/ufc/2025.1/rtos/praticas/pratica 2/build" && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/app.dir/build.make src/CMakeFiles/app.dir/home/juan/pico-sdk/src/rp2_common/hardware_timer/timer.c.s
 .PHONY : home/juan/pico-sdk/src/rp2_common/hardware_timer/timer.c.s
 
 home/juan/pico-sdk/src/rp2_common/hardware_uart/uart.o: home/juan/pico-sdk/src/rp2_common/hardware_uart/uart.c.o
@@ -1103,7 +1103,7 @@ home/juan/pico-sdk/src/rp2_common/hardware_uart/uart.o: home/juan/pico-sdk/src/r
 
 # target to build an object file
 home/juan/pico-sdk/src/rp2_common/hardware_uart/uart.c.o:
-	cd "/mnt/meu_vol/ufc/2025.1/rtos/praticas/pratica 2/build" && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/app.dir/build.make src/CMakeFiles/app.dir/home/juan/pico-sdk/src/rp2_common/hardware_uart/uart.c.o
+	cd "/media/juan/42849DD9849DCFB1/ufc/2025.1/rtos/praticas/pratica 2/build" && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/app.dir/build.make src/CMakeFiles/app.dir/home/juan/pico-sdk/src/rp2_common/hardware_uart/uart.c.o
 .PHONY : home/juan/pico-sdk/src/rp2_common/hardware_uart/uart.c.o
 
 home/juan/pico-sdk/src/rp2_common/hardware_uart/uart.i: home/juan/pico-sdk/src/rp2_common/hardware_uart/uart.c.i
@@ -1111,7 +1111,7 @@ home/juan/pico-sdk/src/rp2_common/hardware_uart/uart.i: home/juan/pico-sdk/src/r
 
 # target to preprocess a source file
 home/juan/pico-sdk/src/rp2_common/hardware_uart/uart.c.i:
-	cd "/mnt/meu_vol/ufc/2025.1/rtos/praticas/pratica 2/build" && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/app.dir/build.make src/CMakeFiles/app.dir/home/juan/pico-sdk/src/rp2_common/hardware_uart/uart.c.i
+	cd "/media/juan/42849DD9849DCFB1/ufc/2025.1/rtos/praticas/pratica 2/build" && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/app.dir/build.make src/CMakeFiles/app.dir/home/juan/pico-sdk/src/rp2_common/hardware_uart/uart.c.i
 .PHONY : home/juan/pico-sdk/src/rp2_common/hardware_uart/uart.c.i
 
 home/juan/pico-sdk/src/rp2_common/hardware_uart/uart.s: home/juan/pico-sdk/src/rp2_common/hardware_uart/uart.c.s
@@ -1119,7 +1119,7 @@ home/juan/pico-sdk/src/rp2_common/hardware_uart/uart.s: home/juan/pico-sdk/src/r
 
 # target to generate assembly for a file
 home/juan/pico-sdk/src/rp2_common/hardware_uart/uart.c.s:
-	cd "/mnt/meu_vol/ufc/2025.1/rtos/praticas/pratica 2/build" && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/app.dir/build.make src/CMakeFiles/app.dir/home/juan/pico-sdk/src/rp2_common/hardware_uart/uart.c.s
+	cd "/media/juan/42849DD9849DCFB1/ufc/2025.1/rtos/praticas/pratica 2/build" && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/app.dir/build.make src/CMakeFiles/app.dir/home/juan/pico-sdk/src/rp2_common/hardware_uart/uart.c.s
 .PHONY : home/juan/pico-sdk/src/rp2_common/hardware_uart/uart.c.s
 
 home/juan/pico-sdk/src/rp2_common/hardware_vreg/vreg.o: home/juan/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.o
@@ -1127,7 +1127,7 @@ home/juan/pico-sdk/src/rp2_common/hardware_vreg/vreg.o: home/juan/pico-sdk/src/r
 
 # target to build an object file
 home/juan/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.o:
-	cd "/mnt/meu_vol/ufc/2025.1/rtos/praticas/pratica 2/build" && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/app.dir/build.make src/CMakeFiles/app.dir/home/juan/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.o
+	cd "/media/juan/42849DD9849DCFB1/ufc/2025.1/rtos/praticas/pratica 2/build" && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/app.dir/build.make src/CMakeFiles/app.dir/home/juan/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.o
 .PHONY : home/juan/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.o
 
 home/juan/pico-sdk/src/rp2_common/hardware_vreg/vreg.i: home/juan/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.i
@@ -1135,7 +1135,7 @@ home/juan/pico-sdk/src/rp2_common/hardware_vreg/vreg.i: home/juan/pico-sdk/src/r
 
 # target to preprocess a source file
 home/juan/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.i:
-	cd "/mnt/meu_vol/ufc/2025.1/rtos/praticas/pratica 2/build" && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/app.dir/build.make src/CMakeFiles/app.dir/home/juan/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.i
+	cd "/media/juan/42849DD9849DCFB1/ufc/2025.1/rtos/praticas/pratica 2/build" && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/app.dir/build.make src/CMakeFiles/app.dir/home/juan/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.i
 .PHONY : home/juan/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.i
 
 home/juan/pico-sdk/src/rp2_common/hardware_vreg/vreg.s: home/juan/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.s
@@ -1143,7 +1143,7 @@ home/juan/pico-sdk/src/rp2_common/hardware_vreg/vreg.s: home/juan/pico-sdk/src/r
 
 # target to generate assembly for a file
 home/juan/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.s:
-	cd "/mnt/meu_vol/ufc/2025.1/rtos/praticas/pratica 2/build" && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/app.dir/build.make src/CMakeFiles/app.dir/home/juan/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.s
+	cd "/media/juan/42849DD9849DCFB1/ufc/2025.1/rtos/praticas/pratica 2/build" && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/app.dir/build.make src/CMakeFiles/app.dir/home/juan/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.s
 .PHONY : home/juan/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.s
 
 home/juan/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.o: home/juan/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.o
@@ -1151,7 +1151,7 @@ home/juan/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.o: home/juan/pico-s
 
 # target to build an object file
 home/juan/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.o:
-	cd "/mnt/meu_vol/ufc/2025.1/rtos/praticas/pratica 2/build" && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/app.dir/build.make src/CMakeFiles/app.dir/home/juan/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.o
+	cd "/media/juan/42849DD9849DCFB1/ufc/2025.1/rtos/praticas/pratica 2/build" && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/app.dir/build.make src/CMakeFiles/app.dir/home/juan/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.o
 .PHONY : home/juan/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.o
 
 home/juan/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.i: home/juan/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.i
@@ -1159,7 +1159,7 @@ home/juan/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.i: home/juan/pico-s
 
 # target to preprocess a source file
 home/juan/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.i:
-	cd "/mnt/meu_vol/ufc/2025.1/rtos/praticas/pratica 2/build" && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/app.dir/build.make src/CMakeFiles/app.dir/home/juan/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.i
+	cd "/media/juan/42849DD9849DCFB1/ufc/2025.1/rtos/praticas/pratica 2/build" && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/app.dir/build.make src/CMakeFiles/app.dir/home/juan/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.i
 .PHONY : home/juan/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.i
 
 home/juan/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.s: home/juan/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.s
@@ -1167,7 +1167,7 @@ home/juan/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.s: home/juan/pico-s
 
 # target to generate assembly for a file
 home/juan/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.s:
-	cd "/mnt/meu_vol/ufc/2025.1/rtos/praticas/pratica 2/build" && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/app.dir/build.make src/CMakeFiles/app.dir/home/juan/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.s
+	cd "/media/juan/42849DD9849DCFB1/ufc/2025.1/rtos/praticas/pratica 2/build" && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/app.dir/build.make src/CMakeFiles/app.dir/home/juan/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.s
 .PHONY : home/juan/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.s
 
 home/juan/pico-sdk/src/rp2_common/hardware_xip_cache/xip_cache.o: home/juan/pico-sdk/src/rp2_common/hardware_xip_cache/xip_cache.c.o
@@ -1175,7 +1175,7 @@ home/juan/pico-sdk/src/rp2_common/hardware_xip_cache/xip_cache.o: home/juan/pico
 
 # target to build an object file
 home/juan/pico-sdk/src/rp2_common/hardware_xip_cache/xip_cache.c.o:
-	cd "/mnt/meu_vol/ufc/2025.1/rtos/praticas/pratica 2/build" && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/app.dir/build.make src/CMakeFiles/app.dir/home/juan/pico-sdk/src/rp2_common/hardware_xip_cache/xip_cache.c.o
+	cd "/media/juan/42849DD9849DCFB1/ufc/2025.1/rtos/praticas/pratica 2/build" && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/app.dir/build.make src/CMakeFiles/app.dir/home/juan/pico-sdk/src/rp2_common/hardware_xip_cache/xip_cache.c.o
 .PHONY : home/juan/pico-sdk/src/rp2_common/hardware_xip_cache/xip_cache.c.o
 
 home/juan/pico-sdk/src/rp2_common/hardware_xip_cache/xip_cache.i: home/juan/pico-sdk/src/rp2_common/hardware_xip_cache/xip_cache.c.i
@@ -1183,7 +1183,7 @@ home/juan/pico-sdk/src/rp2_common/hardware_xip_cache/xip_cache.i: home/juan/pico
 
 # target to preprocess a source file
 home/juan/pico-sdk/src/rp2_common/hardware_xip_cache/xip_cache.c.i:
-	cd "/mnt/meu_vol/ufc/2025.1/rtos/praticas/pratica 2/build" && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/app.dir/build.make src/CMakeFiles/app.dir/home/juan/pico-sdk/src/rp2_common/hardware_xip_cache/xip_cache.c.i
+	cd "/media/juan/42849DD9849DCFB1/ufc/2025.1/rtos/praticas/pratica 2/build" && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/app.dir/build.make src/CMakeFiles/app.dir/home/juan/pico-sdk/src/rp2_common/hardware_xip_cache/xip_cache.c.i
 .PHONY : home/juan/pico-sdk/src/rp2_common/hardware_xip_cache/xip_cache.c.i
 
 home/juan/pico-sdk/src/rp2_common/hardware_xip_cache/xip_cache.s: home/juan/pico-sdk/src/rp2_common/hardware_xip_cache/xip_cache.c.s
@@ -1191,7 +1191,7 @@ home/juan/pico-sdk/src/rp2_common/hardware_xip_cache/xip_cache.s: home/juan/pico
 
 # target to generate assembly for a file
 home/juan/pico-sdk/src/rp2_common/hardware_xip_cache/xip_cache.c.s:
-	cd "/mnt/meu_vol/ufc/2025.1/rtos/praticas/pratica 2/build" && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/app.dir/build.make src/CMakeFiles/app.dir/home/juan/pico-sdk/src/rp2_common/hardware_xip_cache/xip_cache.c.s
+	cd "/media/juan/42849DD9849DCFB1/ufc/2025.1/rtos/praticas/pratica 2/build" && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/app.dir/build.make src/CMakeFiles/app.dir/home/juan/pico-sdk/src/rp2_common/hardware_xip_cache/xip_cache.c.s
 .PHONY : home/juan/pico-sdk/src/rp2_common/hardware_xip_cache/xip_cache.c.s
 
 home/juan/pico-sdk/src/rp2_common/hardware_xosc/xosc.o: home/juan/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.o
@@ -1199,7 +1199,7 @@ home/juan/pico-sdk/src/rp2_common/hardware_xosc/xosc.o: home/juan/pico-sdk/src/r
 
 # target to build an object file
 home/juan/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.o:
-	cd "/mnt/meu_vol/ufc/2025.1/rtos/praticas/pratica 2/build" && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/app.dir/build.make src/CMakeFiles/app.dir/home/juan/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.o
+	cd "/media/juan/42849DD9849DCFB1/ufc/2025.1/rtos/praticas/pratica 2/build" && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/app.dir/build.make src/CMakeFiles/app.dir/home/juan/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.o
 .PHONY : home/juan/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.o
 
 home/juan/pico-sdk/src/rp2_common/hardware_xosc/xosc.i: home/juan/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.i
@@ -1207,7 +1207,7 @@ home/juan/pico-sdk/src/rp2_common/hardware_xosc/xosc.i: home/juan/pico-sdk/src/r
 
 # target to preprocess a source file
 home/juan/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.i:
-	cd "/mnt/meu_vol/ufc/2025.1/rtos/praticas/pratica 2/build" && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/app.dir/build.make src/CMakeFiles/app.dir/home/juan/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.i
+	cd "/media/juan/42849DD9849DCFB1/ufc/2025.1/rtos/praticas/pratica 2/build" && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/app.dir/build.make src/CMakeFiles/app.dir/home/juan/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.i
 .PHONY : home/juan/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.i
 
 home/juan/pico-sdk/src/rp2_common/hardware_xosc/xosc.s: home/juan/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.s
@@ -1215,7 +1215,7 @@ home/juan/pico-sdk/src/rp2_common/hardware_xosc/xosc.s: home/juan/pico-sdk/src/r
 
 # target to generate assembly for a file
 home/juan/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.s:
-	cd "/mnt/meu_vol/ufc/2025.1/rtos/praticas/pratica 2/build" && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/app.dir/build.make src/CMakeFiles/app.dir/home/juan/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.s
+	cd "/media/juan/42849DD9849DCFB1/ufc/2025.1/rtos/praticas/pratica 2/build" && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/app.dir/build.make src/CMakeFiles/app.dir/home/juan/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.s
 .PHONY : home/juan/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.s
 
 home/juan/pico-sdk/src/rp2_common/pico_atomic/atomic.o: home/juan/pico-sdk/src/rp2_common/pico_atomic/atomic.c.o
@@ -1223,7 +1223,7 @@ home/juan/pico-sdk/src/rp2_common/pico_atomic/atomic.o: home/juan/pico-sdk/src/r
 
 # target to build an object file
 home/juan/pico-sdk/src/rp2_common/pico_atomic/atomic.c.o:
-	cd "/mnt/meu_vol/ufc/2025.1/rtos/praticas/pratica 2/build" && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/app.dir/build.make src/CMakeFiles/app.dir/home/juan/pico-sdk/src/rp2_common/pico_atomic/atomic.c.o
+	cd "/media/juan/42849DD9849DCFB1/ufc/2025.1/rtos/praticas/pratica 2/build" && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/app.dir/build.make src/CMakeFiles/app.dir/home/juan/pico-sdk/src/rp2_common/pico_atomic/atomic.c.o
 .PHONY : home/juan/pico-sdk/src/rp2_common/pico_atomic/atomic.c.o
 
 home/juan/pico-sdk/src/rp2_common/pico_atomic/atomic.i: home/juan/pico-sdk/src/rp2_common/pico_atomic/atomic.c.i
@@ -1231,7 +1231,7 @@ home/juan/pico-sdk/src/rp2_common/pico_atomic/atomic.i: home/juan/pico-sdk/src/r
 
 # target to preprocess a source file
 home/juan/pico-sdk/src/rp2_common/pico_atomic/atomic.c.i:
-	cd "/mnt/meu_vol/ufc/2025.1/rtos/praticas/pratica 2/build" && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/app.dir/build.make src/CMakeFiles/app.dir/home/juan/pico-sdk/src/rp2_common/pico_atomic/atomic.c.i
+	cd "/media/juan/42849DD9849DCFB1/ufc/2025.1/rtos/praticas/pratica 2/build" && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/app.dir/build.make src/CMakeFiles/app.dir/home/juan/pico-sdk/src/rp2_common/pico_atomic/atomic.c.i
 .PHONY : home/juan/pico-sdk/src/rp2_common/pico_atomic/atomic.c.i
 
 home/juan/pico-sdk/src/rp2_common/pico_atomic/atomic.s: home/juan/pico-sdk/src/rp2_common/pico_atomic/atomic.c.s
@@ -1239,7 +1239,7 @@ home/juan/pico-sdk/src/rp2_common/pico_atomic/atomic.s: home/juan/pico-sdk/src/r
 
 # target to generate assembly for a file
 home/juan/pico-sdk/src/rp2_common/pico_atomic/atomic.c.s:
-	cd "/mnt/meu_vol/ufc/2025.1/rtos/praticas/pratica 2/build" && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/app.dir/build.make src/CMakeFiles/app.dir/home/juan/pico-sdk/src/rp2_common/pico_atomic/atomic.c.s
+	cd "/media/juan/42849DD9849DCFB1/ufc/2025.1/rtos/praticas/pratica 2/build" && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/app.dir/build.make src/CMakeFiles/app.dir/home/juan/pico-sdk/src/rp2_common/pico_atomic/atomic.c.s
 .PHONY : home/juan/pico-sdk/src/rp2_common/pico_atomic/atomic.c.s
 
 home/juan/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.o: home/juan/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.o
@@ -1247,7 +1247,7 @@ home/juan/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.o: home/juan/pico-s
 
 # target to build an object file
 home/juan/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.o:
-	cd "/mnt/meu_vol/ufc/2025.1/rtos/praticas/pratica 2/build" && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/app.dir/build.make src/CMakeFiles/app.dir/home/juan/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.o
+	cd "/media/juan/42849DD9849DCFB1/ufc/2025.1/rtos/praticas/pratica 2/build" && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/app.dir/build.make src/CMakeFiles/app.dir/home/juan/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.o
 .PHONY : home/juan/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.o
 
 home/juan/pico-sdk/src/rp2_common/pico_bootrom/bootrom.o: home/juan/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.o
@@ -1255,7 +1255,7 @@ home/juan/pico-sdk/src/rp2_common/pico_bootrom/bootrom.o: home/juan/pico-sdk/src
 
 # target to build an object file
 home/juan/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.o:
-	cd "/mnt/meu_vol/ufc/2025.1/rtos/praticas/pratica 2/build" && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/app.dir/build.make src/CMakeFiles/app.dir/home/juan/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.o
+	cd "/media/juan/42849DD9849DCFB1/ufc/2025.1/rtos/praticas/pratica 2/build" && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/app.dir/build.make src/CMakeFiles/app.dir/home/juan/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.o
 .PHONY : home/juan/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.o
 
 home/juan/pico-sdk/src/rp2_common/pico_bootrom/bootrom.i: home/juan/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.i
@@ -1263,7 +1263,7 @@ home/juan/pico-sdk/src/rp2_common/pico_bootrom/bootrom.i: home/juan/pico-sdk/src
 
 # target to preprocess a source file
 home/juan/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.i:
-	cd "/mnt/meu_vol/ufc/2025.1/rtos/praticas/pratica 2/build" && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/app.dir/build.make src/CMakeFiles/app.dir/home/juan/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.i
+	cd "/media/juan/42849DD9849DCFB1/ufc/2025.1/rtos/praticas/pratica 2/build" && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/app.dir/build.make src/CMakeFiles/app.dir/home/juan/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.i
 .PHONY : home/juan/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.i
 
 home/juan/pico-sdk/src/rp2_common/pico_bootrom/bootrom.s: home/juan/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.s
@@ -1271,7 +1271,7 @@ home/juan/pico-sdk/src/rp2_common/pico_bootrom/bootrom.s: home/juan/pico-sdk/src
 
 # target to generate assembly for a file
 home/juan/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.s:
-	cd "/mnt/meu_vol/ufc/2025.1/rtos/praticas/pratica 2/build" && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/app.dir/build.make src/CMakeFiles/app.dir/home/juan/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.s
+	cd "/media/juan/42849DD9849DCFB1/ufc/2025.1/rtos/praticas/pratica 2/build" && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/app.dir/build.make src/CMakeFiles/app.dir/home/juan/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.s
 .PHONY : home/juan/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.s
 
 home/juan/pico-sdk/src/rp2_common/pico_bootrom/bootrom_lock.o: home/juan/pico-sdk/src/rp2_common/pico_bootrom/bootrom_lock.c.o
@@ -1279,7 +1279,7 @@ home/juan/pico-sdk/src/rp2_common/pico_bootrom/bootrom_lock.o: home/juan/pico-sd
 
 # target to build an object file
 home/juan/pico-sdk/src/rp2_common/pico_bootrom/bootrom_lock.c.o:
-	cd "/mnt/meu_vol/ufc/2025.1/rtos/praticas/pratica 2/build" && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/app.dir/build.make src/CMakeFiles/app.dir/home/juan/pico-sdk/src/rp2_common/pico_bootrom/bootrom_lock.c.o
+	cd "/media/juan/42849DD9849DCFB1/ufc/2025.1/rtos/praticas/pratica 2/build" && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/app.dir/build.make src/CMakeFiles/app.dir/home/juan/pico-sdk/src/rp2_common/pico_bootrom/bootrom_lock.c.o
 .PHONY : home/juan/pico-sdk/src/rp2_common/pico_bootrom/bootrom_lock.c.o
 
 home/juan/pico-sdk/src/rp2_common/pico_bootrom/bootrom_lock.i: home/juan/pico-sdk/src/rp2_common/pico_bootrom/bootrom_lock.c.i
@@ -1287,7 +1287,7 @@ home/juan/pico-sdk/src/rp2_common/pico_bootrom/bootrom_lock.i: home/juan/pico-sd
 
 # target to preprocess a source file
 home/juan/pico-sdk/src/rp2_common/pico_bootrom/bootrom_lock.c.i:
-	cd "/mnt/meu_vol/ufc/2025.1/rtos/praticas/pratica 2/build" && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/app.dir/build.make src/CMakeFiles/app.dir/home/juan/pico-sdk/src/rp2_common/pico_bootrom/bootrom_lock.c.i
+	cd "/media/juan/42849DD9849DCFB1/ufc/2025.1/rtos/praticas/pratica 2/build" && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/app.dir/build.make src/CMakeFiles/app.dir/home/juan/pico-sdk/src/rp2_common/pico_bootrom/bootrom_lock.c.i
 .PHONY : home/juan/pico-sdk/src/rp2_common/pico_bootrom/bootrom_lock.c.i
 
 home/juan/pico-sdk/src/rp2_common/pico_bootrom/bootrom_lock.s: home/juan/pico-sdk/src/rp2_common/pico_bootrom/bootrom_lock.c.s
@@ -1295,7 +1295,7 @@ home/juan/pico-sdk/src/rp2_common/pico_bootrom/bootrom_lock.s: home/juan/pico-sd
 
 # target to generate assembly for a file
 home/juan/pico-sdk/src/rp2_common/pico_bootrom/bootrom_lock.c.s:
-	cd "/mnt/meu_vol/ufc/2025.1/rtos/praticas/pratica 2/build" && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/app.dir/build.make src/CMakeFiles/app.dir/home/juan/pico-sdk/src/rp2_common/pico_bootrom/bootrom_lock.c.s
+	cd "/media/juan/42849DD9849DCFB1/ufc/2025.1/rtos/praticas/pratica 2/build" && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/app.dir/build.make src/CMakeFiles/app.dir/home/juan/pico-sdk/src/rp2_common/pico_bootrom/bootrom_lock.c.s
 .PHONY : home/juan/pico-sdk/src/rp2_common/pico_bootrom/bootrom_lock.c.s
 
 home/juan/pico-sdk/src/rp2_common/pico_clib_interface/newlib_interface.o: home/juan/pico-sdk/src/rp2_common/pico_clib_interface/newlib_interface.c.o
@@ -1303,7 +1303,7 @@ home/juan/pico-sdk/src/rp2_common/pico_clib_interface/newlib_interface.o: home/j
 
 # target to build an object file
 home/juan/pico-sdk/src/rp2_common/pico_clib_interface/newlib_interface.c.o:
-	cd "/mnt/meu_vol/ufc/2025.1/rtos/praticas/pratica 2/build" && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/app.dir/build.make src/CMakeFiles/app.dir/home/juan/pico-sdk/src/rp2_common/pico_clib_interface/newlib_interface.c.o
+	cd "/media/juan/42849DD9849DCFB1/ufc/2025.1/rtos/praticas/pratica 2/build" && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/app.dir/build.make src/CMakeFiles/app.dir/home/juan/pico-sdk/src/rp2_common/pico_clib_interface/newlib_interface.c.o
 .PHONY : home/juan/pico-sdk/src/rp2_common/pico_clib_interface/newlib_interface.c.o
 
 home/juan/pico-sdk/src/rp2_common/pico_clib_interface/newlib_interface.i: home/juan/pico-sdk/src/rp2_common/pico_clib_interface/newlib_interface.c.i
@@ -1311,7 +1311,7 @@ home/juan/pico-sdk/src/rp2_common/pico_clib_interface/newlib_interface.i: home/j
 
 # target to preprocess a source file
 home/juan/pico-sdk/src/rp2_common/pico_clib_interface/newlib_interface.c.i:
-	cd "/mnt/meu_vol/ufc/2025.1/rtos/praticas/pratica 2/build" && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/app.dir/build.make src/CMakeFiles/app.dir/home/juan/pico-sdk/src/rp2_common/pico_clib_interface/newlib_interface.c.i
+	cd "/media/juan/42849DD9849DCFB1/ufc/2025.1/rtos/praticas/pratica 2/build" && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/app.dir/build.make src/CMakeFiles/app.dir/home/juan/pico-sdk/src/rp2_common/pico_clib_interface/newlib_interface.c.i
 .PHONY : home/juan/pico-sdk/src/rp2_common/pico_clib_interface/newlib_interface.c.i
 
 home/juan/pico-sdk/src/rp2_common/pico_clib_interface/newlib_interface.s: home/juan/pico-sdk/src/rp2_common/pico_clib_interface/newlib_interface.c.s
@@ -1319,7 +1319,7 @@ home/juan/pico-sdk/src/rp2_common/pico_clib_interface/newlib_interface.s: home/j
 
 # target to generate assembly for a file
 home/juan/pico-sdk/src/rp2_common/pico_clib_interface/newlib_interface.c.s:
-	cd "/mnt/meu_vol/ufc/2025.1/rtos/praticas/pratica 2/build" && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/app.dir/build.make src/CMakeFiles/app.dir/home/juan/pico-sdk/src/rp2_common/pico_clib_interface/newlib_interface.c.s
+	cd "/media/juan/42849DD9849DCFB1/ufc/2025.1/rtos/praticas/pratica 2/build" && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/app.dir/build.make src/CMakeFiles/app.dir/home/juan/pico-sdk/src/rp2_common/pico_clib_interface/newlib_interface.c.s
 .PHONY : home/juan/pico-sdk/src/rp2_common/pico_clib_interface/newlib_interface.c.s
 
 home/juan/pico-sdk/src/rp2_common/pico_crt0/crt0.o: home/juan/pico-sdk/src/rp2_common/pico_crt0/crt0.S.o
@@ -1327,7 +1327,7 @@ home/juan/pico-sdk/src/rp2_common/pico_crt0/crt0.o: home/juan/pico-sdk/src/rp2_c
 
 # target to build an object file
 home/juan/pico-sdk/src/rp2_common/pico_crt0/crt0.S.o:
-	cd "/mnt/meu_vol/ufc/2025.1/rtos/praticas/pratica 2/build" && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/app.dir/build.make src/CMakeFiles/app.dir/home/juan/pico-sdk/src/rp2_common/pico_crt0/crt0.S.o
+	cd "/media/juan/42849DD9849DCFB1/ufc/2025.1/rtos/praticas/pratica 2/build" && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/app.dir/build.make src/CMakeFiles/app.dir/home/juan/pico-sdk/src/rp2_common/pico_crt0/crt0.S.o
 .PHONY : home/juan/pico-sdk/src/rp2_common/pico_crt0/crt0.S.o
 
 home/juan/pico-sdk/src/rp2_common/pico_cxx_options/new_delete.o: home/juan/pico-sdk/src/rp2_common/pico_cxx_options/new_delete.cpp.o
@@ -1335,7 +1335,7 @@ home/juan/pico-sdk/src/rp2_common/pico_cxx_options/new_delete.o: home/juan/pico-
 
 # target to build an object file
 home/juan/pico-sdk/src/rp2_common/pico_cxx_options/new_delete.cpp.o:
-	cd "/mnt/meu_vol/ufc/2025.1/rtos/praticas/pratica 2/build" && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/app.dir/build.make src/CMakeFiles/app.dir/home/juan/pico-sdk/src/rp2_common/pico_cxx_options/new_delete.cpp.o
+	cd "/media/juan/42849DD9849DCFB1/ufc/2025.1/rtos/praticas/pratica 2/build" && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/app.dir/build.make src/CMakeFiles/app.dir/home/juan/pico-sdk/src/rp2_common/pico_cxx_options/new_delete.cpp.o
 .PHONY : home/juan/pico-sdk/src/rp2_common/pico_cxx_options/new_delete.cpp.o
 
 home/juan/pico-sdk/src/rp2_common/pico_cxx_options/new_delete.i: home/juan/pico-sdk/src/rp2_common/pico_cxx_options/new_delete.cpp.i
@@ -1343,7 +1343,7 @@ home/juan/pico-sdk/src/rp2_common/pico_cxx_options/new_delete.i: home/juan/pico-
 
 # target to preprocess a source file
 home/juan/pico-sdk/src/rp2_common/pico_cxx_options/new_delete.cpp.i:
-	cd "/mnt/meu_vol/ufc/2025.1/rtos/praticas/pratica 2/build" && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/app.dir/build.make src/CMakeFiles/app.dir/home/juan/pico-sdk/src/rp2_common/pico_cxx_options/new_delete.cpp.i
+	cd "/media/juan/42849DD9849DCFB1/ufc/2025.1/rtos/praticas/pratica 2/build" && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/app.dir/build.make src/CMakeFiles/app.dir/home/juan/pico-sdk/src/rp2_common/pico_cxx_options/new_delete.cpp.i
 .PHONY : home/juan/pico-sdk/src/rp2_common/pico_cxx_options/new_delete.cpp.i
 
 home/juan/pico-sdk/src/rp2_common/pico_cxx_options/new_delete.s: home/juan/pico-sdk/src/rp2_common/pico_cxx_options/new_delete.cpp.s
@@ -1351,7 +1351,7 @@ home/juan/pico-sdk/src/rp2_common/pico_cxx_options/new_delete.s: home/juan/pico-
 
 # target to generate assembly for a file
 home/juan/pico-sdk/src/rp2_common/pico_cxx_options/new_delete.cpp.s:
-	cd "/mnt/meu_vol/ufc/2025.1/rtos/praticas/pratica 2/build" && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/app.dir/build.make src/CMakeFiles/app.dir/home/juan/pico-sdk/src/rp2_common/pico_cxx_options/new_delete.cpp.s
+	cd "/media/juan/42849DD9849DCFB1/ufc/2025.1/rtos/praticas/pratica 2/build" && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/app.dir/build.make src/CMakeFiles/app.dir/home/juan/pico-sdk/src/rp2_common/pico_cxx_options/new_delete.cpp.s
 .PHONY : home/juan/pico-sdk/src/rp2_common/pico_cxx_options/new_delete.cpp.s
 
 home/juan/pico-sdk/src/rp2_common/pico_divider/divider_compiler.o: home/juan/pico-sdk/src/rp2_common/pico_divider/divider_compiler.c.o
@@ -1359,7 +1359,7 @@ home/juan/pico-sdk/src/rp2_common/pico_divider/divider_compiler.o: home/juan/pic
 
 # target to build an object file
 home/juan/pico-sdk/src/rp2_common/pico_divider/divider_compiler.c.o:
-	cd "/mnt/meu_vol/ufc/2025.1/rtos/praticas/pratica 2/build" && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/app.dir/build.make src/CMakeFiles/app.dir/home/juan/pico-sdk/src/rp2_common/pico_divider/divider_compiler.c.o
+	cd "/media/juan/42849DD9849DCFB1/ufc/2025.1/rtos/praticas/pratica 2/build" && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/app.dir/build.make src/CMakeFiles/app.dir/home/juan/pico-sdk/src/rp2_common/pico_divider/divider_compiler.c.o
 .PHONY : home/juan/pico-sdk/src/rp2_common/pico_divider/divider_compiler.c.o
 
 home/juan/pico-sdk/src/rp2_common/pico_divider/divider_compiler.i: home/juan/pico-sdk/src/rp2_common/pico_divider/divider_compiler.c.i
@@ -1367,7 +1367,7 @@ home/juan/pico-sdk/src/rp2_common/pico_divider/divider_compiler.i: home/juan/pic
 
 # target to preprocess a source file
 home/juan/pico-sdk/src/rp2_common/pico_divider/divider_compiler.c.i:
-	cd "/mnt/meu_vol/ufc/2025.1/rtos/praticas/pratica 2/build" && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/app.dir/build.make src/CMakeFiles/app.dir/home/juan/pico-sdk/src/rp2_common/pico_divider/divider_compiler.c.i
+	cd "/media/juan/42849DD9849DCFB1/ufc/2025.1/rtos/praticas/pratica 2/build" && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/app.dir/build.make src/CMakeFiles/app.dir/home/juan/pico-sdk/src/rp2_common/pico_divider/divider_compiler.c.i
 .PHONY : home/juan/pico-sdk/src/rp2_common/pico_divider/divider_compiler.c.i
 
 home/juan/pico-sdk/src/rp2_common/pico_divider/divider_compiler.s: home/juan/pico-sdk/src/rp2_common/pico_divider/divider_compiler.c.s
@@ -1375,7 +1375,7 @@ home/juan/pico-sdk/src/rp2_common/pico_divider/divider_compiler.s: home/juan/pic
 
 # target to generate assembly for a file
 home/juan/pico-sdk/src/rp2_common/pico_divider/divider_compiler.c.s:
-	cd "/mnt/meu_vol/ufc/2025.1/rtos/praticas/pratica 2/build" && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/app.dir/build.make src/CMakeFiles/app.dir/home/juan/pico-sdk/src/rp2_common/pico_divider/divider_compiler.c.s
+	cd "/media/juan/42849DD9849DCFB1/ufc/2025.1/rtos/praticas/pratica 2/build" && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/app.dir/build.make src/CMakeFiles/app.dir/home/juan/pico-sdk/src/rp2_common/pico_divider/divider_compiler.c.s
 .PHONY : home/juan/pico-sdk/src/rp2_common/pico_divider/divider_compiler.c.s
 
 home/juan/pico-sdk/src/rp2_common/pico_double/double_aeabi_dcp.o: home/juan/pico-sdk/src/rp2_common/pico_double/double_aeabi_dcp.S.o
@@ -1383,7 +1383,7 @@ home/juan/pico-sdk/src/rp2_common/pico_double/double_aeabi_dcp.o: home/juan/pico
 
 # target to build an object file
 home/juan/pico-sdk/src/rp2_common/pico_double/double_aeabi_dcp.S.o:
-	cd "/mnt/meu_vol/ufc/2025.1/rtos/praticas/pratica 2/build" && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/app.dir/build.make src/CMakeFiles/app.dir/home/juan/pico-sdk/src/rp2_common/pico_double/double_aeabi_dcp.S.o
+	cd "/media/juan/42849DD9849DCFB1/ufc/2025.1/rtos/praticas/pratica 2/build" && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/app.dir/build.make src/CMakeFiles/app.dir/home/juan/pico-sdk/src/rp2_common/pico_double/double_aeabi_dcp.S.o
 .PHONY : home/juan/pico-sdk/src/rp2_common/pico_double/double_aeabi_dcp.S.o
 
 home/juan/pico-sdk/src/rp2_common/pico_double/double_conv_m33.o: home/juan/pico-sdk/src/rp2_common/pico_double/double_conv_m33.S.o
@@ -1391,7 +1391,7 @@ home/juan/pico-sdk/src/rp2_common/pico_double/double_conv_m33.o: home/juan/pico-
 
 # target to build an object file
 home/juan/pico-sdk/src/rp2_common/pico_double/double_conv_m33.S.o:
-	cd "/mnt/meu_vol/ufc/2025.1/rtos/praticas/pratica 2/build" && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/app.dir/build.make src/CMakeFiles/app.dir/home/juan/pico-sdk/src/rp2_common/pico_double/double_conv_m33.S.o
+	cd "/media/juan/42849DD9849DCFB1/ufc/2025.1/rtos/praticas/pratica 2/build" && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/app.dir/build.make src/CMakeFiles/app.dir/home/juan/pico-sdk/src/rp2_common/pico_double/double_conv_m33.S.o
 .PHONY : home/juan/pico-sdk/src/rp2_common/pico_double/double_conv_m33.S.o
 
 home/juan/pico-sdk/src/rp2_common/pico_double/double_fma_dcp.o: home/juan/pico-sdk/src/rp2_common/pico_double/double_fma_dcp.S.o
@@ -1399,7 +1399,7 @@ home/juan/pico-sdk/src/rp2_common/pico_double/double_fma_dcp.o: home/juan/pico-s
 
 # target to build an object file
 home/juan/pico-sdk/src/rp2_common/pico_double/double_fma_dcp.S.o:
-	cd "/mnt/meu_vol/ufc/2025.1/rtos/praticas/pratica 2/build" && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/app.dir/build.make src/CMakeFiles/app.dir/home/juan/pico-sdk/src/rp2_common/pico_double/double_fma_dcp.S.o
+	cd "/media/juan/42849DD9849DCFB1/ufc/2025.1/rtos/praticas/pratica 2/build" && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/app.dir/build.make src/CMakeFiles/app.dir/home/juan/pico-sdk/src/rp2_common/pico_double/double_fma_dcp.S.o
 .PHONY : home/juan/pico-sdk/src/rp2_common/pico_double/double_fma_dcp.S.o
 
 home/juan/pico-sdk/src/rp2_common/pico_double/double_math.o: home/juan/pico-sdk/src/rp2_common/pico_double/double_math.c.o
@@ -1407,7 +1407,7 @@ home/juan/pico-sdk/src/rp2_common/pico_double/double_math.o: home/juan/pico-sdk/
 
 # target to build an object file
 home/juan/pico-sdk/src/rp2_common/pico_double/double_math.c.o:
-	cd "/mnt/meu_vol/ufc/2025.1/rtos/praticas/pratica 2/build" && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/app.dir/build.make src/CMakeFiles/app.dir/home/juan/pico-sdk/src/rp2_common/pico_double/double_math.c.o
+	cd "/media/juan/42849DD9849DCFB1/ufc/2025.1/rtos/praticas/pratica 2/build" && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/app.dir/build.make src/CMakeFiles/app.dir/home/juan/pico-sdk/src/rp2_common/pico_double/double_math.c.o
 .PHONY : home/juan/pico-sdk/src/rp2_common/pico_double/double_math.c.o
 
 home/juan/pico-sdk/src/rp2_common/pico_double/double_math.i: home/juan/pico-sdk/src/rp2_common/pico_double/double_math.c.i
@@ -1415,7 +1415,7 @@ home/juan/pico-sdk/src/rp2_common/pico_double/double_math.i: home/juan/pico-sdk/
 
 # target to preprocess a source file
 home/juan/pico-sdk/src/rp2_common/pico_double/double_math.c.i:
-	cd "/mnt/meu_vol/ufc/2025.1/rtos/praticas/pratica 2/build" && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/app.dir/build.make src/CMakeFiles/app.dir/home/juan/pico-sdk/src/rp2_common/pico_double/double_math.c.i
+	cd "/media/juan/42849DD9849DCFB1/ufc/2025.1/rtos/praticas/pratica 2/build" && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/app.dir/build.make src/CMakeFiles/app.dir/home/juan/pico-sdk/src/rp2_common/pico_double/double_math.c.i
 .PHONY : home/juan/pico-sdk/src/rp2_common/pico_double/double_math.c.i
 
 home/juan/pico-sdk/src/rp2_common/pico_double/double_math.s: home/juan/pico-sdk/src/rp2_common/pico_double/double_math.c.s
@@ -1423,7 +1423,7 @@ home/juan/pico-sdk/src/rp2_common/pico_double/double_math.s: home/juan/pico-sdk/
 
 # target to generate assembly for a file
 home/juan/pico-sdk/src/rp2_common/pico_double/double_math.c.s:
-	cd "/mnt/meu_vol/ufc/2025.1/rtos/praticas/pratica 2/build" && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/app.dir/build.make src/CMakeFiles/app.dir/home/juan/pico-sdk/src/rp2_common/pico_double/double_math.c.s
+	cd "/media/juan/42849DD9849DCFB1/ufc/2025.1/rtos/praticas/pratica 2/build" && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/app.dir/build.make src/CMakeFiles/app.dir/home/juan/pico-sdk/src/rp2_common/pico_double/double_math.c.s
 .PHONY : home/juan/pico-sdk/src/rp2_common/pico_double/double_math.c.s
 
 home/juan/pico-sdk/src/rp2_common/pico_double/double_sci_m33.o: home/juan/pico-sdk/src/rp2_common/pico_double/double_sci_m33.S.o
@@ -1431,7 +1431,7 @@ home/juan/pico-sdk/src/rp2_common/pico_double/double_sci_m33.o: home/juan/pico-s
 
 # target to build an object file
 home/juan/pico-sdk/src/rp2_common/pico_double/double_sci_m33.S.o:
-	cd "/mnt/meu_vol/ufc/2025.1/rtos/praticas/pratica 2/build" && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/app.dir/build.make src/CMakeFiles/app.dir/home/juan/pico-sdk/src/rp2_common/pico_double/double_sci_m33.S.o
+	cd "/media/juan/42849DD9849DCFB1/ufc/2025.1/rtos/praticas/pratica 2/build" && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/app.dir/build.make src/CMakeFiles/app.dir/home/juan/pico-sdk/src/rp2_common/pico_double/double_sci_m33.S.o
 .PHONY : home/juan/pico-sdk/src/rp2_common/pico_double/double_sci_m33.S.o
 
 home/juan/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.o: home/juan/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.o
@@ -1439,7 +1439,7 @@ home/juan/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_
 
 # target to build an object file
 home/juan/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.o:
-	cd "/mnt/meu_vol/ufc/2025.1/rtos/praticas/pratica 2/build" && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/app.dir/build.make src/CMakeFiles/app.dir/home/juan/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.o
+	cd "/media/juan/42849DD9849DCFB1/ufc/2025.1/rtos/praticas/pratica 2/build" && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/app.dir/build.make src/CMakeFiles/app.dir/home/juan/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.o
 .PHONY : home/juan/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.o
 
 home/juan/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.i: home/juan/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.i
@@ -1447,7 +1447,7 @@ home/juan/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_
 
 # target to preprocess a source file
 home/juan/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.i:
-	cd "/mnt/meu_vol/ufc/2025.1/rtos/praticas/pratica 2/build" && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/app.dir/build.make src/CMakeFiles/app.dir/home/juan/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.i
+	cd "/media/juan/42849DD9849DCFB1/ufc/2025.1/rtos/praticas/pratica 2/build" && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/app.dir/build.make src/CMakeFiles/app.dir/home/juan/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.i
 .PHONY : home/juan/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.i
 
 home/juan/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.s: home/juan/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.s
@@ -1455,7 +1455,7 @@ home/juan/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_
 
 # target to generate assembly for a file
 home/juan/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.s:
-	cd "/mnt/meu_vol/ufc/2025.1/rtos/praticas/pratica 2/build" && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/app.dir/build.make src/CMakeFiles/app.dir/home/juan/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.s
+	cd "/media/juan/42849DD9849DCFB1/ufc/2025.1/rtos/praticas/pratica 2/build" && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/app.dir/build.make src/CMakeFiles/app.dir/home/juan/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.s
 .PHONY : home/juan/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.s
 
 home/juan/pico-sdk/src/rp2_common/pico_flash/flash.o: home/juan/pico-sdk/src/rp2_common/pico_flash/flash.c.o
@@ -1463,7 +1463,7 @@ home/juan/pico-sdk/src/rp2_common/pico_flash/flash.o: home/juan/pico-sdk/src/rp2
 
 # target to build an object file
 home/juan/pico-sdk/src/rp2_common/pico_flash/flash.c.o:
-	cd "/mnt/meu_vol/ufc/2025.1/rtos/praticas/pratica 2/build" && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/app.dir/build.make src/CMakeFiles/app.dir/home/juan/pico-sdk/src/rp2_common/pico_flash/flash.c.o
+	cd "/media/juan/42849DD9849DCFB1/ufc/2025.1/rtos/praticas/pratica 2/build" && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/app.dir/build.make src/CMakeFiles/app.dir/home/juan/pico-sdk/src/rp2_common/pico_flash/flash.c.o
 .PHONY : home/juan/pico-sdk/src/rp2_common/pico_flash/flash.c.o
 
 home/juan/pico-sdk/src/rp2_common/pico_flash/flash.i: home/juan/pico-sdk/src/rp2_common/pico_flash/flash.c.i
@@ -1471,7 +1471,7 @@ home/juan/pico-sdk/src/rp2_common/pico_flash/flash.i: home/juan/pico-sdk/src/rp2
 
 # target to preprocess a source file
 home/juan/pico-sdk/src/rp2_common/pico_flash/flash.c.i:
-	cd "/mnt/meu_vol/ufc/2025.1/rtos/praticas/pratica 2/build" && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/app.dir/build.make src/CMakeFiles/app.dir/home/juan/pico-sdk/src/rp2_common/pico_flash/flash.c.i
+	cd "/media/juan/42849DD9849DCFB1/ufc/2025.1/rtos/praticas/pratica 2/build" && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/app.dir/build.make src/CMakeFiles/app.dir/home/juan/pico-sdk/src/rp2_common/pico_flash/flash.c.i
 .PHONY : home/juan/pico-sdk/src/rp2_common/pico_flash/flash.c.i
 
 home/juan/pico-sdk/src/rp2_common/pico_flash/flash.s: home/juan/pico-sdk/src/rp2_common/pico_flash/flash.c.s
@@ -1479,7 +1479,7 @@ home/juan/pico-sdk/src/rp2_common/pico_flash/flash.s: home/juan/pico-sdk/src/rp2
 
 # target to generate assembly for a file
 home/juan/pico-sdk/src/rp2_common/pico_flash/flash.c.s:
-	cd "/mnt/meu_vol/ufc/2025.1/rtos/praticas/pratica 2/build" && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/app.dir/build.make src/CMakeFiles/app.dir/home/juan/pico-sdk/src/rp2_common/pico_flash/flash.c.s
+	cd "/media/juan/42849DD9849DCFB1/ufc/2025.1/rtos/praticas/pratica 2/build" && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/app.dir/build.make src/CMakeFiles/app.dir/home/juan/pico-sdk/src/rp2_common/pico_flash/flash.c.s
 .PHONY : home/juan/pico-sdk/src/rp2_common/pico_flash/flash.c.s
 
 home/juan/pico-sdk/src/rp2_common/pico_float/float_common_m33.o: home/juan/pico-sdk/src/rp2_common/pico_float/float_common_m33.S.o
@@ -1487,7 +1487,7 @@ home/juan/pico-sdk/src/rp2_common/pico_float/float_common_m33.o: home/juan/pico-
 
 # target to build an object file
 home/juan/pico-sdk/src/rp2_common/pico_float/float_common_m33.S.o:
-	cd "/mnt/meu_vol/ufc/2025.1/rtos/praticas/pratica 2/build" && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/app.dir/build.make src/CMakeFiles/app.dir/home/juan/pico-sdk/src/rp2_common/pico_float/float_common_m33.S.o
+	cd "/media/juan/42849DD9849DCFB1/ufc/2025.1/rtos/praticas/pratica 2/build" && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/app.dir/build.make src/CMakeFiles/app.dir/home/juan/pico-sdk/src/rp2_common/pico_float/float_common_m33.S.o
 .PHONY : home/juan/pico-sdk/src/rp2_common/pico_float/float_common_m33.S.o
 
 home/juan/pico-sdk/src/rp2_common/pico_float/float_conv32_vfp.o: home/juan/pico-sdk/src/rp2_common/pico_float/float_conv32_vfp.S.o
@@ -1495,7 +1495,7 @@ home/juan/pico-sdk/src/rp2_common/pico_float/float_conv32_vfp.o: home/juan/pico-
 
 # target to build an object file
 home/juan/pico-sdk/src/rp2_common/pico_float/float_conv32_vfp.S.o:
-	cd "/mnt/meu_vol/ufc/2025.1/rtos/praticas/pratica 2/build" && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/app.dir/build.make src/CMakeFiles/app.dir/home/juan/pico-sdk/src/rp2_common/pico_float/float_conv32_vfp.S.o
+	cd "/media/juan/42849DD9849DCFB1/ufc/2025.1/rtos/praticas/pratica 2/build" && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/app.dir/build.make src/CMakeFiles/app.dir/home/juan/pico-sdk/src/rp2_common/pico_float/float_conv32_vfp.S.o
 .PHONY : home/juan/pico-sdk/src/rp2_common/pico_float/float_conv32_vfp.S.o
 
 home/juan/pico-sdk/src/rp2_common/pico_float/float_math.o: home/juan/pico-sdk/src/rp2_common/pico_float/float_math.c.o
@@ -1503,7 +1503,7 @@ home/juan/pico-sdk/src/rp2_common/pico_float/float_math.o: home/juan/pico-sdk/sr
 
 # target to build an object file
 home/juan/pico-sdk/src/rp2_common/pico_float/float_math.c.o:
-	cd "/mnt/meu_vol/ufc/2025.1/rtos/praticas/pratica 2/build" && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/app.dir/build.make src/CMakeFiles/app.dir/home/juan/pico-sdk/src/rp2_common/pico_float/float_math.c.o
+	cd "/media/juan/42849DD9849DCFB1/ufc/2025.1/rtos/praticas/pratica 2/build" && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/app.dir/build.make src/CMakeFiles/app.dir/home/juan/pico-sdk/src/rp2_common/pico_float/float_math.c.o
 .PHONY : home/juan/pico-sdk/src/rp2_common/pico_float/float_math.c.o
 
 home/juan/pico-sdk/src/rp2_common/pico_float/float_math.i: home/juan/pico-sdk/src/rp2_common/pico_float/float_math.c.i
@@ -1511,7 +1511,7 @@ home/juan/pico-sdk/src/rp2_common/pico_float/float_math.i: home/juan/pico-sdk/sr
 
 # target to preprocess a source file
 home/juan/pico-sdk/src/rp2_common/pico_float/float_math.c.i:
-	cd "/mnt/meu_vol/ufc/2025.1/rtos/praticas/pratica 2/build" && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/app.dir/build.make src/CMakeFiles/app.dir/home/juan/pico-sdk/src/rp2_common/pico_float/float_math.c.i
+	cd "/media/juan/42849DD9849DCFB1/ufc/2025.1/rtos/praticas/pratica 2/build" && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/app.dir/build.make src/CMakeFiles/app.dir/home/juan/pico-sdk/src/rp2_common/pico_float/float_math.c.i
 .PHONY : home/juan/pico-sdk/src/rp2_common/pico_float/float_math.c.i
 
 home/juan/pico-sdk/src/rp2_common/pico_float/float_math.s: home/juan/pico-sdk/src/rp2_common/pico_float/float_math.c.s
@@ -1519,7 +1519,7 @@ home/juan/pico-sdk/src/rp2_common/pico_float/float_math.s: home/juan/pico-sdk/sr
 
 # target to generate assembly for a file
 home/juan/pico-sdk/src/rp2_common/pico_float/float_math.c.s:
-	cd "/mnt/meu_vol/ufc/2025.1/rtos/praticas/pratica 2/build" && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/app.dir/build.make src/CMakeFiles/app.dir/home/juan/pico-sdk/src/rp2_common/pico_float/float_math.c.s
+	cd "/media/juan/42849DD9849DCFB1/ufc/2025.1/rtos/praticas/pratica 2/build" && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/app.dir/build.make src/CMakeFiles/app.dir/home/juan/pico-sdk/src/rp2_common/pico_float/float_math.c.s
 .PHONY : home/juan/pico-sdk/src/rp2_common/pico_float/float_math.c.s
 
 home/juan/pico-sdk/src/rp2_common/pico_float/float_sci_m33_vfp.o: home/juan/pico-sdk/src/rp2_common/pico_float/float_sci_m33_vfp.S.o
@@ -1527,7 +1527,7 @@ home/juan/pico-sdk/src/rp2_common/pico_float/float_sci_m33_vfp.o: home/juan/pico
 
 # target to build an object file
 home/juan/pico-sdk/src/rp2_common/pico_float/float_sci_m33_vfp.S.o:
-	cd "/mnt/meu_vol/ufc/2025.1/rtos/praticas/pratica 2/build" && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/app.dir/build.make src/CMakeFiles/app.dir/home/juan/pico-sdk/src/rp2_common/pico_float/float_sci_m33_vfp.S.o
+	cd "/media/juan/42849DD9849DCFB1/ufc/2025.1/rtos/praticas/pratica 2/build" && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/app.dir/build.make src/CMakeFiles/app.dir/home/juan/pico-sdk/src/rp2_common/pico_float/float_sci_m33_vfp.S.o
 .PHONY : home/juan/pico-sdk/src/rp2_common/pico_float/float_sci_m33_vfp.S.o
 
 home/juan/pico-sdk/src/rp2_common/pico_malloc/malloc.o: home/juan/pico-sdk/src/rp2_common/pico_malloc/malloc.c.o
@@ -1535,7 +1535,7 @@ home/juan/pico-sdk/src/rp2_common/pico_malloc/malloc.o: home/juan/pico-sdk/src/r
 
 # target to build an object file
 home/juan/pico-sdk/src/rp2_common/pico_malloc/malloc.c.o:
-	cd "/mnt/meu_vol/ufc/2025.1/rtos/praticas/pratica 2/build" && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/app.dir/build.make src/CMakeFiles/app.dir/home/juan/pico-sdk/src/rp2_common/pico_malloc/malloc.c.o
+	cd "/media/juan/42849DD9849DCFB1/ufc/2025.1/rtos/praticas/pratica 2/build" && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/app.dir/build.make src/CMakeFiles/app.dir/home/juan/pico-sdk/src/rp2_common/pico_malloc/malloc.c.o
 .PHONY : home/juan/pico-sdk/src/rp2_common/pico_malloc/malloc.c.o
 
 home/juan/pico-sdk/src/rp2_common/pico_malloc/malloc.i: home/juan/pico-sdk/src/rp2_common/pico_malloc/malloc.c.i
@@ -1543,7 +1543,7 @@ home/juan/pico-sdk/src/rp2_common/pico_malloc/malloc.i: home/juan/pico-sdk/src/r
 
 # target to preprocess a source file
 home/juan/pico-sdk/src/rp2_common/pico_malloc/malloc.c.i:
-	cd "/mnt/meu_vol/ufc/2025.1/rtos/praticas/pratica 2/build" && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/app.dir/build.make src/CMakeFiles/app.dir/home/juan/pico-sdk/src/rp2_common/pico_malloc/malloc.c.i
+	cd "/media/juan/42849DD9849DCFB1/ufc/2025.1/rtos/praticas/pratica 2/build" && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/app.dir/build.make src/CMakeFiles/app.dir/home/juan/pico-sdk/src/rp2_common/pico_malloc/malloc.c.i
 .PHONY : home/juan/pico-sdk/src/rp2_common/pico_malloc/malloc.c.i
 
 home/juan/pico-sdk/src/rp2_common/pico_malloc/malloc.s: home/juan/pico-sdk/src/rp2_common/pico_malloc/malloc.c.s
@@ -1551,7 +1551,7 @@ home/juan/pico-sdk/src/rp2_common/pico_malloc/malloc.s: home/juan/pico-sdk/src/r
 
 # target to generate assembly for a file
 home/juan/pico-sdk/src/rp2_common/pico_malloc/malloc.c.s:
-	cd "/mnt/meu_vol/ufc/2025.1/rtos/praticas/pratica 2/build" && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/app.dir/build.make src/CMakeFiles/app.dir/home/juan/pico-sdk/src/rp2_common/pico_malloc/malloc.c.s
+	cd "/media/juan/42849DD9849DCFB1/ufc/2025.1/rtos/praticas/pratica 2/build" && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/app.dir/build.make src/CMakeFiles/app.dir/home/juan/pico-sdk/src/rp2_common/pico_malloc/malloc.c.s
 .PHONY : home/juan/pico-sdk/src/rp2_common/pico_malloc/malloc.c.s
 
 home/juan/pico-sdk/src/rp2_common/pico_platform_panic/panic.o: home/juan/pico-sdk/src/rp2_common/pico_platform_panic/panic.c.o
@@ -1559,7 +1559,7 @@ home/juan/pico-sdk/src/rp2_common/pico_platform_panic/panic.o: home/juan/pico-sd
 
 # target to build an object file
 home/juan/pico-sdk/src/rp2_common/pico_platform_panic/panic.c.o:
-	cd "/mnt/meu_vol/ufc/2025.1/rtos/praticas/pratica 2/build" && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/app.dir/build.make src/CMakeFiles/app.dir/home/juan/pico-sdk/src/rp2_common/pico_platform_panic/panic.c.o
+	cd "/media/juan/42849DD9849DCFB1/ufc/2025.1/rtos/praticas/pratica 2/build" && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/app.dir/build.make src/CMakeFiles/app.dir/home/juan/pico-sdk/src/rp2_common/pico_platform_panic/panic.c.o
 .PHONY : home/juan/pico-sdk/src/rp2_common/pico_platform_panic/panic.c.o
 
 home/juan/pico-sdk/src/rp2_common/pico_platform_panic/panic.i: home/juan/pico-sdk/src/rp2_common/pico_platform_panic/panic.c.i
@@ -1567,7 +1567,7 @@ home/juan/pico-sdk/src/rp2_common/pico_platform_panic/panic.i: home/juan/pico-sd
 
 # target to preprocess a source file
 home/juan/pico-sdk/src/rp2_common/pico_platform_panic/panic.c.i:
-	cd "/mnt/meu_vol/ufc/2025.1/rtos/praticas/pratica 2/build" && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/app.dir/build.make src/CMakeFiles/app.dir/home/juan/pico-sdk/src/rp2_common/pico_platform_panic/panic.c.i
+	cd "/media/juan/42849DD9849DCFB1/ufc/2025.1/rtos/praticas/pratica 2/build" && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/app.dir/build.make src/CMakeFiles/app.dir/home/juan/pico-sdk/src/rp2_common/pico_platform_panic/panic.c.i
 .PHONY : home/juan/pico-sdk/src/rp2_common/pico_platform_panic/panic.c.i
 
 home/juan/pico-sdk/src/rp2_common/pico_platform_panic/panic.s: home/juan/pico-sdk/src/rp2_common/pico_platform_panic/panic.c.s
@@ -1575,7 +1575,7 @@ home/juan/pico-sdk/src/rp2_common/pico_platform_panic/panic.s: home/juan/pico-sd
 
 # target to generate assembly for a file
 home/juan/pico-sdk/src/rp2_common/pico_platform_panic/panic.c.s:
-	cd "/mnt/meu_vol/ufc/2025.1/rtos/praticas/pratica 2/build" && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/app.dir/build.make src/CMakeFiles/app.dir/home/juan/pico-sdk/src/rp2_common/pico_platform_panic/panic.c.s
+	cd "/media/juan/42849DD9849DCFB1/ufc/2025.1/rtos/praticas/pratica 2/build" && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/app.dir/build.make src/CMakeFiles/app.dir/home/juan/pico-sdk/src/rp2_common/pico_platform_panic/panic.c.s
 .PHONY : home/juan/pico-sdk/src/rp2_common/pico_platform_panic/panic.c.s
 
 home/juan/pico-sdk/src/rp2_common/pico_printf/printf.o: home/juan/pico-sdk/src/rp2_common/pico_printf/printf.c.o
@@ -1583,7 +1583,7 @@ home/juan/pico-sdk/src/rp2_common/pico_printf/printf.o: home/juan/pico-sdk/src/r
 
 # target to build an object file
 home/juan/pico-sdk/src/rp2_common/pico_printf/printf.c.o:
-	cd "/mnt/meu_vol/ufc/2025.1/rtos/praticas/pratica 2/build" && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/app.dir/build.make src/CMakeFiles/app.dir/home/juan/pico-sdk/src/rp2_common/pico_printf/printf.c.o
+	cd "/media/juan/42849DD9849DCFB1/ufc/2025.1/rtos/praticas/pratica 2/build" && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/app.dir/build.make src/CMakeFiles/app.dir/home/juan/pico-sdk/src/rp2_common/pico_printf/printf.c.o
 .PHONY : home/juan/pico-sdk/src/rp2_common/pico_printf/printf.c.o
 
 home/juan/pico-sdk/src/rp2_common/pico_printf/printf.i: home/juan/pico-sdk/src/rp2_common/pico_printf/printf.c.i
@@ -1591,7 +1591,7 @@ home/juan/pico-sdk/src/rp2_common/pico_printf/printf.i: home/juan/pico-sdk/src/r
 
 # target to preprocess a source file
 home/juan/pico-sdk/src/rp2_common/pico_printf/printf.c.i:
-	cd "/mnt/meu_vol/ufc/2025.1/rtos/praticas/pratica 2/build" && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/app.dir/build.make src/CMakeFiles/app.dir/home/juan/pico-sdk/src/rp2_common/pico_printf/printf.c.i
+	cd "/media/juan/42849DD9849DCFB1/ufc/2025.1/rtos/praticas/pratica 2/build" && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/app.dir/build.make src/CMakeFiles/app.dir/home/juan/pico-sdk/src/rp2_common/pico_printf/printf.c.i
 .PHONY : home/juan/pico-sdk/src/rp2_common/pico_printf/printf.c.i
 
 home/juan/pico-sdk/src/rp2_common/pico_printf/printf.s: home/juan/pico-sdk/src/rp2_common/pico_printf/printf.c.s
@@ -1599,7 +1599,7 @@ home/juan/pico-sdk/src/rp2_common/pico_printf/printf.s: home/juan/pico-sdk/src/r
 
 # target to generate assembly for a file
 home/juan/pico-sdk/src/rp2_common/pico_printf/printf.c.s:
-	cd "/mnt/meu_vol/ufc/2025.1/rtos/praticas/pratica 2/build" && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/app.dir/build.make src/CMakeFiles/app.dir/home/juan/pico-sdk/src/rp2_common/pico_printf/printf.c.s
+	cd "/media/juan/42849DD9849DCFB1/ufc/2025.1/rtos/praticas/pratica 2/build" && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/app.dir/build.make src/CMakeFiles/app.dir/home/juan/pico-sdk/src/rp2_common/pico_printf/printf.c.s
 .PHONY : home/juan/pico-sdk/src/rp2_common/pico_printf/printf.c.s
 
 home/juan/pico-sdk/src/rp2_common/pico_runtime/runtime.o: home/juan/pico-sdk/src/rp2_common/pico_runtime/runtime.c.o
@@ -1607,7 +1607,7 @@ home/juan/pico-sdk/src/rp2_common/pico_runtime/runtime.o: home/juan/pico-sdk/src
 
 # target to build an object file
 home/juan/pico-sdk/src/rp2_common/pico_runtime/runtime.c.o:
-	cd "/mnt/meu_vol/ufc/2025.1/rtos/praticas/pratica 2/build" && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/app.dir/build.make src/CMakeFiles/app.dir/home/juan/pico-sdk/src/rp2_common/pico_runtime/runtime.c.o
+	cd "/media/juan/42849DD9849DCFB1/ufc/2025.1/rtos/praticas/pratica 2/build" && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/app.dir/build.make src/CMakeFiles/app.dir/home/juan/pico-sdk/src/rp2_common/pico_runtime/runtime.c.o
 .PHONY : home/juan/pico-sdk/src/rp2_common/pico_runtime/runtime.c.o
 
 home/juan/pico-sdk/src/rp2_common/pico_runtime/runtime.i: home/juan/pico-sdk/src/rp2_common/pico_runtime/runtime.c.i
@@ -1615,7 +1615,7 @@ home/juan/pico-sdk/src/rp2_common/pico_runtime/runtime.i: home/juan/pico-sdk/src
 
 # target to preprocess a source file
 home/juan/pico-sdk/src/rp2_common/pico_runtime/runtime.c.i:
-	cd "/mnt/meu_vol/ufc/2025.1/rtos/praticas/pratica 2/build" && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/app.dir/build.make src/CMakeFiles/app.dir/home/juan/pico-sdk/src/rp2_common/pico_runtime/runtime.c.i
+	cd "/media/juan/42849DD9849DCFB1/ufc/2025.1/rtos/praticas/pratica 2/build" && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/app.dir/build.make src/CMakeFiles/app.dir/home/juan/pico-sdk/src/rp2_common/pico_runtime/runtime.c.i
 .PHONY : home/juan/pico-sdk/src/rp2_common/pico_runtime/runtime.c.i
 
 home/juan/pico-sdk/src/rp2_common/pico_runtime/runtime.s: home/juan/pico-sdk/src/rp2_common/pico_runtime/runtime.c.s
@@ -1623,7 +1623,7 @@ home/juan/pico-sdk/src/rp2_common/pico_runtime/runtime.s: home/juan/pico-sdk/src
 
 # target to generate assembly for a file
 home/juan/pico-sdk/src/rp2_common/pico_runtime/runtime.c.s:
-	cd "/mnt/meu_vol/ufc/2025.1/rtos/praticas/pratica 2/build" && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/app.dir/build.make src/CMakeFiles/app.dir/home/juan/pico-sdk/src/rp2_common/pico_runtime/runtime.c.s
+	cd "/media/juan/42849DD9849DCFB1/ufc/2025.1/rtos/praticas/pratica 2/build" && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/app.dir/build.make src/CMakeFiles/app.dir/home/juan/pico-sdk/src/rp2_common/pico_runtime/runtime.c.s
 .PHONY : home/juan/pico-sdk/src/rp2_common/pico_runtime/runtime.c.s
 
 home/juan/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init.o: home/juan/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init.c.o
@@ -1631,7 +1631,7 @@ home/juan/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init.o: home/juan/pi
 
 # target to build an object file
 home/juan/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init.c.o:
-	cd "/mnt/meu_vol/ufc/2025.1/rtos/praticas/pratica 2/build" && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/app.dir/build.make src/CMakeFiles/app.dir/home/juan/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init.c.o
+	cd "/media/juan/42849DD9849DCFB1/ufc/2025.1/rtos/praticas/pratica 2/build" && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/app.dir/build.make src/CMakeFiles/app.dir/home/juan/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init.c.o
 .PHONY : home/juan/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init.c.o
 
 home/juan/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init.i: home/juan/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init.c.i
@@ -1639,7 +1639,7 @@ home/juan/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init.i: home/juan/pi
 
 # target to preprocess a source file
 home/juan/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init.c.i:
-	cd "/mnt/meu_vol/ufc/2025.1/rtos/praticas/pratica 2/build" && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/app.dir/build.make src/CMakeFiles/app.dir/home/juan/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init.c.i
+	cd "/media/juan/42849DD9849DCFB1/ufc/2025.1/rtos/praticas/pratica 2/build" && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/app.dir/build.make src/CMakeFiles/app.dir/home/juan/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init.c.i
 .PHONY : home/juan/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init.c.i
 
 home/juan/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init.s: home/juan/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init.c.s
@@ -1647,7 +1647,7 @@ home/juan/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init.s: home/juan/pi
 
 # target to generate assembly for a file
 home/juan/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init.c.s:
-	cd "/mnt/meu_vol/ufc/2025.1/rtos/praticas/pratica 2/build" && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/app.dir/build.make src/CMakeFiles/app.dir/home/juan/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init.c.s
+	cd "/media/juan/42849DD9849DCFB1/ufc/2025.1/rtos/praticas/pratica 2/build" && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/app.dir/build.make src/CMakeFiles/app.dir/home/juan/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init.c.s
 .PHONY : home/juan/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init.c.s
 
 home/juan/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_clocks.o: home/juan/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_clocks.c.o
@@ -1655,7 +1655,7 @@ home/juan/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_clocks.o: home/
 
 # target to build an object file
 home/juan/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_clocks.c.o:
-	cd "/mnt/meu_vol/ufc/2025.1/rtos/praticas/pratica 2/build" && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/app.dir/build.make src/CMakeFiles/app.dir/home/juan/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_clocks.c.o
+	cd "/media/juan/42849DD9849DCFB1/ufc/2025.1/rtos/praticas/pratica 2/build" && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/app.dir/build.make src/CMakeFiles/app.dir/home/juan/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_clocks.c.o
 .PHONY : home/juan/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_clocks.c.o
 
 home/juan/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_clocks.i: home/juan/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_clocks.c.i
@@ -1663,7 +1663,7 @@ home/juan/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_clocks.i: home/
 
 # target to preprocess a source file
 home/juan/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_clocks.c.i:
-	cd "/mnt/meu_vol/ufc/2025.1/rtos/praticas/pratica 2/build" && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/app.dir/build.make src/CMakeFiles/app.dir/home/juan/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_clocks.c.i
+	cd "/media/juan/42849DD9849DCFB1/ufc/2025.1/rtos/praticas/pratica 2/build" && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/app.dir/build.make src/CMakeFiles/app.dir/home/juan/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_clocks.c.i
 .PHONY : home/juan/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_clocks.c.i
 
 home/juan/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_clocks.s: home/juan/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_clocks.c.s
@@ -1671,7 +1671,7 @@ home/juan/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_clocks.s: home/
 
 # target to generate assembly for a file
 home/juan/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_clocks.c.s:
-	cd "/mnt/meu_vol/ufc/2025.1/rtos/praticas/pratica 2/build" && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/app.dir/build.make src/CMakeFiles/app.dir/home/juan/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_clocks.c.s
+	cd "/media/juan/42849DD9849DCFB1/ufc/2025.1/rtos/praticas/pratica 2/build" && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/app.dir/build.make src/CMakeFiles/app.dir/home/juan/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_clocks.c.s
 .PHONY : home/juan/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_clocks.c.s
 
 home/juan/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_stack_guard.o: home/juan/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_stack_guard.c.o
@@ -1679,7 +1679,7 @@ home/juan/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_stack_guard.o: 
 
 # target to build an object file
 home/juan/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_stack_guard.c.o:
-	cd "/mnt/meu_vol/ufc/2025.1/rtos/praticas/pratica 2/build" && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/app.dir/build.make src/CMakeFiles/app.dir/home/juan/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_stack_guard.c.o
+	cd "/media/juan/42849DD9849DCFB1/ufc/2025.1/rtos/praticas/pratica 2/build" && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/app.dir/build.make src/CMakeFiles/app.dir/home/juan/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_stack_guard.c.o
 .PHONY : home/juan/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_stack_guard.c.o
 
 home/juan/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_stack_guard.i: home/juan/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_stack_guard.c.i
@@ -1687,7 +1687,7 @@ home/juan/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_stack_guard.i: 
 
 # target to preprocess a source file
 home/juan/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_stack_guard.c.i:
-	cd "/mnt/meu_vol/ufc/2025.1/rtos/praticas/pratica 2/build" && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/app.dir/build.make src/CMakeFiles/app.dir/home/juan/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_stack_guard.c.i
+	cd "/media/juan/42849DD9849DCFB1/ufc/2025.1/rtos/praticas/pratica 2/build" && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/app.dir/build.make src/CMakeFiles/app.dir/home/juan/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_stack_guard.c.i
 .PHONY : home/juan/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_stack_guard.c.i
 
 home/juan/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_stack_guard.s: home/juan/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_stack_guard.c.s
@@ -1695,7 +1695,7 @@ home/juan/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_stack_guard.s: 
 
 # target to generate assembly for a file
 home/juan/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_stack_guard.c.s:
-	cd "/mnt/meu_vol/ufc/2025.1/rtos/praticas/pratica 2/build" && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/app.dir/build.make src/CMakeFiles/app.dir/home/juan/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_stack_guard.c.s
+	cd "/media/juan/42849DD9849DCFB1/ufc/2025.1/rtos/praticas/pratica 2/build" && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/app.dir/build.make src/CMakeFiles/app.dir/home/juan/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_stack_guard.c.s
 .PHONY : home/juan/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_stack_guard.c.s
 
 home/juan/pico-sdk/src/rp2_common/pico_standard_binary_info/standard_binary_info.o: home/juan/pico-sdk/src/rp2_common/pico_standard_binary_info/standard_binary_info.c.o
@@ -1703,7 +1703,7 @@ home/juan/pico-sdk/src/rp2_common/pico_standard_binary_info/standard_binary_info
 
 # target to build an object file
 home/juan/pico-sdk/src/rp2_common/pico_standard_binary_info/standard_binary_info.c.o:
-	cd "/mnt/meu_vol/ufc/2025.1/rtos/praticas/pratica 2/build" && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/app.dir/build.make src/CMakeFiles/app.dir/home/juan/pico-sdk/src/rp2_common/pico_standard_binary_info/standard_binary_info.c.o
+	cd "/media/juan/42849DD9849DCFB1/ufc/2025.1/rtos/praticas/pratica 2/build" && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/app.dir/build.make src/CMakeFiles/app.dir/home/juan/pico-sdk/src/rp2_common/pico_standard_binary_info/standard_binary_info.c.o
 .PHONY : home/juan/pico-sdk/src/rp2_common/pico_standard_binary_info/standard_binary_info.c.o
 
 home/juan/pico-sdk/src/rp2_common/pico_standard_binary_info/standard_binary_info.i: home/juan/pico-sdk/src/rp2_common/pico_standard_binary_info/standard_binary_info.c.i
@@ -1711,7 +1711,7 @@ home/juan/pico-sdk/src/rp2_common/pico_standard_binary_info/standard_binary_info
 
 # target to preprocess a source file
 home/juan/pico-sdk/src/rp2_common/pico_standard_binary_info/standard_binary_info.c.i:
-	cd "/mnt/meu_vol/ufc/2025.1/rtos/praticas/pratica 2/build" && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/app.dir/build.make src/CMakeFiles/app.dir/home/juan/pico-sdk/src/rp2_common/pico_standard_binary_info/standard_binary_info.c.i
+	cd "/media/juan/42849DD9849DCFB1/ufc/2025.1/rtos/praticas/pratica 2/build" && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/app.dir/build.make src/CMakeFiles/app.dir/home/juan/pico-sdk/src/rp2_common/pico_standard_binary_info/standard_binary_info.c.i
 .PHONY : home/juan/pico-sdk/src/rp2_common/pico_standard_binary_info/standard_binary_info.c.i
 
 home/juan/pico-sdk/src/rp2_common/pico_standard_binary_info/standard_binary_info.s: home/juan/pico-sdk/src/rp2_common/pico_standard_binary_info/standard_binary_info.c.s
@@ -1719,7 +1719,7 @@ home/juan/pico-sdk/src/rp2_common/pico_standard_binary_info/standard_binary_info
 
 # target to generate assembly for a file
 home/juan/pico-sdk/src/rp2_common/pico_standard_binary_info/standard_binary_info.c.s:
-	cd "/mnt/meu_vol/ufc/2025.1/rtos/praticas/pratica 2/build" && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/app.dir/build.make src/CMakeFiles/app.dir/home/juan/pico-sdk/src/rp2_common/pico_standard_binary_info/standard_binary_info.c.s
+	cd "/media/juan/42849DD9849DCFB1/ufc/2025.1/rtos/praticas/pratica 2/build" && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/app.dir/build.make src/CMakeFiles/app.dir/home/juan/pico-sdk/src/rp2_common/pico_standard_binary_info/standard_binary_info.c.s
 .PHONY : home/juan/pico-sdk/src/rp2_common/pico_standard_binary_info/standard_binary_info.c.s
 
 home/juan/pico-sdk/src/rp2_common/pico_stdio/stdio.o: home/juan/pico-sdk/src/rp2_common/pico_stdio/stdio.c.o
@@ -1727,7 +1727,7 @@ home/juan/pico-sdk/src/rp2_common/pico_stdio/stdio.o: home/juan/pico-sdk/src/rp2
 
 # target to build an object file
 home/juan/pico-sdk/src/rp2_common/pico_stdio/stdio.c.o:
-	cd "/mnt/meu_vol/ufc/2025.1/rtos/praticas/pratica 2/build" && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/app.dir/build.make src/CMakeFiles/app.dir/home/juan/pico-sdk/src/rp2_common/pico_stdio/stdio.c.o
+	cd "/media/juan/42849DD9849DCFB1/ufc/2025.1/rtos/praticas/pratica 2/build" && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/app.dir/build.make src/CMakeFiles/app.dir/home/juan/pico-sdk/src/rp2_common/pico_stdio/stdio.c.o
 .PHONY : home/juan/pico-sdk/src/rp2_common/pico_stdio/stdio.c.o
 
 home/juan/pico-sdk/src/rp2_common/pico_stdio/stdio.i: home/juan/pico-sdk/src/rp2_common/pico_stdio/stdio.c.i
@@ -1735,7 +1735,7 @@ home/juan/pico-sdk/src/rp2_common/pico_stdio/stdio.i: home/juan/pico-sdk/src/rp2
 
 # target to preprocess a source file
 home/juan/pico-sdk/src/rp2_common/pico_stdio/stdio.c.i:
-	cd "/mnt/meu_vol/ufc/2025.1/rtos/praticas/pratica 2/build" && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/app.dir/build.make src/CMakeFiles/app.dir/home/juan/pico-sdk/src/rp2_common/pico_stdio/stdio.c.i
+	cd "/media/juan/42849DD9849DCFB1/ufc/2025.1/rtos/praticas/pratica 2/build" && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/app.dir/build.make src/CMakeFiles/app.dir/home/juan/pico-sdk/src/rp2_common/pico_stdio/stdio.c.i
 .PHONY : home/juan/pico-sdk/src/rp2_common/pico_stdio/stdio.c.i
 
 home/juan/pico-sdk/src/rp2_common/pico_stdio/stdio.s: home/juan/pico-sdk/src/rp2_common/pico_stdio/stdio.c.s
@@ -1743,7 +1743,7 @@ home/juan/pico-sdk/src/rp2_common/pico_stdio/stdio.s: home/juan/pico-sdk/src/rp2
 
 # target to generate assembly for a file
 home/juan/pico-sdk/src/rp2_common/pico_stdio/stdio.c.s:
-	cd "/mnt/meu_vol/ufc/2025.1/rtos/praticas/pratica 2/build" && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/app.dir/build.make src/CMakeFiles/app.dir/home/juan/pico-sdk/src/rp2_common/pico_stdio/stdio.c.s
+	cd "/media/juan/42849DD9849DCFB1/ufc/2025.1/rtos/praticas/pratica 2/build" && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/app.dir/build.make src/CMakeFiles/app.dir/home/juan/pico-sdk/src/rp2_common/pico_stdio/stdio.c.s
 .PHONY : home/juan/pico-sdk/src/rp2_common/pico_stdio/stdio.c.s
 
 home/juan/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.o: home/juan/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.o
@@ -1751,7 +1751,7 @@ home/juan/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.o: home/juan/pico-s
 
 # target to build an object file
 home/juan/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.o:
-	cd "/mnt/meu_vol/ufc/2025.1/rtos/praticas/pratica 2/build" && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/app.dir/build.make src/CMakeFiles/app.dir/home/juan/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.o
+	cd "/media/juan/42849DD9849DCFB1/ufc/2025.1/rtos/praticas/pratica 2/build" && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/app.dir/build.make src/CMakeFiles/app.dir/home/juan/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.o
 .PHONY : home/juan/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.o
 
 home/juan/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.i: home/juan/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.i
@@ -1759,7 +1759,7 @@ home/juan/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.i: home/juan/pico-s
 
 # target to preprocess a source file
 home/juan/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.i:
-	cd "/mnt/meu_vol/ufc/2025.1/rtos/praticas/pratica 2/build" && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/app.dir/build.make src/CMakeFiles/app.dir/home/juan/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.i
+	cd "/media/juan/42849DD9849DCFB1/ufc/2025.1/rtos/praticas/pratica 2/build" && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/app.dir/build.make src/CMakeFiles/app.dir/home/juan/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.i
 .PHONY : home/juan/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.i
 
 home/juan/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.s: home/juan/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.s
@@ -1767,7 +1767,7 @@ home/juan/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.s: home/juan/pico-s
 
 # target to generate assembly for a file
 home/juan/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.s:
-	cd "/mnt/meu_vol/ufc/2025.1/rtos/praticas/pratica 2/build" && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/app.dir/build.make src/CMakeFiles/app.dir/home/juan/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.s
+	cd "/media/juan/42849DD9849DCFB1/ufc/2025.1/rtos/praticas/pratica 2/build" && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/app.dir/build.make src/CMakeFiles/app.dir/home/juan/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.s
 .PHONY : home/juan/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.s
 
 home/juan/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.o: home/juan/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.o
@@ -1775,7 +1775,7 @@ home/juan/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.o: home/juan/pi
 
 # target to build an object file
 home/juan/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.o:
-	cd "/mnt/meu_vol/ufc/2025.1/rtos/praticas/pratica 2/build" && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/app.dir/build.make src/CMakeFiles/app.dir/home/juan/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.o
+	cd "/media/juan/42849DD9849DCFB1/ufc/2025.1/rtos/praticas/pratica 2/build" && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/app.dir/build.make src/CMakeFiles/app.dir/home/juan/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.o
 .PHONY : home/juan/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.o
 
 home/juan/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.i: home/juan/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.i
@@ -1783,7 +1783,7 @@ home/juan/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.i: home/juan/pi
 
 # target to preprocess a source file
 home/juan/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.i:
-	cd "/mnt/meu_vol/ufc/2025.1/rtos/praticas/pratica 2/build" && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/app.dir/build.make src/CMakeFiles/app.dir/home/juan/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.i
+	cd "/media/juan/42849DD9849DCFB1/ufc/2025.1/rtos/praticas/pratica 2/build" && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/app.dir/build.make src/CMakeFiles/app.dir/home/juan/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.i
 .PHONY : home/juan/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.i
 
 home/juan/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.s: home/juan/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.s
@@ -1791,7 +1791,7 @@ home/juan/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.s: home/juan/pi
 
 # target to generate assembly for a file
 home/juan/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.s:
-	cd "/mnt/meu_vol/ufc/2025.1/rtos/praticas/pratica 2/build" && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/app.dir/build.make src/CMakeFiles/app.dir/home/juan/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.s
+	cd "/media/juan/42849DD9849DCFB1/ufc/2025.1/rtos/praticas/pratica 2/build" && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/app.dir/build.make src/CMakeFiles/app.dir/home/juan/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.s
 .PHONY : home/juan/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.s
 
 home/juan/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.o: home/juan/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.o
@@ -1799,7 +1799,7 @@ home/juan/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.o: home/juan/pico-sdk
 
 # target to build an object file
 home/juan/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.o:
-	cd "/mnt/meu_vol/ufc/2025.1/rtos/praticas/pratica 2/build" && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/app.dir/build.make src/CMakeFiles/app.dir/home/juan/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.o
+	cd "/media/juan/42849DD9849DCFB1/ufc/2025.1/rtos/praticas/pratica 2/build" && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/app.dir/build.make src/CMakeFiles/app.dir/home/juan/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.o
 .PHONY : home/juan/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.o
 
 home/juan/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.i: home/juan/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.i
@@ -1807,7 +1807,7 @@ home/juan/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.i: home/juan/pico-sdk
 
 # target to preprocess a source file
 home/juan/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.i:
-	cd "/mnt/meu_vol/ufc/2025.1/rtos/praticas/pratica 2/build" && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/app.dir/build.make src/CMakeFiles/app.dir/home/juan/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.i
+	cd "/media/juan/42849DD9849DCFB1/ufc/2025.1/rtos/praticas/pratica 2/build" && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/app.dir/build.make src/CMakeFiles/app.dir/home/juan/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.i
 .PHONY : home/juan/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.i
 
 home/juan/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.s: home/juan/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.s
@@ -1815,7 +1815,7 @@ home/juan/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.s: home/juan/pico-sdk
 
 # target to generate assembly for a file
 home/juan/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.s:
-	cd "/mnt/meu_vol/ufc/2025.1/rtos/praticas/pratica 2/build" && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/app.dir/build.make src/CMakeFiles/app.dir/home/juan/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.s
+	cd "/media/juan/42849DD9849DCFB1/ufc/2025.1/rtos/praticas/pratica 2/build" && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/app.dir/build.make src/CMakeFiles/app.dir/home/juan/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.s
 .PHONY : home/juan/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.s
 
 home/juan/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.o: home/juan/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.o
@@ -1823,7 +1823,7 @@ home/juan/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.o: home/j
 
 # target to build an object file
 home/juan/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.o:
-	cd "/mnt/meu_vol/ufc/2025.1/rtos/praticas/pratica 2/build" && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/app.dir/build.make src/CMakeFiles/app.dir/home/juan/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.o
+	cd "/media/juan/42849DD9849DCFB1/ufc/2025.1/rtos/praticas/pratica 2/build" && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/app.dir/build.make src/CMakeFiles/app.dir/home/juan/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.o
 .PHONY : home/juan/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.o
 
 home/juan/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.i: home/juan/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.i
@@ -1831,7 +1831,7 @@ home/juan/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.i: home/j
 
 # target to preprocess a source file
 home/juan/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.i:
-	cd "/mnt/meu_vol/ufc/2025.1/rtos/praticas/pratica 2/build" && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/app.dir/build.make src/CMakeFiles/app.dir/home/juan/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.i
+	cd "/media/juan/42849DD9849DCFB1/ufc/2025.1/rtos/praticas/pratica 2/build" && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/app.dir/build.make src/CMakeFiles/app.dir/home/juan/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.i
 .PHONY : home/juan/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.i
 
 home/juan/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.s: home/juan/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.s
@@ -1839,7 +1839,7 @@ home/juan/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.s: home/j
 
 # target to generate assembly for a file
 home/juan/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.s:
-	cd "/mnt/meu_vol/ufc/2025.1/rtos/praticas/pratica 2/build" && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/app.dir/build.make src/CMakeFiles/app.dir/home/juan/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.s
+	cd "/media/juan/42849DD9849DCFB1/ufc/2025.1/rtos/praticas/pratica 2/build" && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/app.dir/build.make src/CMakeFiles/app.dir/home/juan/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.s
 .PHONY : home/juan/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.s
 
 home/juan/pico-sdk/src/rp2_common/pico_stdlib/stdlib.o: home/juan/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.o
@@ -1847,7 +1847,7 @@ home/juan/pico-sdk/src/rp2_common/pico_stdlib/stdlib.o: home/juan/pico-sdk/src/r
 
 # target to build an object file
 home/juan/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.o:
-	cd "/mnt/meu_vol/ufc/2025.1/rtos/praticas/pratica 2/build" && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/app.dir/build.make src/CMakeFiles/app.dir/home/juan/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.o
+	cd "/media/juan/42849DD9849DCFB1/ufc/2025.1/rtos/praticas/pratica 2/build" && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/app.dir/build.make src/CMakeFiles/app.dir/home/juan/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.o
 .PHONY : home/juan/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.o
 
 home/juan/pico-sdk/src/rp2_common/pico_stdlib/stdlib.i: home/juan/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.i
@@ -1855,7 +1855,7 @@ home/juan/pico-sdk/src/rp2_common/pico_stdlib/stdlib.i: home/juan/pico-sdk/src/r
 
 # target to preprocess a source file
 home/juan/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.i:
-	cd "/mnt/meu_vol/ufc/2025.1/rtos/praticas/pratica 2/build" && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/app.dir/build.make src/CMakeFiles/app.dir/home/juan/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.i
+	cd "/media/juan/42849DD9849DCFB1/ufc/2025.1/rtos/praticas/pratica 2/build" && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/app.dir/build.make src/CMakeFiles/app.dir/home/juan/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.i
 .PHONY : home/juan/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.i
 
 home/juan/pico-sdk/src/rp2_common/pico_stdlib/stdlib.s: home/juan/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.s
@@ -1863,7 +1863,7 @@ home/juan/pico-sdk/src/rp2_common/pico_stdlib/stdlib.s: home/juan/pico-sdk/src/r
 
 # target to generate assembly for a file
 home/juan/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.s:
-	cd "/mnt/meu_vol/ufc/2025.1/rtos/praticas/pratica 2/build" && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/app.dir/build.make src/CMakeFiles/app.dir/home/juan/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.s
+	cd "/media/juan/42849DD9849DCFB1/ufc/2025.1/rtos/praticas/pratica 2/build" && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/app.dir/build.make src/CMakeFiles/app.dir/home/juan/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.s
 .PHONY : home/juan/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.s
 
 home/juan/pico-sdk/src/rp2_common/pico_unique_id/unique_id.o: home/juan/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.o
@@ -1871,7 +1871,7 @@ home/juan/pico-sdk/src/rp2_common/pico_unique_id/unique_id.o: home/juan/pico-sdk
 
 # target to build an object file
 home/juan/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.o:
-	cd "/mnt/meu_vol/ufc/2025.1/rtos/praticas/pratica 2/build" && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/app.dir/build.make src/CMakeFiles/app.dir/home/juan/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.o
+	cd "/media/juan/42849DD9849DCFB1/ufc/2025.1/rtos/praticas/pratica 2/build" && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/app.dir/build.make src/CMakeFiles/app.dir/home/juan/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.o
 .PHONY : home/juan/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.o
 
 home/juan/pico-sdk/src/rp2_common/pico_unique_id/unique_id.i: home/juan/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.i
@@ -1879,7 +1879,7 @@ home/juan/pico-sdk/src/rp2_common/pico_unique_id/unique_id.i: home/juan/pico-sdk
 
 # target to preprocess a source file
 home/juan/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.i:
-	cd "/mnt/meu_vol/ufc/2025.1/rtos/praticas/pratica 2/build" && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/app.dir/build.make src/CMakeFiles/app.dir/home/juan/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.i
+	cd "/media/juan/42849DD9849DCFB1/ufc/2025.1/rtos/praticas/pratica 2/build" && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/app.dir/build.make src/CMakeFiles/app.dir/home/juan/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.i
 .PHONY : home/juan/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.i
 
 home/juan/pico-sdk/src/rp2_common/pico_unique_id/unique_id.s: home/juan/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.s
@@ -1887,7 +1887,7 @@ home/juan/pico-sdk/src/rp2_common/pico_unique_id/unique_id.s: home/juan/pico-sdk
 
 # target to generate assembly for a file
 home/juan/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.s:
-	cd "/mnt/meu_vol/ufc/2025.1/rtos/praticas/pratica 2/build" && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/app.dir/build.make src/CMakeFiles/app.dir/home/juan/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.s
+	cd "/media/juan/42849DD9849DCFB1/ufc/2025.1/rtos/praticas/pratica 2/build" && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/app.dir/build.make src/CMakeFiles/app.dir/home/juan/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.s
 .PHONY : home/juan/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.s
 
 main.o: main.c.o
@@ -1895,7 +1895,7 @@ main.o: main.c.o
 
 # target to build an object file
 main.c.o:
-	cd "/mnt/meu_vol/ufc/2025.1/rtos/praticas/pratica 2/build" && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/app.dir/build.make src/CMakeFiles/app.dir/main.c.o
+	cd "/media/juan/42849DD9849DCFB1/ufc/2025.1/rtos/praticas/pratica 2/build" && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/app.dir/build.make src/CMakeFiles/app.dir/main.c.o
 .PHONY : main.c.o
 
 main.i: main.c.i
@@ -1903,7 +1903,7 @@ main.i: main.c.i
 
 # target to preprocess a source file
 main.c.i:
-	cd "/mnt/meu_vol/ufc/2025.1/rtos/praticas/pratica 2/build" && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/app.dir/build.make src/CMakeFiles/app.dir/main.c.i
+	cd "/media/juan/42849DD9849DCFB1/ufc/2025.1/rtos/praticas/pratica 2/build" && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/app.dir/build.make src/CMakeFiles/app.dir/main.c.i
 .PHONY : main.c.i
 
 main.s: main.c.s
@@ -1911,7 +1911,7 @@ main.s: main.c.s
 
 # target to generate assembly for a file
 main.c.s:
-	cd "/mnt/meu_vol/ufc/2025.1/rtos/praticas/pratica 2/build" && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/app.dir/build.make src/CMakeFiles/app.dir/main.c.s
+	cd "/media/juan/42849DD9849DCFB1/ufc/2025.1/rtos/praticas/pratica 2/build" && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/app.dir/build.make src/CMakeFiles/app.dir/main.c.s
 .PHONY : main.c.s
 
 # Help Target
@@ -2157,6 +2157,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd "/mnt/meu_vol/ufc/2025.1/rtos/praticas/pratica 2/build" && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd "/media/juan/42849DD9849DCFB1/ufc/2025.1/rtos/praticas/pratica 2/build" && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 
