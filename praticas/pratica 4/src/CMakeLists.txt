@@ -2,6 +2,7 @@ add_executable(app
         main.c
         led.c
         cpu_monitor.c
+        adc_custom.c
 )
 
 target_include_directories(app PUBLIC inc)

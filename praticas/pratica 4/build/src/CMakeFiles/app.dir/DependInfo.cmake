@@ -156,6 +156,7 @@ set(CMAKE_ASM_TARGET_INCLUDE_PATH
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
+  "/media/juan/42849DD9849DCFB1/ufc/2025.1/rtos/praticas/pratica 4/src/adc_custom.c" "src/CMakeFiles/app.dir/adc_custom.c.o" "gcc" "src/CMakeFiles/app.dir/adc_custom.c.o.d"
   "/media/juan/42849DD9849DCFB1/ufc/2025.1/rtos/praticas/pratica 4/src/cpu_monitor.c" "src/CMakeFiles/app.dir/cpu_monitor.c.o" "gcc" "src/CMakeFiles/app.dir/cpu_monitor.c.o.d"
   "/home/juan/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c" "src/CMakeFiles/app.dir/home/juan/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.o" "gcc" "src/CMakeFiles/app.dir/home/juan/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.o.d"
   "/home/juan/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c" "src/CMakeFiles/app.dir/home/juan/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.o" "gcc" "src/CMakeFiles/app.dir/home/juan/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.o.d"

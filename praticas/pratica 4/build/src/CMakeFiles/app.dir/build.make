@@ -111,10 +111,24 @@ src/CMakeFiles/app.dir/cpu_monitor.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/app.dir/cpu_monitor.c.s"
 	cd "/media/juan/42849DD9849DCFB1/ufc/2025.1/rtos/praticas/pratica 4/build/src" && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "/media/juan/42849DD9849DCFB1/ufc/2025.1/rtos/praticas/pratica 4/src/cpu_monitor.c" -o CMakeFiles/app.dir/cpu_monitor.c.s
 
+src/CMakeFiles/app.dir/adc_custom.c.o: src/CMakeFiles/app.dir/flags.make
+src/CMakeFiles/app.dir/adc_custom.c.o: /media/juan/42849DD9849DCFB1/ufc/2025.1/rtos/praticas/pratica\ 4/src/adc_custom.c
+src/CMakeFiles/app.dir/adc_custom.c.o: src/CMakeFiles/app.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/media/juan/42849DD9849DCFB1/ufc/2025.1/rtos/praticas/pratica 4/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_4) "Building C object src/CMakeFiles/app.dir/adc_custom.c.o"
+	cd "/media/juan/42849DD9849DCFB1/ufc/2025.1/rtos/praticas/pratica 4/build/src" && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT src/CMakeFiles/app.dir/adc_custom.c.o -MF CMakeFiles/app.dir/adc_custom.c.o.d -o CMakeFiles/app.dir/adc_custom.c.o -c "/media/juan/42849DD9849DCFB1/ufc/2025.1/rtos/praticas/pratica 4/src/adc_custom.c"
+
+src/CMakeFiles/app.dir/adc_custom.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/app.dir/adc_custom.c.i"
+	cd "/media/juan/42849DD9849DCFB1/ufc/2025.1/rtos/praticas/pratica 4/build/src" && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "/media/juan/42849DD9849DCFB1/ufc/2025.1/rtos/praticas/pratica 4/src/adc_custom.c" > CMakeFiles/app.dir/adc_custom.c.i
+
+src/CMakeFiles/app.dir/adc_custom.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/app.dir/adc_custom.c.s"
+	cd "/media/juan/42849DD9849DCFB1/ufc/2025.1/rtos/praticas/pratica 4/build/src" && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "/media/juan/42849DD9849DCFB1/ufc/2025.1/rtos/praticas/pratica 4/src/adc_custom.c" -o CMakeFiles/app.dir/adc_custom.c.s
+
 src/CMakeFiles/app.dir/home/juan/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.o: src/CMakeFiles/app.dir/flags.make
 src/CMakeFiles/app.dir/home/juan/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.o: /home/juan/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c
 src/CMakeFiles/app.dir/home/juan/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.o: src/CMakeFiles/app.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/media/juan/42849DD9849DCFB1/ufc/2025.1/rtos/praticas/pratica 4/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_4) "Building C object src/CMakeFiles/app.dir/home/juan/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/media/juan/42849DD9849DCFB1/ufc/2025.1/rtos/praticas/pratica 4/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_5) "Building C object src/CMakeFiles/app.dir/home/juan/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.o"
 	cd "/media/juan/42849DD9849DCFB1/ufc/2025.1/rtos/praticas/pratica 4/build/src" && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT src/CMakeFiles/app.dir/home/juan/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.o -MF CMakeFiles/app.dir/home/juan/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.o.d -o CMakeFiles/app.dir/home/juan/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.o -c /home/juan/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c
 
 src/CMakeFiles/app.dir/home/juan/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.i: cmake_force
@@ -128,7 +142,7 @@ src/CMakeFiles/app.dir/home/juan/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.s:
 src/CMakeFiles/app.dir/home/juan/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.o: src/CMakeFiles/app.dir/flags.make
 src/CMakeFiles/app.dir/home/juan/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.o: /home/juan/pico-sdk/src/rp2_common/hardware_gpio/gpio.c
 src/CMakeFiles/app.dir/home/juan/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.o: src/CMakeFiles/app.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/media/juan/42849DD9849DCFB1/ufc/2025.1/rtos/praticas/pratica 4/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_5) "Building C object src/CMakeFiles/app.dir/home/juan/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/media/juan/42849DD9849DCFB1/ufc/2025.1/rtos/praticas/pratica 4/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_6) "Building C object src/CMakeFiles/app.dir/home/juan/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.o"
 	cd "/media/juan/42849DD9849DCFB1/ufc/2025.1/rtos/praticas/pratica 4/build/src" && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT src/CMakeFiles/app.dir/home/juan/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.o -MF CMakeFiles/app.dir/home/juan/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.o.d -o CMakeFiles/app.dir/home/juan/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.o -c /home/juan/pico-sdk/src/rp2_common/hardware_gpio/gpio.c
 
 src/CMakeFiles/app.dir/home/juan/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.i: cmake_force
@@ -142,7 +156,7 @@ src/CMakeFiles/app.dir/home/juan/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.s:
 src/CMakeFiles/app.dir/home/juan/pico-sdk/src/rp2350/pico_platform/platform.c.o: src/CMakeFiles/app.dir/flags.make
 src/CMakeFiles/app.dir/home/juan/pico-sdk/src/rp2350/pico_platform/platform.c.o: /home/juan/pico-sdk/src/rp2350/pico_platform/platform.c
 src/CMakeFiles/app.dir/home/juan/pico-sdk/src/rp2350/pico_platform/platform.c.o: src/CMakeFiles/app.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/media/juan/42849DD9849DCFB1/ufc/2025.1/rtos/praticas/pratica 4/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_6) "Building C object src/CMakeFiles/app.dir/home/juan/pico-sdk/src/rp2350/pico_platform/platform.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/media/juan/42849DD9849DCFB1/ufc/2025.1/rtos/praticas/pratica 4/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_7) "Building C object src/CMakeFiles/app.dir/home/juan/pico-sdk/src/rp2350/pico_platform/platform.c.o"
 	cd "/media/juan/42849DD9849DCFB1/ufc/2025.1/rtos/praticas/pratica 4/build/src" && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT src/CMakeFiles/app.dir/home/juan/pico-sdk/src/rp2350/pico_platform/platform.c.o -MF CMakeFiles/app.dir/home/juan/pico-sdk/src/rp2350/pico_platform/platform.c.o.d -o CMakeFiles/app.dir/home/juan/pico-sdk/src/rp2350/pico_platform/platform.c.o -c /home/juan/pico-sdk/src/rp2350/pico_platform/platform.c
 
 src/CMakeFiles/app.dir/home/juan/pico-sdk/src/rp2350/pico_platform/platform.c.i: cmake_force
@@ -156,7 +170,7 @@ src/CMakeFiles/app.dir/home/juan/pico-sdk/src/rp2350/pico_platform/platform.c.s:
 src/CMakeFiles/app.dir/home/juan/pico-sdk/src/rp2_common/pico_platform_panic/panic.c.o: src/CMakeFiles/app.dir/flags.make
 src/CMakeFiles/app.dir/home/juan/pico-sdk/src/rp2_common/pico_platform_panic/panic.c.o: /home/juan/pico-sdk/src/rp2_common/pico_platform_panic/panic.c
 src/CMakeFiles/app.dir/home/juan/pico-sdk/src/rp2_common/pico_platform_panic/panic.c.o: src/CMakeFiles/app.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/media/juan/42849DD9849DCFB1/ufc/2025.1/rtos/praticas/pratica 4/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_7) "Building C object src/CMakeFiles/app.dir/home/juan/pico-sdk/src/rp2_common/pico_platform_panic/panic.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/media/juan/42849DD9849DCFB1/ufc/2025.1/rtos/praticas/pratica 4/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_8) "Building C object src/CMakeFiles/app.dir/home/juan/pico-sdk/src/rp2_common/pico_platform_panic/panic.c.o"
 	cd "/media/juan/42849DD9849DCFB1/ufc/2025.1/rtos/praticas/pratica 4/build/src" && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT src/CMakeFiles/app.dir/home/juan/pico-sdk/src/rp2_common/pico_platform_panic/panic.c.o -MF CMakeFiles/app.dir/home/juan/pico-sdk/src/rp2_common/pico_platform_panic/panic.c.o.d -o CMakeFiles/app.dir/home/juan/pico-sdk/src/rp2_common/pico_platform_panic/panic.c.o -c /home/juan/pico-sdk/src/rp2_common/pico_platform_panic/panic.c
 
 src/CMakeFiles/app.dir/home/juan/pico-sdk/src/rp2_common/pico_platform_panic/panic.c.i: cmake_force
@@ -170,7 +184,7 @@ src/CMakeFiles/app.dir/home/juan/pico-sdk/src/rp2_common/pico_platform_panic/pan
 src/CMakeFiles/app.dir/home/juan/pico-sdk/src/common/hardware_claim/claim.c.o: src/CMakeFiles/app.dir/flags.make
 src/CMakeFiles/app.dir/home/juan/pico-sdk/src/common/hardware_claim/claim.c.o: /home/juan/pico-sdk/src/common/hardware_claim/claim.c
 src/CMakeFiles/app.dir/home/juan/pico-sdk/src/common/hardware_claim/claim.c.o: src/CMakeFiles/app.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/media/juan/42849DD9849DCFB1/ufc/2025.1/rtos/praticas/pratica 4/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_8) "Building C object src/CMakeFiles/app.dir/home/juan/pico-sdk/src/common/hardware_claim/claim.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/media/juan/42849DD9849DCFB1/ufc/2025.1/rtos/praticas/pratica 4/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_9) "Building C object src/CMakeFiles/app.dir/home/juan/pico-sdk/src/common/hardware_claim/claim.c.o"
 	cd "/media/juan/42849DD9849DCFB1/ufc/2025.1/rtos/praticas/pratica 4/build/src" && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT src/CMakeFiles/app.dir/home/juan/pico-sdk/src/common/hardware_claim/claim.c.o -MF CMakeFiles/app.dir/home/juan/pico-sdk/src/common/hardware_claim/claim.c.o.d -o CMakeFiles/app.dir/home/juan/pico-sdk/src/common/hardware_claim/claim.c.o -c /home/juan/pico-sdk/src/common/hardware_claim/claim.c
 
 src/CMakeFiles/app.dir/home/juan/pico-sdk/src/common/hardware_claim/claim.c.i: cmake_force
@@ -184,7 +198,7 @@ src/CMakeFiles/app.dir/home/juan/pico-sdk/src/common/hardware_claim/claim.c.s: c
 src/CMakeFiles/app.dir/home/juan/pico-sdk/src/rp2_common/hardware_sync/sync.c.o: src/CMakeFiles/app.dir/flags.make
 src/CMakeFiles/app.dir/home/juan/pico-sdk/src/rp2_common/hardware_sync/sync.c.o: /home/juan/pico-sdk/src/rp2_common/hardware_sync/sync.c
 src/CMakeFiles/app.dir/home/juan/pico-sdk/src/rp2_common/hardware_sync/sync.c.o: src/CMakeFiles/app.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/media/juan/42849DD9849DCFB1/ufc/2025.1/rtos/praticas/pratica 4/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_9) "Building C object src/CMakeFiles/app.dir/home/juan/pico-sdk/src/rp2_common/hardware_sync/sync.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/media/juan/42849DD9849DCFB1/ufc/2025.1/rtos/praticas/pratica 4/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_10) "Building C object src/CMakeFiles/app.dir/home/juan/pico-sdk/src/rp2_common/hardware_sync/sync.c.o"
 	cd "/media/juan/42849DD9849DCFB1/ufc/2025.1/rtos/praticas/pratica 4/build/src" && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT src/CMakeFiles/app.dir/home/juan/pico-sdk/src/rp2_common/hardware_sync/sync.c.o -MF CMakeFiles/app.dir/home/juan/pico-sdk/src/rp2_common/hardware_sync/sync.c.o.d -o CMakeFiles/app.dir/home/juan/pico-sdk/src/rp2_common/hardware_sync/sync.c.o -c /home/juan/pico-sdk/src/rp2_common/hardware_sync/sync.c
 
 src/CMakeFiles/app.dir/home/juan/pico-sdk/src/rp2_common/hardware_sync/sync.c.i: cmake_force
@@ -198,7 +212,7 @@ src/CMakeFiles/app.dir/home/juan/pico-sdk/src/rp2_common/hardware_sync/sync.c.s:
 src/CMakeFiles/app.dir/home/juan/pico-sdk/src/rp2_common/hardware_sync_spin_lock/sync_spin_lock.c.o: src/CMakeFiles/app.dir/flags.make
 src/CMakeFiles/app.dir/home/juan/pico-sdk/src/rp2_common/hardware_sync_spin_lock/sync_spin_lock.c.o: /home/juan/pico-sdk/src/rp2_common/hardware_sync_spin_lock/sync_spin_lock.c
 src/CMakeFiles/app.dir/home/juan/pico-sdk/src/rp2_common/hardware_sync_spin_lock/sync_spin_lock.c.o: src/CMakeFiles/app.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/media/juan/42849DD9849DCFB1/ufc/2025.1/rtos/praticas/pratica 4/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_10) "Building C object src/CMakeFiles/app.dir/home/juan/pico-sdk/src/rp2_common/hardware_sync_spin_lock/sync_spin_lock.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/media/juan/42849DD9849DCFB1/ufc/2025.1/rtos/praticas/pratica 4/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_11) "Building C object src/CMakeFiles/app.dir/home/juan/pico-sdk/src/rp2_common/hardware_sync_spin_lock/sync_spin_lock.c.o"
 	cd "/media/juan/42849DD9849DCFB1/ufc/2025.1/rtos/praticas/pratica 4/build/src" && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT src/CMakeFiles/app.dir/home/juan/pico-sdk/src/rp2_common/hardware_sync_spin_lock/sync_spin_lock.c.o -MF CMakeFiles/app.dir/home/juan/pico-sdk/src/rp2_common/hardware_sync_spin_lock/sync_spin_lock.c.o.d -o CMakeFiles/app.dir/home/juan/pico-sdk/src/rp2_common/hardware_sync_spin_lock/sync_spin_lock.c.o -c /home/juan/pico-sdk/src/rp2_common/hardware_sync_spin_lock/sync_spin_lock.c
 
 src/CMakeFiles/app.dir/home/juan/pico-sdk/src/rp2_common/hardware_sync_spin_lock/sync_spin_lock.c.i: cmake_force
@@ -212,7 +226,7 @@ src/CMakeFiles/app.dir/home/juan/pico-sdk/src/rp2_common/hardware_sync_spin_lock
 src/CMakeFiles/app.dir/home/juan/pico-sdk/src/rp2_common/hardware_irq/irq.c.o: src/CMakeFiles/app.dir/flags.make
 src/CMakeFiles/app.dir/home/juan/pico-sdk/src/rp2_common/hardware_irq/irq.c.o: /home/juan/pico-sdk/src/rp2_common/hardware_irq/irq.c
 src/CMakeFiles/app.dir/home/juan/pico-sdk/src/rp2_common/hardware_irq/irq.c.o: src/CMakeFiles/app.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/media/juan/42849DD9849DCFB1/ufc/2025.1/rtos/praticas/pratica 4/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_11) "Building C object src/CMakeFiles/app.dir/home/juan/pico-sdk/src/rp2_common/hardware_irq/irq.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/media/juan/42849DD9849DCFB1/ufc/2025.1/rtos/praticas/pratica 4/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_12) "Building C object src/CMakeFiles/app.dir/home/juan/pico-sdk/src/rp2_common/hardware_irq/irq.c.o"
 	cd "/media/juan/42849DD9849DCFB1/ufc/2025.1/rtos/praticas/pratica 4/build/src" && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT src/CMakeFiles/app.dir/home/juan/pico-sdk/src/rp2_common/hardware_irq/irq.c.o -MF CMakeFiles/app.dir/home/juan/pico-sdk/src/rp2_common/hardware_irq/irq.c.o.d -o CMakeFiles/app.dir/home/juan/pico-sdk/src/rp2_common/hardware_irq/irq.c.o -c /home/juan/pico-sdk/src/rp2_common/hardware_irq/irq.c
 
 src/CMakeFiles/app.dir/home/juan/pico-sdk/src/rp2_common/hardware_irq/irq.c.i: cmake_force
@@ -225,7 +239,7 @@ src/CMakeFiles/app.dir/home/juan/pico-sdk/src/rp2_common/hardware_irq/irq.c.s: c
 
 src/CMakeFiles/app.dir/home/juan/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S.o: src/CMakeFiles/app.dir/flags.make
 src/CMakeFiles/app.dir/home/juan/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S.o: /home/juan/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/media/juan/42849DD9849DCFB1/ufc/2025.1/rtos/praticas/pratica 4/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_12) "Building ASM object src/CMakeFiles/app.dir/home/juan/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/media/juan/42849DD9849DCFB1/ufc/2025.1/rtos/praticas/pratica 4/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_13) "Building ASM object src/CMakeFiles/app.dir/home/juan/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S.o"
 	cd "/media/juan/42849DD9849DCFB1/ufc/2025.1/rtos/praticas/pratica 4/build/src" && /usr/bin/arm-none-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -o CMakeFiles/app.dir/home/juan/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S.o   -c /home/juan/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S
 
 src/CMakeFiles/app.dir/home/juan/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S.i: cmake_force
@@ -239,7 +253,7 @@ src/CMakeFiles/app.dir/home/juan/pico-sdk/src/rp2_common/hardware_irq/irq_handle
 src/CMakeFiles/app.dir/home/juan/pico-sdk/src/common/pico_sync/sem.c.o: src/CMakeFiles/app.dir/flags.make
 src/CMakeFiles/app.dir/home/juan/pico-sdk/src/common/pico_sync/sem.c.o: /home/juan/pico-sdk/src/common/pico_sync/sem.c
 src/CMakeFiles/app.dir/home/juan/pico-sdk/src/common/pico_sync/sem.c.o: src/CMakeFiles/app.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/media/juan/42849DD9849DCFB1/ufc/2025.1/rtos/praticas/pratica 4/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_13) "Building C object src/CMakeFiles/app.dir/home/juan/pico-sdk/src/common/pico_sync/sem.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/media/juan/42849DD9849DCFB1/ufc/2025.1/rtos/praticas/pratica 4/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_14) "Building C object src/CMakeFiles/app.dir/home/juan/pico-sdk/src/common/pico_sync/sem.c.o"
 	cd "/media/juan/42849DD9849DCFB1/ufc/2025.1/rtos/praticas/pratica 4/build/src" && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT src/CMakeFiles/app.dir/home/juan/pico-sdk/src/common/pico_sync/sem.c.o -MF CMakeFiles/app.dir/home/juan/pico-sdk/src/common/pico_sync/sem.c.o.d -o CMakeFiles/app.dir/home/juan/pico-sdk/src/common/pico_sync/sem.c.o -c /home/juan/pico-sdk/src/common/pico_sync/sem.c
 
 src/CMakeFiles/app.dir/home/juan/pico-sdk/src/common/pico_sync/sem.c.i: cmake_force
@@ -253,7 +267,7 @@ src/CMakeFiles/app.dir/home/juan/pico-sdk/src/common/pico_sync/sem.c.s: cmake_fo
 src/CMakeFiles/app.dir/home/juan/pico-sdk/src/common/pico_sync/lock_core.c.o: src/CMakeFiles/app.dir/flags.make
 src/CMakeFiles/app.dir/home/juan/pico-sdk/src/common/pico_sync/lock_core.c.o: /home/juan/pico-sdk/src/common/pico_sync/lock_core.c
 src/CMakeFiles/app.dir/home/juan/pico-sdk/src/common/pico_sync/lock_core.c.o: src/CMakeFiles/app.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/media/juan/42849DD9849DCFB1/ufc/2025.1/rtos/praticas/pratica 4/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_14) "Building C object src/CMakeFiles/app.dir/home/juan/pico-sdk/src/common/pico_sync/lock_core.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/media/juan/42849DD9849DCFB1/ufc/2025.1/rtos/praticas/pratica 4/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_15) "Building C object src/CMakeFiles/app.dir/home/juan/pico-sdk/src/common/pico_sync/lock_core.c.o"
 	cd "/media/juan/42849DD9849DCFB1/ufc/2025.1/rtos/praticas/pratica 4/build/src" && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT src/CMakeFiles/app.dir/home/juan/pico-sdk/src/common/pico_sync/lock_core.c.o -MF CMakeFiles/app.dir/home/juan/pico-sdk/src/common/pico_sync/lock_core.c.o.d -o CMakeFiles/app.dir/home/juan/pico-sdk/src/common/pico_sync/lock_core.c.o -c /home/juan/pico-sdk/src/common/pico_sync/lock_core.c
 
 src/CMakeFiles/app.dir/home/juan/pico-sdk/src/common/pico_sync/lock_core.c.i: cmake_force
@@ -267,7 +281,7 @@ src/CMakeFiles/app.dir/home/juan/pico-sdk/src/common/pico_sync/lock_core.c.s: cm
 src/CMakeFiles/app.dir/home/juan/pico-sdk/src/common/pico_sync/mutex.c.o: src/CMakeFiles/app.dir/flags.make
 src/CMakeFiles/app.dir/home/juan/pico-sdk/src/common/pico_sync/mutex.c.o: /home/juan/pico-sdk/src/common/pico_sync/mutex.c
 src/CMakeFiles/app.dir/home/juan/pico-sdk/src/common/pico_sync/mutex.c.o: src/CMakeFiles/app.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/media/juan/42849DD9849DCFB1/ufc/2025.1/rtos/praticas/pratica 4/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_15) "Building C object src/CMakeFiles/app.dir/home/juan/pico-sdk/src/common/pico_sync/mutex.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/media/juan/42849DD9849DCFB1/ufc/2025.1/rtos/praticas/pratica 4/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_16) "Building C object src/CMakeFiles/app.dir/home/juan/pico-sdk/src/common/pico_sync/mutex.c.o"
 	cd "/media/juan/42849DD9849DCFB1/ufc/2025.1/rtos/praticas/pratica 4/build/src" && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT src/CMakeFiles/app.dir/home/juan/pico-sdk/src/common/pico_sync/mutex.c.o -MF CMakeFiles/app.dir/home/juan/pico-sdk/src/common/pico_sync/mutex.c.o.d -o CMakeFiles/app.dir/home/juan/pico-sdk/src/common/pico_sync/mutex.c.o -c /home/juan/pico-sdk/src/common/pico_sync/mutex.c
 
 src/CMakeFiles/app.dir/home/juan/pico-sdk/src/common/pico_sync/mutex.c.i: cmake_force
@@ -281,7 +295,7 @@ src/CMakeFiles/app.dir/home/juan/pico-sdk/src/common/pico_sync/mutex.c.s: cmake_
 src/CMakeFiles/app.dir/home/juan/pico-sdk/src/common/pico_sync/critical_section.c.o: src/CMakeFiles/app.dir/flags.make
 src/CMakeFiles/app.dir/home/juan/pico-sdk/src/common/pico_sync/critical_section.c.o: /home/juan/pico-sdk/src/common/pico_sync/critical_section.c
 src/CMakeFiles/app.dir/home/juan/pico-sdk/src/common/pico_sync/critical_section.c.o: src/CMakeFiles/app.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/media/juan/42849DD9849DCFB1/ufc/2025.1/rtos/praticas/pratica 4/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_16) "Building C object src/CMakeFiles/app.dir/home/juan/pico-sdk/src/common/pico_sync/critical_section.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/media/juan/42849DD9849DCFB1/ufc/2025.1/rtos/praticas/pratica 4/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_17) "Building C object src/CMakeFiles/app.dir/home/juan/pico-sdk/src/common/pico_sync/critical_section.c.o"
 	cd "/media/juan/42849DD9849DCFB1/ufc/2025.1/rtos/praticas/pratica 4/build/src" && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT src/CMakeFiles/app.dir/home/juan/pico-sdk/src/common/pico_sync/critical_section.c.o -MF CMakeFiles/app.dir/home/juan/pico-sdk/src/common/pico_sync/critical_section.c.o.d -o CMakeFiles/app.dir/home/juan/pico-sdk/src/common/pico_sync/critical_section.c.o -c /home/juan/pico-sdk/src/common/pico_sync/critical_section.c
 
 src/CMakeFiles/app.dir/home/juan/pico-sdk/src/common/pico_sync/critical_section.c.i: cmake_force
@@ -295,7 +309,7 @@ src/CMakeFiles/app.dir/home/juan/pico-sdk/src/common/pico_sync/critical_section.
 src/CMakeFiles/app.dir/home/juan/pico-sdk/src/common/pico_time/time.c.o: src/CMakeFiles/app.dir/flags.make
 src/CMakeFiles/app.dir/home/juan/pico-sdk/src/common/pico_time/time.c.o: /home/juan/pico-sdk/src/common/pico_time/time.c
 src/CMakeFiles/app.dir/home/juan/pico-sdk/src/common/pico_time/time.c.o: src/CMakeFiles/app.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/media/juan/42849DD9849DCFB1/ufc/2025.1/rtos/praticas/pratica 4/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_17) "Building C object src/CMakeFiles/app.dir/home/juan/pico-sdk/src/common/pico_time/time.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/media/juan/42849DD9849DCFB1/ufc/2025.1/rtos/praticas/pratica 4/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_18) "Building C object src/CMakeFiles/app.dir/home/juan/pico-sdk/src/common/pico_time/time.c.o"
 	cd "/media/juan/42849DD9849DCFB1/ufc/2025.1/rtos/praticas/pratica 4/build/src" && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT src/CMakeFiles/app.dir/home/juan/pico-sdk/src/common/pico_time/time.c.o -MF CMakeFiles/app.dir/home/juan/pico-sdk/src/common/pico_time/time.c.o.d -o CMakeFiles/app.dir/home/juan/pico-sdk/src/common/pico_time/time.c.o -c /home/juan/pico-sdk/src/common/pico_time/time.c
 
 src/CMakeFiles/app.dir/home/juan/pico-sdk/src/common/pico_time/time.c.i: cmake_force
@@ -309,7 +323,7 @@ src/CMakeFiles/app.dir/home/juan/pico-sdk/src/common/pico_time/time.c.s: cmake_f
 src/CMakeFiles/app.dir/home/juan/pico-sdk/src/common/pico_time/timeout_helper.c.o: src/CMakeFiles/app.dir/flags.make
 src/CMakeFiles/app.dir/home/juan/pico-sdk/src/common/pico_time/timeout_helper.c.o: /home/juan/pico-sdk/src/common/pico_time/timeout_helper.c
 src/CMakeFiles/app.dir/home/juan/pico-sdk/src/common/pico_time/timeout_helper.c.o: src/CMakeFiles/app.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/media/juan/42849DD9849DCFB1/ufc/2025.1/rtos/praticas/pratica 4/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_18) "Building C object src/CMakeFiles/app.dir/home/juan/pico-sdk/src/common/pico_time/timeout_helper.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/media/juan/42849DD9849DCFB1/ufc/2025.1/rtos/praticas/pratica 4/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_19) "Building C object src/CMakeFiles/app.dir/home/juan/pico-sdk/src/common/pico_time/timeout_helper.c.o"
 	cd "/media/juan/42849DD9849DCFB1/ufc/2025.1/rtos/praticas/pratica 4/build/src" && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT src/CMakeFiles/app.dir/home/juan/pico-sdk/src/common/pico_time/timeout_helper.c.o -MF CMakeFiles/app.dir/home/juan/pico-sdk/src/common/pico_time/timeout_helper.c.o.d -o CMakeFiles/app.dir/home/juan/pico-sdk/src/common/pico_time/timeout_helper.c.o -c /home/juan/pico-sdk/src/common/pico_time/timeout_helper.c
 
 src/CMakeFiles/app.dir/home/juan/pico-sdk/src/common/pico_time/timeout_helper.c.i: cmake_force
@@ -323,7 +337,7 @@ src/CMakeFiles/app.dir/home/juan/pico-sdk/src/common/pico_time/timeout_helper.c.
 src/CMakeFiles/app.dir/home/juan/pico-sdk/src/rp2_common/hardware_timer/timer.c.o: src/CMakeFiles/app.dir/flags.make
 src/CMakeFiles/app.dir/home/juan/pico-sdk/src/rp2_common/hardware_timer/timer.c.o: /home/juan/pico-sdk/src/rp2_common/hardware_timer/timer.c
 src/CMakeFiles/app.dir/home/juan/pico-sdk/src/rp2_common/hardware_timer/timer.c.o: src/CMakeFiles/app.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/media/juan/42849DD9849DCFB1/ufc/2025.1/rtos/praticas/pratica 4/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_19) "Building C object src/CMakeFiles/app.dir/home/juan/pico-sdk/src/rp2_common/hardware_timer/timer.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/media/juan/42849DD9849DCFB1/ufc/2025.1/rtos/praticas/pratica 4/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_20) "Building C object src/CMakeFiles/app.dir/home/juan/pico-sdk/src/rp2_common/hardware_timer/timer.c.o"
 	cd "/media/juan/42849DD9849DCFB1/ufc/2025.1/rtos/praticas/pratica 4/build/src" && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT src/CMakeFiles/app.dir/home/juan/pico-sdk/src/rp2_common/hardware_timer/timer.c.o -MF CMakeFiles/app.dir/home/juan/pico-sdk/src/rp2_common/hardware_timer/timer.c.o.d -o CMakeFiles/app.dir/home/juan/pico-sdk/src/rp2_common/hardware_timer/timer.c.o -c /home/juan/pico-sdk/src/rp2_common/hardware_timer/timer.c
 
 src/CMakeFiles/app.dir/home/juan/pico-sdk/src/rp2_common/hardware_timer/timer.c.i: cmake_force
@@ -337,7 +351,7 @@ src/CMakeFiles/app.dir/home/juan/pico-sdk/src/rp2_common/hardware_timer/timer.c.
 src/CMakeFiles/app.dir/home/juan/pico-sdk/src/common/pico_util/datetime.c.o: src/CMakeFiles/app.dir/flags.make
 src/CMakeFiles/app.dir/home/juan/pico-sdk/src/common/pico_util/datetime.c.o: /home/juan/pico-sdk/src/common/pico_util/datetime.c
 src/CMakeFiles/app.dir/home/juan/pico-sdk/src/common/pico_util/datetime.c.o: src/CMakeFiles/app.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/media/juan/42849DD9849DCFB1/ufc/2025.1/rtos/praticas/pratica 4/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_20) "Building C object src/CMakeFiles/app.dir/home/juan/pico-sdk/src/common/pico_util/datetime.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/media/juan/42849DD9849DCFB1/ufc/2025.1/rtos/praticas/pratica 4/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_21) "Building C object src/CMakeFiles/app.dir/home/juan/pico-sdk/src/common/pico_util/datetime.c.o"
 	cd "/media/juan/42849DD9849DCFB1/ufc/2025.1/rtos/praticas/pratica 4/build/src" && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT src/CMakeFiles/app.dir/home/juan/pico-sdk/src/common/pico_util/datetime.c.o -MF CMakeFiles/app.dir/home/juan/pico-sdk/src/common/pico_util/datetime.c.o.d -o CMakeFiles/app.dir/home/juan/pico-sdk/src/common/pico_util/datetime.c.o -c /home/juan/pico-sdk/src/common/pico_util/datetime.c
 
 src/CMakeFiles/app.dir/home/juan/pico-sdk/src/common/pico_util/datetime.c.i: cmake_force
@@ -351,7 +365,7 @@ src/CMakeFiles/app.dir/home/juan/pico-sdk/src/common/pico_util/datetime.c.s: cma
 src/CMakeFiles/app.dir/home/juan/pico-sdk/src/common/pico_util/pheap.c.o: src/CMakeFiles/app.dir/flags.make
 src/CMakeFiles/app.dir/home/juan/pico-sdk/src/common/pico_util/pheap.c.o: /home/juan/pico-sdk/src/common/pico_util/pheap.c
 src/CMakeFiles/app.dir/home/juan/pico-sdk/src/common/pico_util/pheap.c.o: src/CMakeFiles/app.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/media/juan/42849DD9849DCFB1/ufc/2025.1/rtos/praticas/pratica 4/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_21) "Building C object src/CMakeFiles/app.dir/home/juan/pico-sdk/src/common/pico_util/pheap.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/media/juan/42849DD9849DCFB1/ufc/2025.1/rtos/praticas/pratica 4/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_22) "Building C object src/CMakeFiles/app.dir/home/juan/pico-sdk/src/common/pico_util/pheap.c.o"
 	cd "/media/juan/42849DD9849DCFB1/ufc/2025.1/rtos/praticas/pratica 4/build/src" && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT src/CMakeFiles/app.dir/home/juan/pico-sdk/src/common/pico_util/pheap.c.o -MF CMakeFiles/app.dir/home/juan/pico-sdk/src/common/pico_util/pheap.c.o.d -o CMakeFiles/app.dir/home/juan/pico-sdk/src/common/pico_util/pheap.c.o -c /home/juan/pico-sdk/src/common/pico_util/pheap.c
 
 src/CMakeFiles/app.dir/home/juan/pico-sdk/src/common/pico_util/pheap.c.i: cmake_force
@@ -365,7 +379,7 @@ src/CMakeFiles/app.dir/home/juan/pico-sdk/src/common/pico_util/pheap.c.s: cmake_
 src/CMakeFiles/app.dir/home/juan/pico-sdk/src/common/pico_util/queue.c.o: src/CMakeFiles/app.dir/flags.make
 src/CMakeFiles/app.dir/home/juan/pico-sdk/src/common/pico_util/queue.c.o: /home/juan/pico-sdk/src/common/pico_util/queue.c
 src/CMakeFiles/app.dir/home/juan/pico-sdk/src/common/pico_util/queue.c.o: src/CMakeFiles/app.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/media/juan/42849DD9849DCFB1/ufc/2025.1/rtos/praticas/pratica 4/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_22) "Building C object src/CMakeFiles/app.dir/home/juan/pico-sdk/src/common/pico_util/queue.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/media/juan/42849DD9849DCFB1/ufc/2025.1/rtos/praticas/pratica 4/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_23) "Building C object src/CMakeFiles/app.dir/home/juan/pico-sdk/src/common/pico_util/queue.c.o"
 	cd "/media/juan/42849DD9849DCFB1/ufc/2025.1/rtos/praticas/pratica 4/build/src" && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT src/CMakeFiles/app.dir/home/juan/pico-sdk/src/common/pico_util/queue.c.o -MF CMakeFiles/app.dir/home/juan/pico-sdk/src/common/pico_util/queue.c.o.d -o CMakeFiles/app.dir/home/juan/pico-sdk/src/common/pico_util/queue.c.o -c /home/juan/pico-sdk/src/common/pico_util/queue.c
 
 src/CMakeFiles/app.dir/home/juan/pico-sdk/src/common/pico_util/queue.c.i: cmake_force
@@ -379,7 +393,7 @@ src/CMakeFiles/app.dir/home/juan/pico-sdk/src/common/pico_util/queue.c.s: cmake_
 src/CMakeFiles/app.dir/home/juan/pico-sdk/src/rp2_common/hardware_uart/uart.c.o: src/CMakeFiles/app.dir/flags.make
 src/CMakeFiles/app.dir/home/juan/pico-sdk/src/rp2_common/hardware_uart/uart.c.o: /home/juan/pico-sdk/src/rp2_common/hardware_uart/uart.c
 src/CMakeFiles/app.dir/home/juan/pico-sdk/src/rp2_common/hardware_uart/uart.c.o: src/CMakeFiles/app.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/media/juan/42849DD9849DCFB1/ufc/2025.1/rtos/praticas/pratica 4/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_23) "Building C object src/CMakeFiles/app.dir/home/juan/pico-sdk/src/rp2_common/hardware_uart/uart.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/media/juan/42849DD9849DCFB1/ufc/2025.1/rtos/praticas/pratica 4/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_24) "Building C object src/CMakeFiles/app.dir/home/juan/pico-sdk/src/rp2_common/hardware_uart/uart.c.o"
 	cd "/media/juan/42849DD9849DCFB1/ufc/2025.1/rtos/praticas/pratica 4/build/src" && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT src/CMakeFiles/app.dir/home/juan/pico-sdk/src/rp2_common/hardware_uart/uart.c.o -MF CMakeFiles/app.dir/home/juan/pico-sdk/src/rp2_common/hardware_uart/uart.c.o.d -o CMakeFiles/app.dir/home/juan/pico-sdk/src/rp2_common/hardware_uart/uart.c.o -c /home/juan/pico-sdk/src/rp2_common/hardware_uart/uart.c
 
 src/CMakeFiles/app.dir/home/juan/pico-sdk/src/rp2_common/hardware_uart/uart.c.i: cmake_force
@@ -393,7 +407,7 @@ src/CMakeFiles/app.dir/home/juan/pico-sdk/src/rp2_common/hardware_uart/uart.c.s:
 src/CMakeFiles/app.dir/home/juan/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.o: src/CMakeFiles/app.dir/flags.make
 src/CMakeFiles/app.dir/home/juan/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.o: /home/juan/pico-sdk/src/rp2_common/hardware_clocks/clocks.c
 src/CMakeFiles/app.dir/home/juan/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.o: src/CMakeFiles/app.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/media/juan/42849DD9849DCFB1/ufc/2025.1/rtos/praticas/pratica 4/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_24) "Building C object src/CMakeFiles/app.dir/home/juan/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/media/juan/42849DD9849DCFB1/ufc/2025.1/rtos/praticas/pratica 4/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_25) "Building C object src/CMakeFiles/app.dir/home/juan/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.o"
 	cd "/media/juan/42849DD9849DCFB1/ufc/2025.1/rtos/praticas/pratica 4/build/src" && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT src/CMakeFiles/app.dir/home/juan/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.o -MF CMakeFiles/app.dir/home/juan/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.o.d -o CMakeFiles/app.dir/home/juan/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.o -c /home/juan/pico-sdk/src/rp2_common/hardware_clocks/clocks.c
 
 src/CMakeFiles/app.dir/home/juan/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.i: cmake_force
@@ -407,7 +421,7 @@ src/CMakeFiles/app.dir/home/juan/pico-sdk/src/rp2_common/hardware_clocks/clocks.
 src/CMakeFiles/app.dir/home/juan/pico-sdk/src/rp2_common/hardware_pll/pll.c.o: src/CMakeFiles/app.dir/flags.make
 src/CMakeFiles/app.dir/home/juan/pico-sdk/src/rp2_common/hardware_pll/pll.c.o: /home/juan/pico-sdk/src/rp2_common/hardware_pll/pll.c
 src/CMakeFiles/app.dir/home/juan/pico-sdk/src/rp2_common/hardware_pll/pll.c.o: src/CMakeFiles/app.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/media/juan/42849DD9849DCFB1/ufc/2025.1/rtos/praticas/pratica 4/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_25) "Building C object src/CMakeFiles/app.dir/home/juan/pico-sdk/src/rp2_common/hardware_pll/pll.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/media/juan/42849DD9849DCFB1/ufc/2025.1/rtos/praticas/pratica 4/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_26) "Building C object src/CMakeFiles/app.dir/home/juan/pico-sdk/src/rp2_common/hardware_pll/pll.c.o"
 	cd "/media/juan/42849DD9849DCFB1/ufc/2025.1/rtos/praticas/pratica 4/build/src" && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT src/CMakeFiles/app.dir/home/juan/pico-sdk/src/rp2_common/hardware_pll/pll.c.o -MF CMakeFiles/app.dir/home/juan/pico-sdk/src/rp2_common/hardware_pll/pll.c.o.d -o CMakeFiles/app.dir/home/juan/pico-sdk/src/rp2_common/hardware_pll/pll.c.o -c /home/juan/pico-sdk/src/rp2_common/hardware_pll/pll.c
 
 src/CMakeFiles/app.dir/home/juan/pico-sdk/src/rp2_common/hardware_pll/pll.c.i: cmake_force
@@ -421,7 +435,7 @@ src/CMakeFiles/app.dir/home/juan/pico-sdk/src/rp2_common/hardware_pll/pll.c.s: c
 src/CMakeFiles/app.dir/home/juan/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.o: src/CMakeFiles/app.dir/flags.make
 src/CMakeFiles/app.dir/home/juan/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.o: /home/juan/pico-sdk/src/rp2_common/hardware_vreg/vreg.c
 src/CMakeFiles/app.dir/home/juan/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.o: src/CMakeFiles/app.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/media/juan/42849DD9849DCFB1/ufc/2025.1/rtos/praticas/pratica 4/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_26) "Building C object src/CMakeFiles/app.dir/home/juan/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/media/juan/42849DD9849DCFB1/ufc/2025.1/rtos/praticas/pratica 4/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_27) "Building C object src/CMakeFiles/app.dir/home/juan/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.o"
 	cd "/media/juan/42849DD9849DCFB1/ufc/2025.1/rtos/praticas/pratica 4/build/src" && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT src/CMakeFiles/app.dir/home/juan/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.o -MF CMakeFiles/app.dir/home/juan/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.o.d -o CMakeFiles/app.dir/home/juan/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.o -c /home/juan/pico-sdk/src/rp2_common/hardware_vreg/vreg.c
 
 src/CMakeFiles/app.dir/home/juan/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.i: cmake_force
@@ -435,7 +449,7 @@ src/CMakeFiles/app.dir/home/juan/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.s:
 src/CMakeFiles/app.dir/home/juan/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.o: src/CMakeFiles/app.dir/flags.make
 src/CMakeFiles/app.dir/home/juan/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.o: /home/juan/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c
 src/CMakeFiles/app.dir/home/juan/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.o: src/CMakeFiles/app.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/media/juan/42849DD9849DCFB1/ufc/2025.1/rtos/praticas/pratica 4/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_27) "Building C object src/CMakeFiles/app.dir/home/juan/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/media/juan/42849DD9849DCFB1/ufc/2025.1/rtos/praticas/pratica 4/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_28) "Building C object src/CMakeFiles/app.dir/home/juan/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.o"
 	cd "/media/juan/42849DD9849DCFB1/ufc/2025.1/rtos/praticas/pratica 4/build/src" && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT src/CMakeFiles/app.dir/home/juan/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.o -MF CMakeFiles/app.dir/home/juan/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.o.d -o CMakeFiles/app.dir/home/juan/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.o -c /home/juan/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c
 
 src/CMakeFiles/app.dir/home/juan/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.i: cmake_force
@@ -449,7 +463,7 @@ src/CMakeFiles/app.dir/home/juan/pico-sdk/src/rp2_common/hardware_watchdog/watch
 src/CMakeFiles/app.dir/home/juan/pico-sdk/src/rp2_common/hardware_ticks/ticks.c.o: src/CMakeFiles/app.dir/flags.make
 src/CMakeFiles/app.dir/home/juan/pico-sdk/src/rp2_common/hardware_ticks/ticks.c.o: /home/juan/pico-sdk/src/rp2_common/hardware_ticks/ticks.c
 src/CMakeFiles/app.dir/home/juan/pico-sdk/src/rp2_common/hardware_ticks/ticks.c.o: src/CMakeFiles/app.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/media/juan/42849DD9849DCFB1/ufc/2025.1/rtos/praticas/pratica 4/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_28) "Building C object src/CMakeFiles/app.dir/home/juan/pico-sdk/src/rp2_common/hardware_ticks/ticks.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/media/juan/42849DD9849DCFB1/ufc/2025.1/rtos/praticas/pratica 4/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_29) "Building C object src/CMakeFiles/app.dir/home/juan/pico-sdk/src/rp2_common/hardware_ticks/ticks.c.o"
 	cd "/media/juan/42849DD9849DCFB1/ufc/2025.1/rtos/praticas/pratica 4/build/src" && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT src/CMakeFiles/app.dir/home/juan/pico-sdk/src/rp2_common/hardware_ticks/ticks.c.o -MF CMakeFiles/app.dir/home/juan/pico-sdk/src/rp2_common/hardware_ticks/ticks.c.o.d -o CMakeFiles/app.dir/home/juan/pico-sdk/src/rp2_common/hardware_ticks/ticks.c.o -c /home/juan/pico-sdk/src/rp2_common/hardware_ticks/ticks.c
 
 src/CMakeFiles/app.dir/home/juan/pico-sdk/src/rp2_common/hardware_ticks/ticks.c.i: cmake_force
@@ -463,7 +477,7 @@ src/CMakeFiles/app.dir/home/juan/pico-sdk/src/rp2_common/hardware_ticks/ticks.c.
 src/CMakeFiles/app.dir/home/juan/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.o: src/CMakeFiles/app.dir/flags.make
 src/CMakeFiles/app.dir/home/juan/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.o: /home/juan/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c
 src/CMakeFiles/app.dir/home/juan/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.o: src/CMakeFiles/app.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/media/juan/42849DD9849DCFB1/ufc/2025.1/rtos/praticas/pratica 4/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_29) "Building C object src/CMakeFiles/app.dir/home/juan/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/media/juan/42849DD9849DCFB1/ufc/2025.1/rtos/praticas/pratica 4/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_30) "Building C object src/CMakeFiles/app.dir/home/juan/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.o"
 	cd "/media/juan/42849DD9849DCFB1/ufc/2025.1/rtos/praticas/pratica 4/build/src" && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT src/CMakeFiles/app.dir/home/juan/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.o -MF CMakeFiles/app.dir/home/juan/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.o.d -o CMakeFiles/app.dir/home/juan/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.o -c /home/juan/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c
 
 src/CMakeFiles/app.dir/home/juan/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.i: cmake_force
@@ -477,7 +491,7 @@ src/CMakeFiles/app.dir/home/juan/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.
 src/CMakeFiles/app.dir/home/juan/pico-sdk/src/rp2_common/pico_bootrom/bootrom_lock.c.o: src/CMakeFiles/app.dir/flags.make
 src/CMakeFiles/app.dir/home/juan/pico-sdk/src/rp2_common/pico_bootrom/bootrom_lock.c.o: /home/juan/pico-sdk/src/rp2_common/pico_bootrom/bootrom_lock.c
 src/CMakeFiles/app.dir/home/juan/pico-sdk/src/rp2_common/pico_bootrom/bootrom_lock.c.o: src/CMakeFiles/app.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/media/juan/42849DD9849DCFB1/ufc/2025.1/rtos/praticas/pratica 4/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_30) "Building C object src/CMakeFiles/app.dir/home/juan/pico-sdk/src/rp2_common/pico_bootrom/bootrom_lock.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/media/juan/42849DD9849DCFB1/ufc/2025.1/rtos/praticas/pratica 4/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_31) "Building C object src/CMakeFiles/app.dir/home/juan/pico-sdk/src/rp2_common/pico_bootrom/bootrom_lock.c.o"
 	cd "/media/juan/42849DD9849DCFB1/ufc/2025.1/rtos/praticas/pratica 4/build/src" && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT src/CMakeFiles/app.dir/home/juan/pico-sdk/src/rp2_common/pico_bootrom/bootrom_lock.c.o -MF CMakeFiles/app.dir/home/juan/pico-sdk/src/rp2_common/pico_bootrom/bootrom_lock.c.o.d -o CMakeFiles/app.dir/home/juan/pico-sdk/src/rp2_common/pico_bootrom/bootrom_lock.c.o -c /home/juan/pico-sdk/src/rp2_common/pico_bootrom/bootrom_lock.c
 
 src/CMakeFiles/app.dir/home/juan/pico-sdk/src/rp2_common/pico_bootrom/bootrom_lock.c.i: cmake_force
@@ -491,7 +505,7 @@ src/CMakeFiles/app.dir/home/juan/pico-sdk/src/rp2_common/pico_bootrom/bootrom_lo
 src/CMakeFiles/app.dir/home/juan/pico-sdk/src/rp2_common/hardware_boot_lock/boot_lock.c.o: src/CMakeFiles/app.dir/flags.make
 src/CMakeFiles/app.dir/home/juan/pico-sdk/src/rp2_common/hardware_boot_lock/boot_lock.c.o: /home/juan/pico-sdk/src/rp2_common/hardware_boot_lock/boot_lock.c
 src/CMakeFiles/app.dir/home/juan/pico-sdk/src/rp2_common/hardware_boot_lock/boot_lock.c.o: src/CMakeFiles/app.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/media/juan/42849DD9849DCFB1/ufc/2025.1/rtos/praticas/pratica 4/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_31) "Building C object src/CMakeFiles/app.dir/home/juan/pico-sdk/src/rp2_common/hardware_boot_lock/boot_lock.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/media/juan/42849DD9849DCFB1/ufc/2025.1/rtos/praticas/pratica 4/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_32) "Building C object src/CMakeFiles/app.dir/home/juan/pico-sdk/src/rp2_common/hardware_boot_lock/boot_lock.c.o"
 	cd "/media/juan/42849DD9849DCFB1/ufc/2025.1/rtos/praticas/pratica 4/build/src" && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT src/CMakeFiles/app.dir/home/juan/pico-sdk/src/rp2_common/hardware_boot_lock/boot_lock.c.o -MF CMakeFiles/app.dir/home/juan/pico-sdk/src/rp2_common/hardware_boot_lock/boot_lock.c.o.d -o CMakeFiles/app.dir/home/juan/pico-sdk/src/rp2_common/hardware_boot_lock/boot_lock.c.o -c /home/juan/pico-sdk/src/rp2_common/hardware_boot_lock/boot_lock.c
 
 src/CMakeFiles/app.dir/home/juan/pico-sdk/src/rp2_common/hardware_boot_lock/boot_lock.c.i: cmake_force
@@ -505,7 +519,7 @@ src/CMakeFiles/app.dir/home/juan/pico-sdk/src/rp2_common/hardware_boot_lock/boot
 src/CMakeFiles/app.dir/home/juan/pico-sdk/src/rp2_common/pico_flash/flash.c.o: src/CMakeFiles/app.dir/flags.make
 src/CMakeFiles/app.dir/home/juan/pico-sdk/src/rp2_common/pico_flash/flash.c.o: /home/juan/pico-sdk/src/rp2_common/pico_flash/flash.c
 src/CMakeFiles/app.dir/home/juan/pico-sdk/src/rp2_common/pico_flash/flash.c.o: src/CMakeFiles/app.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/media/juan/42849DD9849DCFB1/ufc/2025.1/rtos/praticas/pratica 4/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_32) "Building C object src/CMakeFiles/app.dir/home/juan/pico-sdk/src/rp2_common/pico_flash/flash.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/media/juan/42849DD9849DCFB1/ufc/2025.1/rtos/praticas/pratica 4/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_33) "Building C object src/CMakeFiles/app.dir/home/juan/pico-sdk/src/rp2_common/pico_flash/flash.c.o"
 	cd "/media/juan/42849DD9849DCFB1/ufc/2025.1/rtos/praticas/pratica 4/build/src" && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT src/CMakeFiles/app.dir/home/juan/pico-sdk/src/rp2_common/pico_flash/flash.c.o -MF CMakeFiles/app.dir/home/juan/pico-sdk/src/rp2_common/pico_flash/flash.c.o.d -o CMakeFiles/app.dir/home/juan/pico-sdk/src/rp2_common/pico_flash/flash.c.o -c /home/juan/pico-sdk/src/rp2_common/pico_flash/flash.c
 
 src/CMakeFiles/app.dir/home/juan/pico-sdk/src/rp2_common/pico_flash/flash.c.i: cmake_force
@@ -519,7 +533,7 @@ src/CMakeFiles/app.dir/home/juan/pico-sdk/src/rp2_common/pico_flash/flash.c.s: c
 src/CMakeFiles/app.dir/home/juan/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.o: src/CMakeFiles/app.dir/flags.make
 src/CMakeFiles/app.dir/home/juan/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.o: /home/juan/pico-sdk/src/rp2_common/hardware_xosc/xosc.c
 src/CMakeFiles/app.dir/home/juan/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.o: src/CMakeFiles/app.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/media/juan/42849DD9849DCFB1/ufc/2025.1/rtos/praticas/pratica 4/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_33) "Building C object src/CMakeFiles/app.dir/home/juan/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/media/juan/42849DD9849DCFB1/ufc/2025.1/rtos/praticas/pratica 4/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_34) "Building C object src/CMakeFiles/app.dir/home/juan/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.o"
 	cd "/media/juan/42849DD9849DCFB1/ufc/2025.1/rtos/praticas/pratica 4/build/src" && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT src/CMakeFiles/app.dir/home/juan/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.o -MF CMakeFiles/app.dir/home/juan/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.o.d -o CMakeFiles/app.dir/home/juan/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.o -c /home/juan/pico-sdk/src/rp2_common/hardware_xosc/xosc.c
 
 src/CMakeFiles/app.dir/home/juan/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.i: cmake_force
@@ -533,7 +547,7 @@ src/CMakeFiles/app.dir/home/juan/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.s:
 src/CMakeFiles/app.dir/home/juan/pico-sdk/src/rp2_common/hardware_divider/divider.c.o: src/CMakeFiles/app.dir/flags.make
 src/CMakeFiles/app.dir/home/juan/pico-sdk/src/rp2_common/hardware_divider/divider.c.o: /home/juan/pico-sdk/src/rp2_common/hardware_divider/divider.c
 src/CMakeFiles/app.dir/home/juan/pico-sdk/src/rp2_common/hardware_divider/divider.c.o: src/CMakeFiles/app.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/media/juan/42849DD9849DCFB1/ufc/2025.1/rtos/praticas/pratica 4/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_34) "Building C object src/CMakeFiles/app.dir/home/juan/pico-sdk/src/rp2_common/hardware_divider/divider.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/media/juan/42849DD9849DCFB1/ufc/2025.1/rtos/praticas/pratica 4/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_35) "Building C object src/CMakeFiles/app.dir/home/juan/pico-sdk/src/rp2_common/hardware_divider/divider.c.o"
 	cd "/media/juan/42849DD9849DCFB1/ufc/2025.1/rtos/praticas/pratica 4/build/src" && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT src/CMakeFiles/app.dir/home/juan/pico-sdk/src/rp2_common/hardware_divider/divider.c.o -MF CMakeFiles/app.dir/home/juan/pico-sdk/src/rp2_common/hardware_divider/divider.c.o.d -o CMakeFiles/app.dir/home/juan/pico-sdk/src/rp2_common/hardware_divider/divider.c.o -c /home/juan/pico-sdk/src/rp2_common/hardware_divider/divider.c
 
 src/CMakeFiles/app.dir/home/juan/pico-sdk/src/rp2_common/hardware_divider/divider.c.i: cmake_force
@@ -547,7 +561,7 @@ src/CMakeFiles/app.dir/home/juan/pico-sdk/src/rp2_common/hardware_divider/divide
 src/CMakeFiles/app.dir/home/juan/pico-sdk/src/rp2_common/pico_runtime/runtime.c.o: src/CMakeFiles/app.dir/flags.make
 src/CMakeFiles/app.dir/home/juan/pico-sdk/src/rp2_common/pico_runtime/runtime.c.o: /home/juan/pico-sdk/src/rp2_common/pico_runtime/runtime.c
 src/CMakeFiles/app.dir/home/juan/pico-sdk/src/rp2_common/pico_runtime/runtime.c.o: src/CMakeFiles/app.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/media/juan/42849DD9849DCFB1/ufc/2025.1/rtos/praticas/pratica 4/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_35) "Building C object src/CMakeFiles/app.dir/home/juan/pico-sdk/src/rp2_common/pico_runtime/runtime.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/media/juan/42849DD9849DCFB1/ufc/2025.1/rtos/praticas/pratica 4/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_36) "Building C object src/CMakeFiles/app.dir/home/juan/pico-sdk/src/rp2_common/pico_runtime/runtime.c.o"
 	cd "/media/juan/42849DD9849DCFB1/ufc/2025.1/rtos/praticas/pratica 4/build/src" && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT src/CMakeFiles/app.dir/home/juan/pico-sdk/src/rp2_common/pico_runtime/runtime.c.o -MF CMakeFiles/app.dir/home/juan/pico-sdk/src/rp2_common/pico_runtime/runtime.c.o.d -o CMakeFiles/app.dir/home/juan/pico-sdk/src/rp2_common/pico_runtime/runtime.c.o -c /home/juan/pico-sdk/src/rp2_common/pico_runtime/runtime.c
 
 src/CMakeFiles/app.dir/home/juan/pico-sdk/src/rp2_common/pico_runtime/runtime.c.i: cmake_force
@@ -561,7 +575,7 @@ src/CMakeFiles/app.dir/home/juan/pico-sdk/src/rp2_common/pico_runtime/runtime.c.
 src/CMakeFiles/app.dir/home/juan/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init.c.o: src/CMakeFiles/app.dir/flags.make
 src/CMakeFiles/app.dir/home/juan/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init.c.o: /home/juan/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init.c
 src/CMakeFiles/app.dir/home/juan/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init.c.o: src/CMakeFiles/app.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/media/juan/42849DD9849DCFB1/ufc/2025.1/rtos/praticas/pratica 4/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_36) "Building C object src/CMakeFiles/app.dir/home/juan/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/media/juan/42849DD9849DCFB1/ufc/2025.1/rtos/praticas/pratica 4/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_37) "Building C object src/CMakeFiles/app.dir/home/juan/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init.c.o"
 	cd "/media/juan/42849DD9849DCFB1/ufc/2025.1/rtos/praticas/pratica 4/build/src" && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT src/CMakeFiles/app.dir/home/juan/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init.c.o -MF CMakeFiles/app.dir/home/juan/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init.c.o.d -o CMakeFiles/app.dir/home/juan/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init.c.o -c /home/juan/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init.c
 
 src/CMakeFiles/app.dir/home/juan/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init.c.i: cmake_force
@@ -575,7 +589,7 @@ src/CMakeFiles/app.dir/home/juan/pico-sdk/src/rp2_common/pico_runtime_init/runti
 src/CMakeFiles/app.dir/home/juan/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_clocks.c.o: src/CMakeFiles/app.dir/flags.make
 src/CMakeFiles/app.dir/home/juan/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_clocks.c.o: /home/juan/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_clocks.c
 src/CMakeFiles/app.dir/home/juan/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_clocks.c.o: src/CMakeFiles/app.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/media/juan/42849DD9849DCFB1/ufc/2025.1/rtos/praticas/pratica 4/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_37) "Building C object src/CMakeFiles/app.dir/home/juan/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_clocks.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/media/juan/42849DD9849DCFB1/ufc/2025.1/rtos/praticas/pratica 4/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_38) "Building C object src/CMakeFiles/app.dir/home/juan/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_clocks.c.o"
 	cd "/media/juan/42849DD9849DCFB1/ufc/2025.1/rtos/praticas/pratica 4/build/src" && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT src/CMakeFiles/app.dir/home/juan/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_clocks.c.o -MF CMakeFiles/app.dir/home/juan/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_clocks.c.o.d -o CMakeFiles/app.dir/home/juan/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_clocks.c.o -c /home/juan/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_clocks.c
 
 src/CMakeFiles/app.dir/home/juan/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_clocks.c.i: cmake_force
@@ -589,7 +603,7 @@ src/CMakeFiles/app.dir/home/juan/pico-sdk/src/rp2_common/pico_runtime_init/runti
 src/CMakeFiles/app.dir/home/juan/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_stack_guard.c.o: src/CMakeFiles/app.dir/flags.make
 src/CMakeFiles/app.dir/home/juan/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_stack_guard.c.o: /home/juan/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_stack_guard.c
 src/CMakeFiles/app.dir/home/juan/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_stack_guard.c.o: src/CMakeFiles/app.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/media/juan/42849DD9849DCFB1/ufc/2025.1/rtos/praticas/pratica 4/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_38) "Building C object src/CMakeFiles/app.dir/home/juan/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_stack_guard.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/media/juan/42849DD9849DCFB1/ufc/2025.1/rtos/praticas/pratica 4/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_39) "Building C object src/CMakeFiles/app.dir/home/juan/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_stack_guard.c.o"
 	cd "/media/juan/42849DD9849DCFB1/ufc/2025.1/rtos/praticas/pratica 4/build/src" && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT src/CMakeFiles/app.dir/home/juan/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_stack_guard.c.o -MF CMakeFiles/app.dir/home/juan/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_stack_guard.c.o.d -o CMakeFiles/app.dir/home/juan/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_stack_guard.c.o -c /home/juan/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_stack_guard.c
 
 src/CMakeFiles/app.dir/home/juan/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_stack_guard.c.i: cmake_force
@@ -602,7 +616,7 @@ src/CMakeFiles/app.dir/home/juan/pico-sdk/src/rp2_common/pico_runtime_init/runti
 
 src/CMakeFiles/app.dir/home/juan/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.o: src/CMakeFiles/app.dir/flags.make
 src/CMakeFiles/app.dir/home/juan/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.o: /home/juan/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/media/juan/42849DD9849DCFB1/ufc/2025.1/rtos/praticas/pratica 4/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_39) "Building ASM object src/CMakeFiles/app.dir/home/juan/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/media/juan/42849DD9849DCFB1/ufc/2025.1/rtos/praticas/pratica 4/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_40) "Building ASM object src/CMakeFiles/app.dir/home/juan/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.o"
 	cd "/media/juan/42849DD9849DCFB1/ufc/2025.1/rtos/praticas/pratica 4/build/src" && /usr/bin/arm-none-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -o CMakeFiles/app.dir/home/juan/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.o   -c /home/juan/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S
 
 src/CMakeFiles/app.dir/home/juan/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.i: cmake_force
@@ -616,7 +630,7 @@ src/CMakeFiles/app.dir/home/juan/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_ae
 src/CMakeFiles/app.dir/home/juan/pico-sdk/src/rp2_common/pico_divider/divider_compiler.c.o: src/CMakeFiles/app.dir/flags.make
 src/CMakeFiles/app.dir/home/juan/pico-sdk/src/rp2_common/pico_divider/divider_compiler.c.o: /home/juan/pico-sdk/src/rp2_common/pico_divider/divider_compiler.c
 src/CMakeFiles/app.dir/home/juan/pico-sdk/src/rp2_common/pico_divider/divider_compiler.c.o: src/CMakeFiles/app.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/media/juan/42849DD9849DCFB1/ufc/2025.1/rtos/praticas/pratica 4/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_40) "Building C object src/CMakeFiles/app.dir/home/juan/pico-sdk/src/rp2_common/pico_divider/divider_compiler.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/media/juan/42849DD9849DCFB1/ufc/2025.1/rtos/praticas/pratica 4/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_41) "Building C object src/CMakeFiles/app.dir/home/juan/pico-sdk/src/rp2_common/pico_divider/divider_compiler.c.o"
 	cd "/media/juan/42849DD9849DCFB1/ufc/2025.1/rtos/praticas/pratica 4/build/src" && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT src/CMakeFiles/app.dir/home/juan/pico-sdk/src/rp2_common/pico_divider/divider_compiler.c.o -MF CMakeFiles/app.dir/home/juan/pico-sdk/src/rp2_common/pico_divider/divider_compiler.c.o.d -o CMakeFiles/app.dir/home/juan/pico-sdk/src/rp2_common/pico_divider/divider_compiler.c.o -c /home/juan/pico-sdk/src/rp2_common/pico_divider/divider_compiler.c
 
 src/CMakeFiles/app.dir/home/juan/pico-sdk/src/rp2_common/pico_divider/divider_compiler.c.i: cmake_force
@@ -630,7 +644,7 @@ src/CMakeFiles/app.dir/home/juan/pico-sdk/src/rp2_common/pico_divider/divider_co
 src/CMakeFiles/app.dir/home/juan/pico-sdk/src/rp2_common/pico_double/double_math.c.o: src/CMakeFiles/app.dir/flags.make
 src/CMakeFiles/app.dir/home/juan/pico-sdk/src/rp2_common/pico_double/double_math.c.o: /home/juan/pico-sdk/src/rp2_common/pico_double/double_math.c
 src/CMakeFiles/app.dir/home/juan/pico-sdk/src/rp2_common/pico_double/double_math.c.o: src/CMakeFiles/app.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/media/juan/42849DD9849DCFB1/ufc/2025.1/rtos/praticas/pratica 4/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_41) "Building C object src/CMakeFiles/app.dir/home/juan/pico-sdk/src/rp2_common/pico_double/double_math.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/media/juan/42849DD9849DCFB1/ufc/2025.1/rtos/praticas/pratica 4/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_42) "Building C object src/CMakeFiles/app.dir/home/juan/pico-sdk/src/rp2_common/pico_double/double_math.c.o"
 	cd "/media/juan/42849DD9849DCFB1/ufc/2025.1/rtos/praticas/pratica 4/build/src" && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT src/CMakeFiles/app.dir/home/juan/pico-sdk/src/rp2_common/pico_double/double_math.c.o -MF CMakeFiles/app.dir/home/juan/pico-sdk/src/rp2_common/pico_double/double_math.c.o.d -o CMakeFiles/app.dir/home/juan/pico-sdk/src/rp2_common/pico_double/double_math.c.o -c /home/juan/pico-sdk/src/rp2_common/pico_double/double_math.c
 
 src/CMakeFiles/app.dir/home/juan/pico-sdk/src/rp2_common/pico_double/double_math.c.i: cmake_force
@@ -643,7 +657,7 @@ src/CMakeFiles/app.dir/home/juan/pico-sdk/src/rp2_common/pico_double/double_math
 
 src/CMakeFiles/app.dir/home/juan/pico-sdk/src/rp2_common/pico_double/double_aeabi_dcp.S.o: src/CMakeFiles/app.dir/flags.make
 src/CMakeFiles/app.dir/home/juan/pico-sdk/src/rp2_common/pico_double/double_aeabi_dcp.S.o: /home/juan/pico-sdk/src/rp2_common/pico_double/double_aeabi_dcp.S
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/media/juan/42849DD9849DCFB1/ufc/2025.1/rtos/praticas/pratica 4/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_42) "Building ASM object src/CMakeFiles/app.dir/home/juan/pico-sdk/src/rp2_common/pico_double/double_aeabi_dcp.S.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/media/juan/42849DD9849DCFB1/ufc/2025.1/rtos/praticas/pratica 4/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_43) "Building ASM object src/CMakeFiles/app.dir/home/juan/pico-sdk/src/rp2_common/pico_double/double_aeabi_dcp.S.o"
 	cd "/media/juan/42849DD9849DCFB1/ufc/2025.1/rtos/praticas/pratica 4/build/src" && /usr/bin/arm-none-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -o CMakeFiles/app.dir/home/juan/pico-sdk/src/rp2_common/pico_double/double_aeabi_dcp.S.o   -c /home/juan/pico-sdk/src/rp2_common/pico_double/double_aeabi_dcp.S
 
 src/CMakeFiles/app.dir/home/juan/pico-sdk/src/rp2_common/pico_double/double_aeabi_dcp.S.i: cmake_force
@@ -656,7 +670,7 @@ src/CMakeFiles/app.dir/home/juan/pico-sdk/src/rp2_common/pico_double/double_aeab
 
 src/CMakeFiles/app.dir/home/juan/pico-sdk/src/rp2_common/pico_double/double_fma_dcp.S.o: src/CMakeFiles/app.dir/flags.make
 src/CMakeFiles/app.dir/home/juan/pico-sdk/src/rp2_common/pico_double/double_fma_dcp.S.o: /home/juan/pico-sdk/src/rp2_common/pico_double/double_fma_dcp.S
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/media/juan/42849DD9849DCFB1/ufc/2025.1/rtos/praticas/pratica 4/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_43) "Building ASM object src/CMakeFiles/app.dir/home/juan/pico-sdk/src/rp2_common/pico_double/double_fma_dcp.S.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/media/juan/42849DD9849DCFB1/ufc/2025.1/rtos/praticas/pratica 4/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_44) "Building ASM object src/CMakeFiles/app.dir/home/juan/pico-sdk/src/rp2_common/pico_double/double_fma_dcp.S.o"
 	cd "/media/juan/42849DD9849DCFB1/ufc/2025.1/rtos/praticas/pratica 4/build/src" && /usr/bin/arm-none-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -o CMakeFiles/app.dir/home/juan/pico-sdk/src/rp2_common/pico_double/double_fma_dcp.S.o   -c /home/juan/pico-sdk/src/rp2_common/pico_double/double_fma_dcp.S
 
 src/CMakeFiles/app.dir/home/juan/pico-sdk/src/rp2_common/pico_double/double_fma_dcp.S.i: cmake_force
@@ -669,7 +683,7 @@ src/CMakeFiles/app.dir/home/juan/pico-sdk/src/rp2_common/pico_double/double_fma_
 
 src/CMakeFiles/app.dir/home/juan/pico-sdk/src/rp2_common/pico_double/double_sci_m33.S.o: src/CMakeFiles/app.dir/flags.make
 src/CMakeFiles/app.dir/home/juan/pico-sdk/src/rp2_common/pico_double/double_sci_m33.S.o: /home/juan/pico-sdk/src/rp2_common/pico_double/double_sci_m33.S
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/media/juan/42849DD9849DCFB1/ufc/2025.1/rtos/praticas/pratica 4/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_44) "Building ASM object src/CMakeFiles/app.dir/home/juan/pico-sdk/src/rp2_common/pico_double/double_sci_m33.S.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/media/juan/42849DD9849DCFB1/ufc/2025.1/rtos/praticas/pratica 4/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_45) "Building ASM object src/CMakeFiles/app.dir/home/juan/pico-sdk/src/rp2_common/pico_double/double_sci_m33.S.o"
 	cd "/media/juan/42849DD9849DCFB1/ufc/2025.1/rtos/praticas/pratica 4/build/src" && /usr/bin/arm-none-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -o CMakeFiles/app.dir/home/juan/pico-sdk/src/rp2_common/pico_double/double_sci_m33.S.o   -c /home/juan/pico-sdk/src/rp2_common/pico_double/double_sci_m33.S
 
 src/CMakeFiles/app.dir/home/juan/pico-sdk/src/rp2_common/pico_double/double_sci_m33.S.i: cmake_force
@@ -682,7 +696,7 @@ src/CMakeFiles/app.dir/home/juan/pico-sdk/src/rp2_common/pico_double/double_sci_
 
 src/CMakeFiles/app.dir/home/juan/pico-sdk/src/rp2_common/pico_double/double_conv_m33.S.o: src/CMakeFiles/app.dir/flags.make
 src/CMakeFiles/app.dir/home/juan/pico-sdk/src/rp2_common/pico_double/double_conv_m33.S.o: /home/juan/pico-sdk/src/rp2_common/pico_double/double_conv_m33.S
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/media/juan/42849DD9849DCFB1/ufc/2025.1/rtos/praticas/pratica 4/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_45) "Building ASM object src/CMakeFiles/app.dir/home/juan/pico-sdk/src/rp2_common/pico_double/double_conv_m33.S.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/media/juan/42849DD9849DCFB1/ufc/2025.1/rtos/praticas/pratica 4/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_46) "Building ASM object src/CMakeFiles/app.dir/home/juan/pico-sdk/src/rp2_common/pico_double/double_conv_m33.S.o"
 	cd "/media/juan/42849DD9849DCFB1/ufc/2025.1/rtos/praticas/pratica 4/build/src" && /usr/bin/arm-none-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -o CMakeFiles/app.dir/home/juan/pico-sdk/src/rp2_common/pico_double/double_conv_m33.S.o   -c /home/juan/pico-sdk/src/rp2_common/pico_double/double_conv_m33.S
 
 src/CMakeFiles/app.dir/home/juan/pico-sdk/src/rp2_common/pico_double/double_conv_m33.S.i: cmake_force
@@ -696,7 +710,7 @@ src/CMakeFiles/app.dir/home/juan/pico-sdk/src/rp2_common/pico_double/double_conv
 src/CMakeFiles/app.dir/home/juan/pico-sdk/src/rp2_common/pico_float/float_math.c.o: src/CMakeFiles/app.dir/flags.make
 src/CMakeFiles/app.dir/home/juan/pico-sdk/src/rp2_common/pico_float/float_math.c.o: /home/juan/pico-sdk/src/rp2_common/pico_float/float_math.c
 src/CMakeFiles/app.dir/home/juan/pico-sdk/src/rp2_common/pico_float/float_math.c.o: src/CMakeFiles/app.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/media/juan/42849DD9849DCFB1/ufc/2025.1/rtos/praticas/pratica 4/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_46) "Building C object src/CMakeFiles/app.dir/home/juan/pico-sdk/src/rp2_common/pico_float/float_math.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/media/juan/42849DD9849DCFB1/ufc/2025.1/rtos/praticas/pratica 4/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_47) "Building C object src/CMakeFiles/app.dir/home/juan/pico-sdk/src/rp2_common/pico_float/float_math.c.o"
 	cd "/media/juan/42849DD9849DCFB1/ufc/2025.1/rtos/praticas/pratica 4/build/src" && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT src/CMakeFiles/app.dir/home/juan/pico-sdk/src/rp2_common/pico_float/float_math.c.o -MF CMakeFiles/app.dir/home/juan/pico-sdk/src/rp2_common/pico_float/float_math.c.o.d -o CMakeFiles/app.dir/home/juan/pico-sdk/src/rp2_common/pico_float/float_math.c.o -c /home/juan/pico-sdk/src/rp2_common/pico_float/float_math.c
 
 src/CMakeFiles/app.dir/home/juan/pico-sdk/src/rp2_common/pico_float/float_math.c.i: cmake_force
@@ -709,7 +723,7 @@ src/CMakeFiles/app.dir/home/juan/pico-sdk/src/rp2_common/pico_float/float_math.c
 
 src/CMakeFiles/app.dir/home/juan/pico-sdk/src/rp2_common/pico_float/float_conv32_vfp.S.o: src/CMakeFiles/app.dir/flags.make
 src/CMakeFiles/app.dir/home/juan/pico-sdk/src/rp2_common/pico_float/float_conv32_vfp.S.o: /home/juan/pico-sdk/src/rp2_common/pico_float/float_conv32_vfp.S
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/media/juan/42849DD9849DCFB1/ufc/2025.1/rtos/praticas/pratica 4/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_47) "Building ASM object src/CMakeFiles/app.dir/home/juan/pico-sdk/src/rp2_common/pico_float/float_conv32_vfp.S.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/media/juan/42849DD9849DCFB1/ufc/2025.1/rtos/praticas/pratica 4/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_48) "Building ASM object src/CMakeFiles/app.dir/home/juan/pico-sdk/src/rp2_common/pico_float/float_conv32_vfp.S.o"
 	cd "/media/juan/42849DD9849DCFB1/ufc/2025.1/rtos/praticas/pratica 4/build/src" && /usr/bin/arm-none-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -o CMakeFiles/app.dir/home/juan/pico-sdk/src/rp2_common/pico_float/float_conv32_vfp.S.o   -c /home/juan/pico-sdk/src/rp2_common/pico_float/float_conv32_vfp.S
 
 src/CMakeFiles/app.dir/home/juan/pico-sdk/src/rp2_common/pico_float/float_conv32_vfp.S.i: cmake_force
@@ -722,7 +736,7 @@ src/CMakeFiles/app.dir/home/juan/pico-sdk/src/rp2_common/pico_float/float_conv32
 
 src/CMakeFiles/app.dir/home/juan/pico-sdk/src/rp2_common/pico_float/float_common_m33.S.o: src/CMakeFiles/app.dir/flags.make
 src/CMakeFiles/app.dir/home/juan/pico-sdk/src/rp2_common/pico_float/float_common_m33.S.o: /home/juan/pico-sdk/src/rp2_common/pico_float/float_common_m33.S
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/media/juan/42849DD9849DCFB1/ufc/2025.1/rtos/praticas/pratica 4/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_48) "Building ASM object src/CMakeFiles/app.dir/home/juan/pico-sdk/src/rp2_common/pico_float/float_common_m33.S.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/media/juan/42849DD9849DCFB1/ufc/2025.1/rtos/praticas/pratica 4/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_49) "Building ASM object src/CMakeFiles/app.dir/home/juan/pico-sdk/src/rp2_common/pico_float/float_common_m33.S.o"
 	cd "/media/juan/42849DD9849DCFB1/ufc/2025.1/rtos/praticas/pratica 4/build/src" && /usr/bin/arm-none-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -o CMakeFiles/app.dir/home/juan/pico-sdk/src/rp2_common/pico_float/float_common_m33.S.o   -c /home/juan/pico-sdk/src/rp2_common/pico_float/float_common_m33.S
 
 src/CMakeFiles/app.dir/home/juan/pico-sdk/src/rp2_common/pico_float/float_common_m33.S.i: cmake_force
@@ -735,7 +749,7 @@ src/CMakeFiles/app.dir/home/juan/pico-sdk/src/rp2_common/pico_float/float_common
 
 src/CMakeFiles/app.dir/home/juan/pico-sdk/src/rp2_common/pico_float/float_sci_m33_vfp.S.o: src/CMakeFiles/app.dir/flags.make
 src/CMakeFiles/app.dir/home/juan/pico-sdk/src/rp2_common/pico_float/float_sci_m33_vfp.S.o: /home/juan/pico-sdk/src/rp2_common/pico_float/float_sci_m33_vfp.S
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/media/juan/42849DD9849DCFB1/ufc/2025.1/rtos/praticas/pratica 4/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_49) "Building ASM object src/CMakeFiles/app.dir/home/juan/pico-sdk/src/rp2_common/pico_float/float_sci_m33_vfp.S.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/media/juan/42849DD9849DCFB1/ufc/2025.1/rtos/praticas/pratica 4/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_50) "Building ASM object src/CMakeFiles/app.dir/home/juan/pico-sdk/src/rp2_common/pico_float/float_sci_m33_vfp.S.o"
 	cd "/media/juan/42849DD9849DCFB1/ufc/2025.1/rtos/praticas/pratica 4/build/src" && /usr/bin/arm-none-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -o CMakeFiles/app.dir/home/juan/pico-sdk/src/rp2_common/pico_float/float_sci_m33_vfp.S.o   -c /home/juan/pico-sdk/src/rp2_common/pico_float/float_sci_m33_vfp.S
 
 src/CMakeFiles/app.dir/home/juan/pico-sdk/src/rp2_common/pico_float/float_sci_m33_vfp.S.i: cmake_force
@@ -749,7 +763,7 @@ src/CMakeFiles/app.dir/home/juan/pico-sdk/src/rp2_common/pico_float/float_sci_m3
 src/CMakeFiles/app.dir/home/juan/pico-sdk/src/rp2_common/pico_malloc/malloc.c.o: src/CMakeFiles/app.dir/flags.make
 src/CMakeFiles/app.dir/home/juan/pico-sdk/src/rp2_common/pico_malloc/malloc.c.o: /home/juan/pico-sdk/src/rp2_common/pico_malloc/malloc.c
 src/CMakeFiles/app.dir/home/juan/pico-sdk/src/rp2_common/pico_malloc/malloc.c.o: src/CMakeFiles/app.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/media/juan/42849DD9849DCFB1/ufc/2025.1/rtos/praticas/pratica 4/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_50) "Building C object src/CMakeFiles/app.dir/home/juan/pico-sdk/src/rp2_common/pico_malloc/malloc.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/media/juan/42849DD9849DCFB1/ufc/2025.1/rtos/praticas/pratica 4/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_51) "Building C object src/CMakeFiles/app.dir/home/juan/pico-sdk/src/rp2_common/pico_malloc/malloc.c.o"
 	cd "/media/juan/42849DD9849DCFB1/ufc/2025.1/rtos/praticas/pratica 4/build/src" && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT src/CMakeFiles/app.dir/home/juan/pico-sdk/src/rp2_common/pico_malloc/malloc.c.o -MF CMakeFiles/app.dir/home/juan/pico-sdk/src/rp2_common/pico_malloc/malloc.c.o.d -o CMakeFiles/app.dir/home/juan/pico-sdk/src/rp2_common/pico_malloc/malloc.c.o -c /home/juan/pico-sdk/src/rp2_common/pico_malloc/malloc.c
 
 src/CMakeFiles/app.dir/home/juan/pico-sdk/src/rp2_common/pico_malloc/malloc.c.i: cmake_force
@@ -763,7 +777,7 @@ src/CMakeFiles/app.dir/home/juan/pico-sdk/src/rp2_common/pico_malloc/malloc.c.s:
 src/CMakeFiles/app.dir/home/juan/pico-sdk/src/rp2_common/pico_atomic/atomic.c.o: src/CMakeFiles/app.dir/flags.make
 src/CMakeFiles/app.dir/home/juan/pico-sdk/src/rp2_common/pico_atomic/atomic.c.o: /home/juan/pico-sdk/src/rp2_common/pico_atomic/atomic.c
 src/CMakeFiles/app.dir/home/juan/pico-sdk/src/rp2_common/pico_atomic/atomic.c.o: src/CMakeFiles/app.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/media/juan/42849DD9849DCFB1/ufc/2025.1/rtos/praticas/pratica 4/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_51) "Building C object src/CMakeFiles/app.dir/home/juan/pico-sdk/src/rp2_common/pico_atomic/atomic.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/media/juan/42849DD9849DCFB1/ufc/2025.1/rtos/praticas/pratica 4/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_52) "Building C object src/CMakeFiles/app.dir/home/juan/pico-sdk/src/rp2_common/pico_atomic/atomic.c.o"
 	cd "/media/juan/42849DD9849DCFB1/ufc/2025.1/rtos/praticas/pratica 4/build/src" && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT src/CMakeFiles/app.dir/home/juan/pico-sdk/src/rp2_common/pico_atomic/atomic.c.o -MF CMakeFiles/app.dir/home/juan/pico-sdk/src/rp2_common/pico_atomic/atomic.c.o.d -o CMakeFiles/app.dir/home/juan/pico-sdk/src/rp2_common/pico_atomic/atomic.c.o -c /home/juan/pico-sdk/src/rp2_common/pico_atomic/atomic.c
 
 src/CMakeFiles/app.dir/home/juan/pico-sdk/src/rp2_common/pico_atomic/atomic.c.i: cmake_force
@@ -777,7 +791,7 @@ src/CMakeFiles/app.dir/home/juan/pico-sdk/src/rp2_common/pico_atomic/atomic.c.s:
 src/CMakeFiles/app.dir/home/juan/pico-sdk/src/rp2_common/pico_cxx_options/new_delete.cpp.o: src/CMakeFiles/app.dir/flags.make
 src/CMakeFiles/app.dir/home/juan/pico-sdk/src/rp2_common/pico_cxx_options/new_delete.cpp.o: /home/juan/pico-sdk/src/rp2_common/pico_cxx_options/new_delete.cpp
 src/CMakeFiles/app.dir/home/juan/pico-sdk/src/rp2_common/pico_cxx_options/new_delete.cpp.o: src/CMakeFiles/app.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/media/juan/42849DD9849DCFB1/ufc/2025.1/rtos/praticas/pratica 4/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_52) "Building CXX object src/CMakeFiles/app.dir/home/juan/pico-sdk/src/rp2_common/pico_cxx_options/new_delete.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/media/juan/42849DD9849DCFB1/ufc/2025.1/rtos/praticas/pratica 4/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_53) "Building CXX object src/CMakeFiles/app.dir/home/juan/pico-sdk/src/rp2_common/pico_cxx_options/new_delete.cpp.o"
 	cd "/media/juan/42849DD9849DCFB1/ufc/2025.1/rtos/praticas/pratica 4/build/src" && /usr/bin/arm-none-eabi-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/CMakeFiles/app.dir/home/juan/pico-sdk/src/rp2_common/pico_cxx_options/new_delete.cpp.o -MF CMakeFiles/app.dir/home/juan/pico-sdk/src/rp2_common/pico_cxx_options/new_delete.cpp.o.d -o CMakeFiles/app.dir/home/juan/pico-sdk/src/rp2_common/pico_cxx_options/new_delete.cpp.o -c /home/juan/pico-sdk/src/rp2_common/pico_cxx_options/new_delete.cpp
 
 src/CMakeFiles/app.dir/home/juan/pico-sdk/src/rp2_common/pico_cxx_options/new_delete.cpp.i: cmake_force
@@ -791,7 +805,7 @@ src/CMakeFiles/app.dir/home/juan/pico-sdk/src/rp2_common/pico_cxx_options/new_de
 src/CMakeFiles/app.dir/home/juan/pico-sdk/src/rp2_common/pico_standard_binary_info/standard_binary_info.c.o: src/CMakeFiles/app.dir/flags.make
 src/CMakeFiles/app.dir/home/juan/pico-sdk/src/rp2_common/pico_standard_binary_info/standard_binary_info.c.o: /home/juan/pico-sdk/src/rp2_common/pico_standard_binary_info/standard_binary_info.c
 src/CMakeFiles/app.dir/home/juan/pico-sdk/src/rp2_common/pico_standard_binary_info/standard_binary_info.c.o: src/CMakeFiles/app.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/media/juan/42849DD9849DCFB1/ufc/2025.1/rtos/praticas/pratica 4/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_53) "Building C object src/CMakeFiles/app.dir/home/juan/pico-sdk/src/rp2_common/pico_standard_binary_info/standard_binary_info.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/media/juan/42849DD9849DCFB1/ufc/2025.1/rtos/praticas/pratica 4/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_54) "Building C object src/CMakeFiles/app.dir/home/juan/pico-sdk/src/rp2_common/pico_standard_binary_info/standard_binary_info.c.o"
 	cd "/media/juan/42849DD9849DCFB1/ufc/2025.1/rtos/praticas/pratica 4/build/src" && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT src/CMakeFiles/app.dir/home/juan/pico-sdk/src/rp2_common/pico_standard_binary_info/standard_binary_info.c.o -MF CMakeFiles/app.dir/home/juan/pico-sdk/src/rp2_common/pico_standard_binary_info/standard_binary_info.c.o.d -o CMakeFiles/app.dir/home/juan/pico-sdk/src/rp2_common/pico_standard_binary_info/standard_binary_info.c.o -c /home/juan/pico-sdk/src/rp2_common/pico_standard_binary_info/standard_binary_info.c
 
 src/CMakeFiles/app.dir/home/juan/pico-sdk/src/rp2_common/pico_standard_binary_info/standard_binary_info.c.i: cmake_force
@@ -805,7 +819,7 @@ src/CMakeFiles/app.dir/home/juan/pico-sdk/src/rp2_common/pico_standard_binary_in
 src/CMakeFiles/app.dir/home/juan/pico-sdk/src/rp2_common/pico_printf/printf.c.o: src/CMakeFiles/app.dir/flags.make
 src/CMakeFiles/app.dir/home/juan/pico-sdk/src/rp2_common/pico_printf/printf.c.o: /home/juan/pico-sdk/src/rp2_common/pico_printf/printf.c
 src/CMakeFiles/app.dir/home/juan/pico-sdk/src/rp2_common/pico_printf/printf.c.o: src/CMakeFiles/app.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/media/juan/42849DD9849DCFB1/ufc/2025.1/rtos/praticas/pratica 4/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_54) "Building C object src/CMakeFiles/app.dir/home/juan/pico-sdk/src/rp2_common/pico_printf/printf.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/media/juan/42849DD9849DCFB1/ufc/2025.1/rtos/praticas/pratica 4/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_55) "Building C object src/CMakeFiles/app.dir/home/juan/pico-sdk/src/rp2_common/pico_printf/printf.c.o"
 	cd "/media/juan/42849DD9849DCFB1/ufc/2025.1/rtos/praticas/pratica 4/build/src" && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT src/CMakeFiles/app.dir/home/juan/pico-sdk/src/rp2_common/pico_printf/printf.c.o -MF CMakeFiles/app.dir/home/juan/pico-sdk/src/rp2_common/pico_printf/printf.c.o.d -o CMakeFiles/app.dir/home/juan/pico-sdk/src/rp2_common/pico_printf/printf.c.o -c /home/juan/pico-sdk/src/rp2_common/pico_printf/printf.c
 
 src/CMakeFiles/app.dir/home/juan/pico-sdk/src/rp2_common/pico_printf/printf.c.i: cmake_force
@@ -818,7 +832,7 @@ src/CMakeFiles/app.dir/home/juan/pico-sdk/src/rp2_common/pico_printf/printf.c.s:
 
 src/CMakeFiles/app.dir/home/juan/pico-sdk/src/rp2_common/pico_crt0/crt0.S.o: src/CMakeFiles/app.dir/flags.make
 src/CMakeFiles/app.dir/home/juan/pico-sdk/src/rp2_common/pico_crt0/crt0.S.o: /home/juan/pico-sdk/src/rp2_common/pico_crt0/crt0.S
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/media/juan/42849DD9849DCFB1/ufc/2025.1/rtos/praticas/pratica 4/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_55) "Building ASM object src/CMakeFiles/app.dir/home/juan/pico-sdk/src/rp2_common/pico_crt0/crt0.S.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/media/juan/42849DD9849DCFB1/ufc/2025.1/rtos/praticas/pratica 4/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_56) "Building ASM object src/CMakeFiles/app.dir/home/juan/pico-sdk/src/rp2_common/pico_crt0/crt0.S.o"
 	cd "/media/juan/42849DD9849DCFB1/ufc/2025.1/rtos/praticas/pratica 4/build/src" && /usr/bin/arm-none-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -o CMakeFiles/app.dir/home/juan/pico-sdk/src/rp2_common/pico_crt0/crt0.S.o   -c /home/juan/pico-sdk/src/rp2_common/pico_crt0/crt0.S
 
 src/CMakeFiles/app.dir/home/juan/pico-sdk/src/rp2_common/pico_crt0/crt0.S.i: cmake_force
@@ -832,7 +846,7 @@ src/CMakeFiles/app.dir/home/juan/pico-sdk/src/rp2_common/pico_crt0/crt0.S.s: cma
 src/CMakeFiles/app.dir/home/juan/pico-sdk/src/rp2_common/pico_clib_interface/newlib_interface.c.o: src/CMakeFiles/app.dir/flags.make
 src/CMakeFiles/app.dir/home/juan/pico-sdk/src/rp2_common/pico_clib_interface/newlib_interface.c.o: /home/juan/pico-sdk/src/rp2_common/pico_clib_interface/newlib_interface.c
 src/CMakeFiles/app.dir/home/juan/pico-sdk/src/rp2_common/pico_clib_interface/newlib_interface.c.o: src/CMakeFiles/app.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/media/juan/42849DD9849DCFB1/ufc/2025.1/rtos/praticas/pratica 4/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_56) "Building C object src/CMakeFiles/app.dir/home/juan/pico-sdk/src/rp2_common/pico_clib_interface/newlib_interface.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/media/juan/42849DD9849DCFB1/ufc/2025.1/rtos/praticas/pratica 4/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_57) "Building C object src/CMakeFiles/app.dir/home/juan/pico-sdk/src/rp2_common/pico_clib_interface/newlib_interface.c.o"
 	cd "/media/juan/42849DD9849DCFB1/ufc/2025.1/rtos/praticas/pratica 4/build/src" && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT src/CMakeFiles/app.dir/home/juan/pico-sdk/src/rp2_common/pico_clib_interface/newlib_interface.c.o -MF CMakeFiles/app.dir/home/juan/pico-sdk/src/rp2_common/pico_clib_interface/newlib_interface.c.o.d -o CMakeFiles/app.dir/home/juan/pico-sdk/src/rp2_common/pico_clib_interface/newlib_interface.c.o -c /home/juan/pico-sdk/src/rp2_common/pico_clib_interface/newlib_interface.c
 
 src/CMakeFiles/app.dir/home/juan/pico-sdk/src/rp2_common/pico_clib_interface/newlib_interface.c.i: cmake_force
@@ -846,7 +860,7 @@ src/CMakeFiles/app.dir/home/juan/pico-sdk/src/rp2_common/pico_clib_interface/new
 src/CMakeFiles/app.dir/home/juan/pico-sdk/src/rp2_common/pico_stdio/stdio.c.o: src/CMakeFiles/app.dir/flags.make
 src/CMakeFiles/app.dir/home/juan/pico-sdk/src/rp2_common/pico_stdio/stdio.c.o: /home/juan/pico-sdk/src/rp2_common/pico_stdio/stdio.c
 src/CMakeFiles/app.dir/home/juan/pico-sdk/src/rp2_common/pico_stdio/stdio.c.o: src/CMakeFiles/app.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/media/juan/42849DD9849DCFB1/ufc/2025.1/rtos/praticas/pratica 4/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_57) "Building C object src/CMakeFiles/app.dir/home/juan/pico-sdk/src/rp2_common/pico_stdio/stdio.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/media/juan/42849DD9849DCFB1/ufc/2025.1/rtos/praticas/pratica 4/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_58) "Building C object src/CMakeFiles/app.dir/home/juan/pico-sdk/src/rp2_common/pico_stdio/stdio.c.o"
 	cd "/media/juan/42849DD9849DCFB1/ufc/2025.1/rtos/praticas/pratica 4/build/src" && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT src/CMakeFiles/app.dir/home/juan/pico-sdk/src/rp2_common/pico_stdio/stdio.c.o -MF CMakeFiles/app.dir/home/juan/pico-sdk/src/rp2_common/pico_stdio/stdio.c.o.d -o CMakeFiles/app.dir/home/juan/pico-sdk/src/rp2_common/pico_stdio/stdio.c.o -c /home/juan/pico-sdk/src/rp2_common/pico_stdio/stdio.c
 
 src/CMakeFiles/app.dir/home/juan/pico-sdk/src/rp2_common/pico_stdio/stdio.c.i: cmake_force
@@ -860,7 +874,7 @@ src/CMakeFiles/app.dir/home/juan/pico-sdk/src/rp2_common/pico_stdio/stdio.c.s: c
 src/CMakeFiles/app.dir/home/juan/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.o: src/CMakeFiles/app.dir/flags.make
 src/CMakeFiles/app.dir/home/juan/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.o: /home/juan/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c
 src/CMakeFiles/app.dir/home/juan/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.o: src/CMakeFiles/app.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/media/juan/42849DD9849DCFB1/ufc/2025.1/rtos/praticas/pratica 4/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_58) "Building C object src/CMakeFiles/app.dir/home/juan/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/media/juan/42849DD9849DCFB1/ufc/2025.1/rtos/praticas/pratica 4/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_59) "Building C object src/CMakeFiles/app.dir/home/juan/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.o"
 	cd "/media/juan/42849DD9849DCFB1/ufc/2025.1/rtos/praticas/pratica 4/build/src" && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT src/CMakeFiles/app.dir/home/juan/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.o -MF CMakeFiles/app.dir/home/juan/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.o.d -o CMakeFiles/app.dir/home/juan/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.o -c /home/juan/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c
 
 src/CMakeFiles/app.dir/home/juan/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.i: cmake_force
@@ -874,7 +888,7 @@ src/CMakeFiles/app.dir/home/juan/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_u
 src/CMakeFiles/app.dir/home/juan/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.o: src/CMakeFiles/app.dir/flags.make
 src/CMakeFiles/app.dir/home/juan/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.o: /home/juan/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c
 src/CMakeFiles/app.dir/home/juan/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.o: src/CMakeFiles/app.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/media/juan/42849DD9849DCFB1/ufc/2025.1/rtos/praticas/pratica 4/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_59) "Building C object src/CMakeFiles/app.dir/home/juan/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/media/juan/42849DD9849DCFB1/ufc/2025.1/rtos/praticas/pratica 4/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_60) "Building C object src/CMakeFiles/app.dir/home/juan/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.o"
 	cd "/media/juan/42849DD9849DCFB1/ufc/2025.1/rtos/praticas/pratica 4/build/src" && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT src/CMakeFiles/app.dir/home/juan/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.o -MF CMakeFiles/app.dir/home/juan/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.o.d -o CMakeFiles/app.dir/home/juan/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.o -c /home/juan/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c
 
 src/CMakeFiles/app.dir/home/juan/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.i: cmake_force
@@ -888,7 +902,7 @@ src/CMakeFiles/app.dir/home/juan/pico-sdk/src/rp2_common/pico_stdio_usb/reset_in
 src/CMakeFiles/app.dir/home/juan/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.o: src/CMakeFiles/app.dir/flags.make
 src/CMakeFiles/app.dir/home/juan/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.o: /home/juan/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c
 src/CMakeFiles/app.dir/home/juan/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.o: src/CMakeFiles/app.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/media/juan/42849DD9849DCFB1/ufc/2025.1/rtos/praticas/pratica 4/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_60) "Building C object src/CMakeFiles/app.dir/home/juan/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/media/juan/42849DD9849DCFB1/ufc/2025.1/rtos/praticas/pratica 4/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_61) "Building C object src/CMakeFiles/app.dir/home/juan/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.o"
 	cd "/media/juan/42849DD9849DCFB1/ufc/2025.1/rtos/praticas/pratica 4/build/src" && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT src/CMakeFiles/app.dir/home/juan/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.o -MF CMakeFiles/app.dir/home/juan/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.o.d -o CMakeFiles/app.dir/home/juan/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.o -c /home/juan/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c
 
 src/CMakeFiles/app.dir/home/juan/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.i: cmake_force
@@ -902,7 +916,7 @@ src/CMakeFiles/app.dir/home/juan/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_us
 src/CMakeFiles/app.dir/home/juan/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.o: src/CMakeFiles/app.dir/flags.make
 src/CMakeFiles/app.dir/home/juan/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.o: /home/juan/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c
 src/CMakeFiles/app.dir/home/juan/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.o: src/CMakeFiles/app.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/media/juan/42849DD9849DCFB1/ufc/2025.1/rtos/praticas/pratica 4/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_61) "Building C object src/CMakeFiles/app.dir/home/juan/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/media/juan/42849DD9849DCFB1/ufc/2025.1/rtos/praticas/pratica 4/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_62) "Building C object src/CMakeFiles/app.dir/home/juan/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.o"
 	cd "/media/juan/42849DD9849DCFB1/ufc/2025.1/rtos/praticas/pratica 4/build/src" && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT src/CMakeFiles/app.dir/home/juan/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.o -MF CMakeFiles/app.dir/home/juan/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.o.d -o CMakeFiles/app.dir/home/juan/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.o -c /home/juan/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c
 
 src/CMakeFiles/app.dir/home/juan/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.i: cmake_force
@@ -916,7 +930,7 @@ src/CMakeFiles/app.dir/home/juan/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_us
 src/CMakeFiles/app.dir/home/juan/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.o: src/CMakeFiles/app.dir/flags.make
 src/CMakeFiles/app.dir/home/juan/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.o: /home/juan/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c
 src/CMakeFiles/app.dir/home/juan/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.o: src/CMakeFiles/app.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/media/juan/42849DD9849DCFB1/ufc/2025.1/rtos/praticas/pratica 4/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_62) "Building C object src/CMakeFiles/app.dir/home/juan/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/media/juan/42849DD9849DCFB1/ufc/2025.1/rtos/praticas/pratica 4/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_63) "Building C object src/CMakeFiles/app.dir/home/juan/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.o"
 	cd "/media/juan/42849DD9849DCFB1/ufc/2025.1/rtos/praticas/pratica 4/build/src" && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT src/CMakeFiles/app.dir/home/juan/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.o -MF CMakeFiles/app.dir/home/juan/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.o.d -o CMakeFiles/app.dir/home/juan/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.o -c /home/juan/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c
 
 src/CMakeFiles/app.dir/home/juan/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.i: cmake_force
@@ -930,7 +944,7 @@ src/CMakeFiles/app.dir/home/juan/pico-sdk/src/rp2_common/pico_unique_id/unique_i
 src/CMakeFiles/app.dir/home/juan/pico-sdk/src/rp2_common/hardware_flash/flash.c.o: src/CMakeFiles/app.dir/flags.make
 src/CMakeFiles/app.dir/home/juan/pico-sdk/src/rp2_common/hardware_flash/flash.c.o: /home/juan/pico-sdk/src/rp2_common/hardware_flash/flash.c
 src/CMakeFiles/app.dir/home/juan/pico-sdk/src/rp2_common/hardware_flash/flash.c.o: src/CMakeFiles/app.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/media/juan/42849DD9849DCFB1/ufc/2025.1/rtos/praticas/pratica 4/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_63) "Building C object src/CMakeFiles/app.dir/home/juan/pico-sdk/src/rp2_common/hardware_flash/flash.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/media/juan/42849DD9849DCFB1/ufc/2025.1/rtos/praticas/pratica 4/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_64) "Building C object src/CMakeFiles/app.dir/home/juan/pico-sdk/src/rp2_common/hardware_flash/flash.c.o"
 	cd "/media/juan/42849DD9849DCFB1/ufc/2025.1/rtos/praticas/pratica 4/build/src" && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT src/CMakeFiles/app.dir/home/juan/pico-sdk/src/rp2_common/hardware_flash/flash.c.o -MF CMakeFiles/app.dir/home/juan/pico-sdk/src/rp2_common/hardware_flash/flash.c.o.d -o CMakeFiles/app.dir/home/juan/pico-sdk/src/rp2_common/hardware_flash/flash.c.o -c /home/juan/pico-sdk/src/rp2_common/hardware_flash/flash.c
 
 src/CMakeFiles/app.dir/home/juan/pico-sdk/src/rp2_common/hardware_flash/flash.c.i: cmake_force
@@ -944,7 +958,7 @@ src/CMakeFiles/app.dir/home/juan/pico-sdk/src/rp2_common/hardware_flash/flash.c.
 src/CMakeFiles/app.dir/home/juan/pico-sdk/src/rp2_common/hardware_xip_cache/xip_cache.c.o: src/CMakeFiles/app.dir/flags.make
 src/CMakeFiles/app.dir/home/juan/pico-sdk/src/rp2_common/hardware_xip_cache/xip_cache.c.o: /home/juan/pico-sdk/src/rp2_common/hardware_xip_cache/xip_cache.c
 src/CMakeFiles/app.dir/home/juan/pico-sdk/src/rp2_common/hardware_xip_cache/xip_cache.c.o: src/CMakeFiles/app.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/media/juan/42849DD9849DCFB1/ufc/2025.1/rtos/praticas/pratica 4/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_64) "Building C object src/CMakeFiles/app.dir/home/juan/pico-sdk/src/rp2_common/hardware_xip_cache/xip_cache.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/media/juan/42849DD9849DCFB1/ufc/2025.1/rtos/praticas/pratica 4/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_65) "Building C object src/CMakeFiles/app.dir/home/juan/pico-sdk/src/rp2_common/hardware_xip_cache/xip_cache.c.o"
 	cd "/media/juan/42849DD9849DCFB1/ufc/2025.1/rtos/praticas/pratica 4/build/src" && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT src/CMakeFiles/app.dir/home/juan/pico-sdk/src/rp2_common/hardware_xip_cache/xip_cache.c.o -MF CMakeFiles/app.dir/home/juan/pico-sdk/src/rp2_common/hardware_xip_cache/xip_cache.c.o.d -o CMakeFiles/app.dir/home/juan/pico-sdk/src/rp2_common/hardware_xip_cache/xip_cache.c.o -c /home/juan/pico-sdk/src/rp2_common/hardware_xip_cache/xip_cache.c
 
 src/CMakeFiles/app.dir/home/juan/pico-sdk/src/rp2_common/hardware_xip_cache/xip_cache.c.i: cmake_force
@@ -958,7 +972,7 @@ src/CMakeFiles/app.dir/home/juan/pico-sdk/src/rp2_common/hardware_xip_cache/xip_
 src/CMakeFiles/app.dir/home/juan/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.o: src/CMakeFiles/app.dir/flags.make
 src/CMakeFiles/app.dir/home/juan/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.o: /home/juan/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c
 src/CMakeFiles/app.dir/home/juan/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.o: src/CMakeFiles/app.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/media/juan/42849DD9849DCFB1/ufc/2025.1/rtos/praticas/pratica 4/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_65) "Building C object src/CMakeFiles/app.dir/home/juan/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/media/juan/42849DD9849DCFB1/ufc/2025.1/rtos/praticas/pratica 4/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_66) "Building C object src/CMakeFiles/app.dir/home/juan/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.o"
 	cd "/media/juan/42849DD9849DCFB1/ufc/2025.1/rtos/praticas/pratica 4/build/src" && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT src/CMakeFiles/app.dir/home/juan/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.o -MF CMakeFiles/app.dir/home/juan/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.o.d -o CMakeFiles/app.dir/home/juan/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.o -c /home/juan/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c
 
 src/CMakeFiles/app.dir/home/juan/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.i: cmake_force
@@ -972,7 +986,7 @@ src/CMakeFiles/app.dir/home/juan/pico-sdk/lib/tinyusb/src/portable/raspberrypi/r
 src/CMakeFiles/app.dir/home/juan/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.o: src/CMakeFiles/app.dir/flags.make
 src/CMakeFiles/app.dir/home/juan/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.o: /home/juan/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c
 src/CMakeFiles/app.dir/home/juan/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.o: src/CMakeFiles/app.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/media/juan/42849DD9849DCFB1/ufc/2025.1/rtos/praticas/pratica 4/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_66) "Building C object src/CMakeFiles/app.dir/home/juan/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/media/juan/42849DD9849DCFB1/ufc/2025.1/rtos/praticas/pratica 4/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_67) "Building C object src/CMakeFiles/app.dir/home/juan/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.o"
 	cd "/media/juan/42849DD9849DCFB1/ufc/2025.1/rtos/praticas/pratica 4/build/src" && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT src/CMakeFiles/app.dir/home/juan/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.o -MF CMakeFiles/app.dir/home/juan/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.o.d -o CMakeFiles/app.dir/home/juan/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.o -c /home/juan/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c
 
 src/CMakeFiles/app.dir/home/juan/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.i: cmake_force
@@ -986,7 +1000,7 @@ src/CMakeFiles/app.dir/home/juan/pico-sdk/lib/tinyusb/src/portable/raspberrypi/r
 src/CMakeFiles/app.dir/home/juan/pico-sdk/lib/tinyusb/src/device/usbd.c.o: src/CMakeFiles/app.dir/flags.make
 src/CMakeFiles/app.dir/home/juan/pico-sdk/lib/tinyusb/src/device/usbd.c.o: /home/juan/pico-sdk/lib/tinyusb/src/device/usbd.c
 src/CMakeFiles/app.dir/home/juan/pico-sdk/lib/tinyusb/src/device/usbd.c.o: src/CMakeFiles/app.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/media/juan/42849DD9849DCFB1/ufc/2025.1/rtos/praticas/pratica 4/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_67) "Building C object src/CMakeFiles/app.dir/home/juan/pico-sdk/lib/tinyusb/src/device/usbd.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/media/juan/42849DD9849DCFB1/ufc/2025.1/rtos/praticas/pratica 4/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_68) "Building C object src/CMakeFiles/app.dir/home/juan/pico-sdk/lib/tinyusb/src/device/usbd.c.o"
 	cd "/media/juan/42849DD9849DCFB1/ufc/2025.1/rtos/praticas/pratica 4/build/src" && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT src/CMakeFiles/app.dir/home/juan/pico-sdk/lib/tinyusb/src/device/usbd.c.o -MF CMakeFiles/app.dir/home/juan/pico-sdk/lib/tinyusb/src/device/usbd.c.o.d -o CMakeFiles/app.dir/home/juan/pico-sdk/lib/tinyusb/src/device/usbd.c.o -c /home/juan/pico-sdk/lib/tinyusb/src/device/usbd.c
 
 src/CMakeFiles/app.dir/home/juan/pico-sdk/lib/tinyusb/src/device/usbd.c.i: cmake_force
@@ -1000,7 +1014,7 @@ src/CMakeFiles/app.dir/home/juan/pico-sdk/lib/tinyusb/src/device/usbd.c.s: cmake
 src/CMakeFiles/app.dir/home/juan/pico-sdk/lib/tinyusb/src/device/usbd_control.c.o: src/CMakeFiles/app.dir/flags.make
 src/CMakeFiles/app.dir/home/juan/pico-sdk/lib/tinyusb/src/device/usbd_control.c.o: /home/juan/pico-sdk/lib/tinyusb/src/device/usbd_control.c
 src/CMakeFiles/app.dir/home/juan/pico-sdk/lib/tinyusb/src/device/usbd_control.c.o: src/CMakeFiles/app.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/media/juan/42849DD9849DCFB1/ufc/2025.1/rtos/praticas/pratica 4/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_68) "Building C object src/CMakeFiles/app.dir/home/juan/pico-sdk/lib/tinyusb/src/device/usbd_control.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/media/juan/42849DD9849DCFB1/ufc/2025.1/rtos/praticas/pratica 4/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_69) "Building C object src/CMakeFiles/app.dir/home/juan/pico-sdk/lib/tinyusb/src/device/usbd_control.c.o"
 	cd "/media/juan/42849DD9849DCFB1/ufc/2025.1/rtos/praticas/pratica 4/build/src" && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT src/CMakeFiles/app.dir/home/juan/pico-sdk/lib/tinyusb/src/device/usbd_control.c.o -MF CMakeFiles/app.dir/home/juan/pico-sdk/lib/tinyusb/src/device/usbd_control.c.o.d -o CMakeFiles/app.dir/home/juan/pico-sdk/lib/tinyusb/src/device/usbd_control.c.o -c /home/juan/pico-sdk/lib/tinyusb/src/device/usbd_control.c
 
 src/CMakeFiles/app.dir/home/juan/pico-sdk/lib/tinyusb/src/device/usbd_control.c.i: cmake_force
@@ -1014,7 +1028,7 @@ src/CMakeFiles/app.dir/home/juan/pico-sdk/lib/tinyusb/src/device/usbd_control.c.
 src/CMakeFiles/app.dir/home/juan/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.o: src/CMakeFiles/app.dir/flags.make
 src/CMakeFiles/app.dir/home/juan/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.o: /home/juan/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c
 src/CMakeFiles/app.dir/home/juan/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.o: src/CMakeFiles/app.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/media/juan/42849DD9849DCFB1/ufc/2025.1/rtos/praticas/pratica 4/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_69) "Building C object src/CMakeFiles/app.dir/home/juan/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/media/juan/42849DD9849DCFB1/ufc/2025.1/rtos/praticas/pratica 4/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_70) "Building C object src/CMakeFiles/app.dir/home/juan/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.o"
 	cd "/media/juan/42849DD9849DCFB1/ufc/2025.1/rtos/praticas/pratica 4/build/src" && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT src/CMakeFiles/app.dir/home/juan/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.o -MF CMakeFiles/app.dir/home/juan/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.o.d -o CMakeFiles/app.dir/home/juan/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.o -c /home/juan/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c
 
 src/CMakeFiles/app.dir/home/juan/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.i: cmake_force
@@ -1028,7 +1042,7 @@ src/CMakeFiles/app.dir/home/juan/pico-sdk/lib/tinyusb/src/class/audio/audio_devi
 src/CMakeFiles/app.dir/home/juan/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.o: src/CMakeFiles/app.dir/flags.make
 src/CMakeFiles/app.dir/home/juan/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.o: /home/juan/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c
 src/CMakeFiles/app.dir/home/juan/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.o: src/CMakeFiles/app.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/media/juan/42849DD9849DCFB1/ufc/2025.1/rtos/praticas/pratica 4/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_70) "Building C object src/CMakeFiles/app.dir/home/juan/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/media/juan/42849DD9849DCFB1/ufc/2025.1/rtos/praticas/pratica 4/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_71) "Building C object src/CMakeFiles/app.dir/home/juan/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.o"
 	cd "/media/juan/42849DD9849DCFB1/ufc/2025.1/rtos/praticas/pratica 4/build/src" && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT src/CMakeFiles/app.dir/home/juan/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.o -MF CMakeFiles/app.dir/home/juan/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.o.d -o CMakeFiles/app.dir/home/juan/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.o -c /home/juan/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c
 
 src/CMakeFiles/app.dir/home/juan/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.i: cmake_force
@@ -1042,7 +1056,7 @@ src/CMakeFiles/app.dir/home/juan/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c
 src/CMakeFiles/app.dir/home/juan/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c.o: src/CMakeFiles/app.dir/flags.make
 src/CMakeFiles/app.dir/home/juan/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c.o: /home/juan/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c
 src/CMakeFiles/app.dir/home/juan/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c.o: src/CMakeFiles/app.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/media/juan/42849DD9849DCFB1/ufc/2025.1/rtos/praticas/pratica 4/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_71) "Building C object src/CMakeFiles/app.dir/home/juan/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/media/juan/42849DD9849DCFB1/ufc/2025.1/rtos/praticas/pratica 4/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_72) "Building C object src/CMakeFiles/app.dir/home/juan/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c.o"
 	cd "/media/juan/42849DD9849DCFB1/ufc/2025.1/rtos/praticas/pratica 4/build/src" && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT src/CMakeFiles/app.dir/home/juan/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c.o -MF CMakeFiles/app.dir/home/juan/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c.o.d -o CMakeFiles/app.dir/home/juan/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c.o -c /home/juan/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c
 
 src/CMakeFiles/app.dir/home/juan/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c.i: cmake_force
@@ -1056,7 +1070,7 @@ src/CMakeFiles/app.dir/home/juan/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c
 src/CMakeFiles/app.dir/home/juan/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c.o: src/CMakeFiles/app.dir/flags.make
 src/CMakeFiles/app.dir/home/juan/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c.o: /home/juan/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c
 src/CMakeFiles/app.dir/home/juan/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c.o: src/CMakeFiles/app.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/media/juan/42849DD9849DCFB1/ufc/2025.1/rtos/praticas/pratica 4/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_72) "Building C object src/CMakeFiles/app.dir/home/juan/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/media/juan/42849DD9849DCFB1/ufc/2025.1/rtos/praticas/pratica 4/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_73) "Building C object src/CMakeFiles/app.dir/home/juan/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c.o"
 	cd "/media/juan/42849DD9849DCFB1/ufc/2025.1/rtos/praticas/pratica 4/build/src" && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT src/CMakeFiles/app.dir/home/juan/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c.o -MF CMakeFiles/app.dir/home/juan/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c.o.d -o CMakeFiles/app.dir/home/juan/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c.o -c /home/juan/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c
 
 src/CMakeFiles/app.dir/home/juan/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c.i: cmake_force
@@ -1070,7 +1084,7 @@ src/CMakeFiles/app.dir/home/juan/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_devic
 src/CMakeFiles/app.dir/home/juan/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.o: src/CMakeFiles/app.dir/flags.make
 src/CMakeFiles/app.dir/home/juan/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.o: /home/juan/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c
 src/CMakeFiles/app.dir/home/juan/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.o: src/CMakeFiles/app.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/media/juan/42849DD9849DCFB1/ufc/2025.1/rtos/praticas/pratica 4/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_73) "Building C object src/CMakeFiles/app.dir/home/juan/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/media/juan/42849DD9849DCFB1/ufc/2025.1/rtos/praticas/pratica 4/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_74) "Building C object src/CMakeFiles/app.dir/home/juan/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.o"
 	cd "/media/juan/42849DD9849DCFB1/ufc/2025.1/rtos/praticas/pratica 4/build/src" && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT src/CMakeFiles/app.dir/home/juan/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.o -MF CMakeFiles/app.dir/home/juan/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.o.d -o CMakeFiles/app.dir/home/juan/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.o -c /home/juan/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c
 
 src/CMakeFiles/app.dir/home/juan/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.i: cmake_force
@@ -1084,7 +1098,7 @@ src/CMakeFiles/app.dir/home/juan/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c
 src/CMakeFiles/app.dir/home/juan/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c.o: src/CMakeFiles/app.dir/flags.make
 src/CMakeFiles/app.dir/home/juan/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c.o: /home/juan/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c
 src/CMakeFiles/app.dir/home/juan/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c.o: src/CMakeFiles/app.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/media/juan/42849DD9849DCFB1/ufc/2025.1/rtos/praticas/pratica 4/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_74) "Building C object src/CMakeFiles/app.dir/home/juan/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/media/juan/42849DD9849DCFB1/ufc/2025.1/rtos/praticas/pratica 4/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_75) "Building C object src/CMakeFiles/app.dir/home/juan/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c.o"
 	cd "/media/juan/42849DD9849DCFB1/ufc/2025.1/rtos/praticas/pratica 4/build/src" && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT src/CMakeFiles/app.dir/home/juan/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c.o -MF CMakeFiles/app.dir/home/juan/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c.o.d -o CMakeFiles/app.dir/home/juan/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c.o -c /home/juan/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c
 
 src/CMakeFiles/app.dir/home/juan/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c.i: cmake_force
@@ -1098,7 +1112,7 @@ src/CMakeFiles/app.dir/home/juan/pico-sdk/lib/tinyusb/src/class/midi/midi_device
 src/CMakeFiles/app.dir/home/juan/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c.o: src/CMakeFiles/app.dir/flags.make
 src/CMakeFiles/app.dir/home/juan/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c.o: /home/juan/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c
 src/CMakeFiles/app.dir/home/juan/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c.o: src/CMakeFiles/app.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/media/juan/42849DD9849DCFB1/ufc/2025.1/rtos/praticas/pratica 4/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_75) "Building C object src/CMakeFiles/app.dir/home/juan/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/media/juan/42849DD9849DCFB1/ufc/2025.1/rtos/praticas/pratica 4/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_76) "Building C object src/CMakeFiles/app.dir/home/juan/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c.o"
 	cd "/media/juan/42849DD9849DCFB1/ufc/2025.1/rtos/praticas/pratica 4/build/src" && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT src/CMakeFiles/app.dir/home/juan/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c.o -MF CMakeFiles/app.dir/home/juan/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c.o.d -o CMakeFiles/app.dir/home/juan/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c.o -c /home/juan/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c
 
 src/CMakeFiles/app.dir/home/juan/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c.i: cmake_force
@@ -1112,7 +1126,7 @@ src/CMakeFiles/app.dir/home/juan/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c
 src/CMakeFiles/app.dir/home/juan/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c.o: src/CMakeFiles/app.dir/flags.make
 src/CMakeFiles/app.dir/home/juan/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c.o: /home/juan/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c
 src/CMakeFiles/app.dir/home/juan/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c.o: src/CMakeFiles/app.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/media/juan/42849DD9849DCFB1/ufc/2025.1/rtos/praticas/pratica 4/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_76) "Building C object src/CMakeFiles/app.dir/home/juan/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/media/juan/42849DD9849DCFB1/ufc/2025.1/rtos/praticas/pratica 4/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_77) "Building C object src/CMakeFiles/app.dir/home/juan/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c.o"
 	cd "/media/juan/42849DD9849DCFB1/ufc/2025.1/rtos/praticas/pratica 4/build/src" && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT src/CMakeFiles/app.dir/home/juan/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c.o -MF CMakeFiles/app.dir/home/juan/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c.o.d -o CMakeFiles/app.dir/home/juan/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c.o -c /home/juan/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c
 
 src/CMakeFiles/app.dir/home/juan/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c.i: cmake_force
@@ -1126,7 +1140,7 @@ src/CMakeFiles/app.dir/home/juan/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_de
 src/CMakeFiles/app.dir/home/juan/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c.o: src/CMakeFiles/app.dir/flags.make
 src/CMakeFiles/app.dir/home/juan/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c.o: /home/juan/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c
 src/CMakeFiles/app.dir/home/juan/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c.o: src/CMakeFiles/app.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/media/juan/42849DD9849DCFB1/ufc/2025.1/rtos/praticas/pratica 4/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_77) "Building C object src/CMakeFiles/app.dir/home/juan/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/media/juan/42849DD9849DCFB1/ufc/2025.1/rtos/praticas/pratica 4/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_78) "Building C object src/CMakeFiles/app.dir/home/juan/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c.o"
 	cd "/media/juan/42849DD9849DCFB1/ufc/2025.1/rtos/praticas/pratica 4/build/src" && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT src/CMakeFiles/app.dir/home/juan/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c.o -MF CMakeFiles/app.dir/home/juan/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c.o.d -o CMakeFiles/app.dir/home/juan/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c.o -c /home/juan/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c
 
 src/CMakeFiles/app.dir/home/juan/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c.i: cmake_force
@@ -1140,7 +1154,7 @@ src/CMakeFiles/app.dir/home/juan/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c
 src/CMakeFiles/app.dir/home/juan/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.o: src/CMakeFiles/app.dir/flags.make
 src/CMakeFiles/app.dir/home/juan/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.o: /home/juan/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c
 src/CMakeFiles/app.dir/home/juan/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.o: src/CMakeFiles/app.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/media/juan/42849DD9849DCFB1/ufc/2025.1/rtos/praticas/pratica 4/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_78) "Building C object src/CMakeFiles/app.dir/home/juan/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/media/juan/42849DD9849DCFB1/ufc/2025.1/rtos/praticas/pratica 4/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_79) "Building C object src/CMakeFiles/app.dir/home/juan/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.o"
 	cd "/media/juan/42849DD9849DCFB1/ufc/2025.1/rtos/praticas/pratica 4/build/src" && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT src/CMakeFiles/app.dir/home/juan/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.o -MF CMakeFiles/app.dir/home/juan/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.o.d -o CMakeFiles/app.dir/home/juan/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.o -c /home/juan/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c
 
 src/CMakeFiles/app.dir/home/juan/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.i: cmake_force
@@ -1154,7 +1168,7 @@ src/CMakeFiles/app.dir/home/juan/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_de
 src/CMakeFiles/app.dir/home/juan/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.o: src/CMakeFiles/app.dir/flags.make
 src/CMakeFiles/app.dir/home/juan/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.o: /home/juan/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c
 src/CMakeFiles/app.dir/home/juan/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.o: src/CMakeFiles/app.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/media/juan/42849DD9849DCFB1/ufc/2025.1/rtos/praticas/pratica 4/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_79) "Building C object src/CMakeFiles/app.dir/home/juan/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/media/juan/42849DD9849DCFB1/ufc/2025.1/rtos/praticas/pratica 4/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_80) "Building C object src/CMakeFiles/app.dir/home/juan/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.o"
 	cd "/media/juan/42849DD9849DCFB1/ufc/2025.1/rtos/praticas/pratica 4/build/src" && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT src/CMakeFiles/app.dir/home/juan/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.o -MF CMakeFiles/app.dir/home/juan/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.o.d -o CMakeFiles/app.dir/home/juan/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.o -c /home/juan/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c
 
 src/CMakeFiles/app.dir/home/juan/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.i: cmake_force
@@ -1168,7 +1182,7 @@ src/CMakeFiles/app.dir/home/juan/pico-sdk/lib/tinyusb/src/class/vendor/vendor_de
 src/CMakeFiles/app.dir/home/juan/pico-sdk/lib/tinyusb/src/class/video/video_device.c.o: src/CMakeFiles/app.dir/flags.make
 src/CMakeFiles/app.dir/home/juan/pico-sdk/lib/tinyusb/src/class/video/video_device.c.o: /home/juan/pico-sdk/lib/tinyusb/src/class/video/video_device.c
 src/CMakeFiles/app.dir/home/juan/pico-sdk/lib/tinyusb/src/class/video/video_device.c.o: src/CMakeFiles/app.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/media/juan/42849DD9849DCFB1/ufc/2025.1/rtos/praticas/pratica 4/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_80) "Building C object src/CMakeFiles/app.dir/home/juan/pico-sdk/lib/tinyusb/src/class/video/video_device.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/media/juan/42849DD9849DCFB1/ufc/2025.1/rtos/praticas/pratica 4/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_81) "Building C object src/CMakeFiles/app.dir/home/juan/pico-sdk/lib/tinyusb/src/class/video/video_device.c.o"
 	cd "/media/juan/42849DD9849DCFB1/ufc/2025.1/rtos/praticas/pratica 4/build/src" && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT src/CMakeFiles/app.dir/home/juan/pico-sdk/lib/tinyusb/src/class/video/video_device.c.o -MF CMakeFiles/app.dir/home/juan/pico-sdk/lib/tinyusb/src/class/video/video_device.c.o.d -o CMakeFiles/app.dir/home/juan/pico-sdk/lib/tinyusb/src/class/video/video_device.c.o -c /home/juan/pico-sdk/lib/tinyusb/src/class/video/video_device.c
 
 src/CMakeFiles/app.dir/home/juan/pico-sdk/lib/tinyusb/src/class/video/video_device.c.i: cmake_force
@@ -1182,7 +1196,7 @@ src/CMakeFiles/app.dir/home/juan/pico-sdk/lib/tinyusb/src/class/video/video_devi
 src/CMakeFiles/app.dir/home/juan/pico-sdk/lib/tinyusb/src/tusb.c.o: src/CMakeFiles/app.dir/flags.make
 src/CMakeFiles/app.dir/home/juan/pico-sdk/lib/tinyusb/src/tusb.c.o: /home/juan/pico-sdk/lib/tinyusb/src/tusb.c
 src/CMakeFiles/app.dir/home/juan/pico-sdk/lib/tinyusb/src/tusb.c.o: src/CMakeFiles/app.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/media/juan/42849DD9849DCFB1/ufc/2025.1/rtos/praticas/pratica 4/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_81) "Building C object src/CMakeFiles/app.dir/home/juan/pico-sdk/lib/tinyusb/src/tusb.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/media/juan/42849DD9849DCFB1/ufc/2025.1/rtos/praticas/pratica 4/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_82) "Building C object src/CMakeFiles/app.dir/home/juan/pico-sdk/lib/tinyusb/src/tusb.c.o"
 	cd "/media/juan/42849DD9849DCFB1/ufc/2025.1/rtos/praticas/pratica 4/build/src" && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT src/CMakeFiles/app.dir/home/juan/pico-sdk/lib/tinyusb/src/tusb.c.o -MF CMakeFiles/app.dir/home/juan/pico-sdk/lib/tinyusb/src/tusb.c.o.d -o CMakeFiles/app.dir/home/juan/pico-sdk/lib/tinyusb/src/tusb.c.o -c /home/juan/pico-sdk/lib/tinyusb/src/tusb.c
 
 src/CMakeFiles/app.dir/home/juan/pico-sdk/lib/tinyusb/src/tusb.c.i: cmake_force
@@ -1196,7 +1210,7 @@ src/CMakeFiles/app.dir/home/juan/pico-sdk/lib/tinyusb/src/tusb.c.s: cmake_force
 src/CMakeFiles/app.dir/home/juan/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.o: src/CMakeFiles/app.dir/flags.make
 src/CMakeFiles/app.dir/home/juan/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.o: /home/juan/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c
 src/CMakeFiles/app.dir/home/juan/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.o: src/CMakeFiles/app.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/media/juan/42849DD9849DCFB1/ufc/2025.1/rtos/praticas/pratica 4/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_82) "Building C object src/CMakeFiles/app.dir/home/juan/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/media/juan/42849DD9849DCFB1/ufc/2025.1/rtos/praticas/pratica 4/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_83) "Building C object src/CMakeFiles/app.dir/home/juan/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.o"
 	cd "/media/juan/42849DD9849DCFB1/ufc/2025.1/rtos/praticas/pratica 4/build/src" && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT src/CMakeFiles/app.dir/home/juan/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.o -MF CMakeFiles/app.dir/home/juan/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.o.d -o CMakeFiles/app.dir/home/juan/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.o -c /home/juan/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c
 
 src/CMakeFiles/app.dir/home/juan/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.i: cmake_force
@@ -1210,7 +1224,7 @@ src/CMakeFiles/app.dir/home/juan/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.s: 
 src/CMakeFiles/app.dir/home/juan/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.o: src/CMakeFiles/app.dir/flags.make
 src/CMakeFiles/app.dir/home/juan/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.o: /home/juan/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c
 src/CMakeFiles/app.dir/home/juan/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.o: src/CMakeFiles/app.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/media/juan/42849DD9849DCFB1/ufc/2025.1/rtos/praticas/pratica 4/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_83) "Building C object src/CMakeFiles/app.dir/home/juan/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/media/juan/42849DD9849DCFB1/ufc/2025.1/rtos/praticas/pratica 4/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_84) "Building C object src/CMakeFiles/app.dir/home/juan/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.o"
 	cd "/media/juan/42849DD9849DCFB1/ufc/2025.1/rtos/praticas/pratica 4/build/src" && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT src/CMakeFiles/app.dir/home/juan/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.o -MF CMakeFiles/app.dir/home/juan/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.o.d -o CMakeFiles/app.dir/home/juan/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.o -c /home/juan/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c
 
 src/CMakeFiles/app.dir/home/juan/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.i: cmake_force
@@ -1224,7 +1238,7 @@ src/CMakeFiles/app.dir/home/juan/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_dev
 src/CMakeFiles/app.dir/home/juan/pico-sdk/src/rp2_common/hardware_adc/adc.c.o: src/CMakeFiles/app.dir/flags.make
 src/CMakeFiles/app.dir/home/juan/pico-sdk/src/rp2_common/hardware_adc/adc.c.o: /home/juan/pico-sdk/src/rp2_common/hardware_adc/adc.c
 src/CMakeFiles/app.dir/home/juan/pico-sdk/src/rp2_common/hardware_adc/adc.c.o: src/CMakeFiles/app.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/media/juan/42849DD9849DCFB1/ufc/2025.1/rtos/praticas/pratica 4/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_84) "Building C object src/CMakeFiles/app.dir/home/juan/pico-sdk/src/rp2_common/hardware_adc/adc.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/media/juan/42849DD9849DCFB1/ufc/2025.1/rtos/praticas/pratica 4/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_85) "Building C object src/CMakeFiles/app.dir/home/juan/pico-sdk/src/rp2_common/hardware_adc/adc.c.o"
 	cd "/media/juan/42849DD9849DCFB1/ufc/2025.1/rtos/praticas/pratica 4/build/src" && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT src/CMakeFiles/app.dir/home/juan/pico-sdk/src/rp2_common/hardware_adc/adc.c.o -MF CMakeFiles/app.dir/home/juan/pico-sdk/src/rp2_common/hardware_adc/adc.c.o.d -o CMakeFiles/app.dir/home/juan/pico-sdk/src/rp2_common/hardware_adc/adc.c.o -c /home/juan/pico-sdk/src/rp2_common/hardware_adc/adc.c
 
 src/CMakeFiles/app.dir/home/juan/pico-sdk/src/rp2_common/hardware_adc/adc.c.i: cmake_force
@@ -1240,6 +1254,7 @@ app_OBJECTS = \
 "CMakeFiles/app.dir/main.c.o" \
 "CMakeFiles/app.dir/led.c.o" \
 "CMakeFiles/app.dir/cpu_monitor.c.o" \
+"CMakeFiles/app.dir/adc_custom.c.o" \
 "CMakeFiles/app.dir/home/juan/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.o" \
 "CMakeFiles/app.dir/home/juan/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.o" \
 "CMakeFiles/app.dir/home/juan/pico-sdk/src/rp2350/pico_platform/platform.c.o" \
@@ -1328,6 +1343,7 @@ app_EXTERNAL_OBJECTS =
 src/app.elf: src/CMakeFiles/app.dir/main.c.o
 src/app.elf: src/CMakeFiles/app.dir/led.c.o
 src/app.elf: src/CMakeFiles/app.dir/cpu_monitor.c.o
+src/app.elf: src/CMakeFiles/app.dir/adc_custom.c.o
 src/app.elf: src/CMakeFiles/app.dir/home/juan/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.o
 src/app.elf: src/CMakeFiles/app.dir/home/juan/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.o
 src/app.elf: src/CMakeFiles/app.dir/home/juan/pico-sdk/src/rp2350/pico_platform/platform.c.o
@@ -1414,7 +1430,7 @@ src/app.elf: pico-sdk/src/rp2350/boot_stage2/CMakeFiles/bs2_default_library.dir/
 src/app.elf: lib/liblib.a
 src/app.elf: /home/juan/pico-sdk/src/rp2_common/pico_crt0/rp2350/memmap_default.ld
 src/app.elf: src/CMakeFiles/app.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir="/media/juan/42849DD9849DCFB1/ufc/2025.1/rtos/praticas/pratica 4/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_85) "Linking CXX executable app.elf"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir="/media/juan/42849DD9849DCFB1/ufc/2025.1/rtos/praticas/pratica 4/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_86) "Linking CXX executable app.elf"
 	cd "/media/juan/42849DD9849DCFB1/ufc/2025.1/rtos/praticas/pratica 4/build/src" && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/app.dir/link.txt --verbose=$(VERBOSE)
 	cd "/media/juan/42849DD9849DCFB1/ufc/2025.1/rtos/praticas/pratica 4/build/src" && /usr/bin/arm-none-eabi-objdump -h "/media/juan/42849DD9849DCFB1/ufc/2025.1/rtos/praticas/pratica 4/build/src/app.elf" > app.dis
 	cd "/media/juan/42849DD9849DCFB1/ufc/2025.1/rtos/praticas/pratica 4/build/src" && /usr/bin/arm-none-eabi-objdump -d "/media/juan/42849DD9849DCFB1/ufc/2025.1/rtos/praticas/pratica 4/build/src/app.elf" >> app.dis

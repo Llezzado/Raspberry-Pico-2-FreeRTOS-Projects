@@ -15,5 +15,6 @@ set(SRC_FILES
     src/main.c
     src/led.c
     src/cpu_monitor.c
+    src/adc_custom.c
 )
 target_include_directories(app PUBLIC inc)

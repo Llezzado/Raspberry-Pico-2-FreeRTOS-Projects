@@ -130,6 +130,30 @@ app/fast:
 	cd "/media/juan/42849DD9849DCFB1/ufc/2025.1/rtos/praticas/pratica 4/build" && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/app.dir/build.make src/CMakeFiles/app.dir/build
 .PHONY : app/fast
 
+adc_custom.o: adc_custom.c.o
+.PHONY : adc_custom.o
+
+# target to build an object file
+adc_custom.c.o:
+	cd "/media/juan/42849DD9849DCFB1/ufc/2025.1/rtos/praticas/pratica 4/build" && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/app.dir/build.make src/CMakeFiles/app.dir/adc_custom.c.o
+.PHONY : adc_custom.c.o
+
+adc_custom.i: adc_custom.c.i
+.PHONY : adc_custom.i
+
+# target to preprocess a source file
+adc_custom.c.i:
+	cd "/media/juan/42849DD9849DCFB1/ufc/2025.1/rtos/praticas/pratica 4/build" && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/app.dir/build.make src/CMakeFiles/app.dir/adc_custom.c.i
+.PHONY : adc_custom.c.i
+
+adc_custom.s: adc_custom.c.s
+.PHONY : adc_custom.s
+
+# target to generate assembly for a file
+adc_custom.c.s:
+	cd "/media/juan/42849DD9849DCFB1/ufc/2025.1/rtos/praticas/pratica 4/build" && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/app.dir/build.make src/CMakeFiles/app.dir/adc_custom.c.s
+.PHONY : adc_custom.c.s
+
 cpu_monitor.o: cpu_monitor.c.o
 .PHONY : cpu_monitor.o
 
@@ -1995,6 +2019,9 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... app"
+	@echo "... adc_custom.o"
+	@echo "... adc_custom.i"
+	@echo "... adc_custom.s"
 	@echo "... cpu_monitor.o"
 	@echo "... cpu_monitor.i"
 	@echo "... cpu_monitor.s"

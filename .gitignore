@@ -1,2 +1,26 @@
-praticas/pratica 4/Build/
-!praticas/pratica 4/Build/src/app.uf2
+# Ignora builds
+**/build/
+
+# Arquivos gerados pelo CMake
+CMakeCache.txt
+CMakeFiles/
+#cmake_install.cmake
+#Makefile
+#*.cmake
+
+# Binários e objetos
+*.o
+*.a
+*.so
+*.dll
+*.exe
+*.out
+#*.uf2
+*.elf
+*.bin
+*.hex
+
+# Arquivos temporários
+*.tmp
+*.swp
+*~

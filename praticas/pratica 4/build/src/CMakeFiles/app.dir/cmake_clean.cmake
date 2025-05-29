@@ -1,4 +1,6 @@
 file(REMOVE_RECURSE
+  "CMakeFiles/app.dir/adc_custom.c.o"
+  "CMakeFiles/app.dir/adc_custom.c.o.d"
   "CMakeFiles/app.dir/cpu_monitor.c.o"
   "CMakeFiles/app.dir/cpu_monitor.c.o.d"
   "CMakeFiles/app.dir/home/juan/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.o"
