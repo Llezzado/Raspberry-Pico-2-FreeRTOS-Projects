@@ -39,16 +39,16 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("/media/juan/42849DD9849DCFB1/ufc/2025.1/rtos/praticas/pratica 4/build/pico-sdk/tools/cmake_install.cmake")
+  include("/media/juan/42849DD9849DCFB1/ufc/2025.1/rtos/praticas/pratica 4 Botao/build/pico-sdk/tools/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("/media/juan/42849DD9849DCFB1/ufc/2025.1/rtos/praticas/pratica 4/build/pico-sdk/src/cmake_install.cmake")
+  include("/media/juan/42849DD9849DCFB1/ufc/2025.1/rtos/praticas/pratica 4 Botao/build/pico-sdk/src/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("/media/juan/42849DD9849DCFB1/ufc/2025.1/rtos/praticas/pratica 4/build/pico-sdk/docs/cmake_install.cmake")
+  include("/media/juan/42849DD9849DCFB1/ufc/2025.1/rtos/praticas/pratica 4 Botao/build/pico-sdk/docs/cmake_install.cmake")
 endif()
 

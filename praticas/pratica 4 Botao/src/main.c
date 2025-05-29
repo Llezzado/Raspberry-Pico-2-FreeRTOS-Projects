@@ -3,113 +3,91 @@
 #include <stdio.h>
 #include <string.h>
 #include "pico/stdlib.h"
-
 #include "queue.h"
-#define Queue_Lenght 5
-#define Queue_Size sizeof(int)
+#include "hardware/irq.h"
+#include "cpu_monitor.h"
+#include "led.h"
+
+#define Queue_Lenght 10
+#define Queue_Size sizeof(uint32_t)
 
 QueueHandle_t bttn_queue;
-#define BTTN_PIN_0 15
-#define BTTN_PIN_1 14
 
+#define BTTN_PIN_0 16
+#define BTTN_PIN_1 17
 #define BTTN_DELAY 100
 
-typedef struct{
+typedef struct {
     uint pin;
     uint debouce_delay;
     uint command;
+} Bttn_Params_t;
 
-}Bttn_Params_t;
+void gpio_callback(uint gpio, uint32_t events) {
+    uint32_t gpio_num = gpio;
+    printf("Interrupção no GPIO %d \n", gpio_num, events);
+    xQueueSend(bttn_queue, &gpio_num, portMAX_DELAY);
+}
 
-
-#include "led.h"
-#include "cpu_monitor.h"
-
-void Button_task(void *pvParameters){
-    
+void Button_task(void *pvParameters) {
     Bttn_Params_t *params = (Bttn_Params_t *)pvParameters;
-
+    
     gpio_init(params->pin);
     gpio_set_dir(params->pin, GPIO_IN);
-    gpio_pull_up(params->pin); // Botão conectado ao GND (ativo em LOW)
-
-    bttn_queue = xQueueCreate(Queue_Lenght, Queue_Size);
-
-    uint pin = params->pin;
-    uint last_state = gpio_get(pin);
-    uint8_t estado_atual;
-    for (;;)
-    {
-        estado_atual = gpio_get(pin);
-        // printf("estado atual : %i \n",estado_atual);
-        if (estado_atual !=  last_state )
-        {
-            vTaskDelay(pdMS_TO_TICKS(params->debouce_delay )); // Debounce
-            estado_atual = gpio_get(pin);
-
-            if (estado_atual != last_state) {
-                last_state = estado_atual;
-                
-                // Envia o estado (1 = pressionado, 0 = solto) para a fila
-                int button_state = (estado_atual == 0) ? 1 : 0; // Inverte se botão for pull-up
-                xQueueSend(bttn_queue, &params->command, portMAX_DELAY);
-            }
-        }
-        vTaskDelay(pdMS_TO_TICKS(10));
+    gpio_pull_up(params->pin); 
+    
+    gpio_set_irq_enabled(params->pin, GPIO_IRQ_EDGE_FALL | GPIO_IRQ_EDGE_RISE, true);
+    
+    for (;;) {
+        vTaskDelay(BTTN_DELAY);
     }
     
-
     vTaskDelete(NULL);
 }
 
 void process_button_task(void *pvParameters) {
-    
+
     BlinkParams_t *params = (BlinkParams_t *)pvParameters;
 
-    int received_state;
-    
     gpio_init(params->led_pin);
     gpio_set_dir(params->led_pin , GPIO_OUT);
-    
 
+    uint32_t received_state;
+    
     while (true) {
-        // Espera receber um item da fila (bloqueante)
-        if (xQueueReceive(bttn_queue, &received_state, portMAX_DELAY) == pdTRUE) {
-            
-            gpio_put(params->led_pin, received_state);
-        
+        if (xQueueReceive(bttn_queue, &received_state, portMAX_DELAY) == pdPASS) {
+            printf("Botão pressionado: GPIO %d\n", received_state);
+            if (received_state == BTTN_PIN_0) {
+                printf("Botão 1 pressionado\n");
+                gpio_put(params->led_pin, ON);
+            } else if (received_state == BTTN_PIN_1) {
+                
+                printf("Botão 2 pressionado\n");
+                gpio_put(params->led_pin, OFF);
+            }
         }
-        
     }
 }
 
 int main() {
-    
-    BlinkParams_t led2 = {LED_2,NULL, 200, "LED 1"}; // 200
-    
-    Bttn_Params_t botao_1 = {BTTN_PIN_0, BTTN_DELAY,ON};
-    Bttn_Params_t botao_2 = {BTTN_PIN_1, BTTN_DELAY,OFF};
-
-
-    
     stdio_init_all();
     
-    xTaskCreate(Button_task, "Button_SW1_Task", 256, &botao_1, 1, set_TaskHandler_Idex());
-
-    xTaskCreate(Button_task, "Button_SW2_Task", 256, &botao_2, 1, set_TaskHandler_Idex());
+    BlinkParams_t led0 = {LED_0,NULL, 200, "LED 0"};
     
-    xTaskCreate(process_button_task, "Process_Task", 256, &led2, 1, set_TaskHandler_Idex());
-
-
-    // xTaskCreate(led_task, "LED_1", 256, &led1, 1, set_TaskHandler_Idex());
+    bttn_queue = xQueueCreate(Queue_Lenght, Queue_Size);
     
-    // xTaskCreate(led_task, "LED_2", 256, &led2, 1, set_TaskHandler_Idex());
+    gpio_set_irq_callback(gpio_callback);
+    irq_set_enabled(IO_IRQ_BANK0, true);
     
-    xTaskCreate(cpu_measure_task, "CPU_Usage_task", 512, NULL,3, set_TaskHandler_Idex());
+    // Parâmetros para os botões
+    Bttn_Params_t botao_1 = {BTTN_PIN_0, BTTN_DELAY, ON};
+    Bttn_Params_t botao_2 = {BTTN_PIN_1, BTTN_DELAY, OFF};
     
-    // xTaskCreate(intro_task, "Intro_task", 256, &led1, 5, set_TaskHandler_Idex());
+    // Cria as tasks
+    xTaskCreate(Button_task, "Button_SW1_Task", 256, &botao_1, 1, NULL);
+    xTaskCreate(Button_task, "Button_SW2_Task", 256, &botao_2, 1, NULL);
+    xTaskCreate(process_button_task, "Process_Task", 256, &led0, 1, NULL);
     
-
     vTaskStartScheduler();
 
     while(1);

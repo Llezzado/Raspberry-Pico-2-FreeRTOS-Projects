@@ -23,9 +23,9 @@ src/CMakeFiles/app.dir/home/juan/pico-sdk/src/rp2_common/pico_cxx_options/new_de
  /usr/lib/gcc/arm-none-eabi/13.2.1/include/stdbool.h \
  /usr/include/newlib/c++/13.2.1/cassert /usr/include/newlib/assert.h \
  /usr/lib/gcc/arm-none-eabi/13.2.1/include/stdint.h \
- /media/juan/42849DD9849DCFB1/ufc/2025.1/rtos/praticas/pratica\ 4/build/generated/pico_base/pico/version.h \
+ /media/juan/42849DD9849DCFB1/ufc/2025.1/rtos/praticas/pratica\ 4\ Botao/build/generated/pico_base/pico/version.h \
  /home/juan/pico-sdk/src/common/pico_base_headers/include/pico/config.h \
- /media/juan/42849DD9849DCFB1/ufc/2025.1/rtos/praticas/pratica\ 4/build/generated/pico_base/pico/config_autogen.h \
+ /media/juan/42849DD9849DCFB1/ufc/2025.1/rtos/praticas/pratica\ 4\ Botao/build/generated/pico_base/pico/config_autogen.h \
  /home/juan/pico-sdk/src/boards/include/boards/pico2.h \
  /home/juan/pico-sdk/src/rp2_common/cmsis/include/cmsis/rename_exceptions.h \
  /home/juan/pico-sdk/src/rp2350/pico_platform/include/pico/platform.h \

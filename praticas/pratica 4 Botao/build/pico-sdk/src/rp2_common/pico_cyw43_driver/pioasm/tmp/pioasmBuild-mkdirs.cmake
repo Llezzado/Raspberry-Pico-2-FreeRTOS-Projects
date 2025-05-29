@@ -5,18 +5,18 @@ cmake_minimum_required(VERSION 3.5)
 
 file(MAKE_DIRECTORY
   "/home/juan/pico-sdk/tools/pioasm"
-  "/media/juan/42849DD9849DCFB1/ufc/2025.1/rtos/praticas/pratica 4/build/pioasm"
-  "/media/juan/42849DD9849DCFB1/ufc/2025.1/rtos/praticas/pratica 4/build/pioasm-install"
-  "/media/juan/42849DD9849DCFB1/ufc/2025.1/rtos/praticas/pratica 4/build/pico-sdk/src/rp2_common/pico_cyw43_driver/pioasm/tmp"
-  "/media/juan/42849DD9849DCFB1/ufc/2025.1/rtos/praticas/pratica 4/build/pico-sdk/src/rp2_common/pico_cyw43_driver/pioasm/src/pioasmBuild-stamp"
-  "/media/juan/42849DD9849DCFB1/ufc/2025.1/rtos/praticas/pratica 4/build/pico-sdk/src/rp2_common/pico_cyw43_driver/pioasm/src"
-  "/media/juan/42849DD9849DCFB1/ufc/2025.1/rtos/praticas/pratica 4/build/pico-sdk/src/rp2_common/pico_cyw43_driver/pioasm/src/pioasmBuild-stamp"
+  "/media/juan/42849DD9849DCFB1/ufc/2025.1/rtos/praticas/pratica 4 Botao/build/pioasm"
+  "/media/juan/42849DD9849DCFB1/ufc/2025.1/rtos/praticas/pratica 4 Botao/build/pioasm-install"
+  "/media/juan/42849DD9849DCFB1/ufc/2025.1/rtos/praticas/pratica 4 Botao/build/pico-sdk/src/rp2_common/pico_cyw43_driver/pioasm/tmp"
+  "/media/juan/42849DD9849DCFB1/ufc/2025.1/rtos/praticas/pratica 4 Botao/build/pico-sdk/src/rp2_common/pico_cyw43_driver/pioasm/src/pioasmBuild-stamp"
+  "/media/juan/42849DD9849DCFB1/ufc/2025.1/rtos/praticas/pratica 4 Botao/build/pico-sdk/src/rp2_common/pico_cyw43_driver/pioasm/src"
+  "/media/juan/42849DD9849DCFB1/ufc/2025.1/rtos/praticas/pratica 4 Botao/build/pico-sdk/src/rp2_common/pico_cyw43_driver/pioasm/src/pioasmBuild-stamp"
 )
 
 set(configSubDirs )
 foreach(subDir IN LISTS configSubDirs)
-    file(MAKE_DIRECTORY "/media/juan/42849DD9849DCFB1/ufc/2025.1/rtos/praticas/pratica 4/build/pico-sdk/src/rp2_common/pico_cyw43_driver/pioasm/src/pioasmBuild-stamp/${subDir}")
+    file(MAKE_DIRECTORY "/media/juan/42849DD9849DCFB1/ufc/2025.1/rtos/praticas/pratica 4 Botao/build/pico-sdk/src/rp2_common/pico_cyw43_driver/pioasm/src/pioasmBuild-stamp/${subDir}")
 endforeach()
 if(cfgdir)
-  file(MAKE_DIRECTORY "/media/juan/42849DD9849DCFB1/ufc/2025.1/rtos/praticas/pratica 4/build/pico-sdk/src/rp2_common/pico_cyw43_driver/pioasm/src/pioasmBuild-stamp${cfgdir}") # cfgdir has leading slash
+  file(MAKE_DIRECTORY "/media/juan/42849DD9849DCFB1/ufc/2025.1/rtos/praticas/pratica 4 Botao/build/pico-sdk/src/rp2_common/pico_cyw43_driver/pioasm/src/pioasmBuild-stamp${cfgdir}") # cfgdir has leading slash
 endif()
