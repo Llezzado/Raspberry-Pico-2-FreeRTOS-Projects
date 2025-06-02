@@ -1,0 +1,11 @@
+{
+    "files.associations": {
+        "task.h": "c",
+        "led.h": "c",
+        "cpu_monitor.h": "c",
+        "bttn.h": "c",
+        "stdio.h": "c",
+        "adc_custom.h": "c",
+        "queue.h": "c"
+    }
+}
