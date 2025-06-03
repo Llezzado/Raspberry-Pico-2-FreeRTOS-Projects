@@ -1,5 +1,6 @@
 # Ignora builds
 **/build/
+**/FreeRTOS-Kernel/
 
 # Arquivos gerados pelo CMake
 CMakeCache.txt
@@ -24,3 +25,12 @@ CMakeFiles/
 *.tmp
 *.swp
 *~
+
+#IDE
+.vscode/
+.idea/
+*.code-workspace
+
+#lib
+/pico-sdk/
+/lib/
