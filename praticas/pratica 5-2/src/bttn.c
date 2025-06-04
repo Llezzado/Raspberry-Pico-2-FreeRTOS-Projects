@@ -18,8 +18,6 @@ void Button_task(void *pvParameters) {
             if (gpio_get(params->pin) == 1) { // Verifica se o botão está pressionado
                 xQueueSend(BTTN_Queue, &state, 0);
                 vTaskDelay(BTTN_DELAY / portTICK_PERIOD_MS);
-               //   xSemaphoreGive(xButtonSemaphore);
-                printf("semaforo liberado no GPIO %d\n", params->pin);
                 state = !state; // Inverte o estado
             }      
 
@@ -45,7 +43,6 @@ void process_button_task(void *pvParameters) {
 
         if (xQueueReceive(BTTN_Queue, &received_state, portMAX_DELAY) == pdPASS) {
             
-            printf("Botão pressionado: GPIO %d\n", received_state);
             gpio_put(params->led_pin, received_state);
             vTaskDelay(params->delay_ms / portTICK_PERIOD_MS);
         
@@ -56,7 +53,6 @@ void process_button_task(void *pvParameters) {
 void gpio_callback(uint gpio, uint32_t events) {
     BaseType_t xHigherPriorityTaskWoken = pdFALSE;
     uint32_t gpio_num = gpio;
-    printf("Interrupção no GPIO %d \n", gpio_num, events);
     xSemaphoreGiveFromISR(xButtonSemaphore, &xHigherPriorityTaskWoken);
     printf("[Status] Tokens disponíveis no semáforo: %lu\n", uxSemaphoreGetCount(xButtonSemaphore));
     portYIELD_FROM_ISR(xHigherPriorityTaskWoken);
@@ -74,8 +70,12 @@ void semaphore_consumer_task(void *pvParameters) {
 
 void semaphore_status_task(void *pvParameters) {
     for (;;) {
-        UBaseType_t count = uxSemaphoreGetCount(xButtonSemaphore);
-        printf("[Status] Tokens disponíveis no semáforo: %lu\n", count);
-        vTaskDelay(pdMS_TO_TICKS(1000));
+        if (xButtonSemaphore == NULL) {
+            printf("Semáforo não inicializado.\n");
+        } else {
+            UBaseType_t count = uxSemaphoreGetCount(xButtonSemaphore);
+            printf("Valor atual do semáforo: %lu  \r", (unsigned long)count);
+        }
+        vTaskDelay(pdMS_TO_TICKS(BTTN_DELAY)); // Verifica a cada 1 segundo
     }
 }

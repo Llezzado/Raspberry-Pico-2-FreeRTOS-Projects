@@ -3,13 +3,8 @@
 #include <stdio.h>
 #include <string.h>
 #include "pico/stdlib.h"
-#include "hardware/adc.h"
 
 #include "led.h"
-#include "queue.h"
-#include "cpu_monitor.h"
-#include "adc_custom.h"
-
 #include "bttn.h"
 
 QueueHandle_t BTTN_Queue;
@@ -32,18 +27,14 @@ int main() {
 
     stdio_init_all();
     
-    xTaskCreate(Button_task, "Button_SW1_Task", 256, &botao_1, 2, set_TaskHandler_Idex());
+    xTaskCreate(Button_task, "Button_SW1_Task", 256, &botao_1, 2, NULL);
     
-    xTaskCreate(process_button_task, "Process_Task", 256, &led1, 1, set_TaskHandler_Idex());
+    xTaskCreate(process_button_task, "Process_Task", 256, &led1, 1, NULL);
 
-    xTaskCreate(led_task, "LED_0", 256, &led0, 1, set_TaskHandler_Idex());
+    xTaskCreate(led_task, "LED_0", 256, &led0, 1, NULL);
     
-    xTaskCreate(semaphore_status_task, "SemStatus", 256, NULL, 1, set_TaskHandler_Idex());
+    xTaskCreate(semaphore_status_task, "SemStatus", 256, NULL, 1, NULL);
 
-    //xTaskCreate(semaphore_consumer_task, "SemConsume", 256, NULL, 1, set_TaskHandler_Idex());
-    
-    //xTaskCreate(cpu_measure_task, "CPU_Usage_task", 512, NULL,3, set_TaskHandler_Idex());
-    
     vTaskStartScheduler();
 
     while(1);
