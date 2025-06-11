@@ -14,31 +14,30 @@ SemaphoreHandle_t xButtonSemaphore;
 
 //informações da pratica 6:
 #include "semphr.h"
+#include "hardware/adc.h"
+
 #define task_read_rate 50 // ms
 
 typedef struct {
     uint gpio;
     uint delay_ms;
     uint deadline_ms;
-    uint valor;
+    uint16_t valor;
 } Acelerometro_Params_t;
 
-Acelerometro_Params_t Acelerometro_dados = {BTTN_PIN_0,task_read_rate,1000,0};
+Acelerometro_Params_t Acelerometro_dados = {BTTN_PIN_0,task_read_rate,50,0};
 
 SemaphoreHandle_t Printf_mutex;
 
 void acelerometro_read_task(void *pvParameters) {
     Acelerometro_Params_t *params = (Acelerometro_Params_t *)pvParameters;
-
-    gpio_init(params->gpio);
-    gpio_set_dir(params->gpio, GPIO_IN);
-    gpio_pull_up(params->gpio); 
-
     for(;;){
 
+        printf("Leitura do acelerometro sendo executada.. \n");
+
         if (xSemaphoreTake(Printf_mutex, params->deadline_ms / portTICK_PERIOD_MS)){
-            
-            params->valor = gpio_get(params->gpio);
+            params->valor = adc_read();
+            //vTaskDelay(pdMS_TO_TICKS(10)); // Small delay to a
             xSemaphoreGive(Printf_mutex);
         }else
         {
@@ -52,12 +51,14 @@ void acelerometro_read_task(void *pvParameters) {
     }
 }
 
+
 void acelerometro_print_task(void *pvParameters) {
     Acelerometro_Params_t *params = (Acelerometro_Params_t *)pvParameters;
 
     for(;;){
         if (xSemaphoreTake(Printf_mutex, params->deadline_ms / portTICK_PERIOD_MS)){
             printf("Acelerometro valor: %d \n", params->valor);
+            params->valor = 0; // Reset value after printing
             xSemaphoreGive(Printf_mutex);
         }else{
             printf("Acelerometro timeout: %d ms\n", params->deadline_ms);
@@ -72,21 +73,20 @@ int main() {
     Printf_mutex = xSemaphoreCreateMutex();
 
     BlinkParams_t led0 = {LED_0,NULL, LED_Sample_Rate, "LED 0"};
-    BlinkParams_t led1 = {LED_3,NULL, LED_Sample_Rate, "LED 1"};
-    
-    Bttn_Params_t botao_0 = {BTTN_PIN_0, BTTN_DELAY,ON};
     
     BTTN_Queue = xQueueCreate(BTTN_Queue_Size,BTTN_Queue_Size);
     xButtonSemaphore = xSemaphoreCreateBinary();
 
-    gpio_set_irq_callback(gpio_callback);
-    irq_set_enabled(IO_IRQ_BANK0, true);
+    adc_init();
+    adc_gpio_init(ADC_PIN);
+    adc_select_input(ADC_INPUT);
 
     stdio_init_all();
     
     xTaskCreate(led_task, "LED_0", 256, &led0, 3, NULL);
-    xTaskCreate(acelerometro_read_task, "Button_SW1_Task", 256, &Acelerometro_dados, 2, NULL);
-    xTaskCreate(acelerometro_print_task, "Button_SW1_Print_Task", 256, &Acelerometro_dados, 1, NULL);
+
+    xTaskCreate(acelerometro_read_task, "Acelerometro_read_mutex", 256, &Acelerometro_dados, 2, NULL);
+    xTaskCreate(acelerometro_print_task, "Acelerometro_print_mutex", 256, &Acelerometro_dados, 1, NULL);
 
 
 

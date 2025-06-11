@@ -11,8 +11,6 @@
 #include "queue.h"
 #include "semphr.h"
 
-#define delay_smpr 1000
-
 #define Queue_Lenght 10
 
 //pino bttn
@@ -38,7 +36,5 @@ void Button_task(void *pvParameters);
 void process_button_task(void *pvParameters);
 
 void semaforo_check(void* pvParameters);
-
-void semaphore_consumer_task(void *pvParameters);
 
 #endif

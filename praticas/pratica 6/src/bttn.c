@@ -75,19 +75,4 @@ void semaforo_check(void* pvParameters) {
     }
 }
 
-void semaphore_consumer_task(void *pvParameters) {
-    for (;;) {
-        if (xSemaphoreTake(xButtonSemaphore, delay_smpr) == pdTRUE) {
-            printf("take semáforo!\n");
-            vTaskDelay(pdMS_TO_TICKS(1000));
-            xSemaphoreGive(xButtonSemaphore);
-            printf("give semáforo\n");
-            
-        }else
-        {
-            printf("Semáforo indisponível para consume_task\n");
-            vTaskDelay(pdMS_TO_TICKS(1000));
-        }
-        
-    }
-}
+
