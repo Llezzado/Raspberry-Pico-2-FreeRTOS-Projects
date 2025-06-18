@@ -20,11 +20,6 @@ SemaphoreHandle_t xButtonSemaphore;
 #define LED_HEAP 15 // Defina o pino do LED 15
 #define delay_smpr 1000
 
-#define MAX_BLOCKS      10
-#define FILL_BLOCK_SIZE 256
-
-void *pvAllocatedBlocks[MAX_BLOCKS];
-int iAllocatedBlocks = 0;
 static uint8_t ucHeap[HEAP_REGION_SIZE];
 
 void heap_led_task(void *pvParameters) {
@@ -36,6 +31,7 @@ void heap_led_task(void *pvParameters) {
     
     for (;;) {
         size_t free_heap = xPortGetFreeHeapSize();
+        // printf("Heap livre atual led: %u bytes\n", (unsigned)free_heap);
 
         if (free_heap < HEAP_LOW_THRESHOLD) {
             gpio_put(params->led_pin, ON); // Acende o LED se heap < 10%
@@ -68,6 +64,10 @@ void read_button_heap_task(void *pvParameters) {
     }
 }
 
+#define MAX_BLOCKS      10
+#define FILL_BLOCK_SIZE 256
+void *pvAllocatedBlocks[MAX_BLOCKS];
+int iAllocatedBlocks = 0;
 
 void TaskAlocarMemoria(void *pvParameters) {
     Bttn_Params_t *params = (Bttn_Params_t *)pvParameters;
