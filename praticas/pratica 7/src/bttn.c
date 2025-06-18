@@ -48,8 +48,7 @@ void process_button_task(void *pvParameters) {
 
         if (xQueueReceive(BTTN_Queue, &received_state, portMAX_DELAY) == pdPASS) {
             if (received_state) {
-                togglte_state = !togglte_state; // Toggle the state
-                gpio_put(params->led_pin, togglte_state);
+                printf("Botão pressionado, alternando estado do LED.\n");
                 vTaskDelay(params->delay_ms / portTICK_PERIOD_MS);
             }
         }

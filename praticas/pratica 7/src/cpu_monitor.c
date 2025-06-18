@@ -53,14 +53,12 @@ void vApplicationIdleHook(void){
     idle_tick_counter++;
 }
 
-
 void cpu_heap_measure_task(void *pvParameters) {
+
     unsigned long int idle_tick_last = 0, ticks;
 	while(1){
         // wait 3 seconds
-		vTaskDelay(1000/portTICK_PERIOD_MS);
-        printf("\033[2J\033[H");
-		vTaskDelay(1000/portTICK_PERIOD_MS);
+		vTaskDelay(1500/portTICK_PERIOD_MS);
         
 		if (idle_tick_counter > idle_tick_last){
             ticks = idle_tick_counter - idle_tick_last;
@@ -72,7 +70,7 @@ void cpu_heap_measure_task(void *pvParameters) {
 		ticks /= uxTaskGetNumberOfTasks(); //num de tasks definidas
         
 		/* Printing idle ticks per second */
-		printf("%ld idle ticks per second (out of %ld) - %i tasks - ", ticks, configTICK_RATE_HZ, uxTaskGetNumberOfTasks());
+		// printf("%ld idle ticks per second (out of %ld) - %i tasks - ", ticks, configTICK_RATE_HZ, uxTaskGetNumberOfTasks());
         
 		/* calc and print CPU usage */
 		ticks = (configTICK_RATE_HZ - ticks)/10;
@@ -119,7 +117,6 @@ void cpu_heap_measure_task(void *pvParameters) {
 
     vTaskDelete( NULL );
 }
-
 
 void cpu_measure_task(void *pvParameters) {
     unsigned long int idle_tick_last = 0, ticks;
