@@ -1,7 +1,7 @@
 #include "bttn.h"
 
 void gpio_callback(uint gpio, uint32_t events) {
-    
+    printf("Botão pressionado no GPIO %d\n", gpio);
     BaseType_t xHigherPriorityTaskWoken = pdFALSE;
     xSemaphoreGiveFromISR(xButtonSemaphore, &xHigherPriorityTaskWoken);
     portYIELD_FROM_ISR(xHigherPriorityTaskWoken);

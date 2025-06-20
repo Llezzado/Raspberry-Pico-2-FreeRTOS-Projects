@@ -102,7 +102,7 @@ int main() {
     
     // xTaskCreate(RGB_Led_task,"RGB_Led_task",256,NULL,1,set_TaskHandler_Idex());
 
-    xTaskCreate(led_task, "LED_0", 256, &led0, 2, set_TaskHandler_Idex());
+    //xTaskCreate(led_task, "LED_0", 256, &led0, 2, set_TaskHandler_Idex());
     
     //xTaskCreate(cpu_measure_task, "CPU_Usage_task", 512, NULL,3, set_TaskHandler_Idex());
     
