@@ -12,6 +12,8 @@
 #define LED_1 15
 #define LED_2 16    
 
+#define LED_Sample_Rate 100 //Hz
+
 #define ON 1
 #define OFF 0
 

@@ -16,6 +16,8 @@ void vApplicationIdleHook(void);
 
 void cpu_measure_task(void *pvParameters);
 
+void cpu_heap_measure_task(void *pvParameters);
+
 TaskHandle_t *set_TaskHandler_Idex();
 
 #endif

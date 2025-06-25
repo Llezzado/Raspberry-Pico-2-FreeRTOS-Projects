@@ -31,7 +31,6 @@ void heap_led_task(void *pvParameters) {
     
     for (;;) {
         size_t free_heap = xPortGetFreeHeapSize();
-        // printf("Heap livre atual led: %u bytes\n", (unsigned)free_heap);
 
         if (free_heap < HEAP_LOW_THRESHOLD) {
             gpio_put(params->led_pin, ON); // Acende o LED se heap < 10%
