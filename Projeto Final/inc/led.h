@@ -12,7 +12,7 @@
 #define LED_1 15
 #define LED_2 16
 #define LED_3 17    
-#define LED_Sample_Rate 1000 //Hz
+#define LED_Sample_Rate 500 //ms
 #define ON 1
 #define OFF 0
 
