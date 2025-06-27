@@ -13,21 +13,27 @@
 QueueHandle_t BTTN_Queue;
 
 //pino bttn
+#define LED_HEAP 15
 #define BTTN_PIN_0 16
 #define BTTN_PIN_1 17
 #define BTTN_DELAY 100
 #define BTTN_Queue_Size sizeof(uint32_t)
 
+
 // Definições de Heap
 #include "portable.h"
-#define HEAP_LOW_THRESHOLD (HEAP_REGION_SIZE / 10) // 10% do heap total
-#define HEAP_REGION_SIZE  (2 * 1024) // 4 KB, ajuste conforme sua RAM
-#define HEAP_SIZE  (12 * 1024)
-static uint8_t ucHeap[HEAP_SIZE];
 
-#define LED_HEAP 15
-#define MAX_BLOCKS      20
-#define FILL_BLOCK_SIZE 500 // Tamanho de cada bloco alocado
+#define HEAP_BYTE_DEF 616
+#define HEAP_REGION_SIZE  4 // 4 KB, ajuste conforme sua RAM
+#define HEAP_SIZE  (((9+HEAP_REGION_SIZE) * 1024) -  HEAP_BYTE_DEF)// 616 bytes de folga para o heap
+#define HEAP_LOW_THRESHOLD (HEAP_SIZE / 10) // 10% do heap total
+
+
+static uint8_t ucHeap[HEAP_SIZE];
+#define MAX_BLOCKS      5
+
+#define FILL_BLOCK_SIZE (1024)// Tamanho de cada bloco alocado
+
 void *pvAllocatedBlocks[MAX_BLOCKS];
 int iAllocatedBlocks = 0;
 
@@ -41,7 +47,7 @@ typedef struct{
 void gpio_callback(uint gpio, uint32_t events) {
     uint32_t gpio_num = gpio;
     printf("Interrupção no GPIO %d \n", gpio_num, events);
-    printf("Evento heap: %u \n", HEAP_SIZE);
+    // printf("Evento heap: %u \n", HEAP_LOW_THRESHOLD);
     xQueueSend(BTTN_Queue, &gpio_num, portMAX_DELAY);
 }
 
@@ -120,6 +126,10 @@ void TaskAlocarMemoria(void *pvParameters) {
                 
             }
             
+            while ((gpio_get(BTTN_PIN_0) | gpio_get(BTTN_PIN_1))  == 1) {
+                vTaskDelay(pdMS_TO_TICKS(10));
+            }
+            
             vTaskDelay(pdMS_TO_TICKS(1000));
         }
         
@@ -134,7 +144,7 @@ int main() {
         { NULL, 0 } 
     };
        
-    BlinkParams_t led0 = {LED_0,NULL, 200, "LED 0"}; // 200
+    BlinkParams_t led0 = {LED_0,NULL, 200, "LED 0"};
     BlinkParams_t led_heap = {LED_1,NULL, LED_Sample_Rate, "LED Heap"};
     
     Bttn_Params_t botao_1 = {BTTN_PIN_0, BTTN_DELAY,ON};
@@ -142,7 +152,7 @@ int main() {
     
     vPortDefineHeapRegions(xHeapRegions);
     
-    BTTN_Queue = xQueueCreate(10,BTTN_Queue_Size);
+    BTTN_Queue = xQueueCreate(1,BTTN_Queue_Size);
     
     gpio_set_irq_callback(gpio_callback);
     irq_set_enabled(IO_IRQ_BANK0, true);

@@ -15,7 +15,7 @@ SemaphoreHandle_t xButtonSemaphore;
 #include "cpu_monitor.h"
 
 #define HEAP_LOW_THRESHOLD (HEAP_REGION_SIZE / 10) // 10% do heap total
-#define HEAP_REGION_SIZE  (8 * 1024) // 8 KB, ajuste conforme sua RAM
+#define HEAP_REGION_SIZE  (4 * 1024) // 8 KB, ajuste conforme sua RAM
 
 #define LED_HEAP 15 // Defina o pino do LED 15
 #define delay_smpr 1000
@@ -77,7 +77,9 @@ void TaskAlocarMemoria(void *pvParameters) {
     for (;;) {
         if (gpio_get(params->pin) == 1) {
             printf("Button pressed, allocating memory...\n");
-            if (iAllocatedBlocks < MAX_BLOCKS) {
+            if (iAllocatedBlocks < MAX_BLOCKS) {if ((now - last_event_time > debounce_ticks) || (received_state != last_state)) {
+                last_event_time = now;
+                last_state = received_state;
 
                 pvAllocatedBlocks[iAllocatedBlocks] = pvPortMalloc(FILL_BLOCK_SIZE);
 
