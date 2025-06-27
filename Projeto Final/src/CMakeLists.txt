@@ -4,6 +4,7 @@ add_executable(app
         cpu_monitor.c
         adc_custom.c
         bttn.c
+        Bluethooth.c
 )
 
 target_include_directories(app PUBLIC inc)
